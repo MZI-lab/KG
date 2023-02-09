@@ -26,8 +26,6 @@ ex:album1 rdf:type mo:album;
 	 sch:datePublished "YEAR_OF_PUB"^^xsd:integer;
 	 sch:numTracks "NUM_OF_TRACKS";
 	 db:Sales "NUM_OF_SALES";
-	 sch:CriticReview [
-		db:Rolling_Stone "ROLLING_STONE_CRITIC";
-		db:MTV "MTV_CRITIC";
-		db:Music_Maniac "MUSIC_MANIAC_CRITIC";
-	 ] .
+	 db:Rolling_Stone "ROLLING_STONE_CRITIC";
+	 db:MTV "MTV_CRITIC";
+	 db:Music_Maniac "MUSIC_MANIAC_CRITIC";
