@@ -21,7 +21,7 @@ ex:artist1 rdf:type sch:artist;
 ex:album1 rdf:type mo:album;
 	 pav:createdBy ex:artist1;
 	 sch:identifier "ID"^^xsd:integer;
-	 sch:title "ALBUNM_TITLE";
+	 sch:title "ALBUM_TITLE";
 	 mo:genre "GENRE";
 	 sch:datePublished "YEAR_OF_PUB"^^xsd:integer;
 	 sch:numTracks "NUM_OF_TRACKS";
