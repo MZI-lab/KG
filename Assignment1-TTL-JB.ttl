@@ -1,4 +1,5 @@
-@prefix db: <dbpedia.org/resource/> .
+@prefix ex: <http://example.com/> .
+@prefix db: <http://dbpedia.org/resource/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
@@ -6,7 +7,8 @@
 @prefix mo: <http://purl.org/ontology/mo/> .
 @prefix pav: <http://purl.org/pav/> .
 
-sch:artist sch:identifier "ID"^^xsd:integer;
+ex:artist1 rdf:type sch:artist; 
+	   sch:identifier "ID"^^xsd:integer;
 	   sch:name "REAL_NAME";
 	   sch:alternateName "ART_NAME";
 	   sch:roleName "ROLE";
@@ -16,7 +18,8 @@ sch:artist sch:identifier "ID"^^xsd:integer;
 	   sch:postalCode "ZIP_CODE";
 	   sch:email "EMAIL" .
 
-mo:album pav:createdBy sch:artist;
+ex:album1 rdf:type mo:album;
+	 pav:createdBy ex:artist1;
 	 sch:identifier "ID"^^xsd:integer;
 	 sch:title "ALBUNM_TITLE";
 	 mo:genre "GENRE";
