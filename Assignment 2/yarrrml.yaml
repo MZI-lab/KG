@@ -10,8 +10,8 @@ mappings:
     s: http://example.com/song_$(index)
     po:
       - [a, schema:MusicRecording]
-      - [schema:byArtist, ex:$(artist)]
-      - [schema:genre, ex:$(top genre)]
+      - [schema:byArtist, ex:$(artist)~ini]
+      - [schema:genre, ex:$(top genre)~ini]
       - [schema:datePublished, {value: $(year), datatype: xsd:gYear}]
       - [rdfs:label, {value: $(title), language: en}]
       
