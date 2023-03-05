@@ -1,0 +1,30 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+<http://example.org/australian%20hip%20hop> owl:sameAs <http://dbpedia.org/resource/Australian_hip_hop> .
+
+<http://example.org/baroque%20pop> owl:sameAs <http://dbpedia.org/resource/Baroque_pop> .
+
+<http://example.org/british%20soul> owl:sameAs <http://dbpedia.org/resource/British_soul> .
+
+<http://example.org/celtic%20rock> owl:sameAs <http://dbpedia.org/resource/Celtic_rock> .
+
+<http://example.org/complextro> owl:sameAs <http://dbpedia.org/resource/Electro_house> .
+
+<http://example.org/downtempo> owl:sameAs <http://dbpedia.org/resource/Downtempo> .
+
+<http://example.org/electro%20house> owl:sameAs <http://dbpedia.org/resource/Electro_house> .
+
+<http://example.org/electropop> owl:sameAs <http://dbpedia.org/resource/Electropop> .
+
+<http://example.org/folk-pop> owl:sameAs <http://dbpedia.org/resource/Folk-pop> .
+
+<http://example.org/hip%20hop> owl:sameAs <http://dbpedia.org/resource/Hip_hop_music> .
+
+<http://example.org/indie%20pop> owl:sameAs <http://dbpedia.org/resource/Indie_pop> .
+
+<http://example.org/moroccan%20pop> owl:sameAs <http://dbpedia.org/resource/Moroccan_pop> .
+
+<http://example.org/pop> owl:sameAs <http://dbpedia.org/resource/Pop_music> .
+
+<http://example.org/tropical%20house> owl:sameAs <http://dbpedia.org/resource/Tropical_house> .
+

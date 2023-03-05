@@ -31,7 +31,7 @@
 </PREFIX>
 <SOURCE>
   <ID>sourceId</ID>
-  <ENDPOINT>output.ttl</ENDPOINT>
+  <ENDPOINT>C:\Users\johan\Desktop\output.ttl</ENDPOINT>
   <VAR>?s</VAR>
   <PAGESIZE>1000</PAGESIZE>
   <RESTRICTION>?s rdf:type sdo:MusicRecording</RESTRICTION>
@@ -50,7 +50,7 @@
 </TARGET>
 
 <METRIC>
-  cosine(s.rdfs:label,t.dbpedia2:name)
+  levenshtein(s.rdfs:label,t.dbpedia2:name)
 </METRIC>
 
 <ACCEPTANCE>

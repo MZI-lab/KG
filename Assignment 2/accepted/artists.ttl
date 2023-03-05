@@ -1,0 +1,241 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+<http://example.org/Adam%20Lambert> owl:sameAs <http://dbpedia.org/resource/Adam_Lambert>,
+        <http://dbpedia.org/resource/List_of_awards_and_nominations_received_by_Adam_Lambert> .
+
+<http://example.org/Adele> owl:sameAs <http://dbpedia.org/resource/Adele> .
+
+<http://example.org/Alan%20Walker> owl:sameAs <http://dbpedia.org/resource/Alan_Walker> .
+
+<http://example.org/Alessia%20Cara> owl:sameAs <http://dbpedia.org/resource/Alessia_Cara> .
+
+<http://example.org/Alesso> owl:sameAs <http://dbpedia.org/resource/Alesso> .
+
+<http://example.org/Alicia%20Keys> owl:sameAs <http://dbpedia.org/resource/Alicia_Keys>,
+        <http://dbpedia.org/resource/List_of_awards_and_nominations_received_by_Alicia_Keys> .
+
+<http://example.org/Ariana%20Grande> owl:sameAs <http://dbpedia.org/resource/Ariana_Grande> .
+
+<http://example.org/Austin%20Mahone> owl:sameAs <http://dbpedia.org/resource/Austin_Mahone> .
+
+<http://example.org/Avicii> owl:sameAs <http://dbpedia.org/resource/Avicii> .
+
+<http://example.org/Bebe%20Rexha> owl:sameAs <http://dbpedia.org/resource/Bebe_Rexha> .
+
+<http://example.org/Birdy> owl:sameAs <http://dbpedia.org/resource/Birdy_(singer)> .
+
+<http://example.org/Britney%20Spears> owl:sameAs <http://dbpedia.org/resource/Britney_Spears> .
+
+<http://example.org/Bruno%20Mars> owl:sameAs <http://dbpedia.org/resource/Bruno_Mars>,
+        <http://dbpedia.org/resource/List_of_awards_and_nominations_received_by_Bruno_Mars> .
+
+<http://example.org/Calvin%20Harris> owl:sameAs <http://dbpedia.org/resource/Calvin_Harris> .
+
+<http://example.org/Camila%20Cabello> owl:sameAs <http://dbpedia.org/resource/Camila_Cabello> .
+
+<http://example.org/Carly%20Rae%20Jepsen> owl:sameAs <http://dbpedia.org/resource/Carly_Rae_Jepsen>,
+        <http://dbpedia.org/resource/List_of_awards_and_nominations_received_by_Carly_Rae_Jepsen> .
+
+<http://example.org/Cashmere%20Cat> owl:sameAs <http://dbpedia.org/resource/Cashmere_Cat> .
+
+<http://example.org/Charli%20XCX> owl:sameAs <http://dbpedia.org/resource/Charli_XCX> .
+
+<http://example.org/Charlie%20Puth> owl:sameAs <http://dbpedia.org/resource/Charlie_Puth> .
+
+<http://example.org/Chris%20Brown> owl:sameAs <http://dbpedia.org/resource/Chris_Brown>,
+        <http://dbpedia.org/resource/Chris_Brown_(Canadian_musician)> .
+
+<http://example.org/Christina%20Perri> owl:sameAs <http://dbpedia.org/resource/Christina_Perri> .
+
+<http://example.org/Ciara> owl:sameAs <http://dbpedia.org/resource/Ciara>,
+        <http://dbpedia.org/resource/List_of_awards_and_nominations_received_by_Ciara> .
+
+<http://example.org/DJ%20Khaled> owl:sameAs <http://dbpedia.org/resource/DJ_Khaled> .
+
+<http://example.org/DJ%20Snake> owl:sameAs <http://dbpedia.org/resource/DJ_Snake> .
+
+<http://example.org/Daddy%20Yankee> owl:sameAs <http://dbpedia.org/resource/Daddy_Yankee> .
+
+<http://example.org/Daft%20Punk> owl:sameAs <http://dbpedia.org/resource/Thomas_Bangalter> .
+
+<http://example.org/David%20Guetta> owl:sameAs <http://dbpedia.org/resource/David_Guetta> .
+
+<http://example.org/Demi%20Lovato> owl:sameAs <http://dbpedia.org/resource/Demi_Lovato> .
+
+<http://example.org/Dua%20Lipa> owl:sameAs <http://dbpedia.org/resource/Dua_Lipa> .
+
+<http://example.org/Ed%20Sheeran> owl:sameAs <http://dbpedia.org/resource/Ed_Sheeran> .
+
+<http://example.org/Ellie%20Goulding> owl:sameAs <http://dbpedia.org/resource/Ellie_Goulding> .
+
+<http://example.org/Eminem> owl:sameAs <http://dbpedia.org/resource/Eminem> .
+
+<http://example.org/Enrique%20Iglesias> owl:sameAs <http://dbpedia.org/resource/Enrique_Iglesias> .
+
+<http://example.org/Far%20East%20Movement> owl:sameAs <http://dbpedia.org/resource/Far_East_Movement> .
+
+<http://example.org/Fergie> owl:sameAs <http://dbpedia.org/resource/Fergie_(DJ)>,
+        <http://dbpedia.org/resource/Fergie_(singer)> .
+
+<http://example.org/Flo%20Rida> owl:sameAs <http://dbpedia.org/resource/Flo_Rida> .
+
+<http://example.org/G-Eazy> owl:sameAs <http://dbpedia.org/resource/G-Eazy> .
+
+<http://example.org/Gwen%20Stefani> owl:sameAs <http://dbpedia.org/resource/Gwen_Stefani> .
+
+<http://example.org/Halsey> owl:sameAs <http://dbpedia.org/resource/Halsey_(singer)> .
+
+<http://example.org/Harry%20Styles> owl:sameAs <http://dbpedia.org/resource/Harry_Styles> .
+
+<http://example.org/Hot%20Chelle%20Rae> owl:sameAs <http://dbpedia.org/resource/Hot_Chelle_Rae> .
+
+<http://example.org/Hozier> owl:sameAs <http://dbpedia.org/resource/Hozier_(musician)> .
+
+<http://example.org/Icona%20Pop> owl:sameAs <http://dbpedia.org/resource/Icona_Pop> .
+
+<http://example.org/Iggy%20Azalea> owl:sameAs <http://dbpedia.org/resource/Iggy_Azalea> .
+
+<http://example.org/J%20Balvin> owl:sameAs <http://dbpedia.org/resource/J_Balvin> .
+
+<http://example.org/James%20Arthur> owl:sameAs <http://dbpedia.org/resource/James_Arthur> .
+
+<http://example.org/Janet%20Jackson> owl:sameAs <http://dbpedia.org/resource/Janet_Jackson> .
+
+<http://example.org/Jason%20Derulo> owl:sameAs <http://dbpedia.org/resource/Jason_Derulo> .
+
+<http://example.org/Jennifer%20Hudson> owl:sameAs <http://dbpedia.org/resource/Jennifer_Hudson> .
+
+<http://example.org/Jess%20Glynne> owl:sameAs <http://dbpedia.org/resource/Jess_Glynne> .
+
+<http://example.org/Jessie%20J> owl:sameAs <http://dbpedia.org/resource/Jessie_J> .
+
+<http://example.org/Jewel> owl:sameAs <http://dbpedia.org/resource/Jewel_(singer)> .
+
+<http://example.org/Joey%20Montana> owl:sameAs <http://dbpedia.org/resource/Joey_Montana> .
+
+<http://example.org/John%20Legend> owl:sameAs <http://dbpedia.org/resource/John_Legend>,
+        <http://dbpedia.org/resource/List_of_awards_and_nominations_received_by_John_Legend> .
+
+<http://example.org/John%20Newman> owl:sameAs <http://dbpedia.org/resource/John_Newman_(singer)> .
+
+<http://example.org/Jonas%20Blue> owl:sameAs <http://dbpedia.org/resource/Jonas_Blue> .
+
+<http://example.org/Justin%20Bieber> owl:sameAs <http://dbpedia.org/resource/Justin_Bieber> .
+
+<http://example.org/Justin%20Timberlake> owl:sameAs <http://dbpedia.org/resource/Justin_Timberlake> .
+
+<http://example.org/Kanye%20West> owl:sameAs <http://dbpedia.org/resource/Kanye_West> .
+
+<http://example.org/Katy%20Perry> owl:sameAs <http://dbpedia.org/resource/Katy_Perry> .
+
+<http://example.org/Kelly%20Clarkson> owl:sameAs <http://dbpedia.org/resource/Kelly_Clarkson> .
+
+<http://example.org/Kesha> owl:sameAs <http://dbpedia.org/resource/Kesha> .
+
+<http://example.org/Kygo> owl:sameAs <http://dbpedia.org/resource/Kygo> .
+
+<http://example.org/Labrinth> owl:sameAs <http://dbpedia.org/resource/Labrinth> .
+
+<http://example.org/Lady%20Gaga> owl:sameAs <http://dbpedia.org/resource/Lady_Gaga> .
+
+<http://example.org/Lana%20Del%20Rey> owl:sameAs <http://dbpedia.org/resource/Lana_Del_Rey> .
+
+<http://example.org/Lewis%20Capaldi> owl:sameAs <http://dbpedia.org/resource/Lewis_Capaldi> .
+
+<http://example.org/Liam%20Payne> owl:sameAs <http://dbpedia.org/resource/Liam_Payne> .
+
+<http://example.org/Lily%20Allen> owl:sameAs <http://dbpedia.org/resource/Lily_Allen> .
+
+<http://example.org/Lizzo> owl:sameAs <http://dbpedia.org/resource/Lizzo> .
+
+<http://example.org/Lorde> owl:sameAs <http://dbpedia.org/resource/Lorde> .
+
+<http://example.org/Lost%20Frequencies> owl:sameAs <http://dbpedia.org/resource/Lost_Frequencies> .
+
+<http://example.org/Luis%20Fonsi> owl:sameAs <http://dbpedia.org/resource/Luis_Fonsi> .
+
+<http://example.org/Mark%20Ronson> owl:sameAs <http://dbpedia.org/resource/Mark_Ronson> .
+
+<http://example.org/Marshmello> owl:sameAs <http://dbpedia.org/resource/Marshmello> .
+
+<http://example.org/Martin%20Garrix> owl:sameAs <http://dbpedia.org/resource/Martin_Garrix> .
+
+<http://example.org/Martin%20Solveig> owl:sameAs <http://dbpedia.org/resource/Martin_Solveig> .
+
+<http://example.org/Meghan%20Trainor> owl:sameAs <http://dbpedia.org/resource/Meghan_Trainor> .
+
+<http://example.org/Michael%20Jackson> owl:sameAs <http://dbpedia.org/resource/Michael_Jackson>,
+        <http://dbpedia.org/resource/Michael_Jackson_(English_singer)> .
+
+<http://example.org/Mike%20Posner> owl:sameAs <http://dbpedia.org/resource/Mike_Posner> .
+
+<http://example.org/Miley%20Cyrus> owl:sameAs <http://dbpedia.org/resource/Miley_Cyrus> .
+
+<http://example.org/Missy%20Elliott> owl:sameAs <http://dbpedia.org/resource/Missy_Elliott> .
+
+<http://example.org/Mr.%20Probz> owl:sameAs <http://dbpedia.org/resource/Mr._Probz> .
+
+<http://example.org/Naughty%20Boy> owl:sameAs <http://dbpedia.org/resource/Naughty_Boy> .
+
+<http://example.org/Ne-Yo> owl:sameAs <http://dbpedia.org/resource/Ne-Yo> .
+
+<http://example.org/Nelly%20Furtado> owl:sameAs <http://dbpedia.org/resource/Nelly_Furtado> .
+
+<http://example.org/Niall%20Horan> owl:sameAs <http://dbpedia.org/resource/Niall_Horan> .
+
+<http://example.org/Nick%20Jonas> owl:sameAs <http://dbpedia.org/resource/Nick_Jonas> .
+
+<http://example.org/Nicki%20Minaj> owl:sameAs <http://dbpedia.org/resource/Nicki_Minaj> .
+
+<http://example.org/Owl%20City> owl:sameAs <http://dbpedia.org/resource/Owl_City> .
+
+<http://example.org/P%21nk> owl:sameAs <http://dbpedia.org/resource/Pink_(singer)> .
+
+<http://example.org/Paloma%20Faith> owl:sameAs <http://dbpedia.org/resource/Paloma_Faith> .
+
+<http://example.org/Passenger> owl:sameAs <http://dbpedia.org/resource/Passenger_(singer)> .
+
+<http://example.org/Pharrell%20Williams> owl:sameAs <http://dbpedia.org/resource/Pharrell_Williams> .
+
+<http://example.org/Pitbull> owl:sameAs <http://dbpedia.org/resource/Pitbull_(rapper)> .
+
+<http://example.org/RedOne> owl:sameAs <http://dbpedia.org/resource/RedOne> .
+
+<http://example.org/Ricky%20Martin> owl:sameAs <http://dbpedia.org/resource/Ricky_Martin> .
+
+<http://example.org/Rihanna> owl:sameAs <http://dbpedia.org/resource/Rihanna> .
+
+<http://example.org/Rita%20Ora> owl:sameAs <http://dbpedia.org/resource/Rita_Ora> .
+
+<http://example.org/Robin%20Schulz> owl:sameAs <http://dbpedia.org/resource/Robin_Schulz> .
+
+<http://example.org/Robin%20Thicke> owl:sameAs <http://dbpedia.org/resource/Robin_Thicke> .
+
+<http://example.org/Rudimental> owl:sameAs <http://dbpedia.org/resource/Rudimental> .
+
+<http://example.org/Sean%20Kingston> owl:sameAs <http://dbpedia.org/resource/Sean_Kingston> .
+
+<http://example.org/Selena%20Gomez> owl:sameAs <http://dbpedia.org/resource/Selena_Gomez> .
+
+<http://example.org/Shakira> owl:sameAs <http://dbpedia.org/resource/Shakira> .
+
+<http://example.org/Sigala> owl:sameAs <http://dbpedia.org/resource/Sigala> .
+
+<http://example.org/Taio%20Cruz> owl:sameAs <http://dbpedia.org/resource/Taio_Cruz> .
+
+<http://example.org/Taylor%20Swift> owl:sameAs <http://dbpedia.org/resource/Taylor_Swift> .
+
+<http://example.org/The%20Chainsmokers> owl:sameAs <http://dbpedia.org/resource/The_Chainsmokers> .
+
+<http://example.org/The%20Weeknd> owl:sameAs <http://dbpedia.org/resource/The_Weeknd> .
+
+<http://example.org/Tinie%20Tempah> owl:sameAs <http://dbpedia.org/resource/Tinie_Tempah> .
+
+<http://example.org/Wiz%20Khalifa> owl:sameAs <http://dbpedia.org/resource/Wiz_Khalifa> .
+
+<http://example.org/Zara%20Larsson> owl:sameAs <http://dbpedia.org/resource/Zara_Larsson> .
+
+<http://example.org/Zedd> owl:sameAs <http://dbpedia.org/resource/Zedd> .
+
+<http://example.org/will.i.am> owl:sameAs <http://dbpedia.org/resource/Will.i.am> .
+

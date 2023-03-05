@@ -1,0 +1,292 @@
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedia.org/resource/Adele> dbo:birthDate "1988-05-05"^^xsd:date ;
+    dbp:birthPlace "London, England"@en .
+
+<http://dbpedia.org/resource/Alan_Walker> dbo:birthDate "1997-08-24"^^xsd:date ;
+    dbp:birthPlace "Northampton, England"@en .
+
+<http://dbpedia.org/resource/Alessia_Cara> dbo:birthDate "1996-07-11"^^xsd:date ;
+    dbp:birthPlace "Mississauga, Ontario, Canada"@en .
+
+<http://dbpedia.org/resource/Alesso> dbo:birthDate "1991-07-07"^^xsd:date ;
+    dbp:birthPlace "http://dbpedia.org/resource/Stockholm"@en .
+
+<http://dbpedia.org/resource/Alicia_Keys> dbo:birthDate "1981-01-25"^^xsd:date ;
+    dbp:birthPlace "New York City, U.S."@en .
+
+<http://dbpedia.org/resource/Ariana_Grande> dbo:birthDate "1993-06-26"^^xsd:date ;
+    dbp:birthPlace "Boca Raton, Florida, U.S."@en .
+
+<http://dbpedia.org/resource/Austin_Mahone> dbo:birthDate "1996-04-04"^^xsd:date ;
+    dbp:birthPlace "San Antonio, Texas, U.S."@en .
+
+<http://dbpedia.org/resource/Avicii> dbo:birthDate "1989-09-08"^^xsd:date ;
+    dbp:birthPlace "Stockholm, Sweden"@en .
+
+<http://dbpedia.org/resource/Bebe_Rexha> dbo:birthDate "1989-08-30"^^xsd:date ;
+    dbp:birthPlace "Brooklyn, New York City, U.S."@en .
+
+<http://dbpedia.org/resource/Birdy_(singer)> dbo:birthDate "1996-05-15"^^xsd:date ;
+    dbp:birthPlace "Lymington, Hampshire, England"@en .
+
+<http://dbpedia.org/resource/Britney_Spears> dbo:birthDate "1981-12-02"^^xsd:date ;
+    dbp:birthPlace "McComb, Mississippi, U.S."@en .
+
+<http://dbpedia.org/resource/Bruno_Mars> dbo:birthDate "1985-10-08"^^xsd:date ;
+    dbp:birthPlace "Honolulu, Hawaii, U.S."@en .
+
+<http://dbpedia.org/resource/Calvin_Harris> dbo:birthDate "1984-01-17"^^xsd:date ;
+    dbp:birthPlace "Dumfries, Scotland"@en .
+
+<http://dbpedia.org/resource/Camila_Cabello> dbo:birthDate "1997-03-03"^^xsd:date ;
+    dbp:birthPlace "Cojímar, Havana, Cuba"@en .
+
+<http://dbpedia.org/resource/Carly_Rae_Jepsen> dbo:birthDate "1985-11-21"^^xsd:date ;
+    dbp:birthPlace "Mission, British Columbia, Canada"@en .
+
+<http://dbpedia.org/resource/Cashmere_Cat> dbo:birthDate "1987-11-29"^^xsd:date ;
+    dbp:birthPlace "Halden, Norway"@en .
+
+<http://dbpedia.org/resource/Charli_XCX> dbo:birthDate "1992-08-02"^^xsd:date ;
+    dbp:birthPlace "Cambridge, England, U.K."@en .
+
+<http://dbpedia.org/resource/Charlie_Puth> dbo:birthDate "1991-12-02"^^xsd:date ;
+    dbp:birthPlace "Rumson, New Jersey, U.S."@en .
+
+<http://dbpedia.org/resource/Chris_Brown> dbo:birthDate "1989-05-05"^^xsd:date ;
+    dbp:birthPlace "Tappahannock, Virginia, U.S."@en .
+
+<http://dbpedia.org/resource/Christina_Perri> dbo:birthDate "1986-08-19"^^xsd:date ;
+    dbp:birthPlace "Bensalem, Pennsylvania, U.S."@en .
+
+<http://dbpedia.org/resource/Ciara> dbo:birthDate "1985-10-25"^^xsd:date ;
+    dbp:birthPlace "Fort Hood, Texas, U.S."@en .
+
+<http://dbpedia.org/resource/DJ_Snake> dbo:birthDate "1986-06-13"^^xsd:date ;
+    dbp:birthPlace "Paris, France"@en .
+
+<http://dbpedia.org/resource/Daddy_Yankee> dbo:birthDate "1976-02-03"^^xsd:date ;
+    dbp:birthPlace "http://dbpedia.org/resource/San_Juan,_Puerto_Rico"@en .
+
+<http://dbpedia.org/resource/Demi_Lovato> dbo:birthDate "1992-08-20"^^xsd:date ;
+    dbp:birthPlace "Albuquerque, New Mexico, U.S."@en .
+
+<http://dbpedia.org/resource/Dua_Lipa> dbo:birthDate "1995-08-22"^^xsd:date ;
+    dbp:birthPlace "London, England"@en .
+
+<http://dbpedia.org/resource/Ed_Sheeran> dbo:birthDate "1991-02-17"^^xsd:date ;
+    dbp:birthPlace "Halifax, West Yorkshire, England"@en .
+
+<http://dbpedia.org/resource/Eminem> dbo:birthDate "1972-10-17"^^xsd:date ;
+    dbp:birthPlace "St. Joseph, Missouri, U.S."@en .
+
+<http://dbpedia.org/resource/Enrique_Iglesias> dbo:birthDate "1975-05-08"^^xsd:date ;
+    dbp:birthPlace "http://dbpedia.org/resource/Francoist_Spain"@en .
+
+<http://dbpedia.org/resource/Fergie_(singer)> dbo:birthDate "1975-03-27"^^xsd:date ;
+    dbp:birthPlace "Hacienda Heights, California, U.S."@en .
+
+<http://dbpedia.org/resource/Flo_Rida> dbo:birthDate "1979-09-16"^^xsd:date ;
+    dbp:birthPlace "Miami Gardens, Florida, U.S."@en .
+
+<http://dbpedia.org/resource/G-Eazy> dbo:birthDate "1989-05-24"^^xsd:date ;
+    dbp:birthPlace "Oakland, California, U.S."@en .
+
+<http://dbpedia.org/resource/Gwen_Stefani> dbo:birthDate "1969-10-03"^^xsd:date ;
+    dbp:birthPlace "Fullerton, California, U.S."@en .
+
+<http://dbpedia.org/resource/Halsey_(singer)> dbo:birthDate "1994-09-29"^^xsd:date ;
+    dbp:birthPlace "Edison, New Jersey, U.S."@en .
+
+<http://dbpedia.org/resource/Harry_Styles> dbo:birthDate "1994-02-01"^^xsd:date ;
+    dbp:birthPlace "Redditch, England"@en .
+
+<http://dbpedia.org/resource/Hozier_(musician)> dbo:birthDate "1990-03-17"^^xsd:date ;
+    dbp:birthPlace "Bray, County Wicklow, Ireland"@en .
+
+<http://dbpedia.org/resource/Iggy_Azalea> dbo:birthDate "1990-06-07"^^xsd:date ;
+    dbp:birthPlace "Sydney, New South Wales, Australia"@en .
+
+<http://dbpedia.org/resource/J_Balvin> dbo:birthDate "1985-05-07"^^xsd:date ;
+    dbp:birthPlace "Medellín, Colombia"@en .
+
+<http://dbpedia.org/resource/James_Arthur> dbo:birthDate "1988-03-02"^^xsd:date ;
+    dbp:birthPlace "Middlesbrough, North Yorkshire, England"@en .
+
+<http://dbpedia.org/resource/Janet_Jackson> dbo:birthDate "1966-05-16"^^xsd:date ;
+    dbp:birthPlace "Gary, Indiana, U.S."@en .
+
+<http://dbpedia.org/resource/Jason_Derulo> dbo:birthDate "1989-09-21"^^xsd:date ;
+    dbp:birthPlace "Miramar, Florida, U.S."@en .
+
+<http://dbpedia.org/resource/Jennifer_Hudson> dbo:birthDate "1981-09-12"^^xsd:date ;
+    dbp:birthPlace "Chicago, Illinois, U.S."@en .
+
+<http://dbpedia.org/resource/Jess_Glynne> dbo:birthDate "1989-10-20"^^xsd:date ;
+    dbp:birthPlace "Hampstead, London, England"@en .
+
+<http://dbpedia.org/resource/Joey_Montana> dbo:birthDate "1982-05-03"^^xsd:date ;
+    dbp:birthPlace "http://dbpedia.org/resource/Boquete_District"@en .
+
+<http://dbpedia.org/resource/John_Legend> dbo:birthDate "1978-12-28"^^xsd:date ;
+    dbp:birthPlace "Springfield, Ohio, U.S."@en .
+
+<http://dbpedia.org/resource/Jonas_Blue> dbo:birthDate "1989-08-02"^^xsd:date ;
+    dbp:birthPlace "Chelmsford, Essex, England"@en .
+
+<http://dbpedia.org/resource/Justin_Bieber> dbo:birthDate "1994-03-01"^^xsd:date ;
+    dbp:birthPlace "London, Ontario, Canada"@en .
+
+<http://dbpedia.org/resource/Justin_Timberlake> dbo:birthDate "1981-01-31"^^xsd:date ;
+    dbp:birthPlace "Memphis, Tennessee, U.S."@en .
+
+<http://dbpedia.org/resource/Kanye_West> dbo:birthDate "1977-06-08"^^xsd:date ;
+    dbp:birthPlace "Atlanta, Georgia, U.S."@en .
+
+<http://dbpedia.org/resource/Kelly_Clarkson> dbo:birthDate "1982-04-24"^^xsd:date ;
+    dbp:birthPlace "Fort Worth, Texas, U.S."@en .
+
+<http://dbpedia.org/resource/Kesha> dbo:birthDate "1987-03-01"^^xsd:date ;
+    dbp:birthPlace "http://dbpedia.org/resource/Los_Angeles"@en .
+
+<http://dbpedia.org/resource/Kygo> dbo:birthDate "1991-09-11"^^xsd:date ;
+    dbp:birthPlace "Singapore"@en .
+
+<http://dbpedia.org/resource/Labrinth> dbo:birthDate "1989-01-04"^^xsd:date ;
+    dbp:birthPlace "Hackney, London, England"@en .
+
+<http://dbpedia.org/resource/Lady_Gaga> dbo:birthDate "1986-03-28"^^xsd:date ;
+    dbp:birthPlace "New York City, U.S."@en .
+
+<http://dbpedia.org/resource/Lana_Del_Rey> dbo:birthDate "1985-06-21"^^xsd:date ;
+    dbp:birthPlace "New York City, U.S."@en .
+
+<http://dbpedia.org/resource/Lewis_Capaldi> dbo:birthDate "1996-10-07"^^xsd:date ;
+    dbp:birthPlace "http://dbpedia.org/resource/Glasgow,_Scotland"@en .
+
+<http://dbpedia.org/resource/Liam_Payne> dbo:birthDate "1993-08-29"^^xsd:date ;
+    dbp:birthPlace "Wolverhampton, England"@en .
+
+<http://dbpedia.org/resource/Lily_Allen> dbo:birthDate "1985-05-02"^^xsd:date ;
+    dbp:birthPlace "Hammersmith, London, England"@en .
+
+<http://dbpedia.org/resource/Lizzo> dbo:birthDate "1988-04-27"^^xsd:date ;
+    dbp:birthPlace "Detroit, Michigan, U.S."@en .
+
+<http://dbpedia.org/resource/Lorde> dbo:birthDate "1996-11-07"^^xsd:date ;
+    dbp:birthPlace "Takapuna, Auckland, New Zealand"@en .
+
+<http://dbpedia.org/resource/Lost_Frequencies> dbo:birthDate "1993-11-30"^^xsd:date ;
+    dbp:birthPlace "Brussels, Belgium"@en .
+
+<http://dbpedia.org/resource/Luis_Fonsi> dbo:birthDate "1978-04-15"^^xsd:date ;
+    dbp:birthPlace "San Juan, Puerto Rico"@en .
+
+<http://dbpedia.org/resource/Marshmello> dbo:birthDate "1992-05-19"^^xsd:date ;
+    dbp:birthPlace "Philadelphia, Pennsylvania, U.S."@en .
+
+<http://dbpedia.org/resource/Martin_Garrix> dbo:birthDate "1996-05-14"^^xsd:date ;
+    dbp:birthPlace "Amstelveen, Netherlands"@en .
+
+<http://dbpedia.org/resource/Martin_Solveig> dbo:birthDate "1976-09-22"^^xsd:date ;
+    dbp:birthPlace "Paris, France"@en .
+
+<http://dbpedia.org/resource/Meghan_Trainor> dbo:birthDate "1993-12-22"^^xsd:date ;
+    dbp:birthPlace "Nantucket, Massachusetts, U.S."@en .
+
+<http://dbpedia.org/resource/Michael_Jackson> dbo:birthDate "1958-08-29"^^xsd:date ;
+    dbp:birthPlace "Gary, Indiana, U.S."@en .
+
+<http://dbpedia.org/resource/Mike_Posner> dbo:birthDate "1988-02-12"^^xsd:date ;
+    dbp:birthPlace "Detroit, Michigan, U.S."@en .
+
+<http://dbpedia.org/resource/Miley_Cyrus> dbo:birthDate "1992-11-23"^^xsd:date ;
+    dbp:birthPlace "Franklin, Tennessee, U.S."@en .
+
+<http://dbpedia.org/resource/Missy_Elliott> dbo:birthDate "1971-07-01"^^xsd:date ;
+    dbp:birthPlace "Portsmouth, Virginia, U.S."@en .
+
+<http://dbpedia.org/resource/Naughty_Boy> dbo:birthDate "1981-01-01"^^xsd:date ;
+    dbp:birthPlace "Watford, England"@en .
+
+<http://dbpedia.org/resource/Ne-Yo> dbo:birthDate "1979-10-18"^^xsd:date ;
+    dbp:birthPlace "Camden, Arkansas, U.S."@en .
+
+<http://dbpedia.org/resource/Niall_Horan> dbo:birthDate "1993-09-13"^^xsd:date ;
+    dbp:birthPlace "Mullingar, Westmeath, Ireland"@en .
+
+<http://dbpedia.org/resource/Nick_Jonas> dbo:birthDate "1992-09-16"^^xsd:date ;
+    dbp:birthPlace "Dallas, Texas, U.S."@en .
+
+<http://dbpedia.org/resource/Nicki_Minaj> dbo:birthDate "1982-12-08"^^xsd:date ;
+    dbp:birthPlace "http://dbpedia.org/resource/Saint_James,_Trinidad_and_Tobago"@en .
+
+<http://dbpedia.org/resource/Paloma_Faith> dbo:birthDate "1981-07-21"^^xsd:date ;
+    dbp:birthPlace "London, England"@en .
+
+<http://dbpedia.org/resource/Passenger_(singer)> dbo:birthDate "1984-05-17"^^xsd:date ;
+    dbp:birthPlace "Brighton, England"@en .
+
+<http://dbpedia.org/resource/Pharrell_Williams> dbo:birthDate "1973-04-05"^^xsd:date ;
+    dbp:birthPlace "Virginia Beach, Virginia, U.S."@en .
+
+<http://dbpedia.org/resource/Pitbull_(rapper)> dbo:birthDate "1981-01-15"^^xsd:date ;
+    dbp:birthPlace "Miami, Florida, U.S"@en .
+
+<http://dbpedia.org/resource/RedOne> dbo:birthDate "1972-04-09"^^xsd:date ;
+    dbp:birthPlace "Tétouan, Morocco"@en .
+
+<http://dbpedia.org/resource/Ricky_Martin> dbo:birthDate "1971-12-24"^^xsd:date ;
+    dbp:birthPlace "http://dbpedia.org/resource/San_Juan,_Puerto_Rico"@en .
+
+<http://dbpedia.org/resource/Rihanna> dbo:birthDate "1988-02-20"^^xsd:date ;
+    dbp:birthPlace "Saint Michael, Barbados"@en .
+
+<http://dbpedia.org/resource/Rita_Ora> dbo:birthDate "1990-11-26"^^xsd:date ;
+    dbp:birthPlace "http://dbpedia.org/resource/Socialist_Federal_Republic_of_Yugoslavia"@en .
+
+<http://dbpedia.org/resource/Robin_Schulz> dbo:birthDate "1987-04-28"^^xsd:date ;
+    dbp:birthPlace "http://dbpedia.org/resource/West_Germany"@en .
+
+<http://dbpedia.org/resource/Robin_Thicke> dbo:birthDate "1977-03-10"^^xsd:date ;
+    dbp:birthPlace "Los Angeles, California, U.S."@en .
+
+<http://dbpedia.org/resource/Sean_Kingston> dbo:birthDate "1990-02-03"^^xsd:date ;
+    dbp:birthPlace "Miami, Florida, U.S."@en .
+
+<http://dbpedia.org/resource/Selena_Gomez> dbo:birthDate "1992-07-22"^^xsd:date ;
+    dbp:birthPlace "Grand Prairie, Texas, U.S."@en .
+
+<http://dbpedia.org/resource/Shakira> dbo:birthDate "1977-02-02"^^xsd:date ;
+    dbp:birthPlace "Barranquilla, Colombia"@en .
+
+<http://dbpedia.org/resource/Sigala> dbo:birthDate "1989-11-01"^^xsd:date ;
+    dbp:birthPlace "Norfolk, England"@en .
+
+<http://dbpedia.org/resource/Taio_Cruz> dbo:birthDate "1980-04-23"^^xsd:date ;
+    dbp:birthPlace "Brent, Greater London, England"@en .
+
+<http://dbpedia.org/resource/Taylor_Swift> dbo:birthDate "1989-12-13"^^xsd:date ;
+    dbp:birthPlace "West Reading, Pennsylvania, U.S."@en .
+
+<http://dbpedia.org/resource/Thomas_Bangalter> dbo:birthDate "1975-01-03"^^xsd:date ;
+    dbp:birthPlace "Paris, France"@en .
+
+<http://dbpedia.org/resource/Tinie_Tempah> dbo:birthDate "1988-11-07"^^xsd:date ;
+    dbp:birthPlace "Plumstead, London, England"@en .
+
+<http://dbpedia.org/resource/Will.i.am> dbo:birthDate "1975-03-15"^^xsd:date ;
+    dbp:birthPlace "Los Angeles, California, U.S."@en .
+
+<http://dbpedia.org/resource/Wiz_Khalifa> dbo:birthDate "1987-09-08"^^xsd:date ;
+    dbp:birthPlace "Minot, North Dakota, U.S."@en .
+
+<http://dbpedia.org/resource/Zara_Larsson> dbo:birthDate "1997-12-16"^^xsd:date ;
+    dbp:birthPlace "Solna, Stockholm, Sweden"@en .
+
+<http://dbpedia.org/resource/Zedd> dbo:birthDate "1989-09-02"^^xsd:date ;
+    dbp:birthPlace "http://dbpedia.org/resource/Saratov"@en .
+
