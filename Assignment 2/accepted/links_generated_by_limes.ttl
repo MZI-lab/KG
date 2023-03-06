@@ -1,0 +1,1899 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+<http://example.com/song_0> owl:sameAs <http://dbpedia.org/resource/Hey,_Soul_Sister> .
+
+<http://example.com/song_102> owl:sameAs <http://dbpedia.org/resource/Firework_(song)> .
+
+<http://example.com/song_105> owl:sameAs <http://dbpedia.org/resource/Locked_Out_of_Heaven> .
+
+<http://example.com/song_106> owl:sameAs <http://dbpedia.org/resource/Paradise_(Alan_Walker,_K-391_and_Boy_in_Space_song)>,
+        <http://dbpedia.org/resource/Paradise_(Bazzi_song)>,
+        <http://dbpedia.org/resource/Paradise_(Bee_Gees_song)>,
+        <http://dbpedia.org/resource/Paradise_(Benny_Benassi_and_Chris_Brown_song)>,
+        <http://dbpedia.org/resource/Paradise_(Big_Sean_song)>,
+        <http://dbpedia.org/resource/Paradise_(Black_song)>,
+        <http://dbpedia.org/resource/Paradise_(Change_song)>,
+        <http://dbpedia.org/resource/Paradise_(Coldplay_song)>,
+        <http://dbpedia.org/resource/Paradise_(E-Type_&_Nana_Hedin_song)>,
+        <http://dbpedia.org/resource/Paradise_(George_Ezra_song)>,
+        <http://dbpedia.org/resource/Paradise_(Hello_Venus_song)>,
+        <http://dbpedia.org/resource/Paradise_(John_Anderson_song)>,
+        <http://dbpedia.org/resource/Paradise_(John_Prine_song)>,
+        <http://dbpedia.org/resource/Paradise_(Kill_the_Silence)>,
+        <http://dbpedia.org/resource/Paradise_(LL_Cool_J_song)>,
+        <http://dbpedia.org/resource/Paradise_(Meduza_song)>,
+        <http://dbpedia.org/resource/Paradise_(Ofenbach_song)>,
+        <http://dbpedia.org/resource/Paradise_(Phoebe_Cates_song)>,
+        <http://dbpedia.org/resource/Paradise_(Sade_song)>,
+        <http://dbpedia.org/resource/Paradise_(Styx_song)>,
+        <http://dbpedia.org/resource/Paradise_(The_Temptations_song)> .
+
+<http://example.com/song_107> owl:sameAs <http://dbpedia.org/resource/Payphone_(song)> .
+
+<http://example.com/song_108> owl:sameAs <http://dbpedia.org/resource/What_Makes_You_Beautiful> .
+
+<http://example.com/song_11> owl:sameAs <http://dbpedia.org/resource/Marry_You> .
+
+<http://example.com/song_112> owl:sameAs <http://dbpedia.org/resource/Set_Fire_to_the_Rain> .
+
+<http://example.com/song_113> owl:sameAs <http://dbpedia.org/resource/We_Are_Never_Ever_Getting_Back_Together> .
+
+<http://example.com/song_115> owl:sameAs <http://dbpedia.org/resource/Try_(Blue_Rodeo_song)>,
+        <http://dbpedia.org/resource/Try_(Colbie_Caillat_song)>,
+        <http://dbpedia.org/resource/Try_(Nelly_Furtado_song)>,
+        <http://dbpedia.org/resource/Try_(Pink_song)>,
+        <http://dbpedia.org/resource/Try_(Pseudo_Echo_song)>,
+        <http://dbpedia.org/resource/Try_(Schiller_song)> .
+
+<http://example.com/song_116> owl:sameAs <http://dbpedia.org/resource/Starships_(song)> .
+
+<http://example.com/song_117> owl:sameAs <http://dbpedia.org/resource/One_More_Night_(Cascada_song)>,
+        <http://dbpedia.org/resource/One_More_Night_(Dinah_Nah_song)>,
+        <http://dbpedia.org/resource/One_More_Night_(Maroon_5_song)>,
+        <http://dbpedia.org/resource/One_More_Night_(Phil_Collins_song)>,
+        <http://dbpedia.org/resource/One_More_Night_(Sandie_Shaw_song)>,
+        <http://dbpedia.org/resource/One_More_Night_(Sandra_song)> .
+
+<http://example.com/song_118> owl:sameAs <http://dbpedia.org/resource/Good_Time_(Alan_Jackson_song)>,
+        <http://dbpedia.org/resource/Good_Time_(American_Spring_song)>,
+        <http://dbpedia.org/resource/Good_Time_(Inna_song)>,
+        <http://dbpedia.org/resource/Good_Time_(Jin_Akanishi_song)>,
+        <http://dbpedia.org/resource/Good_Time_(Justice_Crew_song)>,
+        <http://dbpedia.org/resource/Good_Time_(Luca_H�nni_and_Christopher_S_song)>,
+        <http://dbpedia.org/resource/Good_Time_(Niko_Moon_song)>,
+        <http://dbpedia.org/resource/Good_Time_(Owl_City_and_Carly_Rae_Jepsen_song)>,
+        <http://dbpedia.org/resource/Good_Time_(Paris_Hilton_song)> .
+
+<http://example.com/song_119> owl:sameAs <http://dbpedia.org/resource/Glad_You_Came> .
+
+<http://example.com/song_121> owl:sameAs <http://dbpedia.org/resource/International_Love> .
+
+<http://example.com/song_122> owl:sameAs <http://dbpedia.org/resource/Some_Nights_(song)> .
+
+<http://example.com/song_123> owl:sameAs <http://dbpedia.org/resource/Boyfriend_(Alphabeat_song)>,
+        <http://dbpedia.org/resource/Boyfriend_(Ariana_Grande_and_Social_House_song)>,
+        <http://dbpedia.org/resource/Boyfriend_(Ashlee_Simpson_song)>,
+        <http://dbpedia.org/resource/Boyfriend_(Best_Coast_song)>,
+        <http://dbpedia.org/resource/Boyfriend_(Big_Time_Rush_song)>,
+        <http://dbpedia.org/resource/Boyfriend_(Justin_Bieber_song)>,
+        <http://dbpedia.org/resource/Boyfriend_(Lou_Bega_song)>,
+        <http://dbpedia.org/resource/Boyfriend_(Mabel_song)>,
+        <http://dbpedia.org/resource/Boyfriend_(Mai_Kuraki_song)>,
+        <http://dbpedia.org/resource/Boyfriend_(Miki_Fujimoto_song)>,
+        <http://dbpedia.org/resource/Boyfriend_(RaeLynn_song)>,
+        <http://dbpedia.org/resource/Boyfriend_(Selena_Gomez_song)>,
+        <http://dbpedia.org/resource/Boyfriend_(Tegan_and_Sara_song)> .
+
+<http://example.com/song_125> owl:sameAs <http://dbpedia.org/resource/Domino_(Genesis_song)>,
+        <http://dbpedia.org/resource/Domino_(Jessie_J_song)>,
+        <http://dbpedia.org/resource/Domino_(Kiss_song)>,
+        <http://dbpedia.org/resource/Domino_(Saara_Aalto_song)>,
+        <http://dbpedia.org/resource/Domino_(Van_Morrison_song)> .
+
+<http://example.com/song_126> owl:sameAs <http://dbpedia.org/resource/Where_Have_You_Been>,
+        <http://dbpedia.org/resource/Where_Have_You_Been_(All_My_Life)> .
+
+<http://example.com/song_127> owl:sameAs <http://dbpedia.org/resource/Wide_Awake_(Eric_Saade_song)>,
+        <http://dbpedia.org/resource/Wide_Awake_(Katy_Perry_song)> .
+
+<http://example.com/song_128> owl:sameAs <http://dbpedia.org/resource/The_One_That_Got_Away_(Jake_Owen_song)>,
+        <http://dbpedia.org/resource/The_One_That_Got_Away_(Katy_Perry_song)>,
+        <http://dbpedia.org/resource/The_One_That_Got_Away_(Natasha_Bedingfield_song)> .
+
+<http://example.com/song_129> owl:sameAs <http://dbpedia.org/resource/Dance_Again>,
+        <http://dbpedia.org/resource/Dance_Again_(Selena_Gomez_song)> .
+
+<http://example.com/song_13> owl:sameAs <http://dbpedia.org/resource/Telephone_(song)> .
+
+<http://example.com/song_130> owl:sameAs <http://dbpedia.org/resource/Turn_Up_the_Music_(Bridgit_Mendler_song)>,
+        <http://dbpedia.org/resource/Turn_Up_the_Music_(Chris_Brown_song)> .
+
+<http://example.com/song_133> owl:sameAs <http://dbpedia.org/resource/Diamonds_(Amanda_Lear_song)>,
+        <http://dbpedia.org/resource/Diamonds_(Fabolous_song)>,
+        <http://dbpedia.org/resource/Diamonds_(Herb_Alpert_song)>,
+        <http://dbpedia.org/resource/Diamonds_(Megan_Thee_Stallion_and_Normani_song)>,
+        <http://dbpedia.org/resource/Diamonds_(Morgan_Evans_song)>,
+        <http://dbpedia.org/resource/Diamonds_(Princess_Princess_song)>,
+        <http://dbpedia.org/resource/Diamonds_(Rihanna_song)>,
+        <http://dbpedia.org/resource/Diamonds_(Sam_Smith_song)>,
+        <http://dbpedia.org/resource/Diamonds_(Starboy_Nathan_song)>,
+        <http://dbpedia.org/resource/Diamonds_(The_Boxer_Rebellion_song)>,
+        <http://dbpedia.org/resource/Diamonds_(instrumental)> .
+
+<http://example.com/song_137> owl:sameAs <http://dbpedia.org/resource/It_Will_Rain> .
+
+<http://example.com/song_139> owl:sameAs <http://dbpedia.org/resource/Underneath_the_Tree> .
+
+<http://example.com/song_140> owl:sameAs <http://dbpedia.org/resource/Wake_Me_Up_(Avicii_song)>,
+        <http://dbpedia.org/resource/Wake_Me_Up_(Foals_song)>,
+        <http://dbpedia.org/resource/Wake_Me_Up_(Girls_Aloud_song)>,
+        <http://dbpedia.org/resource/Wake_Me_Up_(Mai_Kuraki_song)>,
+        <http://dbpedia.org/resource/Wake_Me_Up_(Remy_Ma_song)>,
+        <http://dbpedia.org/resource/Wake_Me_Up_(Twice_song)> .
+
+<http://example.com/song_141> owl:sameAs <http://dbpedia.org/resource/Story_of_My_Life_(Kristian_Leontiou_song)>,
+        <http://dbpedia.org/resource/Story_of_My_Life_(Lesley_Roy_song)>,
+        <http://dbpedia.org/resource/Story_of_My_Life_(One_Direction_song)>,
+        <http://dbpedia.org/resource/Story_of_My_Life_(Smash_Mouth_song)>,
+        <http://dbpedia.org/resource/Story_of_My_Life_(Social_Distortion_song)> .
+
+<http://example.com/song_143> owl:sameAs <http://dbpedia.org/resource/Hall_of_Fame_(song)> .
+
+<http://example.com/song_144> owl:sameAs <http://dbpedia.org/resource/Roar_(song)> .
+
+<http://example.com/song_145> owl:sameAs <http://dbpedia.org/resource/We_Can't_Stop> .
+
+<http://example.com/song_148> owl:sameAs <http://dbpedia.org/resource/Wrecking_Ball_(Bruce_Springsteen_song)>,
+        <http://dbpedia.org/resource/Wrecking_Ball_(Miley_Cyrus_song)>,
+        <http://dbpedia.org/resource/Wrecking_Ball_(Neil_Young_song)> .
+
+<http://example.com/song_149> owl:sameAs <http://dbpedia.org/resource/Impossible_(Anberlin_song)>,
+        <http://dbpedia.org/resource/Impossible_(Captain_Hollywood_Project_song)>,
+        <http://dbpedia.org/resource/Impossible_(Daniel_Merriweather_song)>,
+        <http://dbpedia.org/resource/Impossible_(Edyta_song)>,
+        <http://dbpedia.org/resource/Impossible_(Kanye_West_song)>,
+        <http://dbpedia.org/resource/Impossible_(M�ns_Zelmerl�w_song)>,
+        <http://dbpedia.org/resource/Impossible_(Shontelle_song)> .
+
+<http://example.com/song_150> owl:sameAs <http://dbpedia.org/resource/Blurred_Lines> .
+
+<http://example.com/song_151> owl:sameAs <http://dbpedia.org/resource/Heart_Attack_(Demi_Lovato_song)>,
+        <http://dbpedia.org/resource/Heart_Attack_(Enrique_Iglesias_song)>,
+        <http://dbpedia.org/resource/Heart_Attack_(Noizy_song)>,
+        <http://dbpedia.org/resource/Heart_Attack_(Olivia_Newton-John_song)>,
+        <http://dbpedia.org/resource/Heart_Attack_(Trey_Songz_song)> .
+
+<http://example.com/song_152> owl:sameAs <http://dbpedia.org/resource/We_Are_Never_Ever_Getting_Back_Together> .
+
+<http://example.com/song_153> owl:sameAs <http://dbpedia.org/resource/Die_Young>,
+        <http://dbpedia.org/resource/Die_Young_(Roddy_Ricch_song)>,
+        <http://dbpedia.org/resource/Die_Young_(Sheppard_song)>,
+        <http://dbpedia.org/resource/Die_Young_(Sleepy_Hallow_song)> .
+
+<http://example.com/song_154> owl:sameAs <http://dbpedia.org/resource/Clarity_(John_Mayer_song)>,
+        <http://dbpedia.org/resource/Clarity_(Zedd_song)> .
+
+<http://example.com/song_156> owl:sameAs <http://dbpedia.org/resource/Under_Control_(Calvin_Harris_and_Alesso_song)>,
+        <http://dbpedia.org/resource/Under_Control_(Parachute_song)> .
+
+<http://example.com/song_158> owl:sameAs <http://dbpedia.org/resource/Hold_On,_We're_Going_Home> .
+
+<http://example.com/song_159> owl:sameAs <http://dbpedia.org/resource/Best_Song_Ever> .
+
+<http://example.com/song_16> owl:sameAs <http://dbpedia.org/resource/Eenie_Meenie> .
+
+<http://example.com/song_160> owl:sameAs <http://dbpedia.org/resource/Kiss_You_(One_Direction_song)>,
+        <http://dbpedia.org/resource/Kiss_You_(iiO_song)> .
+
+<http://example.com/song_162> owl:sameAs <http://dbpedia.org/resource/Lose_Yourself_to_Dance> .
+
+<http://example.com/song_163> owl:sameAs <http://dbpedia.org/resource/Work_Bitch> .
+
+<http://example.com/song_164> owl:sameAs <http://dbpedia.org/resource/Brave_(Arashi_song)>,
+        <http://dbpedia.org/resource/Brave_(Ella_Henderson_song)>,
+        <http://dbpedia.org/resource/Brave_(Hanna_Ferm_song)>,
+        <http://dbpedia.org/resource/Brave_(Idina_Menzel_song)>,
+        <http://dbpedia.org/resource/Brave_(Josh_Groban_song)>,
+        <http://dbpedia.org/resource/Brave_(Kelis_song)>,
+        <http://dbpedia.org/resource/Brave_(Sara_Bareilles_song)> .
+
+<http://example.com/song_167> owl:sameAs <http://dbpedia.org/resource/Beneath_Your_Beautiful> .
+
+<http://example.com/song_171> owl:sameAs <http://dbpedia.org/resource/The_Way_(Ariana_Grande_song)>,
+        <http://dbpedia.org/resource/The_Way_(Daniel_Bedingfield_song)>,
+        <http://dbpedia.org/resource/The_Way_(Fastball_song)>,
+        <http://dbpedia.org/resource/The_Way_(Jeremy_Camp_song)>,
+        <http://dbpedia.org/resource/The_Way_(Jill_Scott_song)>,
+        <http://dbpedia.org/resource/The_Way_(Put_Your_Hand_in_My_Hand)> .
+
+<http://example.com/song_172> owl:sameAs <http://dbpedia.org/resource/Suit_&_Tie> .
+
+<http://example.com/song_176> owl:sameAs <http://dbpedia.org/resource/Daylight_(Bobby_Womack_song)>,
+        <http://dbpedia.org/resource/Daylight_(Jimmy_Barnes_song)>,
+        <http://dbpedia.org/resource/Daylight_(Maroon_5_song)>,
+        <http://dbpedia.org/resource/Daylight_(Matt_and_Kim_song)> .
+
+<http://example.com/song_177> owl:sameAs <http://dbpedia.org/resource/Love_Somebody_(1947_song)>,
+        <http://dbpedia.org/resource/Love_Somebody_(Maroon_5_song)>,
+        <http://dbpedia.org/resource/Love_Somebody_(Noiseworks_song)>,
+        <http://dbpedia.org/resource/Love_Somebody_(Rick_Springfield_song)> .
+
+<http://example.com/song_179> owl:sameAs <http://dbpedia.org/resource/Move_(4L_song)>,
+        <http://dbpedia.org/resource/Move_(CSS_song)>,
+        <http://dbpedia.org/resource/Move_(If_You_Wanna)>,
+        <http://dbpedia.org/resource/Move_(Little_Mix_song)>,
+        <http://dbpedia.org/resource/Move_(Luke_Bryan_song)>,
+        <http://dbpedia.org/resource/Move_(MercyMe_song)>,
+        <http://dbpedia.org/resource/Move_(Q-Tip_song)>,
+        <http://dbpedia.org/resource/Move_(Taemin_song)>,
+        <http://dbpedia.org/resource/Move_(The_Mamas_song)>,
+        <http://dbpedia.org/resource/Move_(Thousand_Foot_Krutch_song)> .
+
+<http://example.com/song_18> owl:sameAs <http://dbpedia.org/resource/Alejandro_(song)> .
+
+<http://example.com/song_180> owl:sameAs <http://dbpedia.org/resource/Walks_Like_Rihanna> .
+
+<http://example.com/song_182> owl:sameAs <http://dbpedia.org/resource/Heartbreaker_(Dionne_Warwick_song)>,
+        <http://dbpedia.org/resource/Heartbreaker_(Dolly_Parton_song)>,
+        <http://dbpedia.org/resource/Heartbreaker_(G-Dragon_song)>,
+        <http://dbpedia.org/resource/Heartbreaker_(Justin_Bieber_song)>,
+        <http://dbpedia.org/resource/Heartbreaker_(Led_Zeppelin_song)>,
+        <http://dbpedia.org/resource/Heartbreaker_(Lo�c_Nottet_song)>,
+        <http://dbpedia.org/resource/Heartbreaker_(Mariah_Carey_song)>,
+        <http://dbpedia.org/resource/Heartbreaker_(Pat_Benatar_song)>,
+        <http://dbpedia.org/resource/Heartbreaker_(will.i.am_song)> .
+
+<http://example.com/song_186> owl:sameAs <http://dbpedia.org/resource/Clown_(Emeli_Sand�_song)>,
+        <http://dbpedia.org/resource/Clown_(Korn_song)> .
+
+<http://example.com/song_188> owl:sameAs <http://dbpedia.org/resource/TKO_(Justin_Timberlake_song)>,
+        <http://dbpedia.org/resource/TKO_(Knock_You_Out)>,
+        <http://dbpedia.org/resource/TKO_(Le_Tigre_song)>,
+        <http://dbpedia.org/resource/TKO_(Motion_City_Soundtrack_song)> .
+
+<http://example.com/song_189> owl:sameAs <http://dbpedia.org/resource/Come_&_Get_It_(Selena_Gomez_song)> .
+
+<http://example.com/song_190> owl:sameAs <http://dbpedia.org/resource/Live_It_Up_(360_song)>,
+        <http://dbpedia.org/resource/Live_It_Up_(Bill_Haley_song)>,
+        <http://dbpedia.org/resource/Live_It_Up_(Jennifer_Lopez_song)>,
+        <http://dbpedia.org/resource/Live_It_Up_(Marshall_Dyllon_song)>,
+        <http://dbpedia.org/resource/Live_It_Up_(Mental_As_Anything_song)>,
+        <http://dbpedia.org/resource/Live_It_Up_(Nicky_Jam_song)>,
+        <http://dbpedia.org/resource/Live_It_Up_(Tulisa_song)> .
+
+<http://example.com/song_191> owl:sameAs <http://dbpedia.org/resource/We_Own_the_Night_(Ti�sto_and_Wolfgang_Gartner_song)> .
+
+<http://example.com/song_193> owl:sameAs <http://dbpedia.org/resource/What_About_Love>,
+        <http://dbpedia.org/resource/What_About_Love_('Til_Tuesday_song)>,
+        <http://dbpedia.org/resource/What_About_Love_(Austin_Mahone_song)>,
+        <http://dbpedia.org/resource/What_About_Love_(The_Desert_Rose_Band_song)> .
+
+<http://example.com/song_194> owl:sameAs <http://dbpedia.org/resource/Take_Back_the_Night_(song)> .
+
+<http://example.com/song_195> owl:sameAs <http://dbpedia.org/resource/Applause_(Bonnie_Franklin_song)>,
+        <http://dbpedia.org/resource/Applause_(Lady_Gaga_song)> .
+
+<http://example.com/song_196> owl:sameAs <http://dbpedia.org/resource/Anything_Could_Happen> .
+
+<http://example.com/song_197> owl:sameAs <http://dbpedia.org/resource/Finally_Found_You> .
+
+<http://example.com/song_198> owl:sameAs <http://dbpedia.org/resource/Pom_Poms_(song)> .
+
+<http://example.com/song_199> owl:sameAs <http://dbpedia.org/resource/Beautiful_(Mariah_Carey_song)> .
+
+<http://example.com/song_20> owl:sameAs <http://dbpedia.org/resource/Meet_Me_Halfway> .
+
+<http://example.com/song_203> owl:sameAs <http://dbpedia.org/resource/People_Like_Us_(Aaron_Tippin_song)>,
+        <http://dbpedia.org/resource/People_Like_Us_(Kelly_Clarkson_song)> .
+
+<http://example.com/song_204> owl:sameAs <http://dbpedia.org/resource/Overdose_(Ciara_song)>,
+        <http://dbpedia.org/resource/Overdose_(Exo_song)> .
+
+<http://example.com/song_206> owl:sameAs <http://dbpedia.org/resource/Give_It_2_U> .
+
+<http://example.com/song_207> owl:sameAs <http://dbpedia.org/resource/Foolish_Games> .
+
+<http://example.com/song_209> owl:sameAs <http://dbpedia.org/resource/Freak_(Bruce_Foxton_song)>,
+        <http://dbpedia.org/resource/Freak_(Doja_Cat_song)>,
+        <http://dbpedia.org/resource/Freak_(Estelle_song)>,
+        <http://dbpedia.org/resource/Freak_(Lana_Del_Rey_song)>,
+        <http://dbpedia.org/resource/Freak_(Silverchair_song)>,
+        <http://dbpedia.org/resource/Freak_(The_Smashing_Pumpkins_song)> .
+
+<http://example.com/song_21> owl:sameAs <http://dbpedia.org/resource/Whataya_Want_from_Me> .
+
+<http://example.com/song_210> owl:sameAs <http://dbpedia.org/resource/All_of_Me_(Boy_Oh_Boy)>,
+        <http://dbpedia.org/resource/All_of_Me_(John_Legend_song)>,
+        <http://dbpedia.org/resource/All_of_Me_(jazz_standard)> .
+
+<http://example.com/song_211> owl:sameAs <http://dbpedia.org/resource/Stay_with_Me_(DeBarge_song)>,
+        <http://dbpedia.org/resource/Stay_with_Me_(Erasure_song)>,
+        <http://dbpedia.org/resource/Stay_with_Me_(James_Brown_song)> .
+
+<http://example.com/song_212> owl:sameAs <http://dbpedia.org/resource/Summer_(Calvin_Harris_song)>,
+        <http://dbpedia.org/resource/Summer_(Cassadee_Pope_song)>,
+        <http://dbpedia.org/resource/Summer_(Dragon_song)>,
+        <http://dbpedia.org/resource/Summer_(Mogwai_composition)>,
+        <http://dbpedia.org/resource/Summer_(Shy_Child_song)>,
+        <http://dbpedia.org/resource/Summer_(The_First_Time)>,
+        <http://dbpedia.org/resource/Summer_(War_song)> .
+
+<http://example.com/song_214> owl:sameAs <http://dbpedia.org/resource/Rude_(song)> .
+
+<http://example.com/song_215> owl:sameAs <http://dbpedia.org/resource/Shake_It_Off>,
+        <http://dbpedia.org/resource/Shake_It_Off_(Mariah_Carey_song)> .
+
+<http://example.com/song_216> owl:sameAs <http://dbpedia.org/resource/Dark_Horse_(Amanda_Marshall_song)>,
+        <http://dbpedia.org/resource/Dark_Horse_(George_Harrison_song)>,
+        <http://dbpedia.org/resource/Dark_Horse_(Katy_Perry_song)> .
+
+<http://example.com/song_217> owl:sameAs <http://dbpedia.org/resource/Hey_Brother> .
+
+<http://example.com/song_218> owl:sameAs <http://dbpedia.org/resource/Maps_(Lesley_Roy_song)>,
+        <http://dbpedia.org/resource/Maps_(Maroon_5_song)>,
+        <http://dbpedia.org/resource/Maps_(Yeah_Yeah_Yeahs_song)> .
+
+<http://example.com/song_219> owl:sameAs <http://dbpedia.org/resource/Treasure_(song)> .
+
+<http://example.com/song_22> owl:sameAs <http://dbpedia.org/resource/Take_It_Off_(Joe_Nichols_song)>,
+        <http://dbpedia.org/resource/Take_It_Off_(Kesha_song)>,
+        <http://dbpedia.org/resource/Take_It_Off_(Lil_Jon_song)> .
+
+<http://example.com/song_220> owl:sameAs <http://dbpedia.org/resource/Let_Her_Go>,
+        <http://dbpedia.org/resource/Let_Her_Go_(Mark_Collie_song)> .
+
+<http://example.com/song_221> owl:sameAs <http://dbpedia.org/resource/Problem_(Ariana_Grande_song)>,
+        <http://dbpedia.org/resource/Problem_(Natalia_Kills_song)> .
+
+<http://example.com/song_222> owl:sameAs <http://dbpedia.org/resource/Pompeii_(song)> .
+
+<http://example.com/song_223> owl:sameAs <http://dbpedia.org/resource/Team_(Iggy_Azalea_song)>,
+        <http://dbpedia.org/resource/Team_(Lorde_song)> .
+
+<http://example.com/song_224> owl:sameAs <http://dbpedia.org/resource/(I'm_Gonna)_Love_Me_Again>,
+        <http://dbpedia.org/resource/Love_Me_Again_(John_Newman_song)>,
+        <http://dbpedia.org/resource/Love_Me_Again_(Raye_song)> .
+
+<http://example.com/song_225> owl:sameAs <http://dbpedia.org/resource/Latch_(song)> .
+
+<http://example.com/song_226> owl:sameAs <http://dbpedia.org/resource/Adore_You_(Harry_Styles_song)>,
+        <http://dbpedia.org/resource/Adore_You_(Miley_Cyrus_song)> .
+
+<http://example.com/song_227> owl:sameAs <http://dbpedia.org/resource/Love_Never_Felt_So_Good> .
+
+<http://example.com/song_228> owl:sameAs <http://dbpedia.org/resource/Burn_(Alkaline_Trio_song)>,
+        <http://dbpedia.org/resource/Burn_(Deep_Purple_song)>,
+        <http://dbpedia.org/resource/Burn_(Ellie_Goulding_song)>,
+        <http://dbpedia.org/resource/Burn_(Hamilton_song)>,
+        <http://dbpedia.org/resource/Burn_(Industry_song)>,
+        <http://dbpedia.org/resource/Burn_(Jessica_Mauboy_song)>,
+        <http://dbpedia.org/resource/Burn_(Meek_Mill_song)>,
+        <http://dbpedia.org/resource/Burn_(Nine_Inch_Nails_song)>,
+        <http://dbpedia.org/resource/Burn_(Ruth_Lorenzo_song)>,
+        <http://dbpedia.org/resource/Burn_(Tina_Arena_song)>,
+        <http://dbpedia.org/resource/Burn_(Usher_song)> .
+
+<http://example.com/song_229> owl:sameAs <http://dbpedia.org/resource/She_Looks_So_Perfect> .
+
+<http://example.com/song_23> owl:sameAs <http://dbpedia.org/resource/Misery_(Beatles_song)>,
+        <http://dbpedia.org/resource/Misery_(Creeper_song)>,
+        <http://dbpedia.org/resource/Misery_(Gwen_Stefani_song)>,
+        <http://dbpedia.org/resource/Misery_(Maroon_5_song)>,
+        <http://dbpedia.org/resource/Misery_(Soul_Asylum_song)>,
+        <http://dbpedia.org/resource/Misery_(hide_song)> .
+
+<http://example.com/song_230> owl:sameAs <http://dbpedia.org/resource/Fancy_(Bobbie_Gentry_song)>,
+        <http://dbpedia.org/resource/Fancy_(Drake_song)>,
+        <http://dbpedia.org/resource/Fancy_(Iggy_Azalea_song)>,
+        <http://dbpedia.org/resource/Fancy_(Twice_song)> .
+
+<http://example.com/song_232> owl:sameAs <http://dbpedia.org/resource/Gorilla_(song)> .
+
+<http://example.com/song_234> owl:sameAs <http://dbpedia.org/resource/Young_Girls> .
+
+<http://example.com/song_236> owl:sameAs <http://dbpedia.org/resource/Love_Runs_Out>,
+        <http://dbpedia.org/resource/Love_Runs_Out_(Martin_Garrix_song)> .
+
+<http://example.com/song_241> owl:sameAs <http://dbpedia.org/resource/Partition_(song)> .
+
+<http://example.com/song_242> owl:sameAs <http://dbpedia.org/resource/Birthday_(Anne-Marie_song)>,
+        <http://dbpedia.org/resource/Birthday_(Beatles_song)>,
+        <http://dbpedia.org/resource/Birthday_(Disclosure,_Kehlani_and_Syd_song)>,
+        <http://dbpedia.org/resource/Birthday_(Jeon_Somi_song)>,
+        <http://dbpedia.org/resource/Birthday_(K._Michelle_song)>,
+        <http://dbpedia.org/resource/Birthday_(Katy_Perry_song)>,
+        <http://dbpedia.org/resource/Birthday_(Namie_Amuro_song)>,
+        <http://dbpedia.org/resource/Birthday_(Selena_Gomez_song)>,
+        <http://dbpedia.org/resource/Birthday_(Taproot_song)>,
+        <http://dbpedia.org/resource/Birthday_(The_Sugarcubes_song)> .
+
+<http://example.com/song_243> owl:sameAs <http://dbpedia.org/resource/G.U.Y.> .
+
+<http://example.com/song_246> owl:sameAs <http://dbpedia.org/resource/Wings_(1927_film_score)>,
+        <http://dbpedia.org/resource/Wings_(Birdy_song)>,
+        <http://dbpedia.org/resource/Wings_(Delta_Goodrem_song)>,
+        <http://dbpedia.org/resource/Wings_(Little_Mix_song)>,
+        <http://dbpedia.org/resource/Wings_(Macklemore_&_Ryan_Lewis_song)>,
+        <http://dbpedia.org/resource/Wings_(Polina_Bogusevich_song)>,
+        <http://dbpedia.org/resource/Wings_(Ringo_Starr_song)> .
+
+<http://example.com/song_249> owl:sameAs <http://dbpedia.org/resource/Say_Something_(A_Great_Big_World_song)>,
+        <http://dbpedia.org/resource/Say_Something_(Justin_Timberlake_song)>,
+        <http://dbpedia.org/resource/Say_Something_(Karen_Harding_song)>,
+        <http://dbpedia.org/resource/Say_Something_(Kylie_Minogue_song)>,
+        <http://dbpedia.org/resource/Say_Something_(Timbaland_song)> .
+
+<http://example.com/song_25> owl:sameAs <http://dbpedia.org/resource/Animal_(Conor_Maynard_song)>,
+        <http://dbpedia.org/resource/Animal_(Def_Leppard_song)>,
+        <http://dbpedia.org/resource/Animal_(F**k_Like_a_Beast)>,
+        <http://dbpedia.org/resource/Animal_(Jebediah_song)>,
+        <http://dbpedia.org/resource/Animal_(Miike_Snow_song)>,
+        <http://dbpedia.org/resource/Animal_(Neon_Trees_song)>,
+        <http://dbpedia.org/resource/Animal_(Pearl_Jam_song)>,
+        <http://dbpedia.org/resource/Animal_(R.E.M._song)>,
+        <http://dbpedia.org/resource/Animal_(R.I.O._song)>,
+        <http://dbpedia.org/resource/Animal_(Trey_Songz_song)>,
+        <http://dbpedia.org/resource/Animal_(Troye_Sivan_song)>,
+        <http://dbpedia.org/resource/Animal_(�lvaro_Soler_song)> .
+
+<http://example.com/song_250> owl:sameAs <http://dbpedia.org/resource/A_Sky_Full_of_Stars> .
+
+<http://example.com/song_251> owl:sameAs <http://dbpedia.org/resource/Come_Get_It_Bae> .
+
+<http://example.com/song_252> owl:sameAs <http://dbpedia.org/resource/Chandelier_(song)> .
+
+<http://example.com/song_253> owl:sameAs <http://dbpedia.org/resource/XO_(song)> .
+
+<http://example.com/song_255> owl:sameAs <http://dbpedia.org/resource/Not_About_Angels> .
+
+<http://example.com/song_256> owl:sameAs <http://dbpedia.org/resource/Drunk_in_Love> .
+
+<http://example.com/song_257> owl:sameAs <http://dbpedia.org/resource/Anaconda_(song)> .
+
+<http://example.com/song_26> owl:sameAs <http://dbpedia.org/resource/Naturally_(Selena_Gomez_&_the_Scene_song)> .
+
+<http://example.com/song_261> owl:sameAs <http://dbpedia.org/resource/Words_as_Weapons_(Birdy_song)>,
+        <http://dbpedia.org/resource/Words_as_Weapons_(Seether_song)> .
+
+<http://example.com/song_263> owl:sameAs <http://dbpedia.org/resource/Sheezus_(song)> .
+
+<http://example.com/song_264> owl:sameAs <http://dbpedia.org/resource/Cannonball_(Damien_Rice_song)>,
+        <http://dbpedia.org/resource/Cannonball_(Duane_Eddy_song)>,
+        <http://dbpedia.org/resource/Cannonball_(Lea_Michele_song)>,
+        <http://dbpedia.org/resource/Cannonball_(Showtek_and_Justin_Prime_song)>,
+        <http://dbpedia.org/resource/Cannonball_(Skylar_Grey_song)>,
+        <http://dbpedia.org/resource/Cannonball_(Supertramp_song)>,
+        <http://dbpedia.org/resource/Cannonball_(The_Breeders_song)>,
+        <http://dbpedia.org/resource/Cannonball_(Tom_Dice_song)> .
+
+<http://example.com/song_266> owl:sameAs <http://dbpedia.org/resource/I_Luh_Ya_Papi> .
+
+<http://example.com/song_267> owl:sameAs <http://dbpedia.org/resource/Not_a_Bad_Thing> .
+
+<http://example.com/song_27> owl:sameAs <http://dbpedia.org/resource/I_Like_It_(Cardi_B,_Bad_Bunny_and_J_Balvin_song)>,
+        <http://dbpedia.org/resource/I_Like_It_(DeBarge_song)>,
+        <http://dbpedia.org/resource/I_Like_It_(Dino_song)>,
+        <http://dbpedia.org/resource/I_Like_It_(Enrique_Iglesias_song)>,
+        <http://dbpedia.org/resource/I_Like_It_(Foxy_Shazam_song)>,
+        <http://dbpedia.org/resource/I_Like_It_(Gerry_and_the_Pacemakers_song)>,
+        <http://dbpedia.org/resource/I_Like_It_(Narcotic_Thrust_song)>,
+        <http://dbpedia.org/resource/I_Like_It_(Overweight_Pooch_song)>,
+        <http://dbpedia.org/resource/I_Like_It_(Sammie_song)>,
+        <http://dbpedia.org/resource/I_Like_It_Like_That_(Pete_Rodriguez_song)> .
+
+<http://example.com/song_270> owl:sameAs <http://dbpedia.org/resource/The_Hills_(song)> .
+
+<http://example.com/song_271> owl:sameAs <http://dbpedia.org/resource/Love_Yourself>,
+        <http://dbpedia.org/resource/Love_Yourself_(Billy_Porter_song)>,
+        <http://dbpedia.org/resource/Love_Yourself_(Kimi_ga_Kirai_na_Kimi_ga_Suki)>,
+        <http://dbpedia.org/resource/Love_Yourself_(Mary_J._Blige_song)> .
+
+<http://example.com/song_272> owl:sameAs <http://dbpedia.org/resource/Uptown_Funk> .
+
+<http://example.com/song_274> owl:sameAs <http://dbpedia.org/resource/Sugar_(Armand_Van_Helden_song)>,
+        <http://dbpedia.org/resource/Sugar_(Brockhampton_song)>,
+        <http://dbpedia.org/resource/Sugar_(Editors_song)>,
+        <http://dbpedia.org/resource/Sugar_(Flo_Rida_song)>,
+        <http://dbpedia.org/resource/Sugar_(Gimme_Some)>,
+        <http://dbpedia.org/resource/Sugar_(Ladytron_song)>,
+        <http://dbpedia.org/resource/Sugar_(Maroon_5_song)>,
+        <http://dbpedia.org/resource/Sugar_(My_Bloody_Valentine_song)>,
+        <http://dbpedia.org/resource/Sugar_(Natalia_Gordienko_song)>,
+        <http://dbpedia.org/resource/Sugar_(Peking_Duk_and_Jack_River_song)>,
+        <http://dbpedia.org/resource/Sugar_(Robin_Schulz_song)>,
+        <http://dbpedia.org/resource/Sugar_(System_of_a_Down_song)> .
+
+<http://example.com/song_275> owl:sameAs <http://dbpedia.org/resource/Sorry_(Beyonc�_song)>,
+        <http://dbpedia.org/resource/Sorry_(Bic_Runga_song)>,
+        <http://dbpedia.org/resource/Sorry_(Buckcherry_song)>,
+        <http://dbpedia.org/resource/Sorry_(Ciara_song)>,
+        <http://dbpedia.org/resource/Sorry_(Easybeats_song)>,
+        <http://dbpedia.org/resource/Sorry_(Grace_Jones_song)>,
+        <http://dbpedia.org/resource/Sorry_(Halsey_song)>,
+        <http://dbpedia.org/resource/Sorry_(I_Didn't_Know)>,
+        <http://dbpedia.org/resource/Sorry_(I_Ran_All_the_Way_Home)>,
+        <http://dbpedia.org/resource/Sorry_(Ider_song)>,
+        <http://dbpedia.org/resource/Sorry_(Justin_Bieber_song)>,
+        <http://dbpedia.org/resource/Sorry_(Madness_song)>,
+        <http://dbpedia.org/resource/Sorry_(Madonna_song)>,
+        <http://dbpedia.org/resource/Sorry_(Naya_Rivera_song)>,
+        <http://dbpedia.org/resource/Sorry_(Nicki_Minaj_and_Nas_song)>,
+        <http://dbpedia.org/resource/Sorry_(Nothing_but_Thieves_song)>,
+        <http://dbpedia.org/resource/Sorry_(Rick_Ross_song)>,
+        <http://dbpedia.org/resource/Sorry_(T.I._song)>,
+        <http://dbpedia.org/resource/Sorry_(The_Paddingtons_song)> .
+
+<http://example.com/song_276> owl:sameAs <http://dbpedia.org/resource/FourFiveSeconds> .
+
+<http://example.com/song_279> owl:sameAs <http://dbpedia.org/resource/What_Do_You_Mean%3F>,
+        <http://dbpedia.org/resource/What_Do_You_Mean%3F_(Skepta_song)> .
+
+<http://example.com/song_28> owl:sameAs <http://dbpedia.org/resource/Teenage_Dream_(Katy_Perry_song)>,
+        <http://dbpedia.org/resource/Teenage_Dream_(T._Rex_song)> .
+
+<http://example.com/song_280> owl:sameAs <http://dbpedia.org/resource/Stitches_(Orgy_song)>,
+        <http://dbpedia.org/resource/Stitches_(Shawn_Mendes_song)> .
+
+<http://example.com/song_281> owl:sameAs <http://dbpedia.org/resource/Want_to_Want_Me> .
+
+<http://example.com/song_282> owl:sameAs <http://dbpedia.org/resource/My_House_(Flo_Rida_song)>,
+        <http://dbpedia.org/resource/My_House_(Kids_of_88_song)>,
+        <http://dbpedia.org/resource/My_House_(Warren_G_song)> .
+
+<http://example.com/song_284> owl:sameAs <http://dbpedia.org/resource/Night_Changes> .
+
+<http://example.com/song_285> owl:sameAs <http://dbpedia.org/resource/How_Deep_Is_Your_Love_(Bee_Gees_song)>,
+        <http://dbpedia.org/resource/How_Deep_Is_Your_Love_(Calvin_Harris_and_Disciples_song)>,
+        <http://dbpedia.org/resource/How_Deep_Is_Your_Love_(Dru_Hill_song)>,
+        <http://dbpedia.org/resource/How_Deep_Is_Your_Love_(Sean_Paul_song)> .
+
+<http://example.com/song_286> owl:sameAs <http://dbpedia.org/resource/Never_Forget_You_(Mariah_Carey_song)>,
+        <http://dbpedia.org/resource/Never_Forget_You_(Noisettes_song)>,
+        <http://dbpedia.org/resource/Never_Forget_You_(Zara_Larsson_and_MNEK_song)> .
+
+<http://example.com/song_287> owl:sameAs <http://dbpedia.org/resource/Love_Me_Harder> .
+
+<http://example.com/song_288> owl:sameAs <http://dbpedia.org/resource/Animals_(Architects_song)>,
+        <http://dbpedia.org/resource/Animals_(Kevin_Ayers_song)>,
+        <http://dbpedia.org/resource/Animals_(Maroon_5_song)>,
+        <http://dbpedia.org/resource/Animals_(Martin_Garrix_song)>,
+        <http://dbpedia.org/resource/Animals_(Muse_song)>,
+        <http://dbpedia.org/resource/Animals_(Nickelback_song)>,
+        <http://dbpedia.org/resource/Animals_(Sparkadia_song)> .
+
+<http://example.com/song_289> owl:sameAs <http://dbpedia.org/resource/Blame_(Autumn_Hill_song)>,
+        <http://dbpedia.org/resource/Blame_(Bastille_song)>,
+        <http://dbpedia.org/resource/Blame_(Calvin_Harris_song)>,
+        <http://dbpedia.org/resource/Blame_(Collective_Soul_song)>,
+        <http://dbpedia.org/resource/Blame_(Skylar_Stecker_song)>,
+        <http://dbpedia.org/resource/Blame_(Sono_song)> .
+
+<http://example.com/song_290> owl:sameAs <http://dbpedia.org/resource/Beautiful_Encounter_(Yan_Yu)>,
+        <http://dbpedia.org/resource/Worth_It_(Danielle_Bradbery_song)>,
+        <http://dbpedia.org/resource/Worth_It_(Fifth_Harmony_song)> .
+
+<http://example.com/song_291> owl:sameAs <http://dbpedia.org/resource/Break_Free_(song)> .
+
+<http://example.com/song_292> owl:sameAs <http://dbpedia.org/resource/Don't_(Billy_Currington_song)>,
+        <http://dbpedia.org/resource/Don't_(Bryson_Tiller_song)>,
+        <http://dbpedia.org/resource/Don't_(Ed_Sheeran_song)>,
+        <http://dbpedia.org/resource/Don't_(Elvis_Presley_song)> .
+
+<http://example.com/song_293> owl:sameAs <http://dbpedia.org/resource/Elastic_Heart> .
+
+<http://example.com/song_295> owl:sameAs <http://dbpedia.org/resource/Hello_(Adele_song)>,
+        <http://dbpedia.org/resource/Hello_(Aya_Ueto_song)>,
+        <http://dbpedia.org/resource/Hello_(Hedley_song)>,
+        <http://dbpedia.org/resource/Hello_(I_Love_You)>,
+        <http://dbpedia.org/resource/Hello_(Ice_Cube_song)>,
+        <http://dbpedia.org/resource/Hello_(Joy_song)>,
+        <http://dbpedia.org/resource/Hello_(Karmin_song)>,
+        <http://dbpedia.org/resource/Hello_(Kelly_Clarkson_song)>,
+        <http://dbpedia.org/resource/Hello_(Lionel_Richie_song)>,
+        <http://dbpedia.org/resource/Hello_(Martin_Solveig_and_Dragonette_song)>,
+        <http://dbpedia.org/resource/Hello_(Masaharu_Fukuyama_song)>,
+        <http://dbpedia.org/resource/Hello_(Mohombi_song)>,
+        <http://dbpedia.org/resource/Hello_(Paradise_Kiss)>,
+        <http://dbpedia.org/resource/Hello_(Poe_song)>,
+        <http://dbpedia.org/resource/Hello_(Pop_Smoke_song)>,
+        <http://dbpedia.org/resource/Hello_(Stafford_Brothers_song)>,
+        <http://dbpedia.org/resource/Hello_(The_Beloved_song)>,
+        <http://dbpedia.org/resource/Hello_(The_Cat_Empire_song)>,
+        <http://dbpedia.org/resource/Hello_(The_Potbelleez_song)>,
+        <http://dbpedia.org/resource/Hello_(Turn_Your_Radio_On)> .
+
+<http://example.com/song_296> owl:sameAs <http://dbpedia.org/resource/Dear_Future_Husband> .
+
+<http://example.com/song_298> owl:sameAs <http://dbpedia.org/resource/The_Heart_Wants_What_It_Wants> .
+
+<http://example.com/song_3> owl:sameAs <http://dbpedia.org/resource/Bad_Romance> .
+
+<http://example.com/song_301> owl:sameAs <http://dbpedia.org/resource/Company_(Justin_Bieber_song)>,
+        <http://dbpedia.org/resource/Company_(Tinashe_song)> .
+
+<http://example.com/song_302> owl:sameAs <http://dbpedia.org/resource/Sing_(Annie_Lennox_song)>,
+        <http://dbpedia.org/resource/Sing_(Ed_Sheeran_song)>,
+        <http://dbpedia.org/resource/Sing_(Gary_Barlow_song)>,
+        <http://dbpedia.org/resource/Sing_(My_Chemical_Romance_song)>,
+        <http://dbpedia.org/resource/Sing_(Sesame_Street_song)>,
+        <http://dbpedia.org/resource/Sing_(The_Dresden_Dolls_song)>,
+        <http://dbpedia.org/resource/Sing_(Theo_Tams_song)>,
+        <http://dbpedia.org/resource/Sing_(Travis_song)>,
+        <http://dbpedia.org/resource/Sing_(Wynonna_Judd_song)> .
+
+<http://example.com/song_304> owl:sameAs <http://dbpedia.org/resource/Really_Don't_Care> .
+
+<http://example.com/song_306> owl:sameAs <http://dbpedia.org/resource/Only_Love_Can_Hurt_Like_This> .
+
+<http://example.com/song_307> owl:sameAs <http://dbpedia.org/resource/Heartbeat_Song_(Kelly_Clarkson_song)>,
+        <http://dbpedia.org/resource/Heartbeat_Song_(The_Futureheads_song)> .
+
+<http://example.com/song_308> owl:sameAs <http://dbpedia.org/resource/Up_(Cardi_B_song)>,
+        <http://dbpedia.org/resource/Up_(Inna_song)>,
+        <http://dbpedia.org/resource/Up_(James_Morrison_song)>,
+        <http://dbpedia.org/resource/Up_(Luke_Bryan_song)>,
+        <http://dbpedia.org/resource/Up_(Olly_Murs_song)>,
+        <http://dbpedia.org/resource/Up_(The_Saturdays_song)> .
+
+<http://example.com/song_309> owl:sameAs <http://dbpedia.org/resource/Trumpets_(Jason_Derulo_song)>,
+        <http://dbpedia.org/resource/Trumpets_(Sak_Noel_and_Salvi_song)> .
+
+<http://example.com/song_313> owl:sameAs <http://dbpedia.org/resource/Lips_Are_Movin> .
+
+<http://example.com/song_314> owl:sameAs <http://dbpedia.org/resource/I'll_Show_You_(Justin_Bieber_song)> .
+
+<http://example.com/song_315> owl:sameAs <http://dbpedia.org/resource/Here_(1954_song)>,
+        <http://dbpedia.org/resource/Here_(Alessia_Cara_song)>,
+        <http://dbpedia.org/resource/Here_(For_Christmas)>,
+        <http://dbpedia.org/resource/Here_(In_Your_Arms)>,
+        <http://dbpedia.org/resource/Here_(Rascal_Flatts_song)>,
+        <http://dbpedia.org/resource/Here_(The_Grace_song)> .
+
+<http://example.com/song_316> owl:sameAs <http://dbpedia.org/resource/I_Lived> .
+
+<http://example.com/song_318> owl:sameAs <http://dbpedia.org/resource/Easy_Love_(Dionne_Warwick_song)>,
+        <http://dbpedia.org/resource/Easy_Love_(Lauv_song)>,
+        <http://dbpedia.org/resource/Easy_Love_(Sigala_song)> .
+
+<http://example.com/song_319> owl:sameAs <http://dbpedia.org/resource/The_Feeling_(song)> .
+
+<http://example.com/song_320> owl:sameAs <http://dbpedia.org/resource/I_Really_Like_You> .
+
+<http://example.com/song_322> owl:sameAs <http://dbpedia.org/resource/Sugar_(Armand_Van_Helden_song)>,
+        <http://dbpedia.org/resource/Sugar_(Brockhampton_song)>,
+        <http://dbpedia.org/resource/Sugar_(Editors_song)>,
+        <http://dbpedia.org/resource/Sugar_(Flo_Rida_song)>,
+        <http://dbpedia.org/resource/Sugar_(Gimme_Some)>,
+        <http://dbpedia.org/resource/Sugar_(Ladytron_song)>,
+        <http://dbpedia.org/resource/Sugar_(Maroon_5_song)>,
+        <http://dbpedia.org/resource/Sugar_(My_Bloody_Valentine_song)>,
+        <http://dbpedia.org/resource/Sugar_(Natalia_Gordienko_song)>,
+        <http://dbpedia.org/resource/Sugar_(Peking_Duk_and_Jack_River_song)>,
+        <http://dbpedia.org/resource/Sugar_(Robin_Schulz_song)>,
+        <http://dbpedia.org/resource/Sugar_(System_of_a_Down_song)> .
+
+<http://example.com/song_323> owl:sameAs <http://dbpedia.org/resource/Focus_(Ariana_Grande_song)>,
+        <http://dbpedia.org/resource/Focus_(Bazzi_song)>,
+        <http://dbpedia.org/resource/Focus_(H.E.R._song)> .
+
+<http://example.com/song_324> owl:sameAs <http://dbpedia.org/resource/All_About_That_Bass> .
+
+<http://example.com/song_325> owl:sameAs <http://dbpedia.org/resource/(Baby_I've_Got_You)_On_My_Mind>,
+        <http://dbpedia.org/resource/On_My_Mind_(Cody_Simpson_song)>,
+        <http://dbpedia.org/resource/On_My_Mind_(Diplo_and_Sidepiece_song)>,
+        <http://dbpedia.org/resource/On_My_Mind_(Disciples_song)>,
+        <http://dbpedia.org/resource/On_My_Mind_(Ellie_Goulding_song)> .
+
+<http://example.com/song_327> owl:sameAs <http://dbpedia.org/resource/Broken_Arrows_(song)> .
+
+<http://example.com/song_328> owl:sameAs <http://dbpedia.org/resource/Booty_(Blac_Youngsta_song)>,
+        <http://dbpedia.org/resource/Booty_(C._Tangana_and_Becky_G_song)>,
+        <http://dbpedia.org/resource/Booty_(Jennifer_Lopez_song)> .
+
+<http://example.com/song_33> owl:sameAs <http://dbpedia.org/resource/Imma_Be> .
+
+<http://example.com/song_331> owl:sameAs <http://dbpedia.org/resource/Lay_It_All_on_Me_(song)> .
+
+<http://example.com/song_332> owl:sameAs <http://dbpedia.org/resource/American_Oxygen> .
+
+<http://example.com/song_333> owl:sameAs <http://dbpedia.org/resource/Bang_Bang_(BA_Robertson_song)>,
+        <http://dbpedia.org/resource/Bang_Bang_(DJ_Fresh_and_Diplo_song)>,
+        <http://dbpedia.org/resource/Bang_Bang_(Danger_Danger_song)>,
+        <http://dbpedia.org/resource/Bang_Bang_(Green_Day_song)>,
+        <http://dbpedia.org/resource/Bang_Bang_(Iggy_Pop_song)>,
+        <http://dbpedia.org/resource/Bang_Bang_(Jessie_J,_Ariana_Grande_and_Nicki_Minaj_song)>,
+        <http://dbpedia.org/resource/Bang_Bang_(Kardinal_Offishall_song)>,
+        <http://dbpedia.org/resource/Bang_Bang_(Melanie_Fiona_song)>,
+        <http://dbpedia.org/resource/Bang_Bang_(My_Baby_Shot_Me_Down)>,
+        <http://dbpedia.org/resource/Bang_Bang_(Rita_Ora_and_Imanbek_song)>,
+        <http://dbpedia.org/resource/Bang_Bang_(Squeeze_song)>,
+        <http://dbpedia.org/resource/Bang_Bang_(will.i.am_song)> .
+
+<http://example.com/song_335> owl:sameAs <http://dbpedia.org/resource/Alive_(Beastie_Boys_song)>,
+        <http://dbpedia.org/resource/Alive_(Bee_Gees_song)>,
+        <http://dbpedia.org/resource/Alive_(Black_Eyed_Peas_song)>,
+        <http://dbpedia.org/resource/Alive_(Chase_&_Status_song)>,
+        <http://dbpedia.org/resource/Alive_(Dami_Im_song)>,
+        <http://dbpedia.org/resource/Alive_(Empire_of_the_Sun_song)>,
+        <http://dbpedia.org/resource/Alive_(Goldfrapp_song)>,
+        <http://dbpedia.org/resource/Alive_(Jennifer_Lopez_song)>,
+        <http://dbpedia.org/resource/Alive_(Kate_Ryan_song)>,
+        <http://dbpedia.org/resource/Alive_(Krewella_song)>,
+        <http://dbpedia.org/resource/Alive_(Lo-Pro_song)>,
+        <http://dbpedia.org/resource/Alive_(Melissa_O'Neil_song)>,
+        <http://dbpedia.org/resource/Alive_(Natalie_Bassingthwaighte_song)>,
+        <http://dbpedia.org/resource/Alive_(P.O.D._song)>,
+        <http://dbpedia.org/resource/Alive_(Pearl_Jam_song)>,
+        <http://dbpedia.org/resource/Alive_(Rebecca_St._James_song)>,
+        <http://dbpedia.org/resource/Alive_(R�f�s_Du_Sol_song)>,
+        <http://dbpedia.org/resource/Alive_(S_Club_song)>,
+        <http://dbpedia.org/resource/Alive_(Sia_song)>,
+        <http://dbpedia.org/resource/Alive_(Sonique_song)>,
+        <http://dbpedia.org/resource/Alive_(Vincent_Bueno_song)> .
+
+<http://example.com/song_34> owl:sameAs <http://dbpedia.org/resource/Try_Sleeping_with_a_Broken_Heart> .
+
+<http://example.com/song_342> owl:sameAs <http://dbpedia.org/resource/(Closest_Thing_To)_Perfect>,
+        <http://dbpedia.org/resource/Perfect_(Darin_song)>,
+        <http://dbpedia.org/resource/Perfect_(Ed_Sheeran_song)>,
+        <http://dbpedia.org/resource/Perfect_(Exceeder)>,
+        <http://dbpedia.org/resource/Perfect_(Fairground_Attraction_song)>,
+        <http://dbpedia.org/resource/Perfect_(Hedley_song)>,
+        <http://dbpedia.org/resource/Perfect_(Logic_song)>,
+        <http://dbpedia.org/resource/Perfect_(One_Direction_song)>,
+        <http://dbpedia.org/resource/Perfect_(PJ_&_Duncan_song)>,
+        <http://dbpedia.org/resource/Perfect_(Princess_Superstar_song)>,
+        <http://dbpedia.org/resource/Perfect_(Sara_Evans_song)>,
+        <http://dbpedia.org/resource/Perfect_(Simple_Plan_song)>,
+        <http://dbpedia.org/resource/Perfect_(The_Smashing_Pumpkins_song)>,
+        <http://dbpedia.org/resource/Perfect_(Topic_and_Ally_Brooke_song)>,
+        <http://dbpedia.org/resource/Perfect_(Vanessa_Amorosi_song)> .
+
+<http://example.com/song_343> owl:sameAs <http://dbpedia.org/resource/Ghosttown_(Madonna_song)> .
+
+<http://example.com/song_345> owl:sameAs <http://dbpedia.org/resource/Bloodstream_(song)> .
+
+<http://example.com/song_347> owl:sameAs <http://dbpedia.org/resource/Baby_Don't_Lie> .
+
+<http://example.com/song_349> owl:sameAs <http://dbpedia.org/resource/Steal_My_Girl> .
+
+<http://example.com/song_351> owl:sameAs <http://dbpedia.org/resource/We_Are_Here_(Alicia_Keys_song)> .
+
+<http://example.com/song_354> owl:sameAs <http://dbpedia.org/resource/Time_of_Our_Lives_(Chawki_song)>,
+        <http://dbpedia.org/resource/Time_of_Our_Lives_(Pitbull_and_Ne-Yo_song)> .
+
+<http://example.com/song_355> owl:sameAs <http://dbpedia.org/resource/Sparks_(Cover_Drive_song)>,
+        <http://dbpedia.org/resource/Sparks_(Hilary_Duff_song)>,
+        <http://dbpedia.org/resource/Sparks_(R�yksopp_song)>,
+        <http://dbpedia.org/resource/Sparks_(Stevie_Appleton_song)> .
+
+<http://example.com/song_356> owl:sameAs <http://dbpedia.org/resource/Mr._Put_It_Down> .
+
+<http://example.com/song_359> owl:sameAs <http://dbpedia.org/resource/Run,_Run,_Run_(The_Supremes_song)>,
+        <http://dbpedia.org/resource/Run_Run_Run_(Celeste_Buckingham_song)>,
+        <http://dbpedia.org/resource/Run_Run_Run_(High_and_Mighty_Color_song)>,
+        <http://dbpedia.org/resource/Run_Run_Run_(The_Velvet_Underground_song)>,
+        <http://dbpedia.org/resource/Run_Run_Run_(Tokio_Hotel_song)> .
+
+<http://example.com/song_361> owl:sameAs <http://dbpedia.org/resource/Dangerous_(Big_Data_song)>,
+        <http://dbpedia.org/resource/Dangerous_(Busta_Rhymes_song)>,
+        <http://dbpedia.org/resource/Dangerous_(Cascada_song)>,
+        <http://dbpedia.org/resource/Dangerous_(David_Guetta_song)>,
+        <http://dbpedia.org/resource/Dangerous_(James_Blunt_song)>,
+        <http://dbpedia.org/resource/Dangerous_(Kardinal_Offishall_song)>,
+        <http://dbpedia.org/resource/Dangerous_(M._Pokora_song)>,
+        <http://dbpedia.org/resource/Dangerous_(Michael_Jackson_song)>,
+        <http://dbpedia.org/resource/Dangerous_(Morgan_Wallen_song)>,
+        <http://dbpedia.org/resource/Dangerous_(Roxette_song)>,
+        <http://dbpedia.org/resource/Dangerous_(Rumer_song)>,
+        <http://dbpedia.org/resource/Dangerous_(S-X_song)>,
+        <http://dbpedia.org/resource/Dangerous_(Seether_song)>,
+        <http://dbpedia.org/resource/Dangerous_(The_Doobie_Brothers_song)>,
+        <http://dbpedia.org/resource/Dangerous_(Within_Temptation_song)>,
+        <http://dbpedia.org/resource/Dangerous_(Ying_Yang_Twins_song)> .
+
+<http://example.com/song_363> owl:sameAs <http://dbpedia.org/resource/The_Hills_(song)> .
+
+<http://example.com/song_364> owl:sameAs <http://dbpedia.org/resource/Love_Yourself>,
+        <http://dbpedia.org/resource/Love_Yourself_(Billy_Porter_song)>,
+        <http://dbpedia.org/resource/Love_Yourself_(Kimi_ga_Kirai_na_Kimi_ga_Suki)>,
+        <http://dbpedia.org/resource/Love_Yourself_(Mary_J._Blige_song)> .
+
+<http://example.com/song_366> owl:sameAs <http://dbpedia.org/resource/Don't_Let_Me_Down_(Beatles_song)>,
+        <http://dbpedia.org/resource/Don't_Let_Me_Down_(Eskimo_Joe_song)>,
+        <http://dbpedia.org/resource/Don't_Let_Me_Down_(Leona_Lewis_song)>,
+        <http://dbpedia.org/resource/Don't_Let_Me_Down_(Lotta_Engberg_and_Christer_Sj�gren_song)>,
+        <http://dbpedia.org/resource/Don't_Let_Me_Down_(Milky_Chance_and_Jack_Johnson_song)>,
+        <http://dbpedia.org/resource/Don't_Let_Me_Down_(The_Chainsmokers_song)>,
+        <http://dbpedia.org/resource/Don't_Let_Me_Down_(The_Farm_song)> .
+
+<http://example.com/song_367> owl:sameAs <http://dbpedia.org/resource/In_the_Name_of_Love_(Martin_Garrix_and_Bebe_Rexha_song)>,
+        <http://dbpedia.org/resource/In_the_Name_of_Love_(Monika_Kuszy?ska_song)>,
+        <http://dbpedia.org/resource/In_the_Name_of_Love_(Thompson_Twins_song)> .
+
+<http://example.com/song_368> owl:sameAs <http://dbpedia.org/resource/Into_You_(Ariana_Grande_song)>,
+        <http://dbpedia.org/resource/Into_You_(Fabolous_song)> .
+
+<http://example.com/song_369> owl:sameAs <http://dbpedia.org/resource/This_Is_What_You_Came_For> .
+
+<http://example.com/song_37> owl:sameAs <http://dbpedia.org/resource/If_I_Had_You_(Adam_Lambert_song)>,
+        <http://dbpedia.org/resource/If_I_Had_You_(Alabama_song)>,
+        <http://dbpedia.org/resource/If_I_Had_You_(Karen_Carpenter_song)> .
+
+<http://example.com/song_370> owl:sameAs <http://dbpedia.org/resource/Million_Reasons> .
+
+<http://example.com/song_371> owl:sameAs <http://dbpedia.org/resource/Needed_Me> .
+
+<http://example.com/song_377> owl:sameAs <http://dbpedia.org/resource/Work_(Ciara_song)>,
+        <http://dbpedia.org/resource/Work_(Iggy_Azalea_song)>,
+        <http://dbpedia.org/resource/Work_(Jars_of_Clay_song)>,
+        <http://dbpedia.org/resource/Work_(Jimmy_Eat_World_song)>,
+        <http://dbpedia.org/resource/Work_(Kelly_Rowland_song)>,
+        <http://dbpedia.org/resource/Work_(Rihanna_song)>,
+        <http://dbpedia.org/resource/Work_(The_2_Bears_song)>,
+        <http://dbpedia.org/resource/Work_(The_Saturdays_song)> .
+
+<http://example.com/song_378> owl:sameAs <http://dbpedia.org/resource/Stitches_(Orgy_song)>,
+        <http://dbpedia.org/resource/Stitches_(Shawn_Mendes_song)> .
+
+<http://example.com/song_379> owl:sameAs <http://dbpedia.org/resource/Me,_Myself_&_I_(Blonde_song)>,
+        <http://dbpedia.org/resource/Me,_Myself_&_I_(G-Eazy_and_Bebe_Rexha_song)>,
+        <http://dbpedia.org/resource/Me,_Myself_&_I_(Scandal'us_song)> .
+
+<http://example.com/song_38> owl:sameAs <http://dbpedia.org/resource/Rock_That_Body> .
+
+<http://example.com/song_381> owl:sameAs <http://dbpedia.org/resource/Dangerous_Woman_(song)> .
+
+<http://example.com/song_382> owl:sameAs <http://dbpedia.org/resource/Starving_(song)> .
+
+<http://example.com/song_383> owl:sameAs <http://dbpedia.org/resource/Shout_Out_to_My_Ex> .
+
+<http://example.com/song_384> owl:sameAs <http://dbpedia.org/resource/Electric_Love_(song)> .
+
+<http://example.com/song_385> owl:sameAs <http://dbpedia.org/resource/Confident_(Demi_Lovato_song)>,
+        <http://dbpedia.org/resource/Confident_(Justin_Bieber_song)> .
+
+<http://example.com/song_386> owl:sameAs <http://dbpedia.org/resource/Too_Good> .
+
+<http://example.com/song_387> owl:sameAs <http://dbpedia.org/resource/Roses_(Benny_Blanco_and_Juice_Wrld_song)>,
+        <http://dbpedia.org/resource/Roses_(MacKenzie_Bourg_song)>,
+        <http://dbpedia.org/resource/Roses_(Outkast_song)>,
+        <http://dbpedia.org/resource/Roses_(Saint_Jhn_song)>,
+        <http://dbpedia.org/resource/Roses_(The_Chainsmokers_song)> .
+
+<http://example.com/song_389> owl:sameAs <http://dbpedia.org/resource/Me_Too_(Meghan_Trainor_song)>,
+        <http://dbpedia.org/resource/Me_Too_(Toby_Keith_song)> .
+
+<http://example.com/song_39> owl:sameAs <http://dbpedia.org/resource/Dog_Days_Are_Over> .
+
+<http://example.com/song_392> owl:sameAs <http://dbpedia.org/resource/Close_(Jade_Eagleson_song)>,
+        <http://dbpedia.org/resource/Close_(Nick_Jonas_song)>,
+        <http://dbpedia.org/resource/Close_(Rae_Sremmurd,_Swae_Lee_and_Slim_Jxmmi_song)>,
+        <http://dbpedia.org/resource/Close_(Sub_Focus_song)>,
+        <http://dbpedia.org/resource/Close_(We_Stroke_the_Flames)>,
+        <http://dbpedia.org/resource/Close_(to_the_Edit)> .
+
+<http://example.com/song_393> owl:sameAs <http://dbpedia.org/resource/Toothbrush_(song)> .
+
+<http://example.com/song_394> owl:sameAs <http://dbpedia.org/resource/All_We_Know>,
+        <http://dbpedia.org/resource/All_We_Know_(Paramore_song)> .
+
+<http://example.com/song_395> owl:sameAs <http://dbpedia.org/resource/Final_Song> .
+
+<http://example.com/song_396> owl:sameAs <http://dbpedia.org/resource/Company_(Justin_Bieber_song)>,
+        <http://dbpedia.org/resource/Company_(Tinashe_song)> .
+
+<http://example.com/song_398> owl:sameAs <http://dbpedia.org/resource/All_I_Ask> .
+
+<http://example.com/song_4> owl:sameAs <http://dbpedia.org/resource/Just_the_Way_You_Are_(Billy_Joel_song)>,
+        <http://dbpedia.org/resource/Just_the_Way_You_Are_(Bruno_Mars_song)>,
+        <http://dbpedia.org/resource/Just_the_Way_You_Are_(Drunk_at_the_Bar)>,
+        <http://dbpedia.org/resource/Just_the_Way_You_Are_(Milky_song)> .
+
+<http://example.com/song_402> owl:sameAs <http://dbpedia.org/resource/Cool_Girl> .
+
+<http://example.com/song_404> owl:sameAs <http://dbpedia.org/resource/Here_(1954_song)>,
+        <http://dbpedia.org/resource/Here_(Alessia_Cara_song)>,
+        <http://dbpedia.org/resource/Here_(For_Christmas)>,
+        <http://dbpedia.org/resource/Here_(In_Your_Arms)>,
+        <http://dbpedia.org/resource/Here_(Rascal_Flatts_song)>,
+        <http://dbpedia.org/resource/Here_(The_Grace_song)> .
+
+<http://example.com/song_405> owl:sameAs <http://dbpedia.org/resource/Perfect_Illusion> .
+
+<http://example.com/song_408> owl:sameAs <http://dbpedia.org/resource/Rise_(Danny_Gokey_song)>,
+        <http://dbpedia.org/resource/Rise_(Daryl_Braithwaite_song)>,
+        <http://dbpedia.org/resource/Rise_(Eddie_Amador_song)>,
+        <http://dbpedia.org/resource/Rise_(Flobots_song)>,
+        <http://dbpedia.org/resource/Rise_(Gabrielle_song)>,
+        <http://dbpedia.org/resource/Rise_(Jonas_Blue_song)>,
+        <http://dbpedia.org/resource/Rise_(Katy_Perry_song)>,
+        <http://dbpedia.org/resource/Rise_(Lost_Frequencies_song)>,
+        <http://dbpedia.org/resource/Rise_(Public_Image_Ltd_song)>,
+        <http://dbpedia.org/resource/Rise_(Samantha_James_song)>,
+        <http://dbpedia.org/resource/Rise_(instrumental)> .
+
+<http://example.com/song_409> owl:sameAs <http://dbpedia.org/resource/Wherever_I_Go_(Dan_Bremnes_song)>,
+        <http://dbpedia.org/resource/Wherever_I_Go_(OneRepublic_song)> .
+
+<http://example.com/song_41> owl:sameAs <http://dbpedia.org/resource/Doesn't_Mean_Anything> .
+
+<http://example.com/song_410> owl:sameAs <http://dbpedia.org/resource/Body_Say> .
+
+<http://example.com/song_413> owl:sameAs <http://dbpedia.org/resource/Cheap_Thrills_(song)> .
+
+<http://example.com/song_414> owl:sameAs <http://dbpedia.org/resource/I_Got_You_(Badfinger_song)>,
+        <http://dbpedia.org/resource/I_Got_You_(Craig_Morgan_song)>,
+        <http://dbpedia.org/resource/I_Got_You_(Dwight_Yoakam_song)>,
+        <http://dbpedia.org/resource/I_Got_You_(I_Feel_Good)>,
+        <http://dbpedia.org/resource/I_Got_You_(Jack_Johnson_song)>,
+        <http://dbpedia.org/resource/I_Got_You_(Leona_Lewis_song)>,
+        <http://dbpedia.org/resource/I_Got_You_(Nick_Carter_song)>,
+        <http://dbpedia.org/resource/I_Got_You_(Shenandoah_song)>,
+        <http://dbpedia.org/resource/I_Got_You_(Split_Enz_song)>,
+        <http://dbpedia.org/resource/I_Got_You_(Thompson_Square_song)> .
+
+<http://example.com/song_419> owl:sameAs <http://dbpedia.org/resource/Desire_(Bee_Gees_song)>,
+        <http://dbpedia.org/resource/Desire_(Darin_song)>,
+        <http://dbpedia.org/resource/Desire_(Do_As_Infinity_song)>,
+        <http://dbpedia.org/resource/Desire_(Geri_Halliwell_song)>,
+        <http://dbpedia.org/resource/Desire_(J?netsu)>,
+        <http://dbpedia.org/resource/Desire_(Luna_Sea_song)>,
+        <http://dbpedia.org/resource/Desire_(Me_Tienes_Loquita)>,
+        <http://dbpedia.org/resource/Desire_(Ryan_Adams_song)>,
+        <http://dbpedia.org/resource/Desire_(U2_song)>,
+        <http://dbpedia.org/resource/Desire_(Years_&_Years_song)>,
+        <http://dbpedia.org/resource/Desire_(Yello_song)> .
+
+<http://example.com/song_42> owl:sameAs <http://dbpedia.org/resource/Hard_(song)> .
+
+<http://example.com/song_420> owl:sameAs <http://dbpedia.org/resource/When_We_Were_Young_(Adele_song)>,
+        <http://dbpedia.org/resource/When_We_Were_Young_(Bucks_Fizz_song)>,
+        <http://dbpedia.org/resource/When_We_Were_Young_(Dillon_Francis_and_Sultan_+_Shepard_song)>,
+        <http://dbpedia.org/resource/When_We_Were_Young_(Human_Nature_song)>,
+        <http://dbpedia.org/resource/When_We_Were_Young_(Sneaky_Sound_System_song)>,
+        <http://dbpedia.org/resource/When_We_Were_Young_(Take_That_song)> .
+
+<http://example.com/song_421> owl:sameAs <http://dbpedia.org/resource/I_Know_What_You_Did_Last_Summer_(song)> .
+
+<http://example.com/song_423> owl:sameAs <http://dbpedia.org/resource/Hurts_(song)> .
+
+<http://example.com/song_424> owl:sameAs <http://dbpedia.org/resource/Change_(Charlie_Puth_song)>,
+        <http://dbpedia.org/resource/Change_(Christina_Aguilera_song)>,
+        <http://dbpedia.org/resource/Change_(Daniel_Merriweather_song)>,
+        <http://dbpedia.org/resource/Change_(Hotel_FM_song)>,
+        <http://dbpedia.org/resource/Change_(Hyuna_song)>,
+        <http://dbpedia.org/resource/Change_(In_the_House_of_Flies)>,
+        <http://dbpedia.org/resource/Change_(J._Cole_song)>,
+        <http://dbpedia.org/resource/Change_(John_Waite_song)>,
+        <http://dbpedia.org/resource/Change_(Killing_Joke_song)>,
+        <http://dbpedia.org/resource/Change_(Kimberley_Locke_song)>,
+        <http://dbpedia.org/resource/Change_(Lana_Del_Rey_song)>,
+        <http://dbpedia.org/resource/Change_(Lisa_Stansfield_song)>,
+        <http://dbpedia.org/resource/Change_(Miwa_song)>,
+        <http://dbpedia.org/resource/Change_(Pale_Waves_song)>,
+        <http://dbpedia.org/resource/Change_(Sugababes_song)>,
+        <http://dbpedia.org/resource/Change_(Taylor_Swift_song)>,
+        <http://dbpedia.org/resource/Change_(Tears_for_Fears_song)> .
+
+<http://example.com/song_426> owl:sameAs <http://dbpedia.org/resource/Keeping_Your_Head_Up> .
+
+<http://example.com/song_427> owl:sameAs <http://dbpedia.org/resource/True_Colors_(Cyndi_Lauper_song)>,
+        <http://dbpedia.org/resource/True_Colors_(Zedd_song)> .
+
+<http://example.com/song_428> owl:sameAs <http://dbpedia.org/resource/Make_Me_Like_You> .
+
+<http://example.com/song_429> owl:sameAs <http://dbpedia.org/resource/Champagne_Problems_(Nick_Jonas_song)>,
+        <http://dbpedia.org/resource/Champagne_Problems_(Taylor_Swift_song)> .
+
+<http://example.com/song_43> owl:sameAs <http://dbpedia.org/resource/Loca_(Dana_International_song)>,
+        <http://dbpedia.org/resource/Loca_(Honey_Singh_song)>,
+        <http://dbpedia.org/resource/Loca_(Khea_song)>,
+        <http://dbpedia.org/resource/Loca_(Shakira_song)>,
+        <http://dbpedia.org/resource/Loca_(�lvaro_Soler_song)> .
+
+<http://example.com/song_431> owl:sameAs <http://dbpedia.org/resource/Start_(Rina_Aiuchi_song)> .
+
+<http://example.com/song_432> owl:sameAs <http://dbpedia.org/resource/Pep_Rally_(song)> .
+
+<http://example.com/song_433> owl:sameAs <http://dbpedia.org/resource/Higher_(Clean_Bandit_song)>,
+        <http://dbpedia.org/resource/Higher_(Creed_song)>,
+        <http://dbpedia.org/resource/Higher_(DJ_Khaled_song)>,
+        <http://dbpedia.org/resource/Higher_(Deborah_Cox_song)>,
+        <http://dbpedia.org/resource/Higher_(Eminem_song)>,
+        <http://dbpedia.org/resource/Higher_(Erik_Gr�nwall_song)>,
+        <http://dbpedia.org/resource/Higher_(Free)>,
+        <http://dbpedia.org/resource/Higher_(Gloria_Estefan_song)>,
+        <http://dbpedia.org/resource/Higher_(Laura_Tesoro_song)>,
+        <http://dbpedia.org/resource/Higher_(Peter_J�back_song)>,
+        <http://dbpedia.org/resource/Higher_(Rihanna_song)>,
+        <http://dbpedia.org/resource/Higher_(Sigma_song)>,
+        <http://dbpedia.org/resource/Higher_(Star_Pilots_song)>,
+        <http://dbpedia.org/resource/Higher_(Taio_Cruz_song)>,
+        <http://dbpedia.org/resource/Higher_(The_Game_song)>,
+        <http://dbpedia.org/resource/Higher_(The_Naked_and_Famous_song)>,
+        <http://dbpedia.org/resource/Higher_(The_Saturdays_song)> .
+
+<http://example.com/song_437> owl:sameAs <http://dbpedia.org/resource/Little_Lies> .
+
+<http://example.com/song_438> owl:sameAs <http://dbpedia.org/resource/Do_You_Wanna_Come_Over%3F> .
+
+<http://example.com/song_44> owl:sameAs <http://dbpedia.org/resource/You_Lost_Me> .
+
+<http://example.com/song_442> owl:sameAs <http://dbpedia.org/resource/Million_Years_Ago_(song)> .
+
+<http://example.com/song_443> owl:sameAs <http://dbpedia.org/resource/Shape_of_You>,
+        <http://dbpedia.org/resource/Shape_of_You_(Reshaped)> .
+
+<http://example.com/song_444> owl:sameAs <http://dbpedia.org/resource/Closer_(Capone-N-Noreaga_song)>,
+        <http://dbpedia.org/resource/Closer_(Corinne_Bailey_Rae_song)>,
+        <http://dbpedia.org/resource/Closer_(Jars_of_Clay_song)>,
+        <http://dbpedia.org/resource/Closer_(Joe_Inoue_song)>,
+        <http://dbpedia.org/resource/Closer_(Mandy_Capristo_song)>,
+        <http://dbpedia.org/resource/Closer_(Maverick_City_Music_song)>,
+        <http://dbpedia.org/resource/Closer_(Michael_Paynter_song)>,
+        <http://dbpedia.org/resource/Closer_(Ne-Yo_song)>,
+        <http://dbpedia.org/resource/Closer_(Nine_Inch_Nails_song)>,
+        <http://dbpedia.org/resource/Closer_(Saweetie_song)>,
+        <http://dbpedia.org/resource/Closer_(Slinkee_Minx_song)>,
+        <http://dbpedia.org/resource/Closer_(Tegan_and_Sara_song)>,
+        <http://dbpedia.org/resource/Closer_(The_Chainsmokers_song)>,
+        <http://dbpedia.org/resource/Closer_(Travis_song)> .
+
+<http://example.com/song_445> owl:sameAs <http://dbpedia.org/resource/Starboy_(song)> .
+
+<http://example.com/song_446> owl:sameAs <http://dbpedia.org/resource/Treat_You_Better_(R�f�s_Du_Sol_song)>,
+        <http://dbpedia.org/resource/Treat_You_Better_(Shawn_Mendes_song)> .
+
+<http://example.com/song_447> owl:sameAs <http://dbpedia.org/resource/That's_What_I_Like_(Bruno_Mars_song)>,
+        <http://dbpedia.org/resource/That's_What_I_Like_(Jive_Bunny_and_the_Mastermixers_song)> .
+
+<http://example.com/song_448> owl:sameAs <http://dbpedia.org/resource/Let_Me_Love_You_(Ariana_Grande_song)>,
+        <http://dbpedia.org/resource/Let_Me_Love_You_(DJ_Rebel_and_Mohombi_song)>,
+        <http://dbpedia.org/resource/Let_Me_Love_You_(Junggigo_and_Chanyeol_song)>,
+        <http://dbpedia.org/resource/Let_Me_Love_You_(Mario_song)>,
+        <http://dbpedia.org/resource/Let_Me_Love_You_(Until_You_Learn_to_Love_Yourself)> .
+
+<http://example.com/song_449> owl:sameAs <http://dbpedia.org/resource/I_Feel_It_Coming> .
+
+<http://example.com/song_45> owl:sameAs <http://dbpedia.org/resource/Not_Myself_Tonight> .
+
+<http://example.com/song_450> owl:sameAs <http://dbpedia.org/resource/Mercy_(Brett_Young_song)>,
+        <http://dbpedia.org/resource/Mercy_(Dave_Matthews_Band_song)>,
+        <http://dbpedia.org/resource/Mercy_(Duffy_song)>,
+        <http://dbpedia.org/resource/Mercy_(Elevation_Worship_and_Maverick_City_Music_song)>,
+        <http://dbpedia.org/resource/Mercy_(Kanye_West_song)>,
+        <http://dbpedia.org/resource/Mercy_(Madame_Monsieur_song)>,
+        <http://dbpedia.org/resource/Mercy_(Muse_song)>,
+        <http://dbpedia.org/resource/Mercy_(Shawn_Mendes_song)> .
+
+<http://example.com/song_451> owl:sameAs <http://dbpedia.org/resource/Side_to_Side> .
+
+<http://example.com/song_452> owl:sameAs <http://dbpedia.org/resource/If_You_Want_Me_to_Stay>,
+        <http://dbpedia.org/resource/Stay_(2-4_Family_song)>,
+        <http://dbpedia.org/resource/Stay_(Anna_Odobescu_song)>,
+        <http://dbpedia.org/resource/Stay_(Bernard_Butler_song)>,
+        <http://dbpedia.org/resource/Stay_(Black_Stone_Cherry_song)>,
+        <http://dbpedia.org/resource/Stay_(Blackpink_song)>,
+        <http://dbpedia.org/resource/Stay_(David_Bowie_song)>,
+        <http://dbpedia.org/resource/Stay_(David_Guetta_song)>,
+        <http://dbpedia.org/resource/Stay_(Destine_song)>,
+        <http://dbpedia.org/resource/Stay_(Don't_Go_Away)>,
+        <http://dbpedia.org/resource/Stay_(Elisa_song)>,
+        <http://dbpedia.org/resource/Stay_(Eternal_song)>,
+        <http://dbpedia.org/resource/Stay_(Faraway,_So_Close!)>,
+        <http://dbpedia.org/resource/Stay_(Hebe_Tien_song)>,
+        <http://dbpedia.org/resource/Stay_(Hurts_song)>,
+        <http://dbpedia.org/resource/Stay_(I_Missed_You)>,
+        <http://dbpedia.org/resource/Stay_(Jay_Sean_song)>,
+        <http://dbpedia.org/resource/Stay_(Jeremy_Camp_song)>,
+        <http://dbpedia.org/resource/Stay_(Jodeci_song)>,
+        <http://dbpedia.org/resource/Stay_(Kygo_song)>,
+        <http://dbpedia.org/resource/Stay_(Maurice_Williams_song)>,
+        <http://dbpedia.org/resource/Stay_(Ne-Yo_song)>,
+        <http://dbpedia.org/resource/Stay_(Nick_Jonas_&_the_Administration_song)>,
+        <http://dbpedia.org/resource/Stay_(Post_Malone_song)>,
+        <http://dbpedia.org/resource/Stay_(Rihanna_song)>,
+        <http://dbpedia.org/resource/Stay_(SafetySuit_song)>,
+        <http://dbpedia.org/resource/Stay_(Sash!_song)>,
+        <http://dbpedia.org/resource/Stay_(Shakespears_Sister_song)>,
+        <http://dbpedia.org/resource/Stay_(Sigma_song)>,
+        <http://dbpedia.org/resource/Stay_(Stephen_Gately_song)>,
+        <http://dbpedia.org/resource/Stay_(Sugarland_song)>,
+        <http://dbpedia.org/resource/Stay_(The_Kid_Laroi_and_Justin_Bieber_song)>,
+        <http://dbpedia.org/resource/Stay_(Wasting_Time)>,
+        <http://dbpedia.org/resource/Stay_(While_the_Night_Is_Still_Young)>,
+        <http://dbpedia.org/resource/Stay_(Zedd_and_Alessia_Cara_song)> .
+
+<http://example.com/song_454> owl:sameAs <http://dbpedia.org/resource/Malibu_(Hole_song)>,
+        <http://dbpedia.org/resource/Malibu_(Kim_Petras_song)>,
+        <http://dbpedia.org/resource/Malibu_(Miley_Cyrus_song)> .
+
+<http://example.com/song_455> owl:sameAs <http://dbpedia.org/resource/Something_Just_Like_This> .
+
+<http://example.com/song_458> owl:sameAs <http://dbpedia.org/resource/My_Way>,
+        <http://dbpedia.org/resource/My_Way_(Calvin_Harris_song)>,
+        <http://dbpedia.org/resource/My_Way_(Eddie_Cochran_song)>,
+        <http://dbpedia.org/resource/My_Way_(Fetty_Wap_song)>,
+        <http://dbpedia.org/resource/My_Way_(Henry_Santos_song)>,
+        <http://dbpedia.org/resource/My_Way_(Limp_Bizkit_song)>,
+        <http://dbpedia.org/resource/My_Way_(Tone_Sekelius_song)>,
+        <http://dbpedia.org/resource/My_Way_(Usher_song)> .
+
+<http://example.com/song_460> owl:sameAs <http://dbpedia.org/resource/Praying_(song)> .
+
+<http://example.com/song_462> owl:sameAs <http://dbpedia.org/resource/The_Greatest_(Kenny_Rogers_song)>,
+        <http://dbpedia.org/resource/The_Greatest_(Lana_Del_Rey_song)>,
+        <http://dbpedia.org/resource/The_Greatest_(Michelle_Williams_song)>,
+        <http://dbpedia.org/resource/The_Greatest_(Raleigh_Ritchie_song)>,
+        <http://dbpedia.org/resource/The_Greatest_(Rod_Wave_song)>,
+        <http://dbpedia.org/resource/The_Greatest_(Sia_song)> .
+
+<http://example.com/song_463> owl:sameAs <http://dbpedia.org/resource/There_for_You_(Gorgon_City_and_MK_song)>,
+        <http://dbpedia.org/resource/There_for_You_(Martin_Garrix_and_Troye_Sivan_song)> .
+
+<http://example.com/song_464> owl:sameAs <http://dbpedia.org/resource/Paris_(Friendly_Fires_song)>,
+        <http://dbpedia.org/resource/Paris_(Ooh_La_La)>,
+        <http://dbpedia.org/resource/Paris_(Sabrina_Carpenter_song)>,
+        <http://dbpedia.org/resource/Paris_(The_Chainsmokers_song)> .
+
+<http://example.com/song_465> owl:sameAs <http://dbpedia.org/resource/Crying_in_the_Club> .
+
+<http://example.com/song_466> owl:sameAs <http://dbpedia.org/resource/Mama_(6ix9ine_song)>,
+        <http://dbpedia.org/resource/Mama_(Ana_Ahabak)>,
+        <http://dbpedia.org/resource/Mama_(Clean_Bandit_song)>,
+        <http://dbpedia.org/resource/Mama_(Exo_song)>,
+        <http://dbpedia.org/resource/Mama_(Genesis_song)>,
+        <http://dbpedia.org/resource/Mama_(Jonas_Blue_song)>,
+        <http://dbpedia.org/resource/Mama_(Loves_a_Crackhead)>,
+        <http://dbpedia.org/resource/Mama_(Spice_Girls_song)>,
+        <http://dbpedia.org/resource/Mamma_(song)> .
+
+<http://example.com/song_468> owl:sameAs <http://dbpedia.org/resource/Swish_Swish> .
+
+<http://example.com/song_471> owl:sameAs <http://dbpedia.org/resource/L-O-V-E>,
+        <http://dbpedia.org/resource/List_of_K-On!_albums>,
+        <http://dbpedia.org/resource/Love_(CNBLUE_song)>,
+        <http://dbpedia.org/resource/Love_(Can_Make_You_Happy)>,
+        <http://dbpedia.org/resource/Love_(DJ_Trevi_song)>,
+        <http://dbpedia.org/resource/Love_(Destiny)>,
+        <http://dbpedia.org/resource/Love_(Inna_song)>,
+        <http://dbpedia.org/resource/Love_(Is_All_We_Need)>,
+        <http://dbpedia.org/resource/Love_(Jana_Kramer_song)>,
+        <http://dbpedia.org/resource/Love_(John_Lennon_song)>,
+        <http://dbpedia.org/resource/Love_(Kendrick_Lamar_song)>,
+        <http://dbpedia.org/resource/Love_(Keyshia_Cole_song)>,
+        <http://dbpedia.org/resource/Love_(Kid_Cudi_song)>,
+        <http://dbpedia.org/resource/Love_(Lana_Del_Rey_song)>,
+        <http://dbpedia.org/resource/Love_(Lennon_&_Maisy_song)>,
+        <http://dbpedia.org/resource/Love_(Makes_Me_Do_Foolish_Things)>,
+        <http://dbpedia.org/resource/Love_(Musiq_Soulchild_song)>,
+        <http://dbpedia.org/resource/Love_(Sweet_Love)>,
+        <http://dbpedia.org/resource/Love_(Thal�a_song)>,
+        <http://dbpedia.org/resource/Love_(Your_Spell_Is_Everywhere)> .
+
+<http://example.com/song_473> owl:sameAs <http://dbpedia.org/resource/All_I_Ask> .
+
+<http://example.com/song_474> owl:sameAs <http://dbpedia.org/resource/First_Time_(Ai_song)>,
+        <http://dbpedia.org/resource/First_Time_(Carly_Rae_Jepsen_song)>,
+        <http://dbpedia.org/resource/First_Time_(Jebediah_song)>,
+        <http://dbpedia.org/resource/First_Time_(Jonas_Brothers_song)>,
+        <http://dbpedia.org/resource/First_Time_(Kygo_and_Ellie_Goulding_song)>,
+        <http://dbpedia.org/resource/First_Time_(Lifehouse_song)>,
+        <http://dbpedia.org/resource/First_Time_(M-22_song)>,
+        <http://dbpedia.org/resource/First_Time_(Robin_Beck_song)>,
+        <http://dbpedia.org/resource/First_Time_(The_Kelly_Family_song)>,
+        <http://dbpedia.org/resource/First_Time_(Vance_Joy_song)> .
+
+<http://example.com/song_475> owl:sameAs <http://dbpedia.org/resource/The_Cure_(song)> .
+
+<http://example.com/song_477> owl:sameAs <http://dbpedia.org/resource/Bodak_Yellow> .
+
+<http://example.com/song_479> owl:sameAs <http://dbpedia.org/resource/Tired_(Alan_Walker_song)>,
+        <http://dbpedia.org/resource/Tired_(Stone_Sour_song)> .
+
+<http://example.com/song_480> owl:sameAs <http://dbpedia.org/resource/Came_Here_for_Love> .
+
+<http://example.com/song_488> owl:sameAs <http://dbpedia.org/resource/Kissing_Strangers> .
+
+<http://example.com/song_489> owl:sameAs <http://dbpedia.org/resource/Slow_Hands_(Interpol_song)>,
+        <http://dbpedia.org/resource/Slow_Hands_(Niall_Horan_song)> .
+
+<http://example.com/song_49> owl:sameAs <http://dbpedia.org/resource/Break_Your_Heart>,
+        <http://dbpedia.org/resource/Break_Your_Heart_(Natalie_Merchant_song)> .
+
+<http://example.com/song_490> owl:sameAs <http://dbpedia.org/resource/Younger_Now_(song)> .
+
+<http://example.com/song_491> owl:sameAs <http://dbpedia.org/resource/Body_Moves> .
+
+<http://example.com/song_493> owl:sameAs <http://dbpedia.org/resource/Angel_(Aerosmith_song)>,
+        <http://dbpedia.org/resource/Angel_(Akon_song)>,
+        <http://dbpedia.org/resource/Angel_(Amanda_Perez_song)>,
+        <http://dbpedia.org/resource/Angel_(Angela_Winbush_song)>,
+        <http://dbpedia.org/resource/Angel_(Aretha_Franklin_song)>,
+        <http://dbpedia.org/resource/Angel_(Chaka_Khan_song)>,
+        <http://dbpedia.org/resource/Angel_(Elvis_Presley_song)>,
+        <http://dbpedia.org/resource/Angel_(Eurythmics_song)>,
+        <http://dbpedia.org/resource/Angel_(Fifth_Harmony_song)>,
+        <http://dbpedia.org/resource/Angel_(Gina_Jeffreys_song)>,
+        <http://dbpedia.org/resource/Angel_(Goldie_song)>,
+        <http://dbpedia.org/resource/Angel_(Helena_Paparizou_song)>,
+        <http://dbpedia.org/resource/Angel_(J._J._Cale_song)>,
+        <http://dbpedia.org/resource/Angel_(Jimi_Hendrix_song)>,
+        <http://dbpedia.org/resource/Angel_(Jon_Secada_song)>,
+        <http://dbpedia.org/resource/Angel_(Kate_Voegele_song)>,
+        <http://dbpedia.org/resource/Angel_(Kirsty_MacColl_song)>,
+        <http://dbpedia.org/resource/Angel_(Ladadi_O-Heyo)>,
+        <http://dbpedia.org/resource/Angel_(Lionel_Richie_song)>,
+        <http://dbpedia.org/resource/Angel_(Lo-Tel_song)>,
+        <http://dbpedia.org/resource/Angel_(Madonna_song)>,
+        <http://dbpedia.org/resource/Angel_(Massive_Attack_song)>,
+        <http://dbpedia.org/resource/Angel_(Natasha_Bedingfield_song)>,
+        <http://dbpedia.org/resource/Angel_(Pharrell_Williams_song)>,
+        <http://dbpedia.org/resource/Angel_(Sarah_Brightman_song)>,
+        <http://dbpedia.org/resource/Angel_(Sarah_McLachlan_song)>,
+        <http://dbpedia.org/resource/Angel_(Shaggy_song)>,
+        <http://dbpedia.org/resource/Angel_(Taher_Shah_song)>,
+        <http://dbpedia.org/resource/Angel_(The_Corrs_song)>,
+        <http://dbpedia.org/resource/Angel_(Theory_of_a_Deadman_song)>,
+        <http://dbpedia.org/resource/Angel_(Tina_Cousins_song)>,
+        <http://dbpedia.org/resource/Angel_(Yoko_Ono_song)> .
+
+<http://example.com/song_498> owl:sameAs <http://dbpedia.org/resource/Rich_Boy_(song)> .
+
+<http://example.com/song_5> owl:sameAs <http://dbpedia.org/resource/Baby_(Aitch_and_Ashanti_song)>,
+        <http://dbpedia.org/resource/Baby_(Angie_Stone_song)>,
+        <http://dbpedia.org/resource/Baby_(Anton_Powers_and_Pixie_Lott_song)>,
+        <http://dbpedia.org/resource/Baby_(Ashanti_song)>,
+        <http://dbpedia.org/resource/Baby_(Brandy_song)>,
+        <http://dbpedia.org/resource/Baby_(Charli_XCX_song)>,
+        <http://dbpedia.org/resource/Baby_(Clean_Bandit_song)>,
+        <http://dbpedia.org/resource/Baby_(Fabolous_song)>,
+        <http://dbpedia.org/resource/Baby_(Justin_Bieber_song)>,
+        <http://dbpedia.org/resource/Baby_(LL_Cool_J_song)>,
+        <http://dbpedia.org/resource/Baby_(Madame_song)>,
+        <http://dbpedia.org/resource/Baby_(Pnau_song)>,
+        <http://dbpedia.org/resource/Baby_(Quality_Control,_Lil_Baby_and_DaBaby_song)>,
+        <http://dbpedia.org/resource/Baby_(Royal_Republic_song)>,
+        <http://dbpedia.org/resource/Baby_(Wilma_Burgess_song)> .
+
+<http://example.com/song_50> owl:sameAs <http://dbpedia.org/resource/Hello_(Adele_song)>,
+        <http://dbpedia.org/resource/Hello_(Aya_Ueto_song)>,
+        <http://dbpedia.org/resource/Hello_(Hedley_song)>,
+        <http://dbpedia.org/resource/Hello_(I_Love_You)>,
+        <http://dbpedia.org/resource/Hello_(Ice_Cube_song)>,
+        <http://dbpedia.org/resource/Hello_(Joy_song)>,
+        <http://dbpedia.org/resource/Hello_(Karmin_song)>,
+        <http://dbpedia.org/resource/Hello_(Kelly_Clarkson_song)>,
+        <http://dbpedia.org/resource/Hello_(Lionel_Richie_song)>,
+        <http://dbpedia.org/resource/Hello_(Martin_Solveig_and_Dragonette_song)>,
+        <http://dbpedia.org/resource/Hello_(Masaharu_Fukuyama_song)>,
+        <http://dbpedia.org/resource/Hello_(Mohombi_song)>,
+        <http://dbpedia.org/resource/Hello_(Paradise_Kiss)>,
+        <http://dbpedia.org/resource/Hello_(Poe_song)>,
+        <http://dbpedia.org/resource/Hello_(Pop_Smoke_song)>,
+        <http://dbpedia.org/resource/Hello_(Stafford_Brothers_song)>,
+        <http://dbpedia.org/resource/Hello_(The_Beloved_song)>,
+        <http://dbpedia.org/resource/Hello_(The_Cat_Empire_song)>,
+        <http://dbpedia.org/resource/Hello_(The_Potbelleez_song)>,
+        <http://dbpedia.org/resource/Hello_(Turn_Your_Radio_On)> .
+
+<http://example.com/song_501> owl:sameAs <http://dbpedia.org/resource/Influence_(Tove_Lo_song)> .
+
+<http://example.com/song_502> owl:sameAs <http://dbpedia.org/resource/Remember_I_Told_You> .
+
+<http://example.com/song_503> owl:sameAs <http://dbpedia.org/resource/Messin'_Around_(Pitbull_song)> .
+
+<http://example.com/song_504> owl:sameAs <http://dbpedia.org/resource/Water_Under_the_Bridge_(song)> .
+
+<http://example.com/song_505> owl:sameAs <http://dbpedia.org/resource/Free_Me_(Cast_song)>,
+        <http://dbpedia.org/resource/Free_Me_(Emma_Bunton_song)>,
+        <http://dbpedia.org/resource/Free_Me_(Joss_Stone_song)>,
+        <http://dbpedia.org/resource/Free_Me_(Roger_Daltrey_song)>,
+        <http://dbpedia.org/resource/Free_Me_(Sia_song)> .
+
+<http://example.com/song_51> owl:sameAs <http://dbpedia.org/resource/A_Thousand_Years_(Christina_Perri_song)>,
+        <http://dbpedia.org/resource/A_Thousand_Years_(Tom_Dice_song)> .
+
+<http://example.com/song_510> owl:sameAs <http://dbpedia.org/resource/I_Like_It_(Cardi_B,_Bad_Bunny_and_J_Balvin_song)>,
+        <http://dbpedia.org/resource/I_Like_It_(DeBarge_song)>,
+        <http://dbpedia.org/resource/I_Like_It_(Dino_song)>,
+        <http://dbpedia.org/resource/I_Like_It_(Enrique_Iglesias_song)>,
+        <http://dbpedia.org/resource/I_Like_It_(Foxy_Shazam_song)>,
+        <http://dbpedia.org/resource/I_Like_It_(Gerry_and_the_Pacemakers_song)>,
+        <http://dbpedia.org/resource/I_Like_It_(Narcotic_Thrust_song)>,
+        <http://dbpedia.org/resource/I_Like_It_(Overweight_Pooch_song)>,
+        <http://dbpedia.org/resource/I_Like_It_(Sammie_song)>,
+        <http://dbpedia.org/resource/I_Like_It_Like_That_(Pete_Rodriguez_song)> .
+
+<http://example.com/song_511> owl:sameAs <http://dbpedia.org/resource/New_Rules> .
+
+<http://example.com/song_512> owl:sameAs <http://dbpedia.org/resource/There's_Nothing_Holdin'_Me_Back> .
+
+<http://example.com/song_514> owl:sameAs <http://dbpedia.org/resource/IDGAF_(song)> .
+
+<http://example.com/song_515> owl:sameAs <http://dbpedia.org/resource/In_My_Blood_(Black_Stone_Cherry_song)>,
+        <http://dbpedia.org/resource/In_My_Blood_(Shawn_Mendes_song)>,
+        <http://dbpedia.org/resource/In_My_Blood_(The_Veronicas_song)> .
+
+<http://example.com/song_516> owl:sameAs <http://dbpedia.org/resource/Wolves_(Big_Sean_song)>,
+        <http://dbpedia.org/resource/Wolves_(Kanye_West_song)>,
+        <http://dbpedia.org/resource/Wolves_(Selena_Gomez_and_Marshmello_song)> .
+
+<http://example.com/song_518> owl:sameAs <http://dbpedia.org/resource/Attention_(Charlie_Puth_song)>,
+        <http://dbpedia.org/resource/Attention_(Fat_Joe_song)>,
+        <http://dbpedia.org/resource/Attention_(NewJeans_song)>,
+        <http://dbpedia.org/resource/Attention_(Omah_Lay_and_Justin_Bieber_song)>,
+        <http://dbpedia.org/resource/Attention_(Ulrikke_Brandstorp_song)> .
+
+<http://example.com/song_52> owl:sameAs <http://dbpedia.org/resource/Someone_like_You_(New_Order_song)>,
+        <http://dbpedia.org/resource/Someone_like_You_(SafetySuit_song)>,
+        <http://dbpedia.org/resource/Someone_like_You_(Sylvester_song)>,
+        <http://dbpedia.org/resource/Someone_like_You_(Van_Morrison_song)> .
+
+<http://example.com/song_522> owl:sameAs <http://dbpedia.org/resource/Silence_(Delerium_song)>,
+        <http://dbpedia.org/resource/Silence_(Marshmello_song)>,
+        <http://dbpedia.org/resource/Silence_(Stromae_song)> .
+
+<http://example.com/song_523> owl:sameAs <http://dbpedia.org/resource/Sorry_Not_Sorry_(Bryson_Tiller_song)>,
+        <http://dbpedia.org/resource/Sorry_Not_Sorry_(DJ_Khaled_song)>,
+        <http://dbpedia.org/resource/Sorry_Not_Sorry_(Demi_Lovato_song)> .
+
+<http://example.com/song_525> owl:sameAs <http://dbpedia.org/resource/These_Days_(Alien_Ant_Farm_song)>,
+        <http://dbpedia.org/resource/These_Days_(Bardot_song)>,
+        <http://dbpedia.org/resource/These_Days_(Bon_Jovi_song)>,
+        <http://dbpedia.org/resource/These_Days_(Brian_Kennedy_song)>,
+        <http://dbpedia.org/resource/These_Days_(Foo_Fighters_song)>,
+        <http://dbpedia.org/resource/These_Days_(Gyroscope_song)>,
+        <http://dbpedia.org/resource/These_Days_(I_Barely_Get_By)>,
+        <http://dbpedia.org/resource/These_Days_(Jackson_Browne_song)>,
+        <http://dbpedia.org/resource/These_Days_(MacKenzie_Porter_song)>,
+        <http://dbpedia.org/resource/These_Days_(Powderfinger_song)>,
+        <http://dbpedia.org/resource/These_Days_(Rascal_Flatts_song)>,
+        <http://dbpedia.org/resource/These_Days_(Rudimental_song)>,
+        <http://dbpedia.org/resource/These_Days_(Take_That_song)> .
+
+<http://example.com/song_53> owl:sameAs <http://dbpedia.org/resource/Give_Me_Everything> .
+
+<http://example.com/song_533> owl:sameAs <http://dbpedia.org/resource/My_My_My!_(Troye_Sivan_song)> .
+
+<http://example.com/song_534> owl:sameAs <http://dbpedia.org/resource/Capital_Letters_(song)> .
+
+<http://example.com/song_535> owl:sameAs <http://dbpedia.org/resource/Sick_Boy_(song)> .
+
+<http://example.com/song_536> owl:sameAs <http://dbpedia.org/resource/Tequila_(Dan_+_Shay_song)>,
+        <http://dbpedia.org/resource/Tequila_(Jax_Jones,_Martin_Solveig_and_Raye_song)>,
+        <http://dbpedia.org/resource/Tequila_(Terrorvision_song)>,
+        <http://dbpedia.org/resource/Tequila_(The_Champs_song)> .
+
+<http://example.com/song_537> owl:sameAs <http://dbpedia.org/resource/Look_What_You_Made_Me_Do> .
+
+<http://example.com/song_539> owl:sameAs <http://dbpedia.org/resource/Bad_Liar_(Imagine_Dragons_song)>,
+        <http://dbpedia.org/resource/Bad_Liar_(Selena_Gomez_song)> .
+
+<http://example.com/song_54> owl:sameAs <http://dbpedia.org/resource/Just_the_Way_You_Are_(Billy_Joel_song)>,
+        <http://dbpedia.org/resource/Just_the_Way_You_Are_(Bruno_Mars_song)>,
+        <http://dbpedia.org/resource/Just_the_Way_You_Are_(Drunk_at_the_Bar)>,
+        <http://dbpedia.org/resource/Just_the_Way_You_Are_(Milky_song)> .
+
+<http://example.com/song_540> owl:sameAs <http://dbpedia.org/resource/Anywhere_(112_song)>,
+        <http://dbpedia.org/resource/Anywhere_(Axle_Whitehead_song)>,
+        <http://dbpedia.org/resource/Anywhere_(Beth_Orton_song)>,
+        <http://dbpedia.org/resource/Anywhere_(Mustard_and_Nick_Jonas_song)>,
+        <http://dbpedia.org/resource/Anywhere_(Passenger_song)>,
+        <http://dbpedia.org/resource/Anywhere_(Rita_Ora_song)>,
+        <http://dbpedia.org/resource/Anywhere_(Sara_Evans_song)>,
+        <http://dbpedia.org/resource/Anywhere_(Sigma_song)> .
+
+<http://example.com/song_541> owl:sameAs <http://dbpedia.org/resource/Say_Something_(A_Great_Big_World_song)>,
+        <http://dbpedia.org/resource/Say_Something_(Justin_Timberlake_song)>,
+        <http://dbpedia.org/resource/Say_Something_(Karen_Harding_song)>,
+        <http://dbpedia.org/resource/Say_Something_(Kylie_Minogue_song)>,
+        <http://dbpedia.org/resource/Say_Something_(Timbaland_song)> .
+
+<http://example.com/song_542> owl:sameAs <http://dbpedia.org/resource/Chun-Li_(song)> .
+
+<http://example.com/song_543> owl:sameAs <http://dbpedia.org/resource/Sign_of_the_Times_(Bryan_Ferry_song)>,
+        <http://dbpedia.org/resource/Sign_of_the_Times_(Harry_Styles_song)>,
+        <http://dbpedia.org/resource/Sign_of_the_Times_(Petula_Clark_song)>,
+        <http://dbpedia.org/resource/Sign_of_the_Times_(Queensr�che_song)>,
+        <http://dbpedia.org/resource/Sign_of_the_Times_(Slade_song)>,
+        <http://dbpedia.org/resource/Sign_of_the_Times_(The_Belle_Stars_song)> .
+
+<http://example.com/song_544> owl:sameAs <http://dbpedia.org/resource/Familiar_(song)> .
+
+<http://example.com/song_545> owl:sameAs <http://dbpedia.org/resource/Let_Me_(Elvis_Presley_song)>,
+        <http://dbpedia.org/resource/Let_Me_(Pat_Green_song)>,
+        <http://dbpedia.org/resource/Let_Me_(Zayn_song)> .
+
+<http://example.com/song_546> owl:sameAs <http://dbpedia.org/resource/Supernova_(Cir.Cuz_song)>,
+        <http://dbpedia.org/resource/Supernova_(Liz_Phair_song)>,
+        <http://dbpedia.org/resource/Supernova_(Mr_Hudson_song)> .
+
+<http://example.com/song_547> owl:sameAs <http://dbpedia.org/resource/Nervous_(Gavin_James_song)>,
+        <http://dbpedia.org/resource/Nervous_(Gene_Summers_song)>,
+        <http://dbpedia.org/resource/Nervous_(Shawn_Mendes_song)> .
+
+<http://example.com/song_548> owl:sameAs <http://dbpedia.org/resource/First_Time_(Ai_song)>,
+        <http://dbpedia.org/resource/First_Time_(Carly_Rae_Jepsen_song)>,
+        <http://dbpedia.org/resource/First_Time_(Jebediah_song)>,
+        <http://dbpedia.org/resource/First_Time_(Jonas_Brothers_song)>,
+        <http://dbpedia.org/resource/First_Time_(Kygo_and_Ellie_Goulding_song)>,
+        <http://dbpedia.org/resource/First_Time_(Lifehouse_song)>,
+        <http://dbpedia.org/resource/First_Time_(M-22_song)>,
+        <http://dbpedia.org/resource/First_Time_(Robin_Beck_song)>,
+        <http://dbpedia.org/resource/First_Time_(The_Kelly_Family_song)>,
+        <http://dbpedia.org/resource/First_Time_(Vance_Joy_song)> .
+
+<http://example.com/song_549> owl:sameAs <http://dbpedia.org/resource/End_Game_(song)> .
+
+<http://example.com/song_55> owl:sameAs <http://dbpedia.org/resource/Rolling_in_the_Deep> .
+
+<http://example.com/song_551> owl:sameAs <http://dbpedia.org/resource/Lemon_(Kenshi_Yonezu_song)>,
+        <http://dbpedia.org/resource/Lemon_(N.E.R.D._and_Rihanna_song)>,
+        <http://dbpedia.org/resource/Lemon_(U2_song)> .
+
+<http://example.com/song_553> owl:sameAs <http://dbpedia.org/resource/Want_To> .
+
+<http://example.com/song_555> owl:sameAs <http://dbpedia.org/resource/Wait_(Beatles_song)>,
+        <http://dbpedia.org/resource/Wait_(Chantel_Jeffries_song)>,
+        <http://dbpedia.org/resource/Wait_(Earshot_song)>,
+        <http://dbpedia.org/resource/Wait_(Gyan_song)>,
+        <http://dbpedia.org/resource/Wait_(M83_song)>,
+        <http://dbpedia.org/resource/Wait_(Maggie_Reilly_song)>,
+        <http://dbpedia.org/resource/Wait_(Maroon_5_song)>,
+        <http://dbpedia.org/resource/Wait_(Seven_Mary_Three_song)>,
+        <http://dbpedia.org/resource/Wait_(The_Whisper_Song)>,
+        <http://dbpedia.org/resource/Wait_(Wang_Chung_song)>,
+        <http://dbpedia.org/resource/Wait_(White_Lion_song)> .
+
+<http://example.com/song_556> owl:sameAs <http://dbpedia.org/resource/What_About_Us%3F_(Total_song)>,
+        <http://dbpedia.org/resource/What_About_Us_(Jodeci_song)>,
+        <http://dbpedia.org/resource/What_About_Us_(Pink_song)>,
+        <http://dbpedia.org/resource/What_About_Us_(The_Coasters_song)>,
+        <http://dbpedia.org/resource/What_About_Us_(The_Saturdays_song)> .
+
+<http://example.com/song_557> owl:sameAs <http://dbpedia.org/resource/Kissing_Strangers> .
+
+<http://example.com/song_560> owl:sameAs <http://dbpedia.org/resource/This_Town_(Frank_Sinatra_song)>,
+        <http://dbpedia.org/resource/This_Town_(Niall_Horan_song)> .
+
+<http://example.com/song_564> owl:sameAs <http://dbpedia.org/resource/Filthy_(song)> .
+
+<http://example.com/song_566> owl:sameAs <http://dbpedia.org/resource/Ferrari_(song)> .
+
+<http://example.com/song_567> owl:sameAs <http://dbpedia.org/resource/Supplies_(song)> .
+
+<http://example.com/song_568> owl:sameAs <http://dbpedia.org/resource/Boom_Boom_(Heartbeat)>,
+        <http://dbpedia.org/resource/Boom_Boom_(John_Lee_Hooker_song)>,
+        <http://dbpedia.org/resource/Boom_Boom_(Justice_Crew_song)>,
+        <http://dbpedia.org/resource/Boom_Boom_(Let's_Go_Back_to_My_Room)>,
+        <http://dbpedia.org/resource/Boom_Boom_(Loboda_and_Pharaoh_song)>,
+        <http://dbpedia.org/resource/Boom_Boom_(RedOne_song)>,
+        <http://dbpedia.org/resource/Boom_Boom_(Rye_Rye_song)> .
+
+<http://example.com/song_572> owl:sameAs <http://dbpedia.org/resource/Memories_(David_Guetta_song)>,
+        <http://dbpedia.org/resource/Memories_(Elvis_Presley_song)>,
+        <http://dbpedia.org/resource/Memories_(Hugh_Hopper_song)>,
+        <http://dbpedia.org/resource/Memories_(Maroon_5_song)>,
+        <http://dbpedia.org/resource/Memories_(Public_Image_Ltd_song)>,
+        <http://dbpedia.org/resource/Memories_(Vamps_song)>,
+        <http://dbpedia.org/resource/Memories_(Weezer_song)>,
+        <http://dbpedia.org/resource/Memories_(Within_Temptation_song)> .
+
+<http://example.com/song_574> owl:sameAs <http://dbpedia.org/resource/Someone_You_Loved> .
+
+<http://example.com/song_576> owl:sameAs <http://dbpedia.org/resource/How_Do_You_Sleep%3F_(Jesse_McCartney_song)>,
+        <http://dbpedia.org/resource/How_Do_You_Sleep%3F_(John_Lennon_song)>,
+        <http://dbpedia.org/resource/How_Do_You_Sleep%3F_(Sam_Smith_song)> .
+
+<http://example.com/song_579> owl:sameAs <http://dbpedia.org/resource/Happier_(Ed_Sheeran_song)>,
+        <http://dbpedia.org/resource/Happier_(Marshmello_and_Bastille_song)>,
+        <http://dbpedia.org/resource/Happier_(Olivia_Rodrigo_song)> .
+
+<http://example.com/song_58> owl:sameAs <http://dbpedia.org/resource/Love_On_Top> .
+
+<http://example.com/song_580> owl:sameAs <http://dbpedia.org/resource/Truth_Hurts_(song)> .
+
+<http://example.com/song_582> owl:sameAs <http://dbpedia.org/resource/Higher_Love> .
+
+<http://example.com/song_583> owl:sameAs <http://dbpedia.org/resource/Only_Human_(Cheryl_song)>,
+        <http://dbpedia.org/resource/Only_Human_(Delta_Goodrem_song)>,
+        <http://dbpedia.org/resource/Only_Human_(Dina_Carroll_song)>,
+        <http://dbpedia.org/resource/Only_Human_(Example_song)>,
+        <http://dbpedia.org/resource/Only_Human_(Jonas_Brothers_song)> .
+
+<http://example.com/song_585> owl:sameAs <http://dbpedia.org/resource/Sucker_(song)> .
+
+<http://example.com/song_586> owl:sameAs <http://dbpedia.org/resource/Don't_Call_Me_Up> .
+
+<http://example.com/song_59> owl:sameAs <http://dbpedia.org/resource/Grenade_(song)> .
+
+<http://example.com/song_590> owl:sameAs <http://dbpedia.org/resource/Takeaway_(song)> .
+
+<http://example.com/song_593> owl:sameAs <http://dbpedia.org/resource/Call_You_Mine> .
+
+<http://example.com/song_6> owl:sameAs <http://dbpedia.org/resource/Dynamite_(Afrojack_song)>,
+        <http://dbpedia.org/resource/Dynamite_(BTS_song)>,
+        <http://dbpedia.org/resource/Dynamite_(Cliff_Richard_and_the_Shadows_song)>,
+        <http://dbpedia.org/resource/Dynamite_(Desert_Dolphins_song)>,
+        <http://dbpedia.org/resource/Dynamite_(Jermaine_Jackson_song)>,
+        <http://dbpedia.org/resource/Dynamite_(Liza_Fox_song)>,
+        <http://dbpedia.org/resource/Dynamite_(Taio_Cruz_song)>,
+        <http://dbpedia.org/resource/Dynamite_(Westlife_song)> .
+
+<http://example.com/song_60> owl:sameAs <http://dbpedia.org/resource/Tonight,_Tonight_(The_Smashing_Pumpkins_song)>,
+        <http://dbpedia.org/resource/Tonight_Tonight_(Hot_Chelle_Rae_song)> .
+
+<http://example.com/song_61> owl:sameAs <http://dbpedia.org/resource/What_the_Hell> .
+
+<http://example.com/song_62> owl:sameAs <http://dbpedia.org/resource/Born_This_Way_(song)> .
+
+<http://example.com/song_63> owl:sameAs <http://dbpedia.org/resource/Monster_(21_Savage_song)>,
+        <http://dbpedia.org/resource/Monster_(Arashi_song)>,
+        <http://dbpedia.org/resource/Monster_(Big_Bang_song)>,
+        <http://dbpedia.org/resource/Monster_(Disney_song)>,
+        <http://dbpedia.org/resource/Monster_(Exo_song)>,
+        <http://dbpedia.org/resource/Monster_(Imagine_Dragons_song)>,
+        <http://dbpedia.org/resource/Monster_(Kanye_West_song)>,
+        <http://dbpedia.org/resource/Monster_(L7_song)>,
+        <http://dbpedia.org/resource/Monster_(Lady_Gaga_song)>,
+        <http://dbpedia.org/resource/Monster_(Meek_Mill_song)>,
+        <http://dbpedia.org/resource/Monster_(Michael_Jackson_song)>,
+        <http://dbpedia.org/resource/Monster_(Paramore_song)>,
+        <http://dbpedia.org/resource/Monster_(Pink_Lady_song)>,
+        <http://dbpedia.org/resource/Monster_(Professor_Green_song)>,
+        <http://dbpedia.org/resource/Monster_(Red_Velvet_�_Irene_&_Seulgi_song)>,
+        <http://dbpedia.org/resource/Monster_(Shawn_Mendes_and_Justin_Bieber_song)>,
+        <http://dbpedia.org/resource/Monster_(Skillet_song)>,
+        <http://dbpedia.org/resource/Monster_(Starset_song)>,
+        <http://dbpedia.org/resource/Monster_(The_Automatic_song)> .
+
+<http://example.com/song_64> owl:sameAs <http://dbpedia.org/resource/Marry_You> .
+
+<http://example.com/song_65> owl:sameAs <http://dbpedia.org/resource/Best_Thing_I_Never_Had> .
+
+<http://example.com/song_66> owl:sameAs <http://dbpedia.org/resource/Party_Rock_Anthem> .
+
+<http://example.com/song_67> owl:sameAs <http://dbpedia.org/resource/We_R_Who_We_R> .
+
+<http://example.com/song_68> owl:sameAs <http://dbpedia.org/resource/Price_Tag> .
+
+<http://example.com/song_69> owl:sameAs <http://dbpedia.org/resource/Good_Life_(G-Eazy_and_Kehlani_song)>,
+        <http://dbpedia.org/resource/Good_Life_(Inner_City_song)>,
+        <http://dbpedia.org/resource/Good_Life_(Kanye_West_song)>,
+        <http://dbpedia.org/resource/Good_Life_(OneRepublic_song)>,
+        <http://dbpedia.org/resource/Good_Life_(The_Braxtons_song)> .
+
+<http://example.com/song_7> owl:sameAs <http://dbpedia.org/resource/Secrets_(Eternal_song)>,
+        <http://dbpedia.org/resource/Secrets_(Grinspoon_song)>,
+        <http://dbpedia.org/resource/Secrets_(Mary_Lambert_song)>,
+        <http://dbpedia.org/resource/Secrets_(OneRepublic_song)>,
+        <http://dbpedia.org/resource/Secrets_(Pink_song)>,
+        <http://dbpedia.org/resource/Secrets_(Regard_and_Raye_song)>,
+        <http://dbpedia.org/resource/Secrets_(Tears_for_Fears_song)>,
+        <http://dbpedia.org/resource/Secrets_(The_Weeknd_song)>,
+        <http://dbpedia.org/resource/Secrets_(Ti�sto_and_KSHMR_song)> .
+
+<http://example.com/song_72> owl:sameAs <http://dbpedia.org/resource/What's_My_Name%3F_(DMX_song)>,
+        <http://dbpedia.org/resource/What's_My_Name%3F_(Rihanna_song)>,
+        <http://dbpedia.org/resource/What's_My_Name%3F_(Snoop_Doggy_Dogg_song)> .
+
+<http://example.com/song_73> owl:sameAs <http://dbpedia.org/resource/Yeah_3x> .
+
+<http://example.com/song_77> owl:sameAs <http://dbpedia.org/resource/E.T._(song)> .
+
+<http://example.com/song_78> owl:sameAs <http://dbpedia.org/resource/Till_the_World_Ends> .
+
+<http://example.com/song_79> owl:sameAs <http://dbpedia.org/resource/I_Wanna_Go> .
+
+<http://example.com/song_80> owl:sameAs <http://dbpedia.org/resource/Blow_(Beyonc�_song)>,
+        <http://dbpedia.org/resource/Blow_(Ed_Sheeran,_Chris_Stapleton_and_Bruno_Mars_song)>,
+        <http://dbpedia.org/resource/Blow_(Kesha_song)>,
+        <http://dbpedia.org/resource/Blow_(Martin_Solveig_song)> .
+
+<http://example.com/song_82> owl:sameAs <http://dbpedia.org/resource/Judas_(Lady_Gaga_song)> .
+
+<http://example.com/song_84> owl:sameAs <http://dbpedia.org/resource/Please_Don't_Go_(Boyz_II_Men_song)>,
+        <http://dbpedia.org/resource/Please_Don't_Go_(Donald_Peers_song)>,
+        <http://dbpedia.org/resource/Please_Don't_Go_(Joel_Adams_song)>,
+        <http://dbpedia.org/resource/Please_Don't_Go_(KC_and_the_Sunshine_Band_song)>,
+        <http://dbpedia.org/resource/Please_Don't_Go_(Mike_Posner_song)>,
+        <http://dbpedia.org/resource/Please_Don't_Go_(No_Mercy_song)>,
+        <http://dbpedia.org/resource/Please_Don't_Go_(Tank_song)> .
+
+<http://example.com/song_85> owl:sameAs <http://dbpedia.org/resource/We_Found_Love> .
+
+<http://example.com/song_89> owl:sameAs <http://dbpedia.org/resource/I'm_Into_You> .
+
+<http://example.com/song_90> owl:sameAs <http://dbpedia.org/resource/Papi_(song)> .
+
+<http://example.com/song_94> owl:sameAs <http://dbpedia.org/resource/Jar_of_Hearts> .
+
+<http://example.com/song_97> owl:sameAs <http://dbpedia.org/resource/Super_Bass> .
+
+<http://example.com/song_98> owl:sameAs <http://dbpedia.org/resource/Raise_Your_Glass> .
+
+<http://example.com/song_99> owl:sameAs <http://dbpedia.org/resource/Invading_My_Mind> .
+
+
+
+
+
+
+
+
+<http://example.org/Adam%20Lambert> owl:sameAs <http://dbpedia.org/resource/Adam_Lambert>,
+        <http://dbpedia.org/resource/List_of_awards_and_nominations_received_by_Adam_Lambert> .
+
+<http://example.org/Adele> owl:sameAs <http://dbpedia.org/resource/Adele> .
+
+<http://example.org/Alan%20Walker> owl:sameAs <http://dbpedia.org/resource/Alan_Walker> .
+
+<http://example.org/Alessia%20Cara> owl:sameAs <http://dbpedia.org/resource/Alessia_Cara> .
+
+<http://example.org/Alesso> owl:sameAs <http://dbpedia.org/resource/Alesso> .
+
+<http://example.org/Alicia%20Keys> owl:sameAs <http://dbpedia.org/resource/Alicia_Keys>,
+        <http://dbpedia.org/resource/List_of_awards_and_nominations_received_by_Alicia_Keys> .
+
+<http://example.org/Ariana%20Grande> owl:sameAs <http://dbpedia.org/resource/Ariana_Grande> .
+
+<http://example.org/Austin%20Mahone> owl:sameAs <http://dbpedia.org/resource/Austin_Mahone> .
+
+<http://example.org/Avicii> owl:sameAs <http://dbpedia.org/resource/Avicii> .
+
+<http://example.org/Bebe%20Rexha> owl:sameAs <http://dbpedia.org/resource/Bebe_Rexha> .
+
+<http://example.org/Birdy> owl:sameAs <http://dbpedia.org/resource/Birdy_(singer)> .
+
+<http://example.org/Britney%20Spears> owl:sameAs <http://dbpedia.org/resource/Britney_Spears> .
+
+<http://example.org/Bruno%20Mars> owl:sameAs <http://dbpedia.org/resource/Bruno_Mars>,
+        <http://dbpedia.org/resource/List_of_awards_and_nominations_received_by_Bruno_Mars> .
+
+<http://example.org/Calvin%20Harris> owl:sameAs <http://dbpedia.org/resource/Calvin_Harris> .
+
+<http://example.org/Camila%20Cabello> owl:sameAs <http://dbpedia.org/resource/Camila_Cabello> .
+
+<http://example.org/Carly%20Rae%20Jepsen> owl:sameAs <http://dbpedia.org/resource/Carly_Rae_Jepsen>,
+        <http://dbpedia.org/resource/List_of_awards_and_nominations_received_by_Carly_Rae_Jepsen> .
+
+<http://example.org/Cashmere%20Cat> owl:sameAs <http://dbpedia.org/resource/Cashmere_Cat> .
+
+<http://example.org/Charli%20XCX> owl:sameAs <http://dbpedia.org/resource/Charli_XCX> .
+
+<http://example.org/Charlie%20Puth> owl:sameAs <http://dbpedia.org/resource/Charlie_Puth> .
+
+<http://example.org/Chris%20Brown> owl:sameAs <http://dbpedia.org/resource/Chris_Brown>,
+        <http://dbpedia.org/resource/Chris_Brown_(Canadian_musician)> .
+
+<http://example.org/Christina%20Perri> owl:sameAs <http://dbpedia.org/resource/Christina_Perri> .
+
+<http://example.org/Ciara> owl:sameAs <http://dbpedia.org/resource/Ciara>,
+        <http://dbpedia.org/resource/List_of_awards_and_nominations_received_by_Ciara> .
+
+<http://example.org/DJ%20Khaled> owl:sameAs <http://dbpedia.org/resource/DJ_Khaled> .
+
+<http://example.org/DJ%20Snake> owl:sameAs <http://dbpedia.org/resource/DJ_Snake> .
+
+<http://example.org/Daddy%20Yankee> owl:sameAs <http://dbpedia.org/resource/Daddy_Yankee> .
+
+<http://example.org/Daft%20Punk> owl:sameAs <http://dbpedia.org/resource/Thomas_Bangalter> .
+
+<http://example.org/David%20Guetta> owl:sameAs <http://dbpedia.org/resource/David_Guetta> .
+
+<http://example.org/Demi%20Lovato> owl:sameAs <http://dbpedia.org/resource/Demi_Lovato> .
+
+<http://example.org/Dua%20Lipa> owl:sameAs <http://dbpedia.org/resource/Dua_Lipa> .
+
+<http://example.org/Ed%20Sheeran> owl:sameAs <http://dbpedia.org/resource/Ed_Sheeran> .
+
+<http://example.org/Ellie%20Goulding> owl:sameAs <http://dbpedia.org/resource/Ellie_Goulding> .
+
+<http://example.org/Eminem> owl:sameAs <http://dbpedia.org/resource/Eminem> .
+
+<http://example.org/Enrique%20Iglesias> owl:sameAs <http://dbpedia.org/resource/Enrique_Iglesias> .
+
+<http://example.org/Far%20East%20Movement> owl:sameAs <http://dbpedia.org/resource/Far_East_Movement> .
+
+<http://example.org/Fergie> owl:sameAs <http://dbpedia.org/resource/Fergie_(DJ)>,
+        <http://dbpedia.org/resource/Fergie_(singer)> .
+
+<http://example.org/Flo%20Rida> owl:sameAs <http://dbpedia.org/resource/Flo_Rida> .
+
+<http://example.org/G-Eazy> owl:sameAs <http://dbpedia.org/resource/G-Eazy> .
+
+<http://example.org/Gwen%20Stefani> owl:sameAs <http://dbpedia.org/resource/Gwen_Stefani> .
+
+<http://example.org/Halsey> owl:sameAs <http://dbpedia.org/resource/Halsey_(singer)> .
+
+<http://example.org/Harry%20Styles> owl:sameAs <http://dbpedia.org/resource/Harry_Styles> .
+
+<http://example.org/Hot%20Chelle%20Rae> owl:sameAs <http://dbpedia.org/resource/Hot_Chelle_Rae> .
+
+<http://example.org/Hozier> owl:sameAs <http://dbpedia.org/resource/Hozier_(musician)> .
+
+<http://example.org/Icona%20Pop> owl:sameAs <http://dbpedia.org/resource/Icona_Pop> .
+
+<http://example.org/Iggy%20Azalea> owl:sameAs <http://dbpedia.org/resource/Iggy_Azalea> .
+
+<http://example.org/J%20Balvin> owl:sameAs <http://dbpedia.org/resource/J_Balvin> .
+
+<http://example.org/James%20Arthur> owl:sameAs <http://dbpedia.org/resource/James_Arthur> .
+
+<http://example.org/Janet%20Jackson> owl:sameAs <http://dbpedia.org/resource/Janet_Jackson> .
+
+<http://example.org/Jason%20Derulo> owl:sameAs <http://dbpedia.org/resource/Jason_Derulo> .
+
+<http://example.org/Jennifer%20Hudson> owl:sameAs <http://dbpedia.org/resource/Jennifer_Hudson> .
+
+<http://example.org/Jess%20Glynne> owl:sameAs <http://dbpedia.org/resource/Jess_Glynne> .
+
+<http://example.org/Jessie%20J> owl:sameAs <http://dbpedia.org/resource/Jessie_J> .
+
+<http://example.org/Jewel> owl:sameAs <http://dbpedia.org/resource/Jewel_(singer)> .
+
+<http://example.org/Joey%20Montana> owl:sameAs <http://dbpedia.org/resource/Joey_Montana> .
+
+<http://example.org/John%20Legend> owl:sameAs <http://dbpedia.org/resource/John_Legend>,
+        <http://dbpedia.org/resource/List_of_awards_and_nominations_received_by_John_Legend> .
+
+<http://example.org/John%20Newman> owl:sameAs <http://dbpedia.org/resource/John_Newman_(singer)> .
+
+<http://example.org/Jonas%20Blue> owl:sameAs <http://dbpedia.org/resource/Jonas_Blue> .
+
+<http://example.org/Justin%20Bieber> owl:sameAs <http://dbpedia.org/resource/Justin_Bieber> .
+
+<http://example.org/Justin%20Timberlake> owl:sameAs <http://dbpedia.org/resource/Justin_Timberlake> .
+
+<http://example.org/Kanye%20West> owl:sameAs <http://dbpedia.org/resource/Kanye_West> .
+
+<http://example.org/Katy%20Perry> owl:sameAs <http://dbpedia.org/resource/Katy_Perry> .
+
+<http://example.org/Kelly%20Clarkson> owl:sameAs <http://dbpedia.org/resource/Kelly_Clarkson> .
+
+<http://example.org/Kesha> owl:sameAs <http://dbpedia.org/resource/Kesha> .
+
+<http://example.org/Kygo> owl:sameAs <http://dbpedia.org/resource/Kygo> .
+
+<http://example.org/Labrinth> owl:sameAs <http://dbpedia.org/resource/Labrinth> .
+
+<http://example.org/Lady%20Gaga> owl:sameAs <http://dbpedia.org/resource/Lady_Gaga> .
+
+<http://example.org/Lana%20Del%20Rey> owl:sameAs <http://dbpedia.org/resource/Lana_Del_Rey> .
+
+<http://example.org/Lewis%20Capaldi> owl:sameAs <http://dbpedia.org/resource/Lewis_Capaldi> .
+
+<http://example.org/Liam%20Payne> owl:sameAs <http://dbpedia.org/resource/Liam_Payne> .
+
+<http://example.org/Lily%20Allen> owl:sameAs <http://dbpedia.org/resource/Lily_Allen> .
+
+<http://example.org/Lizzo> owl:sameAs <http://dbpedia.org/resource/Lizzo> .
+
+<http://example.org/Lorde> owl:sameAs <http://dbpedia.org/resource/Lorde> .
+
+<http://example.org/Lost%20Frequencies> owl:sameAs <http://dbpedia.org/resource/Lost_Frequencies> .
+
+<http://example.org/Luis%20Fonsi> owl:sameAs <http://dbpedia.org/resource/Luis_Fonsi> .
+
+<http://example.org/Mark%20Ronson> owl:sameAs <http://dbpedia.org/resource/Mark_Ronson> .
+
+<http://example.org/Marshmello> owl:sameAs <http://dbpedia.org/resource/Marshmello> .
+
+<http://example.org/Martin%20Garrix> owl:sameAs <http://dbpedia.org/resource/Martin_Garrix> .
+
+<http://example.org/Martin%20Solveig> owl:sameAs <http://dbpedia.org/resource/Martin_Solveig> .
+
+<http://example.org/Meghan%20Trainor> owl:sameAs <http://dbpedia.org/resource/Meghan_Trainor> .
+
+<http://example.org/Michael%20Jackson> owl:sameAs <http://dbpedia.org/resource/Michael_Jackson>,
+        <http://dbpedia.org/resource/Michael_Jackson_(English_singer)> .
+
+<http://example.org/Mike%20Posner> owl:sameAs <http://dbpedia.org/resource/Mike_Posner> .
+
+<http://example.org/Miley%20Cyrus> owl:sameAs <http://dbpedia.org/resource/Miley_Cyrus> .
+
+<http://example.org/Missy%20Elliott> owl:sameAs <http://dbpedia.org/resource/Missy_Elliott> .
+
+<http://example.org/Mr.%20Probz> owl:sameAs <http://dbpedia.org/resource/Mr._Probz> .
+
+<http://example.org/Naughty%20Boy> owl:sameAs <http://dbpedia.org/resource/Naughty_Boy> .
+
+<http://example.org/Ne-Yo> owl:sameAs <http://dbpedia.org/resource/Ne-Yo> .
+
+<http://example.org/Nelly%20Furtado> owl:sameAs <http://dbpedia.org/resource/Nelly_Furtado> .
+
+<http://example.org/Niall%20Horan> owl:sameAs <http://dbpedia.org/resource/Niall_Horan> .
+
+<http://example.org/Nick%20Jonas> owl:sameAs <http://dbpedia.org/resource/Nick_Jonas> .
+
+<http://example.org/Nicki%20Minaj> owl:sameAs <http://dbpedia.org/resource/Nicki_Minaj> .
+
+<http://example.org/Owl%20City> owl:sameAs <http://dbpedia.org/resource/Owl_City> .
+
+<http://example.org/P%21nk> owl:sameAs <http://dbpedia.org/resource/Pink_(singer)> .
+
+<http://example.org/Paloma%20Faith> owl:sameAs <http://dbpedia.org/resource/Paloma_Faith> .
+
+<http://example.org/Passenger> owl:sameAs <http://dbpedia.org/resource/Passenger_(singer)> .
+
+<http://example.org/Pharrell%20Williams> owl:sameAs <http://dbpedia.org/resource/Pharrell_Williams> .
+
+<http://example.org/Pitbull> owl:sameAs <http://dbpedia.org/resource/Pitbull_(rapper)> .
+
+<http://example.org/RedOne> owl:sameAs <http://dbpedia.org/resource/RedOne> .
+
+<http://example.org/Ricky%20Martin> owl:sameAs <http://dbpedia.org/resource/Ricky_Martin> .
+
+<http://example.org/Rihanna> owl:sameAs <http://dbpedia.org/resource/Rihanna> .
+
+<http://example.org/Rita%20Ora> owl:sameAs <http://dbpedia.org/resource/Rita_Ora> .
+
+<http://example.org/Robin%20Schulz> owl:sameAs <http://dbpedia.org/resource/Robin_Schulz> .
+
+<http://example.org/Robin%20Thicke> owl:sameAs <http://dbpedia.org/resource/Robin_Thicke> .
+
+<http://example.org/Rudimental> owl:sameAs <http://dbpedia.org/resource/Rudimental> .
+
+<http://example.org/Sean%20Kingston> owl:sameAs <http://dbpedia.org/resource/Sean_Kingston> .
+
+<http://example.org/Selena%20Gomez> owl:sameAs <http://dbpedia.org/resource/Selena_Gomez> .
+
+<http://example.org/Shakira> owl:sameAs <http://dbpedia.org/resource/Shakira> .
+
+<http://example.org/Sigala> owl:sameAs <http://dbpedia.org/resource/Sigala> .
+
+<http://example.org/Taio%20Cruz> owl:sameAs <http://dbpedia.org/resource/Taio_Cruz> .
+
+<http://example.org/Taylor%20Swift> owl:sameAs <http://dbpedia.org/resource/Taylor_Swift> .
+
+<http://example.org/The%20Chainsmokers> owl:sameAs <http://dbpedia.org/resource/The_Chainsmokers> .
+
+<http://example.org/The%20Weeknd> owl:sameAs <http://dbpedia.org/resource/The_Weeknd> .
+
+<http://example.org/Tinie%20Tempah> owl:sameAs <http://dbpedia.org/resource/Tinie_Tempah> .
+
+<http://example.org/Wiz%20Khalifa> owl:sameAs <http://dbpedia.org/resource/Wiz_Khalifa> .
+
+<http://example.org/Zara%20Larsson> owl:sameAs <http://dbpedia.org/resource/Zara_Larsson> .
+
+<http://example.org/Zedd> owl:sameAs <http://dbpedia.org/resource/Zedd> .
+
+<http://example.org/will.i.am> owl:sameAs <http://dbpedia.org/resource/Will.i.am> .
+
+
+
+
+
+
+
+
+<http://example.org/australian%20hip%20hop> owl:sameAs <http://dbpedia.org/resource/Australian_hip_hop> .
+
+<http://example.org/baroque%20pop> owl:sameAs <http://dbpedia.org/resource/Baroque_pop> .
+
+<http://example.org/british%20soul> owl:sameAs <http://dbpedia.org/resource/British_soul> .
+
+<http://example.org/celtic%20rock> owl:sameAs <http://dbpedia.org/resource/Celtic_rock> .
+
+<http://example.org/complextro> owl:sameAs <http://dbpedia.org/resource/Electro_house> .
+
+<http://example.org/downtempo> owl:sameAs <http://dbpedia.org/resource/Downtempo> .
+
+<http://example.org/electro%20house> owl:sameAs <http://dbpedia.org/resource/Electro_house> .
+
+<http://example.org/electropop> owl:sameAs <http://dbpedia.org/resource/Electropop> .
+
+<http://example.org/folk-pop> owl:sameAs <http://dbpedia.org/resource/Folk-pop> .
+
+<http://example.org/hip%20hop> owl:sameAs <http://dbpedia.org/resource/Hip_hop_music> .
+
+<http://example.org/indie%20pop> owl:sameAs <http://dbpedia.org/resource/Indie_pop> .
+
+<http://example.org/moroccan%20pop> owl:sameAs <http://dbpedia.org/resource/Moroccan_pop> .
+
+<http://example.org/pop> owl:sameAs <http://dbpedia.org/resource/Pop_music> .
+
+<http://example.org/tropical%20house> owl:sameAs <http://dbpedia.org/resource/Tropical_house> .
+
