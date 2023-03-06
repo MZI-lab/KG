@@ -1,0 +1,90 @@
+Task 4: Provide SPARQL queries to answer the following questions using the resultingintegrated KG
+
+===========================================================================================================
+a. Return a list of artists and their names who produce songs with genres other than "pop" and "dance pop."
+===========================================================================================================
+PREFIX schema: <https://schema.org/>
+
+SELECT DISTINCT ?artist ?artist_name
+WHERE {
+  ?song schema:byArtist ?artist .
+  ?song schema:genre ?genre .
+  ?artist rdfs:label ?artist_name .
+  ?genre rdfs:label ?genre_name .
+  FILTER(?genre_name != "pop"@en && ?genre_name != "dance pop"@en)
+}
+
+
+
+=======================================================================
+b. Return a list of songs released in 2016 by artists born before 1990.
+=======================================================================
+PREFIX schema: <https://schema.org/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX dbo: <http://dbpedia.org/ontology/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+SELECT DISTINCT ?song_name ?released (YEAR(?birthDate) as ?birthYear)
+WHERE {
+  ?song schema:byArtist ?artist .
+  ?song rdfs:label ?song_name .
+  ?song schema:datePublished ?released .
+  ?artist owl:sameAs ?realArtist .
+  ?realArtist dbo:birthDate ?birthDate .
+  FILTER(?released = "2016"^^xsd:gYear && YEAR(?birthDate) < 1990)
+}
+
+
+
+====================================================================
+c. Who is the artist that has produced the greatest number of songs?
+====================================================================
+PREFIX ex: <http://example.org/>
+PREFIX schema: <https://schema.org/>
+
+SELECT ?artist_name (COUNT(?song) as ?sum_songs)
+WHERE {
+  ?song schema:byArtist ?artist .
+  ?artist rdfs:label ?artist_name .
+}
+GROUP BY ?artist
+ORDER BY DESC(?sum_songs)
+LIMIT 1
+
+
+
+==============================================================================================
+d. Return a list of artists born in the USA, sorted by the number of songs they have produced.
+==============================================================================================
+PREFIX schema: <https://schema.org/>
+PREFIX dbp: <http://dbpedia.org/property/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+SELECT ?artist_name ?birthPlace (COUNT(?song) as ?sum_songs)
+WHERE {
+  ?song schema:byArtist ?artist .
+  ?artist owl:sameAs ?realArtist .
+  ?artist rdfs:label ?artist_name .
+  ?realArtist dbp:birthPlace ?birthPlace .
+  FILTER regex(?birthPlace, "U.S.", "i")
+}
+GROUP BY ?artist
+ORDER BY DESC(?sum_songs)
+
+
+
+===============================================================================================================
+e. Find artists whose song names contain the word "love" and sort the artists by the resulting number of songs.
+===============================================================================================================
+PREFIX schema: <https://schema.org/>
+
+SELECT ?artist_name (COUNT(?song) as ?sum_songs)
+WHERE {
+  ?song schema:byArtist ?artist .
+  ?song rdfs:label ?song_name .
+  ?artist rdfs:label ?artist_name .
+  FILTER regex(?song_name, "love", "i")
+}
+GROUP BY ?artist
+ORDER BY DESC(?sum_songs)
+
