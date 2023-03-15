@@ -1,0 +1,32 @@
+PREFIX ex: <http://example.org/>
+PREFIX schema: <https://schema.org/>
+PREFIX dbo: <http://dbpedia.org/ontology/>
+
+INSERT {
+  ?artist foaf:birthDate ?birthdate ;
+          dbo:birthPlace ?birthplace .
+}
+WHERE {
+  ?artist rdf:type schema:Person ;
+          rdfs:label ?label .
+  FILTER(REGEX(?label, ".*@en"))  # I dont think this one is correct
+
+  SERVICE <http://dbpedia.org/sparql> {
+    ?dbpedia foaf:name ?label ;
+             dbo:birthDate ?birthdate ;
+             dbo:birthPlace ?dbpedia_place .
+    ?dbpedia_place dbo:country ?dbpedia_country .
+    FILTER(lang(?label) = "en")
+  }
+
+  BIND(REPLACE(STR(?artist), "http://example.org/", "") AS ?name)
+  BIND(REPLACE(STR(?dbpedia_country), "http://dbpedia.org/resource/", "") AS ?country)
+  BIND(REPLACE(STR(?dbpedia_place), "http://dbpedia.org/resource/", "") AS ?city)
+
+  BIND(CONCAT("http://dbpedia.org/resource/", ?name, "?ref=auto#DBpedia_Page") AS ?dbpedia)
+  BIND(CONCAT("http://dbpedia.org/resource/", ?country) AS ?country_uri)
+  BIND(CONCAT("http://dbpedia.org/resource/", ?city) AS ?city_uri)
+  BIND(IRI(?dbpedia) AS ?artist_uri)
+  BIND(IRI(?country_uri) AS ?country_iri)
+  BIND(IRI(?city_uri) AS ?city_iri)
+}

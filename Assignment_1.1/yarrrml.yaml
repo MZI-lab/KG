@@ -1,0 +1,33 @@
+prefixes:
+    ex: http://example.org/
+    schema: https://schema.org/
+    mo: http://purl.org/ontology/mo/
+
+mappings:
+  song:
+    sources:
+      - ['music.csv~csv']
+    s: http://example.com/song_$(index)
+    po:
+      - [a, schema:MusicRecording]
+      - [schema:byArtist, ex:$(artist)]
+      - [schema:genre, ex:$(top genre)]
+      - [schema:datePublished, {value: $(year), datatype: xsd:gYear}]
+      - [rdfs:label, {value: $(title), language: en}]
+      
+  artist:
+    sources:
+      - ['music.csv~csv']
+    s: ex:$(artist)
+    po:
+      - [a, schema:Person]
+      - [rdfs:label, {value: $(artist), language: en}]
+      
+  genre:
+    sources:
+      - ['music.csv~csv']
+    s: ex:$(top genre)
+    po:
+      - [a, mo:Genre]
+      - [rdfs:label, {value: $(top genre), language: en}]
+      

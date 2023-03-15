@@ -1,0 +1,4330 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ma: <http://www.w3.org/ns/ma-ont#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix sd: <http://www.w3.org/ns/sparql-service-description#> .
+@prefix schema: <https://schema.org/> .
+@prefix ex: <http://example.org/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix grel: <http://users.ugent.be/~bjdmeest/function/grel.ttl#> .
+
+<http://example.com/song_0> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Train ;
+	schema:genre ex:neo%20mellow ;
+	schema:datePublished "2010"^^xsd:gYear ;
+	rdfs:label "Hey, Soul Sister"@en .
+
+<http://example.com/song_1> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Eminem ;
+	schema:genre ex:detroit%20hip%20hop ;
+	schema:datePublished "2010"^^xsd:gYear ;
+	rdfs:label "Love The Way You Lie"@en .
+
+<http://example.com/song_2> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Kesha ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2010"^^xsd:gYear ;
+	rdfs:label "TiK ToK"@en .
+
+<http://example.com/song_3> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Lady%20Gaga ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2010"^^xsd:gYear ;
+	rdfs:label "Bad Romance"@en .
+
+<http://example.com/song_4> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Bruno%20Mars ;
+	schema:genre ex:pop ;
+	schema:datePublished "2010"^^xsd:gYear ;
+	rdfs:label "Just the Way You Are"@en .
+
+<http://example.com/song_5> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Justin%20Bieber ;
+	schema:genre ex:canadian%20pop ;
+	schema:datePublished "2010"^^xsd:gYear ;
+	rdfs:label "Baby"@en .
+
+<http://example.com/song_6> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Taio%20Cruz ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2010"^^xsd:gYear ;
+	rdfs:label "Dynamite"@en .
+
+<http://example.com/song_7> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:OneRepublic ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2010"^^xsd:gYear ;
+	rdfs:label "Secrets"@en .
+
+<http://example.com/song_8> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Alicia%20Keys ;
+	schema:genre ex:hip%20pop ;
+	schema:datePublished "2010"^^xsd:gYear ;
+	rdfs:label "Empire State of Mind (Part II) Broken Down"@en .
+
+<http://example.com/song_9> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Rihanna ;
+	schema:genre ex:barbadian%20pop ;
+	schema:datePublished "2010"^^xsd:gYear ;
+	rdfs:label "Only Girl (In The World)"@en .
+
+<http://example.com/song_10> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Flo%20Rida ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2010"^^xsd:gYear ;
+	rdfs:label "Club Can't Handle Me (feat. David Guetta)"@en .
+
+<http://example.com/song_11> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Bruno%20Mars ;
+	schema:genre ex:pop ;
+	schema:datePublished "2010"^^xsd:gYear ;
+	rdfs:label "Marry You"@en .
+
+<http://example.com/song_12> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Mike%20Posner ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2010"^^xsd:gYear ;
+	rdfs:label "Cooler Than Me - Single Mix"@en .
+
+<http://example.com/song_13> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Lady%20Gaga ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2010"^^xsd:gYear ;
+	rdfs:label "Telephone"@en .
+
+<http://example.com/song_14> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Far%20East%20Movement ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2010"^^xsd:gYear ;
+	rdfs:label "Like A G6"@en .
+
+<http://example.com/song_15> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Usher ;
+	schema:genre ex:atl%20hip%20hop ;
+	schema:datePublished "2010"^^xsd:gYear ;
+	rdfs:label "OMG (feat. will.i.am)"@en .
+
+<http://example.com/song_16> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Sean%20Kingston ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2010"^^xsd:gYear ;
+	rdfs:label "Eenie Meenie"@en .
+
+<http://example.com/song_17> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:The%20Black%20Eyed%20Peas ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2010"^^xsd:gYear ;
+	rdfs:label "The Time (Dirty Bit)"@en .
+
+<http://example.com/song_18> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Lady%20Gaga ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2010"^^xsd:gYear ;
+	rdfs:label "Alejandro"@en .
+
+<http://example.com/song_19> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Kesha ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2010"^^xsd:gYear ;
+	rdfs:label "Your Love Is My Drug"@en .
+
+<http://example.com/song_20> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:The%20Black%20Eyed%20Peas ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2010"^^xsd:gYear ;
+	rdfs:label "Meet Me Halfway"@en .
+
+<http://example.com/song_21> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Adam%20Lambert ;
+	schema:genre ex:australian%20pop ;
+	schema:datePublished "2010"^^xsd:gYear ;
+	rdfs:label "Whataya Want from Me"@en .
+
+<http://example.com/song_22> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Kesha ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2010"^^xsd:gYear ;
+	rdfs:label "Take It Off"@en .
+
+<http://example.com/song_23> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Maroon%205 ;
+	schema:genre ex:pop ;
+	schema:datePublished "2010"^^xsd:gYear ;
+	rdfs:label "Misery"@en .
+
+<http://example.com/song_24> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:OneRepublic ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2010"^^xsd:gYear ;
+	rdfs:label "All The Right Moves"@en .
+
+<http://example.com/song_25> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Neon%20Trees ;
+	schema:genre ex:indie%20pop ;
+	schema:datePublished "2010"^^xsd:gYear ;
+	rdfs:label "Animal"@en .
+
+<http://example.com/song_26> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Selena%20Gomez%20%26%20The%20Scene ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2010"^^xsd:gYear ;
+	rdfs:label "Naturally"@en .
+
+<http://example.com/song_27> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Enrique%20Iglesias ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2010"^^xsd:gYear ;
+	rdfs:label "I Like It"@en .
+
+<http://example.com/song_28> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Katy%20Perry ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2010"^^xsd:gYear ;
+	rdfs:label "Teenage Dream"@en .
+
+<http://example.com/song_29> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Katy%20Perry ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2010"^^xsd:gYear ;
+	rdfs:label "California Gurls"@en .
+
+<http://example.com/song_30> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Britney%20Spears ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2010"^^xsd:gYear ;
+	rdfs:label "3"@en .
+
+<http://example.com/song_31> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:3OH%213 ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2010"^^xsd:gYear ;
+	rdfs:label "My First Kiss - feat. Ke$ha"@en .
+
+<http://example.com/song_32> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Kesha ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2010"^^xsd:gYear ;
+	rdfs:label "Blah Blah Blah (feat. 3OH!3)"@en .
+
+<http://example.com/song_33> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:The%20Black%20Eyed%20Peas ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2010"^^xsd:gYear ;
+	rdfs:label "Imma Be"@en .
+
+<http://example.com/song_34> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Alicia%20Keys ;
+	schema:genre ex:hip%20pop ;
+	schema:datePublished "2010"^^xsd:gYear ;
+	rdfs:label "Try Sleeping with a Broken Heart"@en .
+
+<http://example.com/song_35> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:David%20Guetta ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2010"^^xsd:gYear ;
+	rdfs:label "Sexy Bitch (feat. Akon)"@en .
+
+<http://example.com/song_36> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Christina%20Aguilera ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2010"^^xsd:gYear ;
+	rdfs:label "Bound To You - Burlesque Original Motion Picture Soundtrack"@en .
+
+<http://example.com/song_37> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Adam%20Lambert ;
+	schema:genre ex:australian%20pop ;
+	schema:datePublished "2010"^^xsd:gYear ;
+	rdfs:label "If I Had You"@en .
+
+<http://example.com/song_38> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:The%20Black%20Eyed%20Peas ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2010"^^xsd:gYear ;
+	rdfs:label "Rock That Body"@en .
+
+<http://example.com/song_39> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Florence%20%2B%20The%20Machine ;
+	schema:genre ex:art%20pop ;
+	schema:datePublished "2010"^^xsd:gYear ;
+	rdfs:label "Dog Days Are Over"@en .
+
+<http://example.com/song_40> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Christina%20Aguilera ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2010"^^xsd:gYear ;
+	rdfs:label "Something's Got A Hold On Me - Burlesque Original Motion Picture Soundtrack"@en .
+
+<http://example.com/song_41> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Alicia%20Keys ;
+	schema:genre ex:hip%20pop ;
+	schema:datePublished "2010"^^xsd:gYear ;
+	rdfs:label "Doesn't Mean Anything"@en .
+
+<http://example.com/song_42> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Rihanna ;
+	schema:genre ex:barbadian%20pop ;
+	schema:datePublished "2010"^^xsd:gYear ;
+	rdfs:label "Hard"@en .
+
+<http://example.com/song_43> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Shakira ;
+	schema:genre ex:colombian%20pop ;
+	schema:datePublished "2010"^^xsd:gYear ;
+	rdfs:label "Loca"@en .
+
+<http://example.com/song_44> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Christina%20Aguilera ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2010"^^xsd:gYear ;
+	rdfs:label "You Lost Me"@en .
+
+<http://example.com/song_45> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Christina%20Aguilera ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2010"^^xsd:gYear ;
+	rdfs:label "Not Myself Tonight"@en .
+
+<http://example.com/song_46> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Tinie%20Tempah ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2010"^^xsd:gYear ;
+	rdfs:label "Written in the Stars (feat. Eric Turner)"@en .
+
+<http://example.com/song_47> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Usher ;
+	schema:genre ex:atl%20hip%20hop ;
+	schema:datePublished "2010"^^xsd:gYear ;
+	rdfs:label "DJ Got Us Fallin' In Love (feat. Pitbull)"@en .
+
+<http://example.com/song_48> rdf:type schema:MusicRecording ;
+	schema:byArtist <http://example.org/T.I.> ;
+	schema:genre ex:atl%20hip%20hop ;
+	schema:datePublished "2010"^^xsd:gYear ;
+	rdfs:label "Castle Walls (feat. Christina Aguilera)"@en .
+
+<http://example.com/song_49> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Taio%20Cruz ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2010"^^xsd:gYear ;
+	rdfs:label "Break Your Heart"@en .
+
+<http://example.com/song_50> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Martin%20Solveig ;
+	schema:genre ex:big%20room ;
+	schema:datePublished "2010"^^xsd:gYear ;
+	rdfs:label "Hello"@en .
+
+<http://example.com/song_51> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Christina%20Perri ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2011"^^xsd:gYear ;
+	rdfs:label "A Thousand Years"@en .
+
+<http://example.com/song_52> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Adele ;
+	schema:genre ex:british%20soul ;
+	schema:datePublished "2011"^^xsd:gYear ;
+	rdfs:label "Someone Like You"@en .
+
+<http://example.com/song_53> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Pitbull ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2011"^^xsd:gYear ;
+	rdfs:label "Give Me Everything"@en .
+
+<http://example.com/song_54> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Bruno%20Mars ;
+	schema:genre ex:pop ;
+	schema:datePublished "2011"^^xsd:gYear ;
+	rdfs:label "Just the Way You Are"@en .
+
+<http://example.com/song_55> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Adele ;
+	schema:genre ex:british%20soul ;
+	schema:datePublished "2011"^^xsd:gYear ;
+	rdfs:label "Rolling in the Deep"@en .
+
+<http://example.com/song_56> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Beyonc%C3%83%C2%A9 ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2011"^^xsd:gYear ;
+	rdfs:label "Run the World (Girls)"@en .
+
+<http://example.com/song_57> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Maroon%205 ;
+	schema:genre ex:pop ;
+	schema:datePublished "2011"^^xsd:gYear ;
+	rdfs:label "Moves Like Jagger - Studio Recording From The Voice Performance"@en .
+
+<http://example.com/song_58> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Beyonc%C3%83%C2%A9 ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2011"^^xsd:gYear ;
+	rdfs:label "Love On Top"@en .
+
+<http://example.com/song_59> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Bruno%20Mars ;
+	schema:genre ex:pop ;
+	schema:datePublished "2011"^^xsd:gYear ;
+	rdfs:label "Grenade"@en .
+
+<http://example.com/song_60> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Hot%20Chelle%20Rae ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2011"^^xsd:gYear ;
+	rdfs:label "Tonight Tonight"@en .
+
+<http://example.com/song_61> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Avril%20Lavigne ;
+	schema:genre ex:canadian%20pop ;
+	schema:datePublished "2011"^^xsd:gYear ;
+	rdfs:label "What the Hell"@en .
+
+<http://example.com/song_62> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Lady%20Gaga ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2011"^^xsd:gYear ;
+	rdfs:label "Born This Way"@en .
+
+<http://example.com/song_63> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Kanye%20West ;
+	schema:genre ex:chicago%20rap ;
+	schema:datePublished "2011"^^xsd:gYear ;
+	rdfs:label "Monster"@en .
+
+<http://example.com/song_64> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Bruno%20Mars ;
+	schema:genre ex:pop ;
+	schema:datePublished "2011"^^xsd:gYear ;
+	rdfs:label "Marry You"@en .
+
+<http://example.com/song_65> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Beyonc%C3%83%C2%A9 ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2011"^^xsd:gYear ;
+	rdfs:label "Best Thing I Never Had"@en .
+
+<http://example.com/song_66> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:LMFAO ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2011"^^xsd:gYear ;
+	rdfs:label "Party Rock Anthem"@en .
+
+<http://example.com/song_67> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Kesha ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2011"^^xsd:gYear ;
+	rdfs:label "We R Who We R"@en .
+
+<http://example.com/song_68> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Jessie%20J ;
+	schema:genre ex:australian%20pop ;
+	schema:datePublished "2011"^^xsd:gYear ;
+	rdfs:label "Price Tag"@en .
+
+<http://example.com/song_69> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:OneRepublic ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2011"^^xsd:gYear ;
+	rdfs:label "Good Life"@en .
+
+<http://example.com/song_70> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:The%20Black%20Eyed%20Peas ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2011"^^xsd:gYear ;
+	rdfs:label "Just CanÂ’t Get Enough"@en .
+
+<http://example.com/song_71> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Jennifer%20Lopez ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2011"^^xsd:gYear ;
+	rdfs:label "On The Floor"@en .
+
+<http://example.com/song_72> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Rihanna ;
+	schema:genre ex:barbadian%20pop ;
+	schema:datePublished "2011"^^xsd:gYear ;
+	rdfs:label "What's My Name?"@en .
+
+<http://example.com/song_73> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Chris%20Brown ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2011"^^xsd:gYear ;
+	rdfs:label "Yeah 3x"@en .
+
+<http://example.com/song_74> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:David%20Guetta ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2011"^^xsd:gYear ;
+	rdfs:label "Without You (feat. Usher)"@en .
+
+<http://example.com/song_75> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:LMFAO ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2011"^^xsd:gYear ;
+	rdfs:label "Sexy And I Know It"@en .
+
+<http://example.com/song_76> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Lady%20Gaga ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2011"^^xsd:gYear ;
+	rdfs:label "The Edge Of Glory"@en .
+
+<http://example.com/song_77> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Katy%20Perry ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2011"^^xsd:gYear ;
+	rdfs:label "E.T."@en .
+
+<http://example.com/song_78> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Britney%20Spears ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2011"^^xsd:gYear ;
+	rdfs:label "Till the World Ends"@en .
+
+<http://example.com/song_79> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Britney%20Spears ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2011"^^xsd:gYear ;
+	rdfs:label "I Wanna Go"@en .
+
+<http://example.com/song_80> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Kesha ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2011"^^xsd:gYear ;
+	rdfs:label "Blow"@en .
+
+<http://example.com/song_81> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Lady%20Gaga ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2011"^^xsd:gYear ;
+	rdfs:label "You And I"@en .
+
+<http://example.com/song_82> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Lady%20Gaga ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2011"^^xsd:gYear ;
+	rdfs:label "Judas"@en .
+
+<http://example.com/song_83> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Enrique%20Iglesias ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2011"^^xsd:gYear ;
+	rdfs:label "Tonight (I'm Fuckin' You)"@en .
+
+<http://example.com/song_84> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Mike%20Posner ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2011"^^xsd:gYear ;
+	rdfs:label "Please Don't Go"@en .
+
+<http://example.com/song_85> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Rihanna ;
+	schema:genre ex:barbadian%20pop ;
+	schema:datePublished "2011"^^xsd:gYear ;
+	rdfs:label "We Found Love"@en .
+
+<http://example.com/song_86> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Lady%20Gaga ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2011"^^xsd:gYear ;
+	rdfs:label "Marry The Night"@en .
+
+<http://example.com/song_87> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Beyonc%C3%83%C2%A9 ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2011"^^xsd:gYear ;
+	rdfs:label "1+1"@en .
+
+<http://example.com/song_88> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Britney%20Spears ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2011"^^xsd:gYear ;
+	rdfs:label "Hold It Against Me"@en .
+
+<http://example.com/song_89> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Jennifer%20Lopez ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2011"^^xsd:gYear ;
+	rdfs:label "I'm Into You"@en .
+
+<http://example.com/song_90> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Jennifer%20Lopez ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2011"^^xsd:gYear ;
+	rdfs:label "Papi"@en .
+
+<http://example.com/song_91> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Rihanna ;
+	schema:genre ex:barbadian%20pop ;
+	schema:datePublished "2011"^^xsd:gYear ;
+	rdfs:label "Cheers (Drink To That)"@en .
+
+<http://example.com/song_92> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Rihanna ;
+	schema:genre ex:barbadian%20pop ;
+	schema:datePublished "2011"^^xsd:gYear ;
+	rdfs:label "S&M Remix"@en .
+
+<http://example.com/song_93> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Tinie%20Tempah ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2011"^^xsd:gYear ;
+	rdfs:label "Written in the Stars (feat. Eric Turner)"@en .
+
+<http://example.com/song_94> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Christina%20Perri ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2011"^^xsd:gYear ;
+	rdfs:label "Jar of Hearts"@en .
+
+<http://example.com/song_95> rdf:type schema:MusicRecording ;
+	schema:byArtist <http://example.org/T.I.> ;
+	schema:genre ex:atl%20hip%20hop ;
+	schema:datePublished "2011"^^xsd:gYear ;
+	rdfs:label "Castle Walls (feat. Christina Aguilera)"@en .
+
+<http://example.com/song_96> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Sleeping%20At%20Last ;
+	schema:genre ex:acoustic%20pop ;
+	schema:datePublished "2011"^^xsd:gYear ;
+	rdfs:label "Turning Page"@en .
+
+<http://example.com/song_97> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Nicki%20Minaj ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2011"^^xsd:gYear ;
+	rdfs:label "Super Bass"@en .
+
+<http://example.com/song_98> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:P%21nk ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2011"^^xsd:gYear ;
+	rdfs:label "Raise Your Glass"@en .
+
+<http://example.com/song_99> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Jennifer%20Lopez ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2011"^^xsd:gYear ;
+	rdfs:label "Invading My Mind"@en .
+
+<http://example.com/song_100> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Nicki%20Minaj ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2011"^^xsd:gYear ;
+	rdfs:label "Moment 4 Life - Album Version (Edited)"@en .
+
+<http://example.com/song_101> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Katy%20Perry ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2011"^^xsd:gYear ;
+	rdfs:label "Last Friday Night (T.G.I.F.)"@en .
+
+<http://example.com/song_102> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Katy%20Perry ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2011"^^xsd:gYear ;
+	rdfs:label "Firework"@en .
+
+<http://example.com/song_103> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Nicki%20Minaj ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2011"^^xsd:gYear ;
+	rdfs:label "Muny - Album Version (Edited)"@en .
+
+<http://example.com/song_104> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:David%20Guetta ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2012"^^xsd:gYear ;
+	rdfs:label "Titanium (feat. Sia)"@en .
+
+<http://example.com/song_105> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Bruno%20Mars ;
+	schema:genre ex:pop ;
+	schema:datePublished "2012"^^xsd:gYear ;
+	rdfs:label "Locked Out of Heaven"@en .
+
+<http://example.com/song_106> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Coldplay ;
+	schema:genre ex:permanent%20wave ;
+	schema:datePublished "2012"^^xsd:gYear ;
+	rdfs:label "Paradise"@en .
+
+<http://example.com/song_107> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Maroon%205 ;
+	schema:genre ex:pop ;
+	schema:datePublished "2012"^^xsd:gYear ;
+	rdfs:label "Payphone"@en .
+
+<http://example.com/song_108> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:One%20Direction ;
+	schema:genre ex:boy%20band ;
+	schema:datePublished "2012"^^xsd:gYear ;
+	rdfs:label "What Makes You Beautiful"@en .
+
+<http://example.com/song_109> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Taylor%20Swift ;
+	schema:genre ex:pop ;
+	schema:datePublished "2012"^^xsd:gYear ;
+	rdfs:label "I Knew You Were Trouble."@en .
+
+<http://example.com/song_110> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Carly%20Rae%20Jepsen ;
+	schema:genre ex:canadian%20pop ;
+	schema:datePublished "2012"^^xsd:gYear ;
+	rdfs:label "Call Me Maybe"@en .
+
+<http://example.com/song_111> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Selena%20Gomez%20%26%20The%20Scene ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2012"^^xsd:gYear ;
+	rdfs:label "Love You Like A Love Song"@en .
+
+<http://example.com/song_112> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Adele ;
+	schema:genre ex:british%20soul ;
+	schema:datePublished "2012"^^xsd:gYear ;
+	rdfs:label "Set Fire to the Rain"@en .
+
+<http://example.com/song_113> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Taylor%20Swift ;
+	schema:genre ex:pop ;
+	schema:datePublished "2012"^^xsd:gYear ;
+	rdfs:label "We Are Never Ever Getting Back Together"@en .
+
+<http://example.com/song_114> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Kelly%20Clarkson ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2012"^^xsd:gYear ;
+	rdfs:label "Stronger (What Doesn't Kill You)"@en .
+
+<http://example.com/song_115> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:P%21nk ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2012"^^xsd:gYear ;
+	rdfs:label "Try"@en .
+
+<http://example.com/song_116> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Nicki%20Minaj ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2012"^^xsd:gYear ;
+	rdfs:label "Starships"@en .
+
+<http://example.com/song_117> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Maroon%205 ;
+	schema:genre ex:pop ;
+	schema:datePublished "2012"^^xsd:gYear ;
+	rdfs:label "One More Night"@en .
+
+<http://example.com/song_118> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Owl%20City ;
+	schema:genre ex:pop ;
+	schema:datePublished "2012"^^xsd:gYear ;
+	rdfs:label "Good Time"@en .
+
+<http://example.com/song_119> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:The%20Wanted ;
+	schema:genre ex:boy%20band ;
+	schema:datePublished "2012"^^xsd:gYear ;
+	rdfs:label "Glad You Came"@en .
+
+<http://example.com/song_120> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Justin%20Bieber ;
+	schema:genre ex:canadian%20pop ;
+	schema:datePublished "2012"^^xsd:gYear ;
+	rdfs:label "Beauty And A Beat"@en .
+
+<http://example.com/song_121> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Pitbull ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2012"^^xsd:gYear ;
+	rdfs:label "International Love"@en .
+
+<http://example.com/song_122> rdf:type schema:MusicRecording ;
+	schema:byArtist <http://example.org/fun.> ;
+	schema:genre ex:baroque%20pop ;
+	schema:datePublished "2012"^^xsd:gYear ;
+	rdfs:label "Some Nights"@en .
+
+<http://example.com/song_123> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Justin%20Bieber ;
+	schema:genre ex:canadian%20pop ;
+	schema:datePublished "2012"^^xsd:gYear ;
+	rdfs:label "Boyfriend"@en .
+
+<http://example.com/song_124> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Katy%20Perry ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2012"^^xsd:gYear ;
+	rdfs:label "Part Of Me"@en .
+
+<http://example.com/song_125> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Jessie%20J ;
+	schema:genre ex:australian%20pop ;
+	schema:datePublished "2012"^^xsd:gYear ;
+	rdfs:label "Domino"@en .
+
+<http://example.com/song_126> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Rihanna ;
+	schema:genre ex:barbadian%20pop ;
+	schema:datePublished "2012"^^xsd:gYear ;
+	rdfs:label "Where Have You Been"@en .
+
+<http://example.com/song_127> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Katy%20Perry ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2012"^^xsd:gYear ;
+	rdfs:label "Wide Awake"@en .
+
+<http://example.com/song_128> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Katy%20Perry ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2012"^^xsd:gYear ;
+	rdfs:label "The One That Got Away"@en .
+
+<http://example.com/song_129> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Jennifer%20Lopez ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2012"^^xsd:gYear ;
+	rdfs:label "Dance Again"@en .
+
+<http://example.com/song_130> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Chris%20Brown ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2012"^^xsd:gYear ;
+	rdfs:label "Turn Up the Music"@en .
+
+<http://example.com/song_131> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Ellie%20Goulding ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2012"^^xsd:gYear ;
+	rdfs:label "Lights - Single Version"@en .
+
+<http://example.com/song_132> rdf:type schema:MusicRecording ;
+	schema:byArtist <http://example.org/fun.> ;
+	schema:genre ex:baroque%20pop ;
+	schema:datePublished "2012"^^xsd:gYear ;
+	rdfs:label "We Are Young (feat. Janelle MonÃ¡e)"@en .
+
+<http://example.com/song_133> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Rihanna ;
+	schema:genre ex:barbadian%20pop ;
+	schema:datePublished "2012"^^xsd:gYear ;
+	rdfs:label "Diamonds"@en .
+
+<http://example.com/song_134> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Pitbull ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2012"^^xsd:gYear ;
+	rdfs:label "Don't Stop the Party (feat. TJR)"@en .
+
+<http://example.com/song_135> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Rihanna ;
+	schema:genre ex:barbadian%20pop ;
+	schema:datePublished "2012"^^xsd:gYear ;
+	rdfs:label "You Da One"@en .
+
+<http://example.com/song_136> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Gym%20Class%20Heroes ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2012"^^xsd:gYear ;
+	rdfs:label "Stereo Hearts (feat. Adam Levine)"@en .
+
+<http://example.com/song_137> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Bruno%20Mars ;
+	schema:genre ex:pop ;
+	schema:datePublished "2012"^^xsd:gYear ;
+	rdfs:label "It Will Rain"@en .
+
+<http://example.com/song_138> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:P%21nk ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2012"^^xsd:gYear ;
+	rdfs:label "Blow Me (One Last Kiss)"@en .
+
+<http://example.com/song_139> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Kelly%20Clarkson ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2013"^^xsd:gYear ;
+	rdfs:label "Underneath the Tree"@en .
+
+<http://example.com/song_140> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Avicii ;
+	schema:genre ex:big%20room ;
+	schema:datePublished "2013"^^xsd:gYear ;
+	rdfs:label "Wake Me Up"@en .
+
+<http://example.com/song_141> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:One%20Direction ;
+	schema:genre ex:boy%20band ;
+	schema:datePublished "2013"^^xsd:gYear ;
+	rdfs:label "Story of My Life"@en .
+
+<http://example.com/song_142> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:P%21nk ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2013"^^xsd:gYear ;
+	rdfs:label "Just Give Me a Reason (feat. Nate Ruess)"@en .
+
+<http://example.com/song_143> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:The%20Script ;
+	schema:genre ex:celtic%20rock ;
+	schema:datePublished "2013"^^xsd:gYear ;
+	rdfs:label "Hall of Fame"@en .
+
+<http://example.com/song_144> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Katy%20Perry ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2013"^^xsd:gYear ;
+	rdfs:label "Roar"@en .
+
+<http://example.com/song_145> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Miley%20Cyrus ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2013"^^xsd:gYear ;
+	rdfs:label "We Can't Stop"@en .
+
+<http://example.com/song_146> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Swedish%20House%20Mafia ;
+	schema:genre ex:big%20room ;
+	schema:datePublished "2013"^^xsd:gYear ;
+	rdfs:label "Don't You Worry Child - Radio Edit"@en .
+
+<http://example.com/song_147> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Daft%20Punk ;
+	schema:genre ex:electro ;
+	schema:datePublished "2013"^^xsd:gYear ;
+	rdfs:label "Get Lucky (feat. Pharrell Williams & Nile Rodgers) - Radio Edit"@en .
+
+<http://example.com/song_148> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Miley%20Cyrus ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2013"^^xsd:gYear ;
+	rdfs:label "Wrecking Ball"@en .
+
+<http://example.com/song_149> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:James%20Arthur ;
+	schema:genre ex:pop ;
+	schema:datePublished "2013"^^xsd:gYear ;
+	rdfs:label "Impossible"@en .
+
+<http://example.com/song_150> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Robin%20Thicke ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2013"^^xsd:gYear ;
+	rdfs:label "Blurred Lines"@en .
+
+<http://example.com/song_151> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Demi%20Lovato ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2013"^^xsd:gYear ;
+	rdfs:label "Heart Attack"@en .
+
+<http://example.com/song_152> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Taylor%20Swift ;
+	schema:genre ex:pop ;
+	schema:datePublished "2013"^^xsd:gYear ;
+	rdfs:label "We Are Never Ever Getting Back Together"@en .
+
+<http://example.com/song_153> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Kesha ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2013"^^xsd:gYear ;
+	rdfs:label "Die Young"@en .
+
+<http://example.com/song_154> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Zedd ;
+	schema:genre ex:complextro ;
+	schema:datePublished "2013"^^xsd:gYear ;
+	rdfs:label "Clarity"@en .
+
+<http://example.com/song_155> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Lana%20Del%20Rey ;
+	schema:genre ex:art%20pop ;
+	schema:datePublished "2013"^^xsd:gYear ;
+	rdfs:label "Summertime Sadness (Lana Del Rey Vs. Cedric Gervais) - Cedric Gervais Remix"@en .
+
+<http://example.com/song_156> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Calvin%20Harris ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2013"^^xsd:gYear ;
+	rdfs:label "Under Control"@en .
+
+<http://example.com/song_157> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Neon%20Trees ;
+	schema:genre ex:indie%20pop ;
+	schema:datePublished "2013"^^xsd:gYear ;
+	rdfs:label "Everybody Talks"@en .
+
+<http://example.com/song_158> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Drake ;
+	schema:genre ex:canadian%20hip%20hop ;
+	schema:datePublished "2013"^^xsd:gYear ;
+	rdfs:label "Hold On, We're Going Home"@en .
+
+<http://example.com/song_159> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:One%20Direction ;
+	schema:genre ex:boy%20band ;
+	schema:datePublished "2013"^^xsd:gYear ;
+	rdfs:label "Best Song Ever"@en .
+
+<http://example.com/song_160> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:One%20Direction ;
+	schema:genre ex:boy%20band ;
+	schema:datePublished "2013"^^xsd:gYear ;
+	rdfs:label "Kiss You"@en .
+
+<http://example.com/song_161> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Calvin%20Harris ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2013"^^xsd:gYear ;
+	rdfs:label "Sweet Nothing (feat. Florence Welch)"@en .
+
+<http://example.com/song_162> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Daft%20Punk ;
+	schema:genre ex:electro ;
+	schema:datePublished "2013"^^xsd:gYear ;
+	rdfs:label "Lose Yourself to Dance"@en .
+
+<http://example.com/song_163> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Britney%20Spears ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2013"^^xsd:gYear ;
+	rdfs:label "Work Bitch"@en .
+
+<http://example.com/song_164> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Sara%20Bareilles ;
+	schema:genre ex:acoustic%20pop ;
+	schema:datePublished "2013"^^xsd:gYear ;
+	rdfs:label "Brave"@en .
+
+<http://example.com/song_165> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Macklemore%20%26%20Ryan%20Lewis ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2013"^^xsd:gYear ;
+	rdfs:label "Can't Hold Us (feat. Ray Dalton)"@en .
+
+<http://example.com/song_166> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Pitbull ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2013"^^xsd:gYear ;
+	rdfs:label "Feel This Moment (feat. Christina Aguilera)"@en .
+
+<http://example.com/song_167> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Labrinth ;
+	schema:genre ex:pop ;
+	schema:datePublished "2013"^^xsd:gYear ;
+	rdfs:label "Beneath Your Beautiful"@en .
+
+<http://example.com/song_168> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Ne-Yo ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2013"^^xsd:gYear ;
+	rdfs:label "Let Me Love You (Until You Learn To Love Yourself)"@en .
+
+<http://example.com/song_169> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Macklemore%20%26%20Ryan%20Lewis ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2013"^^xsd:gYear ;
+	rdfs:label "Thrift Shop (feat. Wanz)"@en .
+
+<http://example.com/song_170> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:OneRepublic ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2013"^^xsd:gYear ;
+	rdfs:label "If I Lose Myself - Alesso vs OneRepublic"@en .
+
+<http://example.com/song_171> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Ariana%20Grande ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2013"^^xsd:gYear ;
+	rdfs:label "The Way"@en .
+
+<http://example.com/song_172> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Justin%20Timberlake ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2013"^^xsd:gYear ;
+	rdfs:label "Suit & Tie"@en .
+
+<http://example.com/song_173> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:will.i.am ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2013"^^xsd:gYear ;
+	rdfs:label "#thatPOWER"@en .
+
+<http://example.com/song_174> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Icona%20Pop ;
+	schema:genre ex:candy%20pop ;
+	schema:datePublished "2013"^^xsd:gYear ;
+	rdfs:label "I Love It (feat. Charli XCX)"@en .
+
+<http://example.com/song_175> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:David%20Guetta ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2013"^^xsd:gYear ;
+	rdfs:label "Play Hard (feat. Ne-Yo & Akon) - New Edit"@en .
+
+<http://example.com/song_176> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Maroon%205 ;
+	schema:genre ex:pop ;
+	schema:datePublished "2013"^^xsd:gYear ;
+	rdfs:label "Daylight"@en .
+
+<http://example.com/song_177> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Maroon%205 ;
+	schema:genre ex:pop ;
+	schema:datePublished "2013"^^xsd:gYear ;
+	rdfs:label "Love Somebody"@en .
+
+<http://example.com/song_178> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Fergie ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2013"^^xsd:gYear ;
+	rdfs:label "A Little Party Never Killed Nobody (All We Got)"@en .
+
+<http://example.com/song_179> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Little%20Mix ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2013"^^xsd:gYear ;
+	rdfs:label "Move"@en .
+
+<http://example.com/song_180> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:The%20Wanted ;
+	schema:genre ex:boy%20band ;
+	schema:datePublished "2013"^^xsd:gYear ;
+	rdfs:label "Walks Like Rihanna"@en .
+
+<http://example.com/song_181> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Avril%20Lavigne ;
+	schema:genre ex:canadian%20pop ;
+	schema:datePublished "2013"^^xsd:gYear ;
+	rdfs:label "Rock N Roll"@en .
+
+<http://example.com/song_182> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Justin%20Bieber ;
+	schema:genre ex:canadian%20pop ;
+	schema:datePublished "2013"^^xsd:gYear ;
+	rdfs:label "Heartbreaker"@en .
+
+<http://example.com/song_183> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Justin%20Timberlake ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2013"^^xsd:gYear ;
+	rdfs:label "Mirrors - Radio Edit"@en .
+
+<http://example.com/song_184> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Emeli%20Sand%C3%83%C2%A9 ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2013"^^xsd:gYear ;
+	rdfs:label "Next To Me"@en .
+
+<http://example.com/song_185> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Demi%20Lovato ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2013"^^xsd:gYear ;
+	rdfs:label "Made In The USA"@en .
+
+<http://example.com/song_186> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Emeli%20Sand%C3%83%C2%A9 ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2013"^^xsd:gYear ;
+	rdfs:label "Clown"@en .
+
+<http://example.com/song_187> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Alicia%20Keys ;
+	schema:genre ex:hip%20pop ;
+	schema:datePublished "2013"^^xsd:gYear ;
+	rdfs:label "Girl On Fire (feat. Nicki Minaj) - Inferno Version"@en .
+
+<http://example.com/song_188> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Justin%20Timberlake ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2013"^^xsd:gYear ;
+	rdfs:label "TKO"@en .
+
+<http://example.com/song_189> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Selena%20Gomez ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2013"^^xsd:gYear ;
+	rdfs:label "Come & Get It"@en .
+
+<http://example.com/song_190> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Jennifer%20Lopez ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2013"^^xsd:gYear ;
+	rdfs:label "Live It Up"@en .
+
+<http://example.com/song_191> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:The%20Wanted ;
+	schema:genre ex:boy%20band ;
+	schema:datePublished "2013"^^xsd:gYear ;
+	rdfs:label "We Own The Night"@en .
+
+<http://example.com/song_192> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Coldplay ;
+	schema:genre ex:permanent%20wave ;
+	schema:datePublished "2013"^^xsd:gYear ;
+	rdfs:label "Atlas - From Â“The Hunger Games: Catching FireÂ” Soundtrack"@en .
+
+<http://example.com/song_193> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Austin%20Mahone ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2013"^^xsd:gYear ;
+	rdfs:label "What About Love"@en .
+
+<http://example.com/song_194> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Justin%20Timberlake ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2013"^^xsd:gYear ;
+	rdfs:label "Take Back the Night"@en .
+
+<http://example.com/song_195> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Lady%20Gaga ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2013"^^xsd:gYear ;
+	rdfs:label "Applause"@en .
+
+<http://example.com/song_196> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Ellie%20Goulding ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2013"^^xsd:gYear ;
+	rdfs:label "Anything Could Happen"@en .
+
+<http://example.com/song_197> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Enrique%20Iglesias ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2013"^^xsd:gYear ;
+	rdfs:label "Finally Found You"@en .
+
+<http://example.com/song_198> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Jonas%20Brothers ;
+	schema:genre ex:boy%20band ;
+	schema:datePublished "2013"^^xsd:gYear ;
+	rdfs:label "Pom Poms"@en .
+
+<http://example.com/song_199> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Mariah%20Carey ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2013"^^xsd:gYear ;
+	rdfs:label "#Beautiful"@en .
+
+<http://example.com/song_200> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Little%20Mix ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2013"^^xsd:gYear ;
+	rdfs:label "How Ya Doin'? (feat. Missy Elliott)"@en .
+
+<http://example.com/song_201> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Kesha ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2013"^^xsd:gYear ;
+	rdfs:label "Crazy Kids (feat. will.i.am)"@en .
+
+<http://example.com/song_202> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Britney%20Spears ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2013"^^xsd:gYear ;
+	rdfs:label "Ooh La La (from \"The Smurfs 2\")"@en .
+
+<http://example.com/song_203> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Kelly%20Clarkson ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2013"^^xsd:gYear ;
+	rdfs:label "People Like Us"@en .
+
+<http://example.com/song_204> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Ciara ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2013"^^xsd:gYear ;
+	rdfs:label "Overdose"@en .
+
+<http://example.com/song_205> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Rihanna ;
+	schema:genre ex:barbadian%20pop ;
+	schema:datePublished "2013"^^xsd:gYear ;
+	rdfs:label "Right Now - Dyro Radio Edit"@en .
+
+<http://example.com/song_206> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Robin%20Thicke ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2013"^^xsd:gYear ;
+	rdfs:label "Give It 2 U"@en .
+
+<http://example.com/song_207> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Jewel ;
+	schema:genre ex:alaska%20indie ;
+	schema:datePublished "2013"^^xsd:gYear ;
+	rdfs:label "Foolish Games"@en .
+
+<http://example.com/song_208> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Pitbull ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2013"^^xsd:gYear ;
+	rdfs:label "Outta Nowhere (feat. Danny Mercer)"@en .
+
+<http://example.com/song_209> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Kelly%20Rowland ;
+	schema:genre ex:atl%20hip%20hop ;
+	schema:datePublished "2013"^^xsd:gYear ;
+	rdfs:label "Freak"@en .
+
+<http://example.com/song_210> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:John%20Legend ;
+	schema:genre ex:neo%20mellow ;
+	schema:datePublished "2014"^^xsd:gYear ;
+	rdfs:label "All of Me"@en .
+
+<http://example.com/song_211> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Sam%20Smith ;
+	schema:genre ex:pop ;
+	schema:datePublished "2014"^^xsd:gYear ;
+	rdfs:label "Stay With Me"@en .
+
+<http://example.com/song_212> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Calvin%20Harris ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2014"^^xsd:gYear ;
+	rdfs:label "Summer"@en .
+
+<http://example.com/song_213> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Pharrell%20Williams ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2014"^^xsd:gYear ;
+	rdfs:label "Happy - From \"Despicable Me 2\""@en .
+
+<http://example.com/song_214> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:MAGIC%21 ;
+	schema:genre ex:pop ;
+	schema:datePublished "2014"^^xsd:gYear ;
+	rdfs:label "Rude"@en .
+
+<http://example.com/song_215> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Taylor%20Swift ;
+	schema:genre ex:pop ;
+	schema:datePublished "2014"^^xsd:gYear ;
+	rdfs:label "Shake It Off"@en .
+
+<http://example.com/song_216> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Katy%20Perry ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2014"^^xsd:gYear ;
+	rdfs:label "Dark Horse"@en .
+
+<http://example.com/song_217> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Avicii ;
+	schema:genre ex:big%20room ;
+	schema:datePublished "2014"^^xsd:gYear ;
+	rdfs:label "Hey Brother"@en .
+
+<http://example.com/song_218> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Maroon%205 ;
+	schema:genre ex:pop ;
+	schema:datePublished "2014"^^xsd:gYear ;
+	rdfs:label "Maps"@en .
+
+<http://example.com/song_219> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Bruno%20Mars ;
+	schema:genre ex:pop ;
+	schema:datePublished "2014"^^xsd:gYear ;
+	rdfs:label "Treasure"@en .
+
+<http://example.com/song_220> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Passenger ;
+	schema:genre ex:folk-pop ;
+	schema:datePublished "2014"^^xsd:gYear ;
+	rdfs:label "Let Her Go"@en .
+
+<http://example.com/song_221> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Ariana%20Grande ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2014"^^xsd:gYear ;
+	rdfs:label "Problem"@en .
+
+<http://example.com/song_222> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Bastille ;
+	schema:genre ex:metropopolis ;
+	schema:datePublished "2014"^^xsd:gYear ;
+	rdfs:label "Pompeii"@en .
+
+<http://example.com/song_223> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Lorde ;
+	schema:genre ex:art%20pop ;
+	schema:datePublished "2014"^^xsd:gYear ;
+	rdfs:label "Team"@en .
+
+<http://example.com/song_224> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:John%20Newman ;
+	schema:genre ex:pop ;
+	schema:datePublished "2014"^^xsd:gYear ;
+	rdfs:label "Love Me Again"@en .
+
+<http://example.com/song_225> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Disclosure ;
+	schema:genre ex:house ;
+	schema:datePublished "2014"^^xsd:gYear ;
+	rdfs:label "Latch"@en .
+
+<http://example.com/song_226> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Miley%20Cyrus ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2014"^^xsd:gYear ;
+	rdfs:label "Adore You"@en .
+
+<http://example.com/song_227> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Michael%20Jackson ;
+	schema:genre ex:pop ;
+	schema:datePublished "2014"^^xsd:gYear ;
+	rdfs:label "Love Never Felt So Good"@en .
+
+<http://example.com/song_228> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Ellie%20Goulding ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2014"^^xsd:gYear ;
+	rdfs:label "Burn"@en .
+
+<http://example.com/song_229> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:5%20Seconds%20of%20Summer ;
+	schema:genre ex:boy%20band ;
+	schema:datePublished "2014"^^xsd:gYear ;
+	rdfs:label "She Looks So Perfect"@en .
+
+<http://example.com/song_230> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Iggy%20Azalea ;
+	schema:genre ex:australian%20hip%20hop ;
+	schema:datePublished "2014"^^xsd:gYear ;
+	rdfs:label "Fancy"@en .
+
+<http://example.com/song_231> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Jason%20Derulo ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2014"^^xsd:gYear ;
+	rdfs:label "Talk Dirty (feat. 2 Chainz)"@en .
+
+<http://example.com/song_232> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Bruno%20Mars ;
+	schema:genre ex:pop ;
+	schema:datePublished "2014"^^xsd:gYear ;
+	rdfs:label "Gorilla"@en .
+
+<http://example.com/song_233> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Christina%20Perri ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2014"^^xsd:gYear ;
+	rdfs:label "human"@en .
+
+<http://example.com/song_234> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Bruno%20Mars ;
+	schema:genre ex:pop ;
+	schema:datePublished "2014"^^xsd:gYear ;
+	rdfs:label "Young Girls"@en .
+
+<http://example.com/song_235> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Jason%20Derulo ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2014"^^xsd:gYear ;
+	rdfs:label "Wiggle (feat. Snoop Dogg)"@en .
+
+<http://example.com/song_236> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:OneRepublic ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2014"^^xsd:gYear ;
+	rdfs:label "Love Runs Out"@en .
+
+<http://example.com/song_237> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Katy%20Perry ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2014"^^xsd:gYear ;
+	rdfs:label "This Is How We Do"@en .
+
+<http://example.com/song_238> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Austin%20Mahone ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2014"^^xsd:gYear ;
+	rdfs:label "Mmm Yeah (feat. Pitbull)"@en .
+
+<http://example.com/song_239> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Fergie ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2014"^^xsd:gYear ;
+	rdfs:label "A Little Party Never Killed Nobody (All We Got)"@en .
+
+<http://example.com/song_240> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:The%20Chainsmokers ;
+	schema:genre ex:electropop ;
+	schema:datePublished "2014"^^xsd:gYear ;
+	rdfs:label "#SELFIE"@en .
+
+<http://example.com/song_241> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Beyonc%C3%83%C2%A9 ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2014"^^xsd:gYear ;
+	rdfs:label "Partition"@en .
+
+<http://example.com/song_242> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Katy%20Perry ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2014"^^xsd:gYear ;
+	rdfs:label "Birthday"@en .
+
+<http://example.com/song_243> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Lady%20Gaga ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2014"^^xsd:gYear ;
+	rdfs:label "G.U.Y."@en .
+
+<http://example.com/song_244> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Zedd ;
+	schema:genre ex:complextro ;
+	schema:datePublished "2014"^^xsd:gYear ;
+	rdfs:label "Stay The Night - Featuring Hayley Williams Of Paramore"@en .
+
+<http://example.com/song_245> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Demi%20Lovato ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2014"^^xsd:gYear ;
+	rdfs:label "Let It Go - From \"Frozen / Single Version"@en .
+
+<http://example.com/song_246> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Birdy ;
+	schema:genre ex:neo%20mellow ;
+	schema:datePublished "2014"^^xsd:gYear ;
+	rdfs:label "Wings"@en .
+
+<http://example.com/song_247> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Shakira ;
+	schema:genre ex:colombian%20pop ;
+	schema:datePublished "2014"^^xsd:gYear ;
+	rdfs:label "Can't Remember to Forget You (feat. Rihanna)"@en .
+
+<http://example.com/song_248> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:David%20Guetta ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2014"^^xsd:gYear ;
+	rdfs:label "Shot Me Down (feat. Skylar Grey) - Radio Edit"@en .
+
+<http://example.com/song_249> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:A%20Great%20Big%20World ;
+	schema:genre ex:neo%20mellow ;
+	schema:datePublished "2014"^^xsd:gYear ;
+	rdfs:label "Say Something"@en .
+
+<http://example.com/song_250> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Coldplay ;
+	schema:genre ex:permanent%20wave ;
+	schema:datePublished "2014"^^xsd:gYear ;
+	rdfs:label "A Sky Full of Stars"@en .
+
+<http://example.com/song_251> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Pharrell%20Williams ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2014"^^xsd:gYear ;
+	rdfs:label "Come Get It Bae"@en .
+
+<http://example.com/song_252> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Sia ;
+	schema:genre ex:australian%20dance ;
+	schema:datePublished "2014"^^xsd:gYear ;
+	rdfs:label "Chandelier"@en .
+
+<http://example.com/song_253> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Beyonc%C3%83%C2%A9 ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2014"^^xsd:gYear ;
+	rdfs:label "XO"@en .
+
+<http://example.com/song_254> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Pitbull ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2014"^^xsd:gYear ;
+	rdfs:label "We Are One (Ole Ola) [The Official 2014 FIFA World Cup Song]"@en .
+
+<http://example.com/song_255> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Birdy ;
+	schema:genre ex:neo%20mellow ;
+	schema:datePublished "2014"^^xsd:gYear ;
+	rdfs:label "Not About Angels"@en .
+
+<http://example.com/song_256> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Beyonc%C3%83%C2%A9 ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2014"^^xsd:gYear ;
+	rdfs:label "Drunk in Love"@en .
+
+<http://example.com/song_257> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Nicki%20Minaj ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2014"^^xsd:gYear ;
+	rdfs:label "Anaconda"@en .
+
+<http://example.com/song_258> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Charli%20XCX ;
+	schema:genre ex:candy%20pop ;
+	schema:datePublished "2014"^^xsd:gYear ;
+	rdfs:label "Boom Clap - From the Motion Picture Das Schicksal ist ein mieser VerrÃ¤ter"@en .
+
+<http://example.com/song_259> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Shakira ;
+	schema:genre ex:colombian%20pop ;
+	schema:datePublished "2014"^^xsd:gYear ;
+	rdfs:label "La La La (Brasil 2014) (feat. Carlinhos Brown)"@en .
+
+<http://example.com/song_260> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Birdy ;
+	schema:genre ex:neo%20mellow ;
+	schema:datePublished "2014"^^xsd:gYear ;
+	rdfs:label "Tee Shirt - Soundtrack Version"@en .
+
+<http://example.com/song_261> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Birdy ;
+	schema:genre ex:neo%20mellow ;
+	schema:datePublished "2014"^^xsd:gYear ;
+	rdfs:label "Words as Weapons"@en .
+
+<http://example.com/song_262> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Mariah%20Carey ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2014"^^xsd:gYear ;
+	rdfs:label "You're Mine (Eternal)"@en .
+
+<http://example.com/song_263> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Lily%20Allen ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2014"^^xsd:gYear ;
+	rdfs:label "Sheezus"@en .
+
+<http://example.com/song_264> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Lea%20Michele ;
+	schema:genre ex:hollywood ;
+	schema:datePublished "2014"^^xsd:gYear ;
+	rdfs:label "Cannonball"@en .
+
+<http://example.com/song_265> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Alicia%20Keys ;
+	schema:genre ex:hip%20pop ;
+	schema:datePublished "2014"^^xsd:gYear ;
+	rdfs:label "It's On Again - Main Soundtrack"@en .
+
+<http://example.com/song_266> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Jennifer%20Lopez ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2014"^^xsd:gYear ;
+	rdfs:label "I Luh Ya Papi"@en .
+
+<http://example.com/song_267> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Justin%20Timberlake ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2014"^^xsd:gYear ;
+	rdfs:label "Not a Bad Thing"@en .
+
+<http://example.com/song_268> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Ed%20Sheeran ;
+	schema:genre ex:pop ;
+	schema:datePublished "2015"^^xsd:gYear ;
+	rdfs:label "Thinking out Loud"@en .
+
+<http://example.com/song_269> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Sam%20Smith ;
+	schema:genre ex:pop ;
+	schema:datePublished "2015"^^xsd:gYear ;
+	rdfs:label "I'm Not The Only One"@en .
+
+<http://example.com/song_270> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:The%20Weeknd ;
+	schema:genre ex:canadian%20contemporary%20r%26b ;
+	schema:datePublished "2015"^^xsd:gYear ;
+	rdfs:label "The Hills"@en .
+
+<http://example.com/song_271> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Justin%20Bieber ;
+	schema:genre ex:canadian%20pop ;
+	schema:datePublished "2015"^^xsd:gYear ;
+	rdfs:label "Love Yourself"@en .
+
+<http://example.com/song_272> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Mark%20Ronson ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2015"^^xsd:gYear ;
+	rdfs:label "Uptown Funk"@en .
+
+<http://example.com/song_273> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Hozier ;
+	schema:genre ex:irish%20singer-songwriter ;
+	schema:datePublished "2015"^^xsd:gYear ;
+	rdfs:label "Take Me To Church"@en .
+
+<http://example.com/song_274> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Maroon%205 ;
+	schema:genre ex:pop ;
+	schema:datePublished "2015"^^xsd:gYear ;
+	rdfs:label "Sugar"@en .
+
+<http://example.com/song_275> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Justin%20Bieber ;
+	schema:genre ex:canadian%20pop ;
+	schema:datePublished "2015"^^xsd:gYear ;
+	rdfs:label "Sorry"@en .
+
+<http://example.com/song_276> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Rihanna ;
+	schema:genre ex:barbadian%20pop ;
+	schema:datePublished "2015"^^xsd:gYear ;
+	rdfs:label "FourFiveSeconds"@en .
+
+<http://example.com/song_277> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Ellie%20Goulding ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2015"^^xsd:gYear ;
+	rdfs:label "Love Me Like You Do - From \"Fifty Shades Of Grey\""@en .
+
+<http://example.com/song_278> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:The%20Weeknd ;
+	schema:genre ex:canadian%20contemporary%20r%26b ;
+	schema:datePublished "2015"^^xsd:gYear ;
+	rdfs:label "Earned It (Fifty Shades Of Grey) - From The \"Fifty Shades Of Grey\" Soundtrack"@en .
+
+<http://example.com/song_279> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Justin%20Bieber ;
+	schema:genre ex:canadian%20pop ;
+	schema:datePublished "2015"^^xsd:gYear ;
+	rdfs:label "What Do You Mean?"@en .
+
+<http://example.com/song_280> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Shawn%20Mendes ;
+	schema:genre ex:canadian%20pop ;
+	schema:datePublished "2015"^^xsd:gYear ;
+	rdfs:label "Stitches"@en .
+
+<http://example.com/song_281> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Jason%20Derulo ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2015"^^xsd:gYear ;
+	rdfs:label "Want to Want Me"@en .
+
+<http://example.com/song_282> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Flo%20Rida ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2015"^^xsd:gYear ;
+	rdfs:label "My House"@en .
+
+<http://example.com/song_283> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Mr.%20Probz ;
+	schema:genre ex:tropical%20house ;
+	schema:datePublished "2015"^^xsd:gYear ;
+	rdfs:label "Waves - Robin Schulz Radio Edit"@en .
+
+<http://example.com/song_284> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:One%20Direction ;
+	schema:genre ex:boy%20band ;
+	schema:datePublished "2015"^^xsd:gYear ;
+	rdfs:label "Night Changes"@en .
+
+<http://example.com/song_285> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Calvin%20Harris ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2015"^^xsd:gYear ;
+	rdfs:label "How Deep Is Your Love"@en .
+
+<http://example.com/song_286> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Zara%20Larsson ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2015"^^xsd:gYear ;
+	rdfs:label "Never Forget You"@en .
+
+<http://example.com/song_287> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Ariana%20Grande ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2015"^^xsd:gYear ;
+	rdfs:label "Love Me Harder"@en .
+
+<http://example.com/song_288> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Maroon%205 ;
+	schema:genre ex:pop ;
+	schema:datePublished "2015"^^xsd:gYear ;
+	rdfs:label "Animals"@en .
+
+<http://example.com/song_289> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Calvin%20Harris ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2015"^^xsd:gYear ;
+	rdfs:label "Blame"@en .
+
+<http://example.com/song_290> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Fifth%20Harmony ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2015"^^xsd:gYear ;
+	rdfs:label "Worth It"@en .
+
+<http://example.com/song_291> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Ariana%20Grande ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2015"^^xsd:gYear ;
+	rdfs:label "Break Free"@en .
+
+<http://example.com/song_292> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Ed%20Sheeran ;
+	schema:genre ex:pop ;
+	schema:datePublished "2015"^^xsd:gYear ;
+	rdfs:label "Don't"@en .
+
+<http://example.com/song_293> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Sia ;
+	schema:genre ex:australian%20dance ;
+	schema:datePublished "2015"^^xsd:gYear ;
+	rdfs:label "Elastic Heart"@en .
+
+<http://example.com/song_294> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Clean%20Bandit ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2015"^^xsd:gYear ;
+	rdfs:label "Rather Be (feat. Jess Glynne)"@en .
+
+<http://example.com/song_295> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Adele ;
+	schema:genre ex:british%20soul ;
+	schema:datePublished "2015"^^xsd:gYear ;
+	rdfs:label "Hello"@en .
+
+<http://example.com/song_296> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Meghan%20Trainor ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2015"^^xsd:gYear ;
+	rdfs:label "Dear Future Husband"@en .
+
+<http://example.com/song_297> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Beyonc%C3%83%C2%A9 ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2015"^^xsd:gYear ;
+	rdfs:label "43776"@en .
+
+<http://example.com/song_298> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Selena%20Gomez ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2015"^^xsd:gYear ;
+	rdfs:label "The Heart Wants What It Wants"@en .
+
+<http://example.com/song_299> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:David%20Guetta ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2015"^^xsd:gYear ;
+	rdfs:label "Hey Mama (feat. Nicki Minaj, Bebe Rexha & Afrojack)"@en .
+
+<http://example.com/song_300> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Christina%20Aguilera ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2015"^^xsd:gYear ;
+	rdfs:label "Genie In a Bottle"@en .
+
+<http://example.com/song_301> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Justin%20Bieber ;
+	schema:genre ex:canadian%20pop ;
+	schema:datePublished "2015"^^xsd:gYear ;
+	rdfs:label "Company"@en .
+
+<http://example.com/song_302> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Ed%20Sheeran ;
+	schema:genre ex:pop ;
+	schema:datePublished "2015"^^xsd:gYear ;
+	rdfs:label "Sing"@en .
+
+<http://example.com/song_303> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Nick%20Jonas ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2015"^^xsd:gYear ;
+	rdfs:label "Jealous - Remix"@en .
+
+<http://example.com/song_304> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Demi%20Lovato ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2015"^^xsd:gYear ;
+	rdfs:label "Really Don't Care"@en .
+
+<http://example.com/song_305> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Macklemore%20%26%20Ryan%20Lewis ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2015"^^xsd:gYear ;
+	rdfs:label "Downtown (feat. Melle Mel, Grandmaster Caz, Kool Moe Dee & Eric Nally)"@en .
+
+<http://example.com/song_306> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Paloma%20Faith ;
+	schema:genre ex:british%20soul ;
+	schema:datePublished "2015"^^xsd:gYear ;
+	rdfs:label "Only Love Can Hurt Like This"@en .
+
+<http://example.com/song_307> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Kelly%20Clarkson ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2015"^^xsd:gYear ;
+	rdfs:label "Heartbeat Song"@en .
+
+<http://example.com/song_308> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Olly%20Murs ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2015"^^xsd:gYear ;
+	rdfs:label "Up"@en .
+
+<http://example.com/song_309> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Jason%20Derulo ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2015"^^xsd:gYear ;
+	rdfs:label "Trumpets"@en .
+
+<http://example.com/song_310> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Naughty%20Boy ;
+	schema:genre ex:tropical%20house ;
+	schema:datePublished "2015"^^xsd:gYear ;
+	rdfs:label "Runnin' (Lose It All)"@en .
+
+<http://example.com/song_311> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Selena%20Gomez ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2015"^^xsd:gYear ;
+	rdfs:label "Same Old Love"@en .
+
+<http://example.com/song_312> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Zedd ;
+	schema:genre ex:complextro ;
+	schema:datePublished "2015"^^xsd:gYear ;
+	rdfs:label "I Want You To Know"@en .
+
+<http://example.com/song_313> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Meghan%20Trainor ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2015"^^xsd:gYear ;
+	rdfs:label "Lips Are Movin"@en .
+
+<http://example.com/song_314> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Justin%20Bieber ;
+	schema:genre ex:canadian%20pop ;
+	schema:datePublished "2015"^^xsd:gYear ;
+	rdfs:label "I'll Show You"@en .
+
+<http://example.com/song_315> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Alessia%20Cara ;
+	schema:genre ex:canadian%20contemporary%20r%26b ;
+	schema:datePublished "2015"^^xsd:gYear ;
+	rdfs:label "Here"@en .
+
+<http://example.com/song_316> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:OneRepublic ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2015"^^xsd:gYear ;
+	rdfs:label "I Lived"@en .
+
+<http://example.com/song_317> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Pitbull ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2015"^^xsd:gYear ;
+	rdfs:label "Fireball (feat. John Ryan)"@en .
+
+<http://example.com/song_318> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Sigala ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2015"^^xsd:gYear ;
+	rdfs:label "Easy Love"@en .
+
+<http://example.com/song_319> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Justin%20Bieber ;
+	schema:genre ex:canadian%20pop ;
+	schema:datePublished "2015"^^xsd:gYear ;
+	rdfs:label "The Feeling"@en .
+
+<http://example.com/song_320> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Carly%20Rae%20Jepsen ;
+	schema:genre ex:canadian%20pop ;
+	schema:datePublished "2015"^^xsd:gYear ;
+	rdfs:label "I Really Like You"@en .
+
+<http://example.com/song_321> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Fifth%20Harmony ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2015"^^xsd:gYear ;
+	rdfs:label "BO$$"@en .
+
+<http://example.com/song_322> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Maroon%205 ;
+	schema:genre ex:pop ;
+	schema:datePublished "2015"^^xsd:gYear ;
+	rdfs:label "Sugar"@en .
+
+<http://example.com/song_323> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Ariana%20Grande ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2015"^^xsd:gYear ;
+	rdfs:label "Focus"@en .
+
+<http://example.com/song_324> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Meghan%20Trainor ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2015"^^xsd:gYear ;
+	rdfs:label "All About That Bass"@en .
+
+<http://example.com/song_325> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Ellie%20Goulding ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2015"^^xsd:gYear ;
+	rdfs:label "On My Mind"@en .
+
+<http://example.com/song_326> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Little%20Mix ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2015"^^xsd:gYear ;
+	rdfs:label "Love Me Like You"@en .
+
+<http://example.com/song_327> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Avicii ;
+	schema:genre ex:big%20room ;
+	schema:datePublished "2015"^^xsd:gYear ;
+	rdfs:label "Broken Arrows"@en .
+
+<http://example.com/song_328> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Jennifer%20Lopez ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2015"^^xsd:gYear ;
+	rdfs:label "Booty"@en .
+
+<http://example.com/song_329> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Justin%20Bieber ;
+	schema:genre ex:canadian%20pop ;
+	schema:datePublished "2015"^^xsd:gYear ;
+	rdfs:label "What Do You Mean? - Acoustic"@en .
+
+<http://example.com/song_330> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Justin%20Bieber ;
+	schema:genre ex:canadian%20pop ;
+	schema:datePublished "2015"^^xsd:gYear ;
+	rdfs:label "Mark My Words"@en .
+
+<http://example.com/song_331> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Rudimental ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2015"^^xsd:gYear ;
+	rdfs:label "Lay It All on Me"@en .
+
+<http://example.com/song_332> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Rihanna ;
+	schema:genre ex:barbadian%20pop ;
+	schema:datePublished "2015"^^xsd:gYear ;
+	rdfs:label "American Oxygen"@en .
+
+<http://example.com/song_333> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Jessie%20J ;
+	schema:genre ex:australian%20pop ;
+	schema:datePublished "2015"^^xsd:gYear ;
+	rdfs:label "Bang Bang"@en .
+
+<http://example.com/song_334> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Lost%20Frequencies ;
+	schema:genre ex:belgian%20edm ;
+	schema:datePublished "2015"^^xsd:gYear ;
+	rdfs:label "Reality - Radio Edit"@en .
+
+<http://example.com/song_335> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Sia ;
+	schema:genre ex:australian%20dance ;
+	schema:datePublished "2015"^^xsd:gYear ;
+	rdfs:label "Alive"@en .
+
+<http://example.com/song_336> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Robin%20Schulz ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2015"^^xsd:gYear ;
+	rdfs:label "Sugar (feat. Francesco Yates)"@en .
+
+<http://example.com/song_337> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Justin%20Bieber ;
+	schema:genre ex:canadian%20pop ;
+	schema:datePublished "2015"^^xsd:gYear ;
+	rdfs:label "Been You"@en .
+
+<http://example.com/song_338> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Lilly%20Wood%20and%20The%20Prick ;
+	schema:genre ex:french%20indie%20pop ;
+	schema:datePublished "2015"^^xsd:gYear ;
+	rdfs:label "Prayer in C - Robin Schulz Radio Edit"@en .
+
+<http://example.com/song_339> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Wiz%20Khalifa ;
+	schema:genre ex:hip%20hop ;
+	schema:datePublished "2015"^^xsd:gYear ;
+	rdfs:label "See You Again (feat. Charlie Puth)"@en .
+
+<http://example.com/song_340> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Alesso ;
+	schema:genre ex:big%20room ;
+	schema:datePublished "2015"^^xsd:gYear ;
+	rdfs:label "Heroes (we could be)"@en .
+
+<http://example.com/song_341> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Jennifer%20Lopez ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2015"^^xsd:gYear ;
+	rdfs:label "Feel The Light - From The \"Home\" Soundtrack"@en .
+
+<http://example.com/song_342> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:One%20Direction ;
+	schema:genre ex:boy%20band ;
+	schema:datePublished "2015"^^xsd:gYear ;
+	rdfs:label "Perfect"@en .
+
+<http://example.com/song_343> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Madonna ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2015"^^xsd:gYear ;
+	rdfs:label "Ghosttown"@en .
+
+<http://example.com/song_344> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:David%20Guetta ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2015"^^xsd:gYear ;
+	rdfs:label "Bang My Head (feat. Sia & Fetty Wap)"@en .
+
+<http://example.com/song_345> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Ed%20Sheeran ;
+	schema:genre ex:pop ;
+	schema:datePublished "2015"^^xsd:gYear ;
+	rdfs:label "Bloodstream"@en .
+
+<http://example.com/song_346> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Madonna ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2015"^^xsd:gYear ;
+	rdfs:label "Living For Love"@en .
+
+<http://example.com/song_347> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Gwen%20Stefani ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2015"^^xsd:gYear ;
+	rdfs:label "Baby Don't Lie"@en .
+
+<http://example.com/song_348> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Jess%20Glynne ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2015"^^xsd:gYear ;
+	rdfs:label "Don't Be so Hard on Yourself"@en .
+
+<http://example.com/song_349> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:One%20Direction ;
+	schema:genre ex:boy%20band ;
+	schema:datePublished "2015"^^xsd:gYear ;
+	rdfs:label "Steal My Girl"@en .
+
+<http://example.com/song_350> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Pitbull ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2015"^^xsd:gYear ;
+	rdfs:label "Celebrate (From the Original Motion Picture \"Penguins of Madagascar\")"@en .
+
+<http://example.com/song_351> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Alicia%20Keys ;
+	schema:genre ex:hip%20pop ;
+	schema:datePublished "2015"^^xsd:gYear ;
+	rdfs:label "We Are Here"@en .
+
+<http://example.com/song_352> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Florence%20%2B%20The%20Machine ;
+	schema:genre ex:art%20pop ;
+	schema:datePublished "2015"^^xsd:gYear ;
+	rdfs:label "St Jude"@en .
+
+<http://example.com/song_353> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:David%20Guetta ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2015"^^xsd:gYear ;
+	rdfs:label "Yesterday (feat. Bebe Rexha)"@en .
+
+<http://example.com/song_354> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Pitbull ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2015"^^xsd:gYear ;
+	rdfs:label "Time of Our Lives"@en .
+
+<http://example.com/song_355> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Hilary%20Duff ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2015"^^xsd:gYear ;
+	rdfs:label "Sparks"@en .
+
+<http://example.com/song_356> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Ricky%20Martin ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2015"^^xsd:gYear ;
+	rdfs:label "Mr. Put It Down"@en .
+
+<http://example.com/song_357> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Katy%20Perry ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2015"^^xsd:gYear ;
+	rdfs:label "Legendary Lovers"@en .
+
+<http://example.com/song_358> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Gwen%20Stefani ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2015"^^xsd:gYear ;
+	rdfs:label "Spark The Fire"@en .
+
+<http://example.com/song_359> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Kelly%20Clarkson ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2015"^^xsd:gYear ;
+	rdfs:label "Run Run Run"@en .
+
+<http://example.com/song_360> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Enrique%20Iglesias ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2015"^^xsd:gYear ;
+	rdfs:label "Let Me Be Your Lover"@en .
+
+<http://example.com/song_361> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Jennifer%20Hudson ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2015"^^xsd:gYear ;
+	rdfs:label "Dangerous"@en .
+
+<http://example.com/song_362> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Fergie ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2015"^^xsd:gYear ;
+	rdfs:label "L.A.LOVE (la la)"@en .
+
+<http://example.com/song_363> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:The%20Weeknd ;
+	schema:genre ex:canadian%20contemporary%20r%26b ;
+	schema:datePublished "2016"^^xsd:gYear ;
+	rdfs:label "The Hills"@en .
+
+<http://example.com/song_364> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Justin%20Bieber ;
+	schema:genre ex:canadian%20pop ;
+	schema:datePublished "2016"^^xsd:gYear ;
+	rdfs:label "Love Yourself"@en .
+
+<http://example.com/song_365> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:DNCE ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2016"^^xsd:gYear ;
+	rdfs:label "Cake By The Ocean"@en .
+
+<http://example.com/song_366> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:The%20Chainsmokers ;
+	schema:genre ex:electropop ;
+	schema:datePublished "2016"^^xsd:gYear ;
+	rdfs:label "Don't Let Me Down"@en .
+
+<http://example.com/song_367> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Martin%20Garrix ;
+	schema:genre ex:big%20room ;
+	schema:datePublished "2016"^^xsd:gYear ;
+	rdfs:label "In the Name of Love"@en .
+
+<http://example.com/song_368> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Ariana%20Grande ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2016"^^xsd:gYear ;
+	rdfs:label "Into You"@en .
+
+<http://example.com/song_369> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Calvin%20Harris ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2016"^^xsd:gYear ;
+	rdfs:label "This Is What You Came For"@en .
+
+<http://example.com/song_370> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Lady%20Gaga ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2016"^^xsd:gYear ;
+	rdfs:label "Million Reasons"@en .
+
+<http://example.com/song_371> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Rihanna ;
+	schema:genre ex:barbadian%20pop ;
+	schema:datePublished "2016"^^xsd:gYear ;
+	rdfs:label "Needed Me"@en .
+
+<http://example.com/song_372> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Lukas%20Graham ;
+	schema:genre ex:danish%20pop ;
+	schema:datePublished "2016"^^xsd:gYear ;
+	rdfs:label "7 Years"@en .
+
+<http://example.com/song_373> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Justin%20Timberlake ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2016"^^xsd:gYear ;
+	rdfs:label "CAN'T STOP THE FEELING! (Original Song from DreamWorks Animation's \"TROLLS\")"@en .
+
+<http://example.com/song_374> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Fifth%20Harmony ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2016"^^xsd:gYear ;
+	rdfs:label "Work from Home (feat. Ty Dolla $ign)"@en .
+
+<http://example.com/song_375> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Alessia%20Cara ;
+	schema:genre ex:canadian%20contemporary%20r%26b ;
+	schema:datePublished "2016"^^xsd:gYear ;
+	rdfs:label "Scars To Your Beautiful"@en .
+
+<http://example.com/song_376> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Meghan%20Trainor ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2016"^^xsd:gYear ;
+	rdfs:label "Like I'm Gonna Lose You (feat. John Legend)"@en .
+
+<http://example.com/song_377> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Rihanna ;
+	schema:genre ex:barbadian%20pop ;
+	schema:datePublished "2016"^^xsd:gYear ;
+	rdfs:label "Work"@en .
+
+<http://example.com/song_378> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Shawn%20Mendes ;
+	schema:genre ex:canadian%20pop ;
+	schema:datePublished "2016"^^xsd:gYear ;
+	rdfs:label "Stitches"@en .
+
+<http://example.com/song_379> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:G-Eazy ;
+	schema:genre ex:hip%20hop ;
+	schema:datePublished "2016"^^xsd:gYear ;
+	rdfs:label "Me, Myself & I"@en .
+
+<http://example.com/song_380> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Mike%20Posner ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2016"^^xsd:gYear ;
+	rdfs:label "I Took A Pill In Ibiza - Seeb Remix"@en .
+
+<http://example.com/song_381> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Ariana%20Grande ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2016"^^xsd:gYear ;
+	rdfs:label "Dangerous Woman"@en .
+
+<http://example.com/song_382> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Hailee%20Steinfeld ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2016"^^xsd:gYear ;
+	rdfs:label "Starving"@en .
+
+<http://example.com/song_383> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Little%20Mix ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2016"^^xsd:gYear ;
+	rdfs:label "Shout Out to My Ex"@en .
+
+<http://example.com/song_384> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:B%C3%83%CB%9CRNS ;
+	schema:genre ex:electropop ;
+	schema:datePublished "2016"^^xsd:gYear ;
+	rdfs:label "Electric Love"@en .
+
+<http://example.com/song_385> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Demi%20Lovato ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2016"^^xsd:gYear ;
+	rdfs:label "Confident"@en .
+
+<http://example.com/song_386> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Drake ;
+	schema:genre ex:canadian%20hip%20hop ;
+	schema:datePublished "2016"^^xsd:gYear ;
+	rdfs:label "Too Good"@en .
+
+<http://example.com/song_387> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:The%20Chainsmokers ;
+	schema:genre ex:electropop ;
+	schema:datePublished "2016"^^xsd:gYear ;
+	rdfs:label "Roses"@en .
+
+<http://example.com/song_388> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Major%20Lazer ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2016"^^xsd:gYear ;
+	rdfs:label "Cold Water (feat. Justin Bieber & MÃ˜)"@en .
+
+<http://example.com/song_389> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Meghan%20Trainor ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2016"^^xsd:gYear ;
+	rdfs:label "Me Too"@en .
+
+<http://example.com/song_390> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Major%20Lazer ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2016"^^xsd:gYear ;
+	rdfs:label "Light It Up (feat. Nyla & Fuse ODG) [Remix]"@en .
+
+<http://example.com/song_391> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Jennifer%20Lopez ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2016"^^xsd:gYear ;
+	rdfs:label "Ain't Your Mama"@en .
+
+<http://example.com/song_392> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Nick%20Jonas ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2016"^^xsd:gYear ;
+	rdfs:label "Close"@en .
+
+<http://example.com/song_393> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:DNCE ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2016"^^xsd:gYear ;
+	rdfs:label "Toothbrush"@en .
+
+<http://example.com/song_394> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:The%20Chainsmokers ;
+	schema:genre ex:electropop ;
+	schema:datePublished "2016"^^xsd:gYear ;
+	rdfs:label "All We Know"@en .
+
+<http://example.com/song_395> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:M%C3%83%CB%9C ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2016"^^xsd:gYear ;
+	rdfs:label "Final Song"@en .
+
+<http://example.com/song_396> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Justin%20Bieber ;
+	schema:genre ex:canadian%20pop ;
+	schema:datePublished "2016"^^xsd:gYear ;
+	rdfs:label "Company"@en .
+
+<http://example.com/song_397> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Selena%20Gomez ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2016"^^xsd:gYear ;
+	rdfs:label "Hands To Myself"@en .
+
+<http://example.com/song_398> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Adele ;
+	schema:genre ex:british%20soul ;
+	schema:datePublished "2016"^^xsd:gYear ;
+	rdfs:label "All I Ask"@en .
+
+<http://example.com/song_399> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:P%21nk ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2016"^^xsd:gYear ;
+	rdfs:label "Just Like Fire (From the Original Motion Picture \"Alice Through The Looking Glass\")"@en .
+
+<http://example.com/song_400> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Meghan%20Trainor ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2016"^^xsd:gYear ;
+	rdfs:label "NO"@en .
+
+<http://example.com/song_401> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Selena%20Gomez ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2016"^^xsd:gYear ;
+	rdfs:label "Kill Em With Kindness"@en .
+
+<http://example.com/song_402> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Tove%20Lo ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2016"^^xsd:gYear ;
+	rdfs:label "Cool Girl"@en .
+
+<http://example.com/song_403> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Naughty%20Boy ;
+	schema:genre ex:tropical%20house ;
+	schema:datePublished "2016"^^xsd:gYear ;
+	rdfs:label "Runnin' (Lose It All)"@en .
+
+<http://example.com/song_404> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Alessia%20Cara ;
+	schema:genre ex:canadian%20contemporary%20r%26b ;
+	schema:datePublished "2016"^^xsd:gYear ;
+	rdfs:label "Here"@en .
+
+<http://example.com/song_405> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Lady%20Gaga ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2016"^^xsd:gYear ;
+	rdfs:label "Perfect Illusion"@en .
+
+<http://example.com/song_406> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:ZAYN ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2016"^^xsd:gYear ;
+	rdfs:label "PILLOWTALK"@en .
+
+<http://example.com/song_407> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Taylor%20Swift ;
+	schema:genre ex:pop ;
+	schema:datePublished "2016"^^xsd:gYear ;
+	rdfs:label "Out Of The Woods"@en .
+
+<http://example.com/song_408> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Katy%20Perry ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2016"^^xsd:gYear ;
+	rdfs:label "Rise"@en .
+
+<http://example.com/song_409> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:OneRepublic ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2016"^^xsd:gYear ;
+	rdfs:label "Wherever I Go"@en .
+
+<http://example.com/song_410> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Demi%20Lovato ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2016"^^xsd:gYear ;
+	rdfs:label "Body Say"@en .
+
+<http://example.com/song_411> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Shawn%20Mendes ;
+	schema:genre ex:canadian%20pop ;
+	schema:datePublished "2016"^^xsd:gYear ;
+	rdfs:label "Don't Be A Fool"@en .
+
+<http://example.com/song_412> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:ZAYN ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2016"^^xsd:gYear ;
+	rdfs:label "LIKE I WOULD"@en .
+
+<http://example.com/song_413> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Sia ;
+	schema:genre ex:australian%20dance ;
+	schema:datePublished "2016"^^xsd:gYear ;
+	rdfs:label "Cheap Thrills"@en .
+
+<http://example.com/song_414> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Bebe%20Rexha ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2016"^^xsd:gYear ;
+	rdfs:label "I Got You"@en .
+
+<http://example.com/song_415> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Carly%20Rae%20Jepsen ;
+	schema:genre ex:canadian%20pop ;
+	schema:datePublished "2016"^^xsd:gYear ;
+	rdfs:label "Run Away With Me"@en .
+
+<http://example.com/song_416> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Snakehips ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2016"^^xsd:gYear ;
+	rdfs:label "Cruel (feat. ZAYN)"@en .
+
+<http://example.com/song_417> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Adele ;
+	schema:genre ex:british%20soul ;
+	schema:datePublished "2016"^^xsd:gYear ;
+	rdfs:label "Send My Love (To Your New Lover)"@en .
+
+<http://example.com/song_418> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Missy%20Elliott ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2016"^^xsd:gYear ;
+	rdfs:label "WTF (Where They From)"@en .
+
+<http://example.com/song_419> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Years%20%26%20Years ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2016"^^xsd:gYear ;
+	rdfs:label "Desire"@en .
+
+<http://example.com/song_420> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Adele ;
+	schema:genre ex:british%20soul ;
+	schema:datePublished "2016"^^xsd:gYear ;
+	rdfs:label "When We Were Young"@en .
+
+<http://example.com/song_421> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Shawn%20Mendes ;
+	schema:genre ex:canadian%20pop ;
+	schema:datePublished "2016"^^xsd:gYear ;
+	rdfs:label "I Know What You Did Last Summer"@en .
+
+<http://example.com/song_422> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Florence%20%2B%20The%20Machine ;
+	schema:genre ex:art%20pop ;
+	schema:datePublished "2016"^^xsd:gYear ;
+	rdfs:label "Wish That You Were Here - From Â“Miss PeregrineÂ’s Home for Peculiar ChildrenÂ” Original Motion Picture"@en .
+
+<http://example.com/song_423> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Emeli%20Sand%C3%83%C2%A9 ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2016"^^xsd:gYear ;
+	rdfs:label "Hurts"@en .
+
+<http://example.com/song_424> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Christina%20Aguilera ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2016"^^xsd:gYear ;
+	rdfs:label "Change"@en .
+
+<http://example.com/song_425> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Britney%20Spears ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2016"^^xsd:gYear ;
+	rdfs:label "Make Me... (feat. G-Eazy)"@en .
+
+<http://example.com/song_426> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Birdy ;
+	schema:genre ex:neo%20mellow ;
+	schema:datePublished "2016"^^xsd:gYear ;
+	rdfs:label "Keeping Your Head Up"@en .
+
+<http://example.com/song_427> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Zedd ;
+	schema:genre ex:complextro ;
+	schema:datePublished "2016"^^xsd:gYear ;
+	rdfs:label "True Colors"@en .
+
+<http://example.com/song_428> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Gwen%20Stefani ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2016"^^xsd:gYear ;
+	rdfs:label "Make Me Like You"@en .
+
+<http://example.com/song_429> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Nick%20Jonas ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2016"^^xsd:gYear ;
+	rdfs:label "Champagne Problems"@en .
+
+<http://example.com/song_430> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:DNCE ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2016"^^xsd:gYear ;
+	rdfs:label "Blown"@en .
+
+<http://example.com/song_431> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:John%20Legend ;
+	schema:genre ex:neo%20mellow ;
+	schema:datePublished "2016"^^xsd:gYear ;
+	rdfs:label "Start"@en .
+
+<http://example.com/song_432> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Missy%20Elliott ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2016"^^xsd:gYear ;
+	rdfs:label "Pep Rally"@en .
+
+<http://example.com/song_433> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Carly%20Rae%20Jepsen ;
+	schema:genre ex:canadian%20pop ;
+	schema:datePublished "2016"^^xsd:gYear ;
+	rdfs:label "Higher"@en .
+
+<http://example.com/song_434> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Britney%20Spears ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2016"^^xsd:gYear ;
+	rdfs:label "Invitation"@en .
+
+<http://example.com/song_435> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Charlie%20Puth ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2016"^^xsd:gYear ;
+	rdfs:label "One Call Away (feat. Tyga) - Remix"@en .
+
+<http://example.com/song_436> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Passenger ;
+	schema:genre ex:folk-pop ;
+	schema:datePublished "2016"^^xsd:gYear ;
+	rdfs:label "Beautiful Birds (feat. Birdy)"@en .
+
+<http://example.com/song_437> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Hilary%20Duff ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2016"^^xsd:gYear ;
+	rdfs:label "Little Lies"@en .
+
+<http://example.com/song_438> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Britney%20Spears ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2016"^^xsd:gYear ;
+	rdfs:label "Do You Wanna Come Over?"@en .
+
+<http://example.com/song_439> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Janet%20Jackson ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2016"^^xsd:gYear ;
+	rdfs:label "BURNITUP!"@en .
+
+<http://example.com/song_440> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Joey%20Montana ;
+	schema:genre ex:latin ;
+	schema:datePublished "2016"^^xsd:gYear ;
+	rdfs:label "Picky - Remix"@en .
+
+<http://example.com/song_441> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Nelly%20Furtado ;
+	schema:genre ex:canadian%20latin ;
+	schema:datePublished "2016"^^xsd:gYear ;
+	rdfs:label "Behind Your Back"@en .
+
+<http://example.com/song_442> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Adele ;
+	schema:genre ex:british%20soul ;
+	schema:datePublished "2016"^^xsd:gYear ;
+	rdfs:label "Million Years Ago"@en .
+
+<http://example.com/song_443> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Ed%20Sheeran ;
+	schema:genre ex:pop ;
+	schema:datePublished "2017"^^xsd:gYear ;
+	rdfs:label "Shape of You"@en .
+
+<http://example.com/song_444> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:The%20Chainsmokers ;
+	schema:genre ex:electropop ;
+	schema:datePublished "2017"^^xsd:gYear ;
+	rdfs:label "Closer"@en .
+
+<http://example.com/song_445> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:The%20Weeknd ;
+	schema:genre ex:canadian%20contemporary%20r%26b ;
+	schema:datePublished "2017"^^xsd:gYear ;
+	rdfs:label "Starboy"@en .
+
+<http://example.com/song_446> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Shawn%20Mendes ;
+	schema:genre ex:canadian%20pop ;
+	schema:datePublished "2017"^^xsd:gYear ;
+	rdfs:label "Treat You Better"@en .
+
+<http://example.com/song_447> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Bruno%20Mars ;
+	schema:genre ex:pop ;
+	schema:datePublished "2017"^^xsd:gYear ;
+	rdfs:label "That's What I Like"@en .
+
+<http://example.com/song_448> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:DJ%20Snake ;
+	schema:genre ex:electronic%20trap ;
+	schema:datePublished "2017"^^xsd:gYear ;
+	rdfs:label "Let Me Love You"@en .
+
+<http://example.com/song_449> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:The%20Weeknd ;
+	schema:genre ex:canadian%20contemporary%20r%26b ;
+	schema:datePublished "2017"^^xsd:gYear ;
+	rdfs:label "I Feel It Coming"@en .
+
+<http://example.com/song_450> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Shawn%20Mendes ;
+	schema:genre ex:canadian%20pop ;
+	schema:datePublished "2017"^^xsd:gYear ;
+	rdfs:label "Mercy"@en .
+
+<http://example.com/song_451> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Ariana%20Grande ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2017"^^xsd:gYear ;
+	rdfs:label "Side To Side"@en .
+
+<http://example.com/song_452> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Zedd ;
+	schema:genre ex:complextro ;
+	schema:datePublished "2017"^^xsd:gYear ;
+	rdfs:label "Stay"@en .
+
+<http://example.com/song_453> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Kygo ;
+	schema:genre ex:edm ;
+	schema:datePublished "2017"^^xsd:gYear ;
+	rdfs:label "It Ain't Me (with Selena Gomez)"@en .
+
+<http://example.com/song_454> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Miley%20Cyrus ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2017"^^xsd:gYear ;
+	rdfs:label "Malibu"@en .
+
+<http://example.com/song_455> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:The%20Chainsmokers ;
+	schema:genre ex:electropop ;
+	schema:datePublished "2017"^^xsd:gYear ;
+	rdfs:label "Something Just Like This"@en .
+
+<http://example.com/song_456> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Clean%20Bandit ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2017"^^xsd:gYear ;
+	rdfs:label "Rockabye (feat. Sean Paul & Anne-Marie)"@en .
+
+<http://example.com/song_457> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:ZAYN ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2017"^^xsd:gYear ;
+	rdfs:label "I DonÂ’t Wanna Live Forever (Fifty Shades Darker)"@en .
+
+<http://example.com/song_458> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Calvin%20Harris ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2017"^^xsd:gYear ;
+	rdfs:label "My Way"@en .
+
+<http://example.com/song_459> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:DJ%20Khaled ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2017"^^xsd:gYear ;
+	rdfs:label "I'm the One (feat. Justin Bieber, Quavo, Chance the Rapper & Lil Wayne)"@en .
+
+<http://example.com/song_460> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Kesha ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2017"^^xsd:gYear ;
+	rdfs:label "Praying"@en .
+
+<http://example.com/song_461> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Luis%20Fonsi ;
+	schema:genre ex:latin ;
+	schema:datePublished "2017"^^xsd:gYear ;
+	rdfs:label "Despacito - Remix"@en .
+
+<http://example.com/song_462> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Sia ;
+	schema:genre ex:australian%20dance ;
+	schema:datePublished "2017"^^xsd:gYear ;
+	rdfs:label "The Greatest"@en .
+
+<http://example.com/song_463> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Martin%20Garrix ;
+	schema:genre ex:big%20room ;
+	schema:datePublished "2017"^^xsd:gYear ;
+	rdfs:label "There for You"@en .
+
+<http://example.com/song_464> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:The%20Chainsmokers ;
+	schema:genre ex:electropop ;
+	schema:datePublished "2017"^^xsd:gYear ;
+	rdfs:label "Paris"@en .
+
+<http://example.com/song_465> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Camila%20Cabello ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2017"^^xsd:gYear ;
+	rdfs:label "Crying in the Club"@en .
+
+<http://example.com/song_466> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Jonas%20Blue ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2017"^^xsd:gYear ;
+	rdfs:label "Mama"@en .
+
+<http://example.com/song_467> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Calvin%20Harris ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2017"^^xsd:gYear ;
+	rdfs:label "Slide (feat. Frank Ocean & Migos)"@en .
+
+<http://example.com/song_468> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Katy%20Perry ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2017"^^xsd:gYear ;
+	rdfs:label "Swish Swish"@en .
+
+<http://example.com/song_469> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Katy%20Perry ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2017"^^xsd:gYear ;
+	rdfs:label "Chained To The Rhythm"@en .
+
+<http://example.com/song_470> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Maroon%205 ;
+	schema:genre ex:pop ;
+	schema:datePublished "2017"^^xsd:gYear ;
+	rdfs:label "Cold (feat. Future)"@en .
+
+<http://example.com/song_471> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Lana%20Del%20Rey ;
+	schema:genre ex:art%20pop ;
+	schema:datePublished "2017"^^xsd:gYear ;
+	rdfs:label "Love"@en .
+
+<http://example.com/song_472> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:CNCO ;
+	schema:genre ex:boy%20band ;
+	schema:datePublished "2017"^^xsd:gYear ;
+	rdfs:label "ReggaetÃ³n Lento (Remix)"@en .
+
+<http://example.com/song_473> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Adele ;
+	schema:genre ex:british%20soul ;
+	schema:datePublished "2017"^^xsd:gYear ;
+	rdfs:label "All I Ask"@en .
+
+<http://example.com/song_474> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Kygo ;
+	schema:genre ex:edm ;
+	schema:datePublished "2017"^^xsd:gYear ;
+	rdfs:label "First Time"@en .
+
+<http://example.com/song_475> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Lady%20Gaga ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2017"^^xsd:gYear ;
+	rdfs:label "The Cure"@en .
+
+<http://example.com/song_476> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Alessia%20Cara ;
+	schema:genre ex:canadian%20contemporary%20r%26b ;
+	schema:datePublished "2017"^^xsd:gYear ;
+	rdfs:label "How Far I'll Go - From \"Moana\""@en .
+
+<http://example.com/song_477> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Cardi%20B ;
+	schema:genre ex:pop ;
+	schema:datePublished "2017"^^xsd:gYear ;
+	rdfs:label "Bodak Yellow"@en .
+
+<http://example.com/song_478> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:OneRepublic ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2017"^^xsd:gYear ;
+	rdfs:label "Rich Love (with Seeb)"@en .
+
+<http://example.com/song_479> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Alan%20Walker ;
+	schema:genre ex:electro%20house ;
+	schema:datePublished "2017"^^xsd:gYear ;
+	rdfs:label "Tired"@en .
+
+<http://example.com/song_480> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Sigala ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2017"^^xsd:gYear ;
+	rdfs:label "Came Here for Love"@en .
+
+<http://example.com/song_481> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Bruno%20Mars ;
+	schema:genre ex:pop ;
+	schema:datePublished "2017"^^xsd:gYear ;
+	rdfs:label "24K Magic"@en .
+
+<http://example.com/song_482> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Liam%20Payne ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2017"^^xsd:gYear ;
+	rdfs:label "Strip That Down (feat. Quavo)"@en .
+
+<http://example.com/song_483> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Carly%20Rae%20Jepsen ;
+	schema:genre ex:canadian%20pop ;
+	schema:datePublished "2017"^^xsd:gYear ;
+	rdfs:label "Cut To The Feeling"@en .
+
+<http://example.com/song_484> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Robin%20Schulz ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2017"^^xsd:gYear ;
+	rdfs:label "OK - Spotify Version"@en .
+
+<http://example.com/song_485> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Katy%20Perry ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2017"^^xsd:gYear ;
+	rdfs:label "Bon appÃ©tit"@en .
+
+<http://example.com/song_486> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Lana%20Del%20Rey ;
+	schema:genre ex:art%20pop ;
+	schema:datePublished "2017"^^xsd:gYear ;
+	rdfs:label "Summer Bummer (feat. A$AP Rocky & Playboi Carti)"@en .
+
+<http://example.com/song_487> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Zedd ;
+	schema:genre ex:complextro ;
+	schema:datePublished "2017"^^xsd:gYear ;
+	rdfs:label "Get Low (with Liam Payne)"@en .
+
+<http://example.com/song_488> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:DNCE ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2017"^^xsd:gYear ;
+	rdfs:label "Kissing Strangers"@en .
+
+<http://example.com/song_489> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Niall%20Horan ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2017"^^xsd:gYear ;
+	rdfs:label "Slow Hands"@en .
+
+<http://example.com/song_490> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Miley%20Cyrus ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2017"^^xsd:gYear ;
+	rdfs:label "Younger Now"@en .
+
+<http://example.com/song_491> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:DNCE ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2017"^^xsd:gYear ;
+	rdfs:label "Body Moves"@en .
+
+<http://example.com/song_492> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Lost%20Frequencies ;
+	schema:genre ex:belgian%20edm ;
+	schema:datePublished "2017"^^xsd:gYear ;
+	rdfs:label "Reality (feat. Janieck Devy) - Radio Edit"@en .
+
+<http://example.com/song_493> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Fifth%20Harmony ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2017"^^xsd:gYear ;
+	rdfs:label "Angel"@en .
+
+<http://example.com/song_494> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Little%20Mix ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2017"^^xsd:gYear ;
+	rdfs:label "Touch (feat. Kid Ink)"@en .
+
+<http://example.com/song_495> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Charlie%20Puth ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2017"^^xsd:gYear ;
+	rdfs:label "We Don't Talk Anymore - DROELOE Remix"@en .
+
+<http://example.com/song_496> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Cashmere%20Cat ;
+	schema:genre ex:downtempo ;
+	schema:datePublished "2017"^^xsd:gYear ;
+	rdfs:label "Love Incredible (feat. Camila Cabello)"@en .
+
+<http://example.com/song_497> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:OneRepublic ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2017"^^xsd:gYear ;
+	rdfs:label "No Vacancy (with SebastiÃ¡n Yatra)"@en .
+
+<http://example.com/song_498> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Galantis ;
+	schema:genre ex:big%20room ;
+	schema:datePublished "2017"^^xsd:gYear ;
+	rdfs:label "Rich Boy"@en .
+
+<http://example.com/song_499> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Lana%20Del%20Rey ;
+	schema:genre ex:art%20pop ;
+	schema:datePublished "2017"^^xsd:gYear ;
+	rdfs:label "Lust for Life (with The Weeknd)"@en .
+
+<http://example.com/song_500> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Pitbull ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2017"^^xsd:gYear ;
+	rdfs:label "Greenlight (feat. Flo Rida & LunchMoney Lewis)"@en .
+
+<http://example.com/song_501> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Tove%20Lo ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2017"^^xsd:gYear ;
+	rdfs:label "Influence"@en .
+
+<http://example.com/song_502> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Nick%20Jonas ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2017"^^xsd:gYear ;
+	rdfs:label "Remember I Told You"@en .
+
+<http://example.com/song_503> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Pitbull ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2017"^^xsd:gYear ;
+	rdfs:label "Messin' Around"@en .
+
+<http://example.com/song_504> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Adele ;
+	schema:genre ex:british%20soul ;
+	schema:datePublished "2017"^^xsd:gYear ;
+	rdfs:label "Water Under the Bridge"@en .
+
+<http://example.com/song_505> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Sia ;
+	schema:genre ex:australian%20dance ;
+	schema:datePublished "2017"^^xsd:gYear ;
+	rdfs:label "Free Me"@en .
+
+<http://example.com/song_506> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:DNCE ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2017"^^xsd:gYear ;
+	rdfs:label "Kissing Strangers - Remix"@en .
+
+<http://example.com/song_507> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Coldplay ;
+	schema:genre ex:permanent%20wave ;
+	schema:datePublished "2017"^^xsd:gYear ;
+	rdfs:label "A L I E N S"@en .
+
+<http://example.com/song_508> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Calvin%20Harris ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2018"^^xsd:gYear ;
+	rdfs:label "One Kiss (with Dua Lipa)"@en .
+
+<http://example.com/song_509> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Camila%20Cabello ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2018"^^xsd:gYear ;
+	rdfs:label "Havana (feat. Young Thug)"@en .
+
+<http://example.com/song_510> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Cardi%20B ;
+	schema:genre ex:pop ;
+	schema:datePublished "2018"^^xsd:gYear ;
+	rdfs:label "I Like It"@en .
+
+<http://example.com/song_511> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Dua%20Lipa ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2018"^^xsd:gYear ;
+	rdfs:label "New Rules"@en .
+
+<http://example.com/song_512> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Shawn%20Mendes ;
+	schema:genre ex:canadian%20pop ;
+	schema:datePublished "2018"^^xsd:gYear ;
+	rdfs:label "There's Nothing Holdin' Me Back"@en .
+
+<http://example.com/song_513> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Ariana%20Grande ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2018"^^xsd:gYear ;
+	rdfs:label "no tears left to cry"@en .
+
+<http://example.com/song_514> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Dua%20Lipa ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2018"^^xsd:gYear ;
+	rdfs:label "IDGAF"@en .
+
+<http://example.com/song_515> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Shawn%20Mendes ;
+	schema:genre ex:canadian%20pop ;
+	schema:datePublished "2018"^^xsd:gYear ;
+	rdfs:label "In My Blood"@en .
+
+<http://example.com/song_516> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Selena%20Gomez ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2018"^^xsd:gYear ;
+	rdfs:label "Wolves"@en .
+
+<http://example.com/song_517> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:ZAYN ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2018"^^xsd:gYear ;
+	rdfs:label "Dusk Till Dawn - Radio Edit"@en .
+
+<http://example.com/song_518> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Charlie%20Puth ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2018"^^xsd:gYear ;
+	rdfs:label "Attention"@en .
+
+<http://example.com/song_519> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Silk%20City ;
+	schema:genre ex:edm ;
+	schema:datePublished "2018"^^xsd:gYear ;
+	rdfs:label "Electricity (with Dua Lipa)"@en .
+
+<http://example.com/song_520> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Rihanna ;
+	schema:genre ex:barbadian%20pop ;
+	schema:datePublished "2018"^^xsd:gYear ;
+	rdfs:label "Love On The Brain"@en .
+
+<http://example.com/song_521> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Hailee%20Steinfeld ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2018"^^xsd:gYear ;
+	rdfs:label "Let Me Go (with Alesso, Florida Georgia Line & watt)"@en .
+
+<http://example.com/song_522> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Marshmello ;
+	schema:genre ex:brostep ;
+	schema:datePublished "2018"^^xsd:gYear ;
+	rdfs:label "Silence"@en .
+
+<http://example.com/song_523> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Demi%20Lovato ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2018"^^xsd:gYear ;
+	rdfs:label "Sorry Not Sorry"@en .
+
+<http://example.com/song_524> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Lady%20Gaga ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2018"^^xsd:gYear ;
+	rdfs:label "Shallow - Radio Edit"@en .
+
+<http://example.com/song_525> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Rudimental ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2018"^^xsd:gYear ;
+	rdfs:label "These Days"@en .
+
+<http://example.com/song_526> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Maroon%205 ;
+	schema:genre ex:pop ;
+	schema:datePublished "2018"^^xsd:gYear ;
+	rdfs:label "What Lovers Do (feat. SZA)"@en .
+
+<http://example.com/song_527> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Bruno%20Mars ;
+	schema:genre ex:pop ;
+	schema:datePublished "2018"^^xsd:gYear ;
+	rdfs:label "Finesse - Remix feat. Cardi B"@en .
+
+<http://example.com/song_528> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Ed%20Sheeran ;
+	schema:genre ex:pop ;
+	schema:datePublished "2018"^^xsd:gYear ;
+	rdfs:label "Perfect Duet (Ed Sheeran & BeyoncÃ©)"@en .
+
+<http://example.com/song_529> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Halsey ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2018"^^xsd:gYear ;
+	rdfs:label "Bad At Love"@en .
+
+<http://example.com/song_530> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:G-Eazy ;
+	schema:genre ex:hip%20hop ;
+	schema:datePublished "2018"^^xsd:gYear ;
+	rdfs:label "Him & I (with Halsey)"@en .
+
+<http://example.com/song_531> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Justin%20Bieber ;
+	schema:genre ex:canadian%20pop ;
+	schema:datePublished "2018"^^xsd:gYear ;
+	rdfs:label "Friends (with BloodPopÂ®)"@en .
+
+<http://example.com/song_532> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:DJ%20Khaled ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2018"^^xsd:gYear ;
+	rdfs:label "Wild Thoughts (feat. Rihanna & Bryson Tiller)"@en .
+
+<http://example.com/song_533> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Troye%20Sivan ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2018"^^xsd:gYear ;
+	rdfs:label "My My My!"@en .
+
+<http://example.com/song_534> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Hailee%20Steinfeld ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2018"^^xsd:gYear ;
+	rdfs:label "Capital Letters"@en .
+
+<http://example.com/song_535> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:The%20Chainsmokers ;
+	schema:genre ex:electropop ;
+	schema:datePublished "2018"^^xsd:gYear ;
+	rdfs:label "Sick Boy"@en .
+
+<http://example.com/song_536> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Dan%20%2B%20Shay ;
+	schema:genre ex:contemporary%20country ;
+	schema:datePublished "2018"^^xsd:gYear ;
+	rdfs:label "Tequila"@en .
+
+<http://example.com/song_537> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Taylor%20Swift ;
+	schema:genre ex:pop ;
+	schema:datePublished "2018"^^xsd:gYear ;
+	rdfs:label "Look What You Made Me Do"@en .
+
+<http://example.com/song_538> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Shawn%20Mendes ;
+	schema:genre ex:canadian%20pop ;
+	schema:datePublished "2018"^^xsd:gYear ;
+	rdfs:label "Youth (feat. Khalid)"@en .
+
+<http://example.com/song_539> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Selena%20Gomez ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2018"^^xsd:gYear ;
+	rdfs:label "Bad Liar"@en .
+
+<http://example.com/song_540> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Rita%20Ora ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2018"^^xsd:gYear ;
+	rdfs:label "Anywhere"@en .
+
+<http://example.com/song_541> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Justin%20Timberlake ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2018"^^xsd:gYear ;
+	rdfs:label "Say Something"@en .
+
+<http://example.com/song_542> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Nicki%20Minaj ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2018"^^xsd:gYear ;
+	rdfs:label "Chun-Li"@en .
+
+<http://example.com/song_543> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Harry%20Styles ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2018"^^xsd:gYear ;
+	rdfs:label "Sign of the Times"@en .
+
+<http://example.com/song_544> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Liam%20Payne ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2018"^^xsd:gYear ;
+	rdfs:label "Familiar"@en .
+
+<http://example.com/song_545> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:ZAYN ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2018"^^xsd:gYear ;
+	rdfs:label "Let Me"@en .
+
+<http://example.com/song_546> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Ansel%20Elgort ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2018"^^xsd:gYear ;
+	rdfs:label "Supernova"@en .
+
+<http://example.com/song_547> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Shawn%20Mendes ;
+	schema:genre ex:canadian%20pop ;
+	schema:datePublished "2018"^^xsd:gYear ;
+	rdfs:label "Nervous"@en .
+
+<http://example.com/song_548> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Kygo ;
+	schema:genre ex:edm ;
+	schema:datePublished "2018"^^xsd:gYear ;
+	rdfs:label "First Time"@en .
+
+<http://example.com/song_549> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Taylor%20Swift ;
+	schema:genre ex:pop ;
+	schema:datePublished "2018"^^xsd:gYear ;
+	rdfs:label "End Game"@en .
+
+<http://example.com/song_550> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:J%20Balvin ;
+	schema:genre ex:latin ;
+	schema:datePublished "2018"^^xsd:gYear ;
+	rdfs:label "Mi Gente (feat. BeyoncÃ©)"@en .
+
+<http://example.com/song_551> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:N.E.R.D ;
+	schema:genre ex:hip%20hop ;
+	schema:datePublished "2018"^^xsd:gYear ;
+	rdfs:label "Lemon"@en .
+
+<http://example.com/song_552> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Liam%20Payne ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2018"^^xsd:gYear ;
+	rdfs:label "For You (With Rita Ora)"@en .
+
+<http://example.com/song_553> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Dua%20Lipa ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2018"^^xsd:gYear ;
+	rdfs:label "Want To"@en .
+
+<http://example.com/song_554> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Hayley%20Kiyoko ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2018"^^xsd:gYear ;
+	rdfs:label "What I Need (feat. Kehlani)"@en .
+
+<http://example.com/song_555> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Maroon%205 ;
+	schema:genre ex:pop ;
+	schema:datePublished "2018"^^xsd:gYear ;
+	rdfs:label "Wait"@en .
+
+<http://example.com/song_556> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:P%21nk ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2018"^^xsd:gYear ;
+	rdfs:label "What About Us"@en .
+
+<http://example.com/song_557> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:DNCE ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2018"^^xsd:gYear ;
+	rdfs:label "Kissing Strangers"@en .
+
+<http://example.com/song_558> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:David%20Guetta ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2018"^^xsd:gYear ;
+	rdfs:label "2U (feat. Justin Bieber)"@en .
+
+<http://example.com/song_559> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Eminem ;
+	schema:genre ex:detroit%20hip%20hop ;
+	schema:datePublished "2018"^^xsd:gYear ;
+	rdfs:label "Walk On Water (feat. BeyoncÃ©)"@en .
+
+<http://example.com/song_560> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Niall%20Horan ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2018"^^xsd:gYear ;
+	rdfs:label "This Town"@en .
+
+<http://example.com/song_561> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Rita%20Ora ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2018"^^xsd:gYear ;
+	rdfs:label "Girls (feat. Cardi B, Bebe Rexha & Charli XCX)"@en .
+
+<http://example.com/song_562> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Enrique%20Iglesias ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2018"^^xsd:gYear ;
+	rdfs:label "MOVE TO MIAMI"@en .
+
+<http://example.com/song_563> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Cashmere%20Cat ;
+	schema:genre ex:downtempo ;
+	schema:datePublished "2018"^^xsd:gYear ;
+	rdfs:label "Miss You (with Major Lazer & Tory Lanez)"@en .
+
+<http://example.com/song_564> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Justin%20Timberlake ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2018"^^xsd:gYear ;
+	rdfs:label "Filthy"@en .
+
+<http://example.com/song_565> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Camila%20Cabello ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2018"^^xsd:gYear ;
+	rdfs:label "Never Be the Same - Radio Edit"@en .
+
+<http://example.com/song_566> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Bebe%20Rexha ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2018"^^xsd:gYear ;
+	rdfs:label "Ferrari"@en .
+
+<http://example.com/song_567> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Justin%20Timberlake ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2018"^^xsd:gYear ;
+	rdfs:label "Supplies"@en .
+
+<http://example.com/song_568> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:RedOne ;
+	schema:genre ex:moroccan%20pop ;
+	schema:datePublished "2018"^^xsd:gYear ;
+	rdfs:label "Boom Boom"@en .
+
+<http://example.com/song_569> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Taylor%20Swift ;
+	schema:genre ex:pop ;
+	schema:datePublished "2018"^^xsd:gYear ;
+	rdfs:label "...Ready For It? - BloodPopÂ® Remix"@en .
+
+<http://example.com/song_570> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Cardi%20B ;
+	schema:genre ex:pop ;
+	schema:datePublished "2018"^^xsd:gYear ;
+	rdfs:label "Drip (feat. Migos)"@en .
+
+<http://example.com/song_571> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Demi%20Lovato ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2018"^^xsd:gYear ;
+	rdfs:label "Tell Me You Love Me - NOTD Remix"@en .
+
+<http://example.com/song_572> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Maroon%205 ;
+	schema:genre ex:pop ;
+	schema:datePublished "2019"^^xsd:gYear ;
+	rdfs:label "Memories"@en .
+
+<http://example.com/song_573> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Selena%20Gomez ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2019"^^xsd:gYear ;
+	rdfs:label "Lose You To Love Me"@en .
+
+<http://example.com/song_574> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Lewis%20Capaldi ;
+	schema:genre ex:pop ;
+	schema:datePublished "2019"^^xsd:gYear ;
+	rdfs:label "Someone You Loved"@en .
+
+<http://example.com/song_575> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Shawn%20Mendes ;
+	schema:genre ex:canadian%20pop ;
+	schema:datePublished "2019"^^xsd:gYear ;
+	rdfs:label "SeÃ±orita"@en .
+
+<http://example.com/song_576> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Sam%20Smith ;
+	schema:genre ex:pop ;
+	schema:datePublished "2019"^^xsd:gYear ;
+	rdfs:label "How Do You Sleep?"@en .
+
+<http://example.com/song_577> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Ed%20Sheeran ;
+	schema:genre ex:pop ;
+	schema:datePublished "2019"^^xsd:gYear ;
+	rdfs:label "South of the Border (feat. Camila Cabello & Cardi B)"@en .
+
+<http://example.com/song_578> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:SHAED ;
+	schema:genre ex:electropop ;
+	schema:datePublished "2019"^^xsd:gYear ;
+	rdfs:label "Trampoline (with ZAYN)"@en .
+
+<http://example.com/song_579> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Marshmello ;
+	schema:genre ex:brostep ;
+	schema:datePublished "2019"^^xsd:gYear ;
+	rdfs:label "Happier"@en .
+
+<http://example.com/song_580> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Lizzo ;
+	schema:genre ex:escape%20room ;
+	schema:datePublished "2019"^^xsd:gYear ;
+	rdfs:label "Truth Hurts"@en .
+
+<http://example.com/song_581> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Lizzo ;
+	schema:genre ex:escape%20room ;
+	schema:datePublished "2019"^^xsd:gYear ;
+	rdfs:label "Good as Hell (feat. Ariana Grande) - Remix"@en .
+
+<http://example.com/song_582> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Kygo ;
+	schema:genre ex:edm ;
+	schema:datePublished "2019"^^xsd:gYear ;
+	rdfs:label "Higher Love"@en .
+
+<http://example.com/song_583> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Jonas%20Brothers ;
+	schema:genre ex:boy%20band ;
+	schema:datePublished "2019"^^xsd:gYear ;
+	rdfs:label "Only Human"@en .
+
+<http://example.com/song_584> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Ed%20Sheeran ;
+	schema:genre ex:pop ;
+	schema:datePublished "2019"^^xsd:gYear ;
+	rdfs:label "Beautiful People (feat. Khalid)"@en .
+
+<http://example.com/song_585> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Jonas%20Brothers ;
+	schema:genre ex:boy%20band ;
+	schema:datePublished "2019"^^xsd:gYear ;
+	rdfs:label "Sucker"@en .
+
+<http://example.com/song_586> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Mabel ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2019"^^xsd:gYear ;
+	rdfs:label "Don't Call Me Up"@en .
+
+<http://example.com/song_587> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Ed%20Sheeran ;
+	schema:genre ex:pop ;
+	schema:datePublished "2019"^^xsd:gYear ;
+	rdfs:label "I Don't Care (with Justin Bieber)"@en .
+
+<http://example.com/song_588> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Khalid ;
+	schema:genre ex:alternative%20r%26b ;
+	schema:datePublished "2019"^^xsd:gYear ;
+	rdfs:label "Talk (feat. Disclosure)"@en .
+
+<http://example.com/song_589> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Calvin%20Harris ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2019"^^xsd:gYear ;
+	rdfs:label "Giant (with Rag'n'Bone Man)"@en .
+
+<http://example.com/song_590> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:The%20Chainsmokers ;
+	schema:genre ex:electropop ;
+	schema:datePublished "2019"^^xsd:gYear ;
+	rdfs:label "Takeaway"@en .
+
+<http://example.com/song_591> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:R3HAB ;
+	schema:genre ex:big%20room ;
+	schema:datePublished "2019"^^xsd:gYear ;
+	rdfs:label "All Around The World (La La La)"@en .
+
+<http://example.com/song_592> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Maroon%205 ;
+	schema:genre ex:pop ;
+	schema:datePublished "2019"^^xsd:gYear ;
+	rdfs:label "Girls Like You (feat. Cardi B)"@en .
+
+<http://example.com/song_593> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:The%20Chainsmokers ;
+	schema:genre ex:electropop ;
+	schema:datePublished "2019"^^xsd:gYear ;
+	rdfs:label "Call You Mine"@en .
+
+<http://example.com/song_594> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Chris%20Brown ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2019"^^xsd:gYear ;
+	rdfs:label "No Guidance (feat. Drake)"@en .
+
+<http://example.com/song_595> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Ed%20Sheeran ;
+	schema:genre ex:pop ;
+	schema:datePublished "2019"^^xsd:gYear ;
+	rdfs:label "Antisocial (with Travis Scott)"@en .
+
+<http://example.com/song_596> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:DJ%20Snake ;
+	schema:genre ex:electronic%20trap ;
+	schema:datePublished "2019"^^xsd:gYear ;
+	rdfs:label "Taki Taki (feat. Selena Gomez, Ozuna & Cardi B)"@en .
+
+<http://example.com/song_597> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Daddy%20Yankee ;
+	schema:genre ex:latin ;
+	schema:datePublished "2019"^^xsd:gYear ;
+	rdfs:label "Con Calma - Remix"@en .
+
+<http://example.com/song_598> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Mark%20Ronson ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2019"^^xsd:gYear ;
+	rdfs:label "Find U Again (feat. Camila Cabello)"@en .
+
+<http://example.com/song_599> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Ed%20Sheeran ;
+	schema:genre ex:pop ;
+	schema:datePublished "2019"^^xsd:gYear ;
+	rdfs:label "Cross Me (feat. Chance the Rapper & PnB Rock)"@en .
+
+<http://example.com/song_600> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:DJ%20Khaled ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2019"^^xsd:gYear ;
+	rdfs:label "No Brainer (feat. Justin Bieber, Chance the Rapper & Quavo)"@en .
+
+<http://example.com/song_601> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:Mark%20Ronson ;
+	schema:genre ex:dance%20pop ;
+	schema:datePublished "2019"^^xsd:gYear ;
+	rdfs:label "Nothing Breaks Like a Heart (feat. Miley Cyrus)"@en .
+
+<http://example.com/song_602> rdf:type schema:MusicRecording ;
+	schema:byArtist ex:The%20Chainsmokers ;
+	schema:genre ex:electropop ;
+	schema:datePublished "2019"^^xsd:gYear ;
+	rdfs:label "Kills You Slowly"@en .
+
+ex:Train rdf:type schema:Person ;
+	rdfs:label "Train"@en .
+
+ex:Eminem rdf:type schema:Person ;
+	rdfs:label "Eminem"@en .
+
+ex:Kesha rdf:type schema:Person ;
+	rdfs:label "Kesha"@en .
+
+ex:Lady%20Gaga rdf:type schema:Person ;
+	rdfs:label "Lady Gaga"@en .
+
+ex:Bruno%20Mars rdf:type schema:Person ;
+	rdfs:label "Bruno Mars"@en .
+
+ex:Justin%20Bieber rdf:type schema:Person ;
+	rdfs:label "Justin Bieber"@en .
+
+ex:Taio%20Cruz rdf:type schema:Person ;
+	rdfs:label "Taio Cruz"@en .
+
+ex:OneRepublic rdf:type schema:Person ;
+	rdfs:label "OneRepublic"@en .
+
+ex:Alicia%20Keys rdf:type schema:Person ;
+	rdfs:label "Alicia Keys"@en .
+
+ex:Rihanna rdf:type schema:Person ;
+	rdfs:label "Rihanna"@en .
+
+ex:Flo%20Rida rdf:type schema:Person ;
+	rdfs:label "Flo Rida"@en .
+
+ex:Mike%20Posner rdf:type schema:Person ;
+	rdfs:label "Mike Posner"@en .
+
+ex:Far%20East%20Movement rdf:type schema:Person ;
+	rdfs:label "Far East Movement"@en .
+
+ex:Usher rdf:type schema:Person ;
+	rdfs:label "Usher"@en .
+
+ex:Sean%20Kingston rdf:type schema:Person ;
+	rdfs:label "Sean Kingston"@en .
+
+ex:The%20Black%20Eyed%20Peas rdf:type schema:Person ;
+	rdfs:label "The Black Eyed Peas"@en .
+
+ex:Adam%20Lambert rdf:type schema:Person ;
+	rdfs:label "Adam Lambert"@en .
+
+ex:Maroon%205 rdf:type schema:Person ;
+	rdfs:label "Maroon 5"@en .
+
+ex:Neon%20Trees rdf:type schema:Person ;
+	rdfs:label "Neon Trees"@en .
+
+ex:Selena%20Gomez%20%26%20The%20Scene rdf:type schema:Person ;
+	rdfs:label "Selena Gomez & The Scene"@en .
+
+ex:Enrique%20Iglesias rdf:type schema:Person ;
+	rdfs:label "Enrique Iglesias"@en .
+
+ex:Katy%20Perry rdf:type schema:Person ;
+	rdfs:label "Katy Perry"@en .
+
+ex:Britney%20Spears rdf:type schema:Person ;
+	rdfs:label "Britney Spears"@en .
+
+ex:3OH%213 rdf:type schema:Person ;
+	rdfs:label "3OH!3"@en .
+
+ex:David%20Guetta rdf:type schema:Person ;
+	rdfs:label "David Guetta"@en .
+
+ex:Christina%20Aguilera rdf:type schema:Person ;
+	rdfs:label "Christina Aguilera"@en .
+
+ex:Florence%20%2B%20The%20Machine rdf:type schema:Person ;
+	rdfs:label "Florence + The Machine"@en .
+
+ex:Shakira rdf:type schema:Person ;
+	rdfs:label "Shakira"@en .
+
+ex:Tinie%20Tempah rdf:type schema:Person ;
+	rdfs:label "Tinie Tempah"@en .
+
+<http://example.org/T.I.> rdf:type schema:Person ;
+	rdfs:label "T.I."@en .
+
+ex:Martin%20Solveig rdf:type schema:Person ;
+	rdfs:label "Martin Solveig"@en .
+
+ex:Christina%20Perri rdf:type schema:Person ;
+	rdfs:label "Christina Perri"@en .
+
+ex:Adele rdf:type schema:Person ;
+	rdfs:label "Adele"@en .
+
+ex:Pitbull rdf:type schema:Person ;
+	rdfs:label "Pitbull"@en .
+
+ex:Beyonc%C3%83%C2%A9 rdf:type schema:Person ;
+	rdfs:label "BeyoncÃ©"@en .
+
+ex:Hot%20Chelle%20Rae rdf:type schema:Person ;
+	rdfs:label "Hot Chelle Rae"@en .
+
+ex:Avril%20Lavigne rdf:type schema:Person ;
+	rdfs:label "Avril Lavigne"@en .
+
+ex:Kanye%20West rdf:type schema:Person ;
+	rdfs:label "Kanye West"@en .
+
+ex:LMFAO rdf:type schema:Person ;
+	rdfs:label "LMFAO"@en .
+
+ex:Jessie%20J rdf:type schema:Person ;
+	rdfs:label "Jessie J"@en .
+
+ex:Jennifer%20Lopez rdf:type schema:Person ;
+	rdfs:label "Jennifer Lopez"@en .
+
+ex:Chris%20Brown rdf:type schema:Person ;
+	rdfs:label "Chris Brown"@en .
+
+ex:Sleeping%20At%20Last rdf:type schema:Person ;
+	rdfs:label "Sleeping At Last"@en .
+
+ex:Nicki%20Minaj rdf:type schema:Person ;
+	rdfs:label "Nicki Minaj"@en .
+
+ex:P%21nk rdf:type schema:Person ;
+	rdfs:label "P!nk"@en .
+
+ex:Coldplay rdf:type schema:Person ;
+	rdfs:label "Coldplay"@en .
+
+ex:One%20Direction rdf:type schema:Person ;
+	rdfs:label "One Direction"@en .
+
+ex:Taylor%20Swift rdf:type schema:Person ;
+	rdfs:label "Taylor Swift"@en .
+
+ex:Carly%20Rae%20Jepsen rdf:type schema:Person ;
+	rdfs:label "Carly Rae Jepsen"@en .
+
+ex:Kelly%20Clarkson rdf:type schema:Person ;
+	rdfs:label "Kelly Clarkson"@en .
+
+ex:Owl%20City rdf:type schema:Person ;
+	rdfs:label "Owl City"@en .
+
+ex:The%20Wanted rdf:type schema:Person ;
+	rdfs:label "The Wanted"@en .
+
+<http://example.org/fun.> rdf:type schema:Person ;
+	rdfs:label "fun."@en .
+
+ex:Ellie%20Goulding rdf:type schema:Person ;
+	rdfs:label "Ellie Goulding"@en .
+
+ex:Gym%20Class%20Heroes rdf:type schema:Person ;
+	rdfs:label "Gym Class Heroes"@en .
+
+ex:Avicii rdf:type schema:Person ;
+	rdfs:label "Avicii"@en .
+
+ex:The%20Script rdf:type schema:Person ;
+	rdfs:label "The Script"@en .
+
+ex:Miley%20Cyrus rdf:type schema:Person ;
+	rdfs:label "Miley Cyrus"@en .
+
+ex:Swedish%20House%20Mafia rdf:type schema:Person ;
+	rdfs:label "Swedish House Mafia"@en .
+
+ex:Daft%20Punk rdf:type schema:Person ;
+	rdfs:label "Daft Punk"@en .
+
+ex:James%20Arthur rdf:type schema:Person ;
+	rdfs:label "James Arthur"@en .
+
+ex:Robin%20Thicke rdf:type schema:Person ;
+	rdfs:label "Robin Thicke"@en .
+
+ex:Demi%20Lovato rdf:type schema:Person ;
+	rdfs:label "Demi Lovato"@en .
+
+ex:Zedd rdf:type schema:Person ;
+	rdfs:label "Zedd"@en .
+
+ex:Lana%20Del%20Rey rdf:type schema:Person ;
+	rdfs:label "Lana Del Rey"@en .
+
+ex:Calvin%20Harris rdf:type schema:Person ;
+	rdfs:label "Calvin Harris"@en .
+
+ex:Drake rdf:type schema:Person ;
+	rdfs:label "Drake"@en .
+
+ex:Sara%20Bareilles rdf:type schema:Person ;
+	rdfs:label "Sara Bareilles"@en .
+
+ex:Macklemore%20%26%20Ryan%20Lewis rdf:type schema:Person ;
+	rdfs:label "Macklemore & Ryan Lewis"@en .
+
+ex:Labrinth rdf:type schema:Person ;
+	rdfs:label "Labrinth"@en .
+
+ex:Ne-Yo rdf:type schema:Person ;
+	rdfs:label "Ne-Yo"@en .
+
+ex:Ariana%20Grande rdf:type schema:Person ;
+	rdfs:label "Ariana Grande"@en .
+
+ex:Justin%20Timberlake rdf:type schema:Person ;
+	rdfs:label "Justin Timberlake"@en .
+
+ex:will.i.am rdf:type schema:Person ;
+	rdfs:label "will.i.am"@en .
+
+ex:Icona%20Pop rdf:type schema:Person ;
+	rdfs:label "Icona Pop"@en .
+
+ex:Fergie rdf:type schema:Person ;
+	rdfs:label "Fergie"@en .
+
+ex:Little%20Mix rdf:type schema:Person ;
+	rdfs:label "Little Mix"@en .
+
+ex:Emeli%20Sand%C3%83%C2%A9 rdf:type schema:Person ;
+	rdfs:label "Emeli SandÃ©"@en .
+
+ex:Selena%20Gomez rdf:type schema:Person ;
+	rdfs:label "Selena Gomez"@en .
+
+ex:Austin%20Mahone rdf:type schema:Person ;
+	rdfs:label "Austin Mahone"@en .
+
+ex:Jonas%20Brothers rdf:type schema:Person ;
+	rdfs:label "Jonas Brothers"@en .
+
+ex:Mariah%20Carey rdf:type schema:Person ;
+	rdfs:label "Mariah Carey"@en .
+
+ex:Ciara rdf:type schema:Person ;
+	rdfs:label "Ciara"@en .
+
+ex:Jewel rdf:type schema:Person ;
+	rdfs:label "Jewel"@en .
+
+ex:Kelly%20Rowland rdf:type schema:Person ;
+	rdfs:label "Kelly Rowland"@en .
+
+ex:John%20Legend rdf:type schema:Person ;
+	rdfs:label "John Legend"@en .
+
+ex:Sam%20Smith rdf:type schema:Person ;
+	rdfs:label "Sam Smith"@en .
+
+ex:Pharrell%20Williams rdf:type schema:Person ;
+	rdfs:label "Pharrell Williams"@en .
+
+ex:MAGIC%21 rdf:type schema:Person ;
+	rdfs:label "MAGIC!"@en .
+
+ex:Passenger rdf:type schema:Person ;
+	rdfs:label "Passenger"@en .
+
+ex:Bastille rdf:type schema:Person ;
+	rdfs:label "Bastille"@en .
+
+ex:Lorde rdf:type schema:Person ;
+	rdfs:label "Lorde"@en .
+
+ex:John%20Newman rdf:type schema:Person ;
+	rdfs:label "John Newman"@en .
+
+ex:Disclosure rdf:type schema:Person ;
+	rdfs:label "Disclosure"@en .
+
+ex:Michael%20Jackson rdf:type schema:Person ;
+	rdfs:label "Michael Jackson"@en .
+
+ex:5%20Seconds%20of%20Summer rdf:type schema:Person ;
+	rdfs:label "5 Seconds of Summer"@en .
+
+ex:Iggy%20Azalea rdf:type schema:Person ;
+	rdfs:label "Iggy Azalea"@en .
+
+ex:Jason%20Derulo rdf:type schema:Person ;
+	rdfs:label "Jason Derulo"@en .
+
+ex:The%20Chainsmokers rdf:type schema:Person ;
+	rdfs:label "The Chainsmokers"@en .
+
+ex:Birdy rdf:type schema:Person ;
+	rdfs:label "Birdy"@en .
+
+ex:A%20Great%20Big%20World rdf:type schema:Person ;
+	rdfs:label "A Great Big World"@en .
+
+ex:Sia rdf:type schema:Person ;
+	rdfs:label "Sia"@en .
+
+ex:Charli%20XCX rdf:type schema:Person ;
+	rdfs:label "Charli XCX"@en .
+
+ex:Lily%20Allen rdf:type schema:Person ;
+	rdfs:label "Lily Allen"@en .
+
+ex:Lea%20Michele rdf:type schema:Person ;
+	rdfs:label "Lea Michele"@en .
+
+ex:Ed%20Sheeran rdf:type schema:Person ;
+	rdfs:label "Ed Sheeran"@en .
+
+ex:The%20Weeknd rdf:type schema:Person ;
+	rdfs:label "The Weeknd"@en .
+
+ex:Mark%20Ronson rdf:type schema:Person ;
+	rdfs:label "Mark Ronson"@en .
+
+ex:Hozier rdf:type schema:Person ;
+	rdfs:label "Hozier"@en .
+
+ex:Shawn%20Mendes rdf:type schema:Person ;
+	rdfs:label "Shawn Mendes"@en .
+
+ex:Mr.%20Probz rdf:type schema:Person ;
+	rdfs:label "Mr. Probz"@en .
+
+ex:Zara%20Larsson rdf:type schema:Person ;
+	rdfs:label "Zara Larsson"@en .
+
+ex:Fifth%20Harmony rdf:type schema:Person ;
+	rdfs:label "Fifth Harmony"@en .
+
+ex:Clean%20Bandit rdf:type schema:Person ;
+	rdfs:label "Clean Bandit"@en .
+
+ex:Meghan%20Trainor rdf:type schema:Person ;
+	rdfs:label "Meghan Trainor"@en .
+
+ex:Nick%20Jonas rdf:type schema:Person ;
+	rdfs:label "Nick Jonas"@en .
+
+ex:Paloma%20Faith rdf:type schema:Person ;
+	rdfs:label "Paloma Faith"@en .
+
+ex:Olly%20Murs rdf:type schema:Person ;
+	rdfs:label "Olly Murs"@en .
+
+ex:Naughty%20Boy rdf:type schema:Person ;
+	rdfs:label "Naughty Boy"@en .
+
+ex:Alessia%20Cara rdf:type schema:Person ;
+	rdfs:label "Alessia Cara"@en .
+
+ex:Sigala rdf:type schema:Person ;
+	rdfs:label "Sigala"@en .
+
+ex:Rudimental rdf:type schema:Person ;
+	rdfs:label "Rudimental"@en .
+
+ex:Lost%20Frequencies rdf:type schema:Person ;
+	rdfs:label "Lost Frequencies"@en .
+
+ex:Robin%20Schulz rdf:type schema:Person ;
+	rdfs:label "Robin Schulz"@en .
+
+ex:Lilly%20Wood%20and%20The%20Prick rdf:type schema:Person ;
+	rdfs:label "Lilly Wood and The Prick"@en .
+
+ex:Wiz%20Khalifa rdf:type schema:Person ;
+	rdfs:label "Wiz Khalifa"@en .
+
+ex:Alesso rdf:type schema:Person ;
+	rdfs:label "Alesso"@en .
+
+ex:Madonna rdf:type schema:Person ;
+	rdfs:label "Madonna"@en .
+
+ex:Gwen%20Stefani rdf:type schema:Person ;
+	rdfs:label "Gwen Stefani"@en .
+
+ex:Jess%20Glynne rdf:type schema:Person ;
+	rdfs:label "Jess Glynne"@en .
+
+ex:Hilary%20Duff rdf:type schema:Person ;
+	rdfs:label "Hilary Duff"@en .
+
+ex:Ricky%20Martin rdf:type schema:Person ;
+	rdfs:label "Ricky Martin"@en .
+
+ex:Jennifer%20Hudson rdf:type schema:Person ;
+	rdfs:label "Jennifer Hudson"@en .
+
+ex:DNCE rdf:type schema:Person ;
+	rdfs:label "DNCE"@en .
+
+ex:Martin%20Garrix rdf:type schema:Person ;
+	rdfs:label "Martin Garrix"@en .
+
+ex:Lukas%20Graham rdf:type schema:Person ;
+	rdfs:label "Lukas Graham"@en .
+
+ex:G-Eazy rdf:type schema:Person ;
+	rdfs:label "G-Eazy"@en .
+
+ex:Hailee%20Steinfeld rdf:type schema:Person ;
+	rdfs:label "Hailee Steinfeld"@en .
+
+ex:B%C3%83%CB%9CRNS rdf:type schema:Person ;
+	rdfs:label "BÃ˜RNS"@en .
+
+ex:Major%20Lazer rdf:type schema:Person ;
+	rdfs:label "Major Lazer"@en .
+
+ex:M%C3%83%CB%9C rdf:type schema:Person ;
+	rdfs:label "MÃ˜"@en .
+
+ex:Tove%20Lo rdf:type schema:Person ;
+	rdfs:label "Tove Lo"@en .
+
+ex:ZAYN rdf:type schema:Person ;
+	rdfs:label "ZAYN"@en .
+
+ex:Bebe%20Rexha rdf:type schema:Person ;
+	rdfs:label "Bebe Rexha"@en .
+
+ex:Snakehips rdf:type schema:Person ;
+	rdfs:label "Snakehips"@en .
+
+ex:Missy%20Elliott rdf:type schema:Person ;
+	rdfs:label "Missy Elliott"@en .
+
+ex:Years%20%26%20Years rdf:type schema:Person ;
+	rdfs:label "Years & Years"@en .
+
+ex:Charlie%20Puth rdf:type schema:Person ;
+	rdfs:label "Charlie Puth"@en .
+
+ex:Janet%20Jackson rdf:type schema:Person ;
+	rdfs:label "Janet Jackson"@en .
+
+ex:Joey%20Montana rdf:type schema:Person ;
+	rdfs:label "Joey Montana"@en .
+
+ex:Nelly%20Furtado rdf:type schema:Person ;
+	rdfs:label "Nelly Furtado"@en .
+
+ex:DJ%20Snake rdf:type schema:Person ;
+	rdfs:label "DJ Snake"@en .
+
+ex:Kygo rdf:type schema:Person ;
+	rdfs:label "Kygo"@en .
+
+ex:DJ%20Khaled rdf:type schema:Person ;
+	rdfs:label "DJ Khaled"@en .
+
+ex:Luis%20Fonsi rdf:type schema:Person ;
+	rdfs:label "Luis Fonsi"@en .
+
+ex:Camila%20Cabello rdf:type schema:Person ;
+	rdfs:label "Camila Cabello"@en .
+
+ex:Jonas%20Blue rdf:type schema:Person ;
+	rdfs:label "Jonas Blue"@en .
+
+ex:CNCO rdf:type schema:Person ;
+	rdfs:label "CNCO"@en .
+
+ex:Cardi%20B rdf:type schema:Person ;
+	rdfs:label "Cardi B"@en .
+
+ex:Alan%20Walker rdf:type schema:Person ;
+	rdfs:label "Alan Walker"@en .
+
+ex:Liam%20Payne rdf:type schema:Person ;
+	rdfs:label "Liam Payne"@en .
+
+ex:Niall%20Horan rdf:type schema:Person ;
+	rdfs:label "Niall Horan"@en .
+
+ex:Cashmere%20Cat rdf:type schema:Person ;
+	rdfs:label "Cashmere Cat"@en .
+
+ex:Galantis rdf:type schema:Person ;
+	rdfs:label "Galantis"@en .
+
+ex:Dua%20Lipa rdf:type schema:Person ;
+	rdfs:label "Dua Lipa"@en .
+
+ex:Silk%20City rdf:type schema:Person ;
+	rdfs:label "Silk City"@en .
+
+ex:Marshmello rdf:type schema:Person ;
+	rdfs:label "Marshmello"@en .
+
+ex:Halsey rdf:type schema:Person ;
+	rdfs:label "Halsey"@en .
+
+ex:Troye%20Sivan rdf:type schema:Person ;
+	rdfs:label "Troye Sivan"@en .
+
+ex:Dan%20%2B%20Shay rdf:type schema:Person ;
+	rdfs:label "Dan + Shay"@en .
+
+ex:Rita%20Ora rdf:type schema:Person ;
+	rdfs:label "Rita Ora"@en .
+
+ex:Harry%20Styles rdf:type schema:Person ;
+	rdfs:label "Harry Styles"@en .
+
+ex:Ansel%20Elgort rdf:type schema:Person ;
+	rdfs:label "Ansel Elgort"@en .
+
+ex:J%20Balvin rdf:type schema:Person ;
+	rdfs:label "J Balvin"@en .
+
+ex:N.E.R.D rdf:type schema:Person ;
+	rdfs:label "N.E.R.D"@en .
+
+ex:Hayley%20Kiyoko rdf:type schema:Person ;
+	rdfs:label "Hayley Kiyoko"@en .
+
+ex:RedOne rdf:type schema:Person ;
+	rdfs:label "RedOne"@en .
+
+ex:Lewis%20Capaldi rdf:type schema:Person ;
+	rdfs:label "Lewis Capaldi"@en .
+
+ex:SHAED rdf:type schema:Person ;
+	rdfs:label "SHAED"@en .
+
+ex:Lizzo rdf:type schema:Person ;
+	rdfs:label "Lizzo"@en .
+
+ex:Mabel rdf:type schema:Person ;
+	rdfs:label "Mabel"@en .
+
+ex:Khalid rdf:type schema:Person ;
+	rdfs:label "Khalid"@en .
+
+ex:R3HAB rdf:type schema:Person ;
+	rdfs:label "R3HAB"@en .
+
+ex:Daddy%20Yankee rdf:type schema:Person ;
+	rdfs:label "Daddy Yankee"@en .
+
+ex:neo%20mellow rdf:type mo:Genre ;
+	rdfs:label "neo mellow"@en .
+
+ex:detroit%20hip%20hop rdf:type mo:Genre ;
+	rdfs:label "detroit hip hop"@en .
+
+ex:dance%20pop rdf:type mo:Genre ;
+	rdfs:label "dance pop"@en .
+
+ex:pop rdf:type mo:Genre ;
+	rdfs:label "pop"@en .
+
+ex:canadian%20pop rdf:type mo:Genre ;
+	rdfs:label "canadian pop"@en .
+
+ex:hip%20pop rdf:type mo:Genre ;
+	rdfs:label "hip pop"@en .
+
+ex:barbadian%20pop rdf:type mo:Genre ;
+	rdfs:label "barbadian pop"@en .
+
+ex:atl%20hip%20hop rdf:type mo:Genre ;
+	rdfs:label "atl hip hop"@en .
+
+ex:australian%20pop rdf:type mo:Genre ;
+	rdfs:label "australian pop"@en .
+
+ex:indie%20pop rdf:type mo:Genre ;
+	rdfs:label "indie pop"@en .
+
+ex:art%20pop rdf:type mo:Genre ;
+	rdfs:label "art pop"@en .
+
+ex:colombian%20pop rdf:type mo:Genre ;
+	rdfs:label "colombian pop"@en .
+
+ex:big%20room rdf:type mo:Genre ;
+	rdfs:label "big room"@en .
+
+ex:british%20soul rdf:type mo:Genre ;
+	rdfs:label "british soul"@en .
+
+ex:chicago%20rap rdf:type mo:Genre ;
+	rdfs:label "chicago rap"@en .
+
+ex:acoustic%20pop rdf:type mo:Genre ;
+	rdfs:label "acoustic pop"@en .
+
+ex:permanent%20wave rdf:type mo:Genre ;
+	rdfs:label "permanent wave"@en .
+
+ex:boy%20band rdf:type mo:Genre ;
+	rdfs:label "boy band"@en .
+
+ex:baroque%20pop rdf:type mo:Genre ;
+	rdfs:label "baroque pop"@en .
+
+ex:celtic%20rock rdf:type mo:Genre ;
+	rdfs:label "celtic rock"@en .
+
+ex:electro rdf:type mo:Genre ;
+	rdfs:label "electro"@en .
+
+ex:complextro rdf:type mo:Genre ;
+	rdfs:label "complextro"@en .
+
+ex:canadian%20hip%20hop rdf:type mo:Genre ;
+	rdfs:label "canadian hip hop"@en .
+
+ex:candy%20pop rdf:type mo:Genre ;
+	rdfs:label "candy pop"@en .
+
+ex:alaska%20indie rdf:type mo:Genre ;
+	rdfs:label "alaska indie"@en .
+
+ex:folk-pop rdf:type mo:Genre ;
+	rdfs:label "folk-pop"@en .
+
+ex:metropopolis rdf:type mo:Genre ;
+	rdfs:label "metropopolis"@en .
+
+ex:house rdf:type mo:Genre ;
+	rdfs:label "house"@en .
+
+ex:australian%20hip%20hop rdf:type mo:Genre ;
+	rdfs:label "australian hip hop"@en .
+
+ex:electropop rdf:type mo:Genre ;
+	rdfs:label "electropop"@en .
+
+ex:australian%20dance rdf:type mo:Genre ;
+	rdfs:label "australian dance"@en .
+
+ex:hollywood rdf:type mo:Genre ;
+	rdfs:label "hollywood"@en .
+
+ex:canadian%20contemporary%20r%26b rdf:type mo:Genre ;
+	rdfs:label "canadian contemporary r&b"@en .
+
+ex:irish%20singer-songwriter rdf:type mo:Genre ;
+	rdfs:label "irish singer-songwriter"@en .
+
+ex:tropical%20house rdf:type mo:Genre ;
+	rdfs:label "tropical house"@en .
+
+ex:belgian%20edm rdf:type mo:Genre ;
+	rdfs:label "belgian edm"@en .
+
+ex:french%20indie%20pop rdf:type mo:Genre ;
+	rdfs:label "french indie pop"@en .
+
+ex:hip%20hop rdf:type mo:Genre ;
+	rdfs:label "hip hop"@en .
+
+ex:danish%20pop rdf:type mo:Genre ;
+	rdfs:label "danish pop"@en .
+
+ex:latin rdf:type mo:Genre ;
+	rdfs:label "latin"@en .
+
+ex:canadian%20latin rdf:type mo:Genre ;
+	rdfs:label "canadian latin"@en .
+
+ex:electronic%20trap rdf:type mo:Genre ;
+	rdfs:label "electronic trap"@en .
+
+ex:edm rdf:type mo:Genre ;
+	rdfs:label "edm"@en .
+
+ex:electro%20house rdf:type mo:Genre ;
+	rdfs:label "electro house"@en .
+
+ex:downtempo rdf:type mo:Genre ;
+	rdfs:label "downtempo"@en .
+
+ex:brostep rdf:type mo:Genre ;
+	rdfs:label "brostep"@en .
+
+ex:contemporary%20country rdf:type mo:Genre ;
+	rdfs:label "contemporary country"@en .
+
+ex:moroccan%20pop rdf:type mo:Genre ;
+	rdfs:label "moroccan pop"@en .
+
+ex:escape%20room rdf:type mo:Genre ;
+	rdfs:label "escape room"@en .
+
+ex:alternative%20r%26b rdf:type mo:Genre ;
+	rdfs:label "alternative r&b"@en .
+

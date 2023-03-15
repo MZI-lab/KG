@@ -1,0 +1,132 @@
+#################################################################
+###  Generated with the experimental alpha version of the TTL exporter of WebVOWL (version 1.1.7)  http://visualdataweb.de/webvowl/   ###
+#################################################################
+
+@prefix : 		<http://visualdataweb.org/newOntology/> .
+@prefix rdf: 		<http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: 		<http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: 		<http://www.w3.org/2002/07/owl#> .
+@prefix xsd: 		<http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: 		<http://purl.org/dc/elements/1.1/#> .
+@prefix xml: 		<http://www.w3.org/XML/1998/namespace> .
+@base 			<http://visualdataweb.org/newOntology/> .
+
+<http://visualdataweb.org/newOntology/> rdf:type owl:Ontology ;
+                                        dc:title "Assignment 1"@en;
+                                        dc:description "Assignment 1 Ontology and Turtle Prefix Schema"@en;
+                                        owl:versionInfo "1.0"@en;
+                                        dc:creator "S.Wang. J. Bendler, F.H.Campbell" . 
+#################################################################
+
+###  Property Definitions (Number of Property) 19 ###
+#  --------------------------- Property 0------------------------- 
+:artist_ID rdf:type owl:DatatypeProperty ;
+           rdfs:label "artist_ID"@en; 
+           rdfs:domain :Artist;
+           rdfs:range rdfs:Datatype . 
+#  --------------------------- Property 1------------------------- 
+:wasCreatedBy rdf:type owl:ObjectProperty ;
+              rdfs:label "wasCreatedBy"@en; 
+              rdfs:domain :Album;
+              rdfs:range :Artist . 
+#  --------------------------- Property 2------------------------- 
+:locatedIn rdf:type owl:ObjectProperty ;
+           rdfs:label "locatedIn"@en; 
+           rdfs:domain :City;
+           rdfs:range :Country . 
+#  --------------------------- Property 3------------------------- 
+:residesIn rdf:type owl:ObjectProperty ;
+           rdfs:label "residesIn"@en; 
+           rdfs:domain :Artist;
+           rdfs:range :City . 
+#  --------------------------- Property 4------------------------- 
+:album_ID rdf:type owl:DatatypeProperty ;
+          rdfs:label "album_ID"@en; 
+          rdfs:domain :Album;
+          rdfs:range rdfs:Datatype . 
+#  --------------------------- Property 5------------------------- 
+:real_Name rdf:type owl:DatatypeProperty ;
+           rdfs:label "real_Name"@en; 
+           rdfs:domain :Artist;
+           rdfs:range rdfs:Literal . 
+#  --------------------------- Property 6------------------------- 
+:email rdf:type owl:DatatypeProperty ;
+       rdfs:label "email"@en; 
+       rdfs:domain :Artist;
+       rdfs:range rdfs:Literal . 
+#  --------------------------- Property 7------------------------- 
+:art_Name rdf:type owl:DatatypeProperty ;
+          rdfs:label "art_Name"@en; 
+          rdfs:domain :Artist;
+          rdfs:range rdfs:Literal . 
+#  --------------------------- Property 8------------------------- 
+:zip_Code rdf:type owl:DatatypeProperty ;
+          rdfs:label "zip_Code"@en; 
+          rdfs:domain :City;
+          rdfs:range rdfs:Literal . 
+#  --------------------------- Property 9------------------------- 
+:birth_Year rdf:type owl:DatatypeProperty ;
+            rdfs:label "birth_Year"@en; 
+            rdfs:domain :Artist;
+            rdfs:range rdfs:Datatype . 
+#  --------------------------- Property 10------------------------- 
+:role rdf:type owl:DatatypeProperty ;
+      rdfs:label "role"@en; 
+      rdfs:domain :Artist;
+      rdfs:range rdfs:Literal . 
+#  --------------------------- Property 11------------------------- 
+:album_Title rdf:type owl:DatatypeProperty ;
+             rdfs:label "album_Title"@en; 
+             rdfs:domain :Album;
+             rdfs:range rdfs:Literal . 
+#  --------------------------- Property 12------------------------- 
+:genre rdf:type owl:DatatypeProperty ;
+       rdfs:label "genre"@en; 
+       rdfs:domain :Album;
+       rdfs:range rdfs:Literal . 
+#  --------------------------- Property 13------------------------- 
+:publication_Year rdf:type owl:DatatypeProperty ;
+                  rdfs:label "publication_Year"@en; 
+                  rdfs:domain :Album;
+                  rdfs:range rdfs:Datatype . 
+#  --------------------------- Property 14------------------------- 
+:num_Tracks rdf:type owl:DatatypeProperty ;
+            rdfs:label "num_Tracks"@en; 
+            rdfs:domain :Album;
+            rdfs:range rdfs:Datatype . 
+#  --------------------------- Property 15------------------------- 
+:num_Sales rdf:type owl:DatatypeProperty ;
+           rdfs:label "num_Sales"@en; 
+           rdfs:domain :Album;
+           rdfs:range rdfs:Datatype . 
+#  --------------------------- Property 16------------------------- 
+:music_maniac_Critic rdf:type owl:DatatypeProperty ;
+                     rdfs:label "music_maniac_Critic"@en; 
+                     rdfs:domain :Album;
+                     rdfs:range rdfs:Datatype . 
+#  --------------------------- Property 17------------------------- 
+:mtv_Critic rdf:type owl:DatatypeProperty ;
+            rdfs:label "mtv_Critic"@en; 
+            rdfs:domain :Album;
+            rdfs:range rdfs:Datatype . 
+#  --------------------------- Property 18------------------------- 
+:rolling_stone_Critic rdf:type owl:DatatypeProperty ;
+                      rdfs:label "rolling_stone_Critic"@en; 
+                      rdfs:domain :Album;
+                      rdfs:range rdfs:Datatype . 
+###  Class Definitions (Number of Classes) 5 ###
+#  --------------------------- Class  0------------------------- 
+:AlbumID rdf:type owl:Class; 
+         rdfs:label "Album_ID"@en . 
+#  --------------------------- Class  1------------------------- 
+:Artist rdf:type owl:Class; 
+        rdfs:label "Artist"@en . 
+#  --------------------------- Class  2------------------------- 
+:City rdf:type owl:Class; 
+      rdfs:label "City"@en . 
+#  --------------------------- Class  3------------------------- 
+:Country rdf:type owl:Class; 
+         rdfs:label "Country"@en . 
+#  --------------------------- Class  4------------------------- 
+:Album rdf:type owl:Class; 
+       rdfs:label "Album"@en . 

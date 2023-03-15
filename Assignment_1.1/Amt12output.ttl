@@ -1,0 +1,1816 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ma: <http://www.w3.org/ns/ma-ont#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix schema: <https://schema.org/> .
+@prefix ex: <http://example.org/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+
+<http://example.com/0> rdf:type foaf:thing ;
+	ex:title "Hey, Soul Sister" .
+
+<http://example.com/1> rdf:type foaf:thing ;
+	ex:title "Love The Way You Lie" .
+
+<http://example.com/2> rdf:type foaf:thing ;
+	ex:title "TiK ToK" .
+
+<http://example.com/3> rdf:type foaf:thing ;
+	ex:title "Bad Romance" .
+
+<http://example.com/4> rdf:type foaf:thing ;
+	ex:title "Just the Way You Are" .
+
+<http://example.com/5> rdf:type foaf:thing ;
+	ex:title "Baby" .
+
+<http://example.com/6> rdf:type foaf:thing ;
+	ex:title "Dynamite" .
+
+<http://example.com/7> rdf:type foaf:thing ;
+	ex:title "Secrets" .
+
+<http://example.com/8> rdf:type foaf:thing ;
+	ex:title "Empire State of Mind (Part II) Broken Down" .
+
+<http://example.com/9> rdf:type foaf:thing ;
+	ex:title "Only Girl (In The World)" .
+
+<http://example.com/10> rdf:type foaf:thing ;
+	ex:title "Club Can't Handle Me (feat. David Guetta)" .
+
+<http://example.com/11> rdf:type foaf:thing ;
+	ex:title "Marry You" .
+
+<http://example.com/12> rdf:type foaf:thing ;
+	ex:title "Cooler Than Me - Single Mix" .
+
+<http://example.com/13> rdf:type foaf:thing ;
+	ex:title "Telephone" .
+
+<http://example.com/14> rdf:type foaf:thing ;
+	ex:title "Like A G6" .
+
+<http://example.com/15> rdf:type foaf:thing ;
+	ex:title "OMG (feat. will.i.am)" .
+
+<http://example.com/16> rdf:type foaf:thing ;
+	ex:title "Eenie Meenie" .
+
+<http://example.com/17> rdf:type foaf:thing ;
+	ex:title "The Time (Dirty Bit)" .
+
+<http://example.com/18> rdf:type foaf:thing ;
+	ex:title "Alejandro" .
+
+<http://example.com/19> rdf:type foaf:thing ;
+	ex:title "Your Love Is My Drug" .
+
+<http://example.com/20> rdf:type foaf:thing ;
+	ex:title "Meet Me Halfway" .
+
+<http://example.com/21> rdf:type foaf:thing ;
+	ex:title "Whataya Want from Me" .
+
+<http://example.com/22> rdf:type foaf:thing ;
+	ex:title "Take It Off" .
+
+<http://example.com/23> rdf:type foaf:thing ;
+	ex:title "Misery" .
+
+<http://example.com/24> rdf:type foaf:thing ;
+	ex:title "All The Right Moves" .
+
+<http://example.com/25> rdf:type foaf:thing ;
+	ex:title "Animal" .
+
+<http://example.com/26> rdf:type foaf:thing ;
+	ex:title "Naturally" .
+
+<http://example.com/27> rdf:type foaf:thing ;
+	ex:title "I Like It" .
+
+<http://example.com/28> rdf:type foaf:thing ;
+	ex:title "Teenage Dream" .
+
+<http://example.com/29> rdf:type foaf:thing ;
+	ex:title "California Gurls" .
+
+<http://example.com/30> rdf:type foaf:thing ;
+	ex:title "3" .
+
+<http://example.com/31> rdf:type foaf:thing ;
+	ex:title "My First Kiss - feat. Ke$ha" .
+
+<http://example.com/32> rdf:type foaf:thing ;
+	ex:title "Blah Blah Blah (feat. 3OH!3)" .
+
+<http://example.com/33> rdf:type foaf:thing ;
+	ex:title "Imma Be" .
+
+<http://example.com/34> rdf:type foaf:thing ;
+	ex:title "Try Sleeping with a Broken Heart" .
+
+<http://example.com/35> rdf:type foaf:thing ;
+	ex:title "Sexy Bitch (feat. Akon)" .
+
+<http://example.com/36> rdf:type foaf:thing ;
+	ex:title "Bound To You - Burlesque Original Motion Picture Soundtrack" .
+
+<http://example.com/37> rdf:type foaf:thing ;
+	ex:title "If I Had You" .
+
+<http://example.com/38> rdf:type foaf:thing ;
+	ex:title "Rock That Body" .
+
+<http://example.com/39> rdf:type foaf:thing ;
+	ex:title "Dog Days Are Over" .
+
+<http://example.com/40> rdf:type foaf:thing ;
+	ex:title "Something's Got A Hold On Me - Burlesque Original Motion Picture Soundtrack" .
+
+<http://example.com/41> rdf:type foaf:thing ;
+	ex:title "Doesn't Mean Anything" .
+
+<http://example.com/42> rdf:type foaf:thing ;
+	ex:title "Hard" .
+
+<http://example.com/43> rdf:type foaf:thing ;
+	ex:title "Loca" .
+
+<http://example.com/44> rdf:type foaf:thing ;
+	ex:title "You Lost Me" .
+
+<http://example.com/45> rdf:type foaf:thing ;
+	ex:title "Not Myself Tonight" .
+
+<http://example.com/46> rdf:type foaf:thing ;
+	ex:title "Written in the Stars (feat. Eric Turner)" .
+
+<http://example.com/47> rdf:type foaf:thing ;
+	ex:title "DJ Got Us Fallin' In Love (feat. Pitbull)" .
+
+<http://example.com/48> rdf:type foaf:thing ;
+	ex:title "Castle Walls (feat. Christina Aguilera)" .
+
+<http://example.com/49> rdf:type foaf:thing ;
+	ex:title "Break Your Heart" .
+
+<http://example.com/50> rdf:type foaf:thing ;
+	ex:title "Hello" .
+
+<http://example.com/51> rdf:type foaf:thing ;
+	ex:title "A Thousand Years" .
+
+<http://example.com/52> rdf:type foaf:thing ;
+	ex:title "Someone Like You" .
+
+<http://example.com/53> rdf:type foaf:thing ;
+	ex:title "Give Me Everything" .
+
+<http://example.com/54> rdf:type foaf:thing ;
+	ex:title "Just the Way You Are" .
+
+<http://example.com/55> rdf:type foaf:thing ;
+	ex:title "Rolling in the Deep" .
+
+<http://example.com/56> rdf:type foaf:thing ;
+	ex:title "Run the World (Girls)" .
+
+<http://example.com/57> rdf:type foaf:thing ;
+	ex:title "Moves Like Jagger - Studio Recording From The Voice Performance" .
+
+<http://example.com/58> rdf:type foaf:thing ;
+	ex:title "Love On Top" .
+
+<http://example.com/59> rdf:type foaf:thing ;
+	ex:title "Grenade" .
+
+<http://example.com/60> rdf:type foaf:thing ;
+	ex:title "Tonight Tonight" .
+
+<http://example.com/61> rdf:type foaf:thing ;
+	ex:title "What the Hell" .
+
+<http://example.com/62> rdf:type foaf:thing ;
+	ex:title "Born This Way" .
+
+<http://example.com/63> rdf:type foaf:thing ;
+	ex:title "Monster" .
+
+<http://example.com/64> rdf:type foaf:thing ;
+	ex:title "Marry You" .
+
+<http://example.com/65> rdf:type foaf:thing ;
+	ex:title "Best Thing I Never Had" .
+
+<http://example.com/66> rdf:type foaf:thing ;
+	ex:title "Party Rock Anthem" .
+
+<http://example.com/67> rdf:type foaf:thing ;
+	ex:title "We R Who We R" .
+
+<http://example.com/68> rdf:type foaf:thing ;
+	ex:title "Price Tag" .
+
+<http://example.com/69> rdf:type foaf:thing ;
+	ex:title "Good Life" .
+
+<http://example.com/70> rdf:type foaf:thing ;
+	ex:title "Just CanÂ’t Get Enough" .
+
+<http://example.com/71> rdf:type foaf:thing ;
+	ex:title "On The Floor" .
+
+<http://example.com/72> rdf:type foaf:thing ;
+	ex:title "What's My Name?" .
+
+<http://example.com/73> rdf:type foaf:thing ;
+	ex:title "Yeah 3x" .
+
+<http://example.com/74> rdf:type foaf:thing ;
+	ex:title "Without You (feat. Usher)" .
+
+<http://example.com/75> rdf:type foaf:thing ;
+	ex:title "Sexy And I Know It" .
+
+<http://example.com/76> rdf:type foaf:thing ;
+	ex:title "The Edge Of Glory" .
+
+<http://example.com/77> rdf:type foaf:thing ;
+	ex:title "E.T." .
+
+<http://example.com/78> rdf:type foaf:thing ;
+	ex:title "Till the World Ends" .
+
+<http://example.com/79> rdf:type foaf:thing ;
+	ex:title "I Wanna Go" .
+
+<http://example.com/80> rdf:type foaf:thing ;
+	ex:title "Blow" .
+
+<http://example.com/81> rdf:type foaf:thing ;
+	ex:title "You And I" .
+
+<http://example.com/82> rdf:type foaf:thing ;
+	ex:title "Judas" .
+
+<http://example.com/83> rdf:type foaf:thing ;
+	ex:title "Tonight (I'm Fuckin' You)" .
+
+<http://example.com/84> rdf:type foaf:thing ;
+	ex:title "Please Don't Go" .
+
+<http://example.com/85> rdf:type foaf:thing ;
+	ex:title "We Found Love" .
+
+<http://example.com/86> rdf:type foaf:thing ;
+	ex:title "Marry The Night" .
+
+<http://example.com/87> rdf:type foaf:thing ;
+	ex:title "1+1" .
+
+<http://example.com/88> rdf:type foaf:thing ;
+	ex:title "Hold It Against Me" .
+
+<http://example.com/89> rdf:type foaf:thing ;
+	ex:title "I'm Into You" .
+
+<http://example.com/90> rdf:type foaf:thing ;
+	ex:title "Papi" .
+
+<http://example.com/91> rdf:type foaf:thing ;
+	ex:title "Cheers (Drink To That)" .
+
+<http://example.com/92> rdf:type foaf:thing ;
+	ex:title "S&M Remix" .
+
+<http://example.com/93> rdf:type foaf:thing ;
+	ex:title "Written in the Stars (feat. Eric Turner)" .
+
+<http://example.com/94> rdf:type foaf:thing ;
+	ex:title "Jar of Hearts" .
+
+<http://example.com/95> rdf:type foaf:thing ;
+	ex:title "Castle Walls (feat. Christina Aguilera)" .
+
+<http://example.com/96> rdf:type foaf:thing ;
+	ex:title "Turning Page" .
+
+<http://example.com/97> rdf:type foaf:thing ;
+	ex:title "Super Bass" .
+
+<http://example.com/98> rdf:type foaf:thing ;
+	ex:title "Raise Your Glass" .
+
+<http://example.com/99> rdf:type foaf:thing ;
+	ex:title "Invading My Mind" .
+
+<http://example.com/100> rdf:type foaf:thing ;
+	ex:title "Moment 4 Life - Album Version (Edited)" .
+
+<http://example.com/101> rdf:type foaf:thing ;
+	ex:title "Last Friday Night (T.G.I.F.)" .
+
+<http://example.com/102> rdf:type foaf:thing ;
+	ex:title "Firework" .
+
+<http://example.com/103> rdf:type foaf:thing ;
+	ex:title "Muny - Album Version (Edited)" .
+
+<http://example.com/104> rdf:type foaf:thing ;
+	ex:title "Titanium (feat. Sia)" .
+
+<http://example.com/105> rdf:type foaf:thing ;
+	ex:title "Locked Out of Heaven" .
+
+<http://example.com/106> rdf:type foaf:thing ;
+	ex:title "Paradise" .
+
+<http://example.com/107> rdf:type foaf:thing ;
+	ex:title "Payphone" .
+
+<http://example.com/108> rdf:type foaf:thing ;
+	ex:title "What Makes You Beautiful" .
+
+<http://example.com/109> rdf:type foaf:thing ;
+	ex:title "I Knew You Were Trouble." .
+
+<http://example.com/110> rdf:type foaf:thing ;
+	ex:title "Call Me Maybe" .
+
+<http://example.com/111> rdf:type foaf:thing ;
+	ex:title "Love You Like A Love Song" .
+
+<http://example.com/112> rdf:type foaf:thing ;
+	ex:title "Set Fire to the Rain" .
+
+<http://example.com/113> rdf:type foaf:thing ;
+	ex:title "We Are Never Ever Getting Back Together" .
+
+<http://example.com/114> rdf:type foaf:thing ;
+	ex:title "Stronger (What Doesn't Kill You)" .
+
+<http://example.com/115> rdf:type foaf:thing ;
+	ex:title "Try" .
+
+<http://example.com/116> rdf:type foaf:thing ;
+	ex:title "Starships" .
+
+<http://example.com/117> rdf:type foaf:thing ;
+	ex:title "One More Night" .
+
+<http://example.com/118> rdf:type foaf:thing ;
+	ex:title "Good Time" .
+
+<http://example.com/119> rdf:type foaf:thing ;
+	ex:title "Glad You Came" .
+
+<http://example.com/120> rdf:type foaf:thing ;
+	ex:title "Beauty And A Beat" .
+
+<http://example.com/121> rdf:type foaf:thing ;
+	ex:title "International Love" .
+
+<http://example.com/122> rdf:type foaf:thing ;
+	ex:title "Some Nights" .
+
+<http://example.com/123> rdf:type foaf:thing ;
+	ex:title "Boyfriend" .
+
+<http://example.com/124> rdf:type foaf:thing ;
+	ex:title "Part Of Me" .
+
+<http://example.com/125> rdf:type foaf:thing ;
+	ex:title "Domino" .
+
+<http://example.com/126> rdf:type foaf:thing ;
+	ex:title "Where Have You Been" .
+
+<http://example.com/127> rdf:type foaf:thing ;
+	ex:title "Wide Awake" .
+
+<http://example.com/128> rdf:type foaf:thing ;
+	ex:title "The One That Got Away" .
+
+<http://example.com/129> rdf:type foaf:thing ;
+	ex:title "Dance Again" .
+
+<http://example.com/130> rdf:type foaf:thing ;
+	ex:title "Turn Up the Music" .
+
+<http://example.com/131> rdf:type foaf:thing ;
+	ex:title "Lights - Single Version" .
+
+<http://example.com/132> rdf:type foaf:thing ;
+	ex:title "We Are Young (feat. Janelle MonÃ¡e)" .
+
+<http://example.com/133> rdf:type foaf:thing ;
+	ex:title "Diamonds" .
+
+<http://example.com/134> rdf:type foaf:thing ;
+	ex:title "Don't Stop the Party (feat. TJR)" .
+
+<http://example.com/135> rdf:type foaf:thing ;
+	ex:title "You Da One" .
+
+<http://example.com/136> rdf:type foaf:thing ;
+	ex:title "Stereo Hearts (feat. Adam Levine)" .
+
+<http://example.com/137> rdf:type foaf:thing ;
+	ex:title "It Will Rain" .
+
+<http://example.com/138> rdf:type foaf:thing ;
+	ex:title "Blow Me (One Last Kiss)" .
+
+<http://example.com/139> rdf:type foaf:thing ;
+	ex:title "Underneath the Tree" .
+
+<http://example.com/140> rdf:type foaf:thing ;
+	ex:title "Wake Me Up" .
+
+<http://example.com/141> rdf:type foaf:thing ;
+	ex:title "Story of My Life" .
+
+<http://example.com/142> rdf:type foaf:thing ;
+	ex:title "Just Give Me a Reason (feat. Nate Ruess)" .
+
+<http://example.com/143> rdf:type foaf:thing ;
+	ex:title "Hall of Fame" .
+
+<http://example.com/144> rdf:type foaf:thing ;
+	ex:title "Roar" .
+
+<http://example.com/145> rdf:type foaf:thing ;
+	ex:title "We Can't Stop" .
+
+<http://example.com/146> rdf:type foaf:thing ;
+	ex:title "Don't You Worry Child - Radio Edit" .
+
+<http://example.com/147> rdf:type foaf:thing ;
+	ex:title "Get Lucky (feat. Pharrell Williams & Nile Rodgers) - Radio Edit" .
+
+<http://example.com/148> rdf:type foaf:thing ;
+	ex:title "Wrecking Ball" .
+
+<http://example.com/149> rdf:type foaf:thing ;
+	ex:title "Impossible" .
+
+<http://example.com/150> rdf:type foaf:thing ;
+	ex:title "Blurred Lines" .
+
+<http://example.com/151> rdf:type foaf:thing ;
+	ex:title "Heart Attack" .
+
+<http://example.com/152> rdf:type foaf:thing ;
+	ex:title "We Are Never Ever Getting Back Together" .
+
+<http://example.com/153> rdf:type foaf:thing ;
+	ex:title "Die Young" .
+
+<http://example.com/154> rdf:type foaf:thing ;
+	ex:title "Clarity" .
+
+<http://example.com/155> rdf:type foaf:thing ;
+	ex:title "Summertime Sadness (Lana Del Rey Vs. Cedric Gervais) - Cedric Gervais Remix" .
+
+<http://example.com/156> rdf:type foaf:thing ;
+	ex:title "Under Control" .
+
+<http://example.com/157> rdf:type foaf:thing ;
+	ex:title "Everybody Talks" .
+
+<http://example.com/158> rdf:type foaf:thing ;
+	ex:title "Hold On, We're Going Home" .
+
+<http://example.com/159> rdf:type foaf:thing ;
+	ex:title "Best Song Ever" .
+
+<http://example.com/160> rdf:type foaf:thing ;
+	ex:title "Kiss You" .
+
+<http://example.com/161> rdf:type foaf:thing ;
+	ex:title "Sweet Nothing (feat. Florence Welch)" .
+
+<http://example.com/162> rdf:type foaf:thing ;
+	ex:title "Lose Yourself to Dance" .
+
+<http://example.com/163> rdf:type foaf:thing ;
+	ex:title "Work Bitch" .
+
+<http://example.com/164> rdf:type foaf:thing ;
+	ex:title "Brave" .
+
+<http://example.com/165> rdf:type foaf:thing ;
+	ex:title "Can't Hold Us (feat. Ray Dalton)" .
+
+<http://example.com/166> rdf:type foaf:thing ;
+	ex:title "Feel This Moment (feat. Christina Aguilera)" .
+
+<http://example.com/167> rdf:type foaf:thing ;
+	ex:title "Beneath Your Beautiful" .
+
+<http://example.com/168> rdf:type foaf:thing ;
+	ex:title "Let Me Love You (Until You Learn To Love Yourself)" .
+
+<http://example.com/169> rdf:type foaf:thing ;
+	ex:title "Thrift Shop (feat. Wanz)" .
+
+<http://example.com/170> rdf:type foaf:thing ;
+	ex:title "If I Lose Myself - Alesso vs OneRepublic" .
+
+<http://example.com/171> rdf:type foaf:thing ;
+	ex:title "The Way" .
+
+<http://example.com/172> rdf:type foaf:thing ;
+	ex:title "Suit & Tie" .
+
+<http://example.com/173> rdf:type foaf:thing ;
+	ex:title "#thatPOWER" .
+
+<http://example.com/174> rdf:type foaf:thing ;
+	ex:title "I Love It (feat. Charli XCX)" .
+
+<http://example.com/175> rdf:type foaf:thing ;
+	ex:title "Play Hard (feat. Ne-Yo & Akon) - New Edit" .
+
+<http://example.com/176> rdf:type foaf:thing ;
+	ex:title "Daylight" .
+
+<http://example.com/177> rdf:type foaf:thing ;
+	ex:title "Love Somebody" .
+
+<http://example.com/178> rdf:type foaf:thing ;
+	ex:title "A Little Party Never Killed Nobody (All We Got)" .
+
+<http://example.com/179> rdf:type foaf:thing ;
+	ex:title "Move" .
+
+<http://example.com/180> rdf:type foaf:thing ;
+	ex:title "Walks Like Rihanna" .
+
+<http://example.com/181> rdf:type foaf:thing ;
+	ex:title "Rock N Roll" .
+
+<http://example.com/182> rdf:type foaf:thing ;
+	ex:title "Heartbreaker" .
+
+<http://example.com/183> rdf:type foaf:thing ;
+	ex:title "Mirrors - Radio Edit" .
+
+<http://example.com/184> rdf:type foaf:thing ;
+	ex:title "Next To Me" .
+
+<http://example.com/185> rdf:type foaf:thing ;
+	ex:title "Made In The USA" .
+
+<http://example.com/186> rdf:type foaf:thing ;
+	ex:title "Clown" .
+
+<http://example.com/187> rdf:type foaf:thing ;
+	ex:title "Girl On Fire (feat. Nicki Minaj) - Inferno Version" .
+
+<http://example.com/188> rdf:type foaf:thing ;
+	ex:title "TKO" .
+
+<http://example.com/189> rdf:type foaf:thing ;
+	ex:title "Come & Get It" .
+
+<http://example.com/190> rdf:type foaf:thing ;
+	ex:title "Live It Up" .
+
+<http://example.com/191> rdf:type foaf:thing ;
+	ex:title "We Own The Night" .
+
+<http://example.com/192> rdf:type foaf:thing ;
+	ex:title "Atlas - From Â“The Hunger Games: Catching FireÂ” Soundtrack" .
+
+<http://example.com/193> rdf:type foaf:thing ;
+	ex:title "What About Love" .
+
+<http://example.com/194> rdf:type foaf:thing ;
+	ex:title "Take Back the Night" .
+
+<http://example.com/195> rdf:type foaf:thing ;
+	ex:title "Applause" .
+
+<http://example.com/196> rdf:type foaf:thing ;
+	ex:title "Anything Could Happen" .
+
+<http://example.com/197> rdf:type foaf:thing ;
+	ex:title "Finally Found You" .
+
+<http://example.com/198> rdf:type foaf:thing ;
+	ex:title "Pom Poms" .
+
+<http://example.com/199> rdf:type foaf:thing ;
+	ex:title "#Beautiful" .
+
+<http://example.com/200> rdf:type foaf:thing ;
+	ex:title "How Ya Doin'? (feat. Missy Elliott)" .
+
+<http://example.com/201> rdf:type foaf:thing ;
+	ex:title "Crazy Kids (feat. will.i.am)" .
+
+<http://example.com/202> rdf:type foaf:thing ;
+	ex:title "Ooh La La (from \"The Smurfs 2\")" .
+
+<http://example.com/203> rdf:type foaf:thing ;
+	ex:title "People Like Us" .
+
+<http://example.com/204> rdf:type foaf:thing ;
+	ex:title "Overdose" .
+
+<http://example.com/205> rdf:type foaf:thing ;
+	ex:title "Right Now - Dyro Radio Edit" .
+
+<http://example.com/206> rdf:type foaf:thing ;
+	ex:title "Give It 2 U" .
+
+<http://example.com/207> rdf:type foaf:thing ;
+	ex:title "Foolish Games" .
+
+<http://example.com/208> rdf:type foaf:thing ;
+	ex:title "Outta Nowhere (feat. Danny Mercer)" .
+
+<http://example.com/209> rdf:type foaf:thing ;
+	ex:title "Freak" .
+
+<http://example.com/210> rdf:type foaf:thing ;
+	ex:title "All of Me" .
+
+<http://example.com/211> rdf:type foaf:thing ;
+	ex:title "Stay With Me" .
+
+<http://example.com/212> rdf:type foaf:thing ;
+	ex:title "Summer" .
+
+<http://example.com/213> rdf:type foaf:thing ;
+	ex:title "Happy - From \"Despicable Me 2\"" .
+
+<http://example.com/214> rdf:type foaf:thing ;
+	ex:title "Rude" .
+
+<http://example.com/215> rdf:type foaf:thing ;
+	ex:title "Shake It Off" .
+
+<http://example.com/216> rdf:type foaf:thing ;
+	ex:title "Dark Horse" .
+
+<http://example.com/217> rdf:type foaf:thing ;
+	ex:title "Hey Brother" .
+
+<http://example.com/218> rdf:type foaf:thing ;
+	ex:title "Maps" .
+
+<http://example.com/219> rdf:type foaf:thing ;
+	ex:title "Treasure" .
+
+<http://example.com/220> rdf:type foaf:thing ;
+	ex:title "Let Her Go" .
+
+<http://example.com/221> rdf:type foaf:thing ;
+	ex:title "Problem" .
+
+<http://example.com/222> rdf:type foaf:thing ;
+	ex:title "Pompeii" .
+
+<http://example.com/223> rdf:type foaf:thing ;
+	ex:title "Team" .
+
+<http://example.com/224> rdf:type foaf:thing ;
+	ex:title "Love Me Again" .
+
+<http://example.com/225> rdf:type foaf:thing ;
+	ex:title "Latch" .
+
+<http://example.com/226> rdf:type foaf:thing ;
+	ex:title "Adore You" .
+
+<http://example.com/227> rdf:type foaf:thing ;
+	ex:title "Love Never Felt So Good" .
+
+<http://example.com/228> rdf:type foaf:thing ;
+	ex:title "Burn" .
+
+<http://example.com/229> rdf:type foaf:thing ;
+	ex:title "She Looks So Perfect" .
+
+<http://example.com/230> rdf:type foaf:thing ;
+	ex:title "Fancy" .
+
+<http://example.com/231> rdf:type foaf:thing ;
+	ex:title "Talk Dirty (feat. 2 Chainz)" .
+
+<http://example.com/232> rdf:type foaf:thing ;
+	ex:title "Gorilla" .
+
+<http://example.com/233> rdf:type foaf:thing ;
+	ex:title "human" .
+
+<http://example.com/234> rdf:type foaf:thing ;
+	ex:title "Young Girls" .
+
+<http://example.com/235> rdf:type foaf:thing ;
+	ex:title "Wiggle (feat. Snoop Dogg)" .
+
+<http://example.com/236> rdf:type foaf:thing ;
+	ex:title "Love Runs Out" .
+
+<http://example.com/237> rdf:type foaf:thing ;
+	ex:title "This Is How We Do" .
+
+<http://example.com/238> rdf:type foaf:thing ;
+	ex:title "Mmm Yeah (feat. Pitbull)" .
+
+<http://example.com/239> rdf:type foaf:thing ;
+	ex:title "A Little Party Never Killed Nobody (All We Got)" .
+
+<http://example.com/240> rdf:type foaf:thing ;
+	ex:title "#SELFIE" .
+
+<http://example.com/241> rdf:type foaf:thing ;
+	ex:title "Partition" .
+
+<http://example.com/242> rdf:type foaf:thing ;
+	ex:title "Birthday" .
+
+<http://example.com/243> rdf:type foaf:thing ;
+	ex:title "G.U.Y." .
+
+<http://example.com/244> rdf:type foaf:thing ;
+	ex:title "Stay The Night - Featuring Hayley Williams Of Paramore" .
+
+<http://example.com/245> rdf:type foaf:thing ;
+	ex:title "Let It Go - From \"Frozen / Single Version" .
+
+<http://example.com/246> rdf:type foaf:thing ;
+	ex:title "Wings" .
+
+<http://example.com/247> rdf:type foaf:thing ;
+	ex:title "Can't Remember to Forget You (feat. Rihanna)" .
+
+<http://example.com/248> rdf:type foaf:thing ;
+	ex:title "Shot Me Down (feat. Skylar Grey) - Radio Edit" .
+
+<http://example.com/249> rdf:type foaf:thing ;
+	ex:title "Say Something" .
+
+<http://example.com/250> rdf:type foaf:thing ;
+	ex:title "A Sky Full of Stars" .
+
+<http://example.com/251> rdf:type foaf:thing ;
+	ex:title "Come Get It Bae" .
+
+<http://example.com/252> rdf:type foaf:thing ;
+	ex:title "Chandelier" .
+
+<http://example.com/253> rdf:type foaf:thing ;
+	ex:title "XO" .
+
+<http://example.com/254> rdf:type foaf:thing ;
+	ex:title "We Are One (Ole Ola) [The Official 2014 FIFA World Cup Song]" .
+
+<http://example.com/255> rdf:type foaf:thing ;
+	ex:title "Not About Angels" .
+
+<http://example.com/256> rdf:type foaf:thing ;
+	ex:title "Drunk in Love" .
+
+<http://example.com/257> rdf:type foaf:thing ;
+	ex:title "Anaconda" .
+
+<http://example.com/258> rdf:type foaf:thing ;
+	ex:title "Boom Clap - From the Motion Picture Das Schicksal ist ein mieser VerrÃ¤ter" .
+
+<http://example.com/259> rdf:type foaf:thing ;
+	ex:title "La La La (Brasil 2014) (feat. Carlinhos Brown)" .
+
+<http://example.com/260> rdf:type foaf:thing ;
+	ex:title "Tee Shirt - Soundtrack Version" .
+
+<http://example.com/261> rdf:type foaf:thing ;
+	ex:title "Words as Weapons" .
+
+<http://example.com/262> rdf:type foaf:thing ;
+	ex:title "You're Mine (Eternal)" .
+
+<http://example.com/263> rdf:type foaf:thing ;
+	ex:title "Sheezus" .
+
+<http://example.com/264> rdf:type foaf:thing ;
+	ex:title "Cannonball" .
+
+<http://example.com/265> rdf:type foaf:thing ;
+	ex:title "It's On Again - Main Soundtrack" .
+
+<http://example.com/266> rdf:type foaf:thing ;
+	ex:title "I Luh Ya Papi" .
+
+<http://example.com/267> rdf:type foaf:thing ;
+	ex:title "Not a Bad Thing" .
+
+<http://example.com/268> rdf:type foaf:thing ;
+	ex:title "Thinking out Loud" .
+
+<http://example.com/269> rdf:type foaf:thing ;
+	ex:title "I'm Not The Only One" .
+
+<http://example.com/270> rdf:type foaf:thing ;
+	ex:title "The Hills" .
+
+<http://example.com/271> rdf:type foaf:thing ;
+	ex:title "Love Yourself" .
+
+<http://example.com/272> rdf:type foaf:thing ;
+	ex:title "Uptown Funk" .
+
+<http://example.com/273> rdf:type foaf:thing ;
+	ex:title "Take Me To Church" .
+
+<http://example.com/274> rdf:type foaf:thing ;
+	ex:title "Sugar" .
+
+<http://example.com/275> rdf:type foaf:thing ;
+	ex:title "Sorry" .
+
+<http://example.com/276> rdf:type foaf:thing ;
+	ex:title "FourFiveSeconds" .
+
+<http://example.com/277> rdf:type foaf:thing ;
+	ex:title "Love Me Like You Do - From \"Fifty Shades Of Grey\"" .
+
+<http://example.com/278> rdf:type foaf:thing ;
+	ex:title "Earned It (Fifty Shades Of Grey) - From The \"Fifty Shades Of Grey\" Soundtrack" .
+
+<http://example.com/279> rdf:type foaf:thing ;
+	ex:title "What Do You Mean?" .
+
+<http://example.com/280> rdf:type foaf:thing ;
+	ex:title "Stitches" .
+
+<http://example.com/281> rdf:type foaf:thing ;
+	ex:title "Want to Want Me" .
+
+<http://example.com/282> rdf:type foaf:thing ;
+	ex:title "My House" .
+
+<http://example.com/283> rdf:type foaf:thing ;
+	ex:title "Waves - Robin Schulz Radio Edit" .
+
+<http://example.com/284> rdf:type foaf:thing ;
+	ex:title "Night Changes" .
+
+<http://example.com/285> rdf:type foaf:thing ;
+	ex:title "How Deep Is Your Love" .
+
+<http://example.com/286> rdf:type foaf:thing ;
+	ex:title "Never Forget You" .
+
+<http://example.com/287> rdf:type foaf:thing ;
+	ex:title "Love Me Harder" .
+
+<http://example.com/288> rdf:type foaf:thing ;
+	ex:title "Animals" .
+
+<http://example.com/289> rdf:type foaf:thing ;
+	ex:title "Blame" .
+
+<http://example.com/290> rdf:type foaf:thing ;
+	ex:title "Worth It" .
+
+<http://example.com/291> rdf:type foaf:thing ;
+	ex:title "Break Free" .
+
+<http://example.com/292> rdf:type foaf:thing ;
+	ex:title "Don't" .
+
+<http://example.com/293> rdf:type foaf:thing ;
+	ex:title "Elastic Heart" .
+
+<http://example.com/294> rdf:type foaf:thing ;
+	ex:title "Rather Be (feat. Jess Glynne)" .
+
+<http://example.com/295> rdf:type foaf:thing ;
+	ex:title "Hello" .
+
+<http://example.com/296> rdf:type foaf:thing ;
+	ex:title "Dear Future Husband" .
+
+<http://example.com/297> rdf:type foaf:thing ;
+	ex:title "43776" .
+
+<http://example.com/298> rdf:type foaf:thing ;
+	ex:title "The Heart Wants What It Wants" .
+
+<http://example.com/299> rdf:type foaf:thing ;
+	ex:title "Hey Mama (feat. Nicki Minaj, Bebe Rexha & Afrojack)" .
+
+<http://example.com/300> rdf:type foaf:thing ;
+	ex:title "Genie In a Bottle" .
+
+<http://example.com/301> rdf:type foaf:thing ;
+	ex:title "Company" .
+
+<http://example.com/302> rdf:type foaf:thing ;
+	ex:title "Sing" .
+
+<http://example.com/303> rdf:type foaf:thing ;
+	ex:title "Jealous - Remix" .
+
+<http://example.com/304> rdf:type foaf:thing ;
+	ex:title "Really Don't Care" .
+
+<http://example.com/305> rdf:type foaf:thing ;
+	ex:title "Downtown (feat. Melle Mel, Grandmaster Caz, Kool Moe Dee & Eric Nally)" .
+
+<http://example.com/306> rdf:type foaf:thing ;
+	ex:title "Only Love Can Hurt Like This" .
+
+<http://example.com/307> rdf:type foaf:thing ;
+	ex:title "Heartbeat Song" .
+
+<http://example.com/308> rdf:type foaf:thing ;
+	ex:title "Up" .
+
+<http://example.com/309> rdf:type foaf:thing ;
+	ex:title "Trumpets" .
+
+<http://example.com/310> rdf:type foaf:thing ;
+	ex:title "Runnin' (Lose It All)" .
+
+<http://example.com/311> rdf:type foaf:thing ;
+	ex:title "Same Old Love" .
+
+<http://example.com/312> rdf:type foaf:thing ;
+	ex:title "I Want You To Know" .
+
+<http://example.com/313> rdf:type foaf:thing ;
+	ex:title "Lips Are Movin" .
+
+<http://example.com/314> rdf:type foaf:thing ;
+	ex:title "I'll Show You" .
+
+<http://example.com/315> rdf:type foaf:thing ;
+	ex:title "Here" .
+
+<http://example.com/316> rdf:type foaf:thing ;
+	ex:title "I Lived" .
+
+<http://example.com/317> rdf:type foaf:thing ;
+	ex:title "Fireball (feat. John Ryan)" .
+
+<http://example.com/318> rdf:type foaf:thing ;
+	ex:title "Easy Love" .
+
+<http://example.com/319> rdf:type foaf:thing ;
+	ex:title "The Feeling" .
+
+<http://example.com/320> rdf:type foaf:thing ;
+	ex:title "I Really Like You" .
+
+<http://example.com/321> rdf:type foaf:thing ;
+	ex:title "BO$$" .
+
+<http://example.com/322> rdf:type foaf:thing ;
+	ex:title "Sugar" .
+
+<http://example.com/323> rdf:type foaf:thing ;
+	ex:title "Focus" .
+
+<http://example.com/324> rdf:type foaf:thing ;
+	ex:title "All About That Bass" .
+
+<http://example.com/325> rdf:type foaf:thing ;
+	ex:title "On My Mind" .
+
+<http://example.com/326> rdf:type foaf:thing ;
+	ex:title "Love Me Like You" .
+
+<http://example.com/327> rdf:type foaf:thing ;
+	ex:title "Broken Arrows" .
+
+<http://example.com/328> rdf:type foaf:thing ;
+	ex:title "Booty" .
+
+<http://example.com/329> rdf:type foaf:thing ;
+	ex:title "What Do You Mean? - Acoustic" .
+
+<http://example.com/330> rdf:type foaf:thing ;
+	ex:title "Mark My Words" .
+
+<http://example.com/331> rdf:type foaf:thing ;
+	ex:title "Lay It All on Me" .
+
+<http://example.com/332> rdf:type foaf:thing ;
+	ex:title "American Oxygen" .
+
+<http://example.com/333> rdf:type foaf:thing ;
+	ex:title "Bang Bang" .
+
+<http://example.com/334> rdf:type foaf:thing ;
+	ex:title "Reality - Radio Edit" .
+
+<http://example.com/335> rdf:type foaf:thing ;
+	ex:title "Alive" .
+
+<http://example.com/336> rdf:type foaf:thing ;
+	ex:title "Sugar (feat. Francesco Yates)" .
+
+<http://example.com/337> rdf:type foaf:thing ;
+	ex:title "Been You" .
+
+<http://example.com/338> rdf:type foaf:thing ;
+	ex:title "Prayer in C - Robin Schulz Radio Edit" .
+
+<http://example.com/339> rdf:type foaf:thing ;
+	ex:title "See You Again (feat. Charlie Puth)" .
+
+<http://example.com/340> rdf:type foaf:thing ;
+	ex:title "Heroes (we could be)" .
+
+<http://example.com/341> rdf:type foaf:thing ;
+	ex:title "Feel The Light - From The \"Home\" Soundtrack" .
+
+<http://example.com/342> rdf:type foaf:thing ;
+	ex:title "Perfect" .
+
+<http://example.com/343> rdf:type foaf:thing ;
+	ex:title "Ghosttown" .
+
+<http://example.com/344> rdf:type foaf:thing ;
+	ex:title "Bang My Head (feat. Sia & Fetty Wap)" .
+
+<http://example.com/345> rdf:type foaf:thing ;
+	ex:title "Bloodstream" .
+
+<http://example.com/346> rdf:type foaf:thing ;
+	ex:title "Living For Love" .
+
+<http://example.com/347> rdf:type foaf:thing ;
+	ex:title "Baby Don't Lie" .
+
+<http://example.com/348> rdf:type foaf:thing ;
+	ex:title "Don't Be so Hard on Yourself" .
+
+<http://example.com/349> rdf:type foaf:thing ;
+	ex:title "Steal My Girl" .
+
+<http://example.com/350> rdf:type foaf:thing ;
+	ex:title "Celebrate (From the Original Motion Picture \"Penguins of Madagascar\")" .
+
+<http://example.com/351> rdf:type foaf:thing ;
+	ex:title "We Are Here" .
+
+<http://example.com/352> rdf:type foaf:thing ;
+	ex:title "St Jude" .
+
+<http://example.com/353> rdf:type foaf:thing ;
+	ex:title "Yesterday (feat. Bebe Rexha)" .
+
+<http://example.com/354> rdf:type foaf:thing ;
+	ex:title "Time of Our Lives" .
+
+<http://example.com/355> rdf:type foaf:thing ;
+	ex:title "Sparks" .
+
+<http://example.com/356> rdf:type foaf:thing ;
+	ex:title "Mr. Put It Down" .
+
+<http://example.com/357> rdf:type foaf:thing ;
+	ex:title "Legendary Lovers" .
+
+<http://example.com/358> rdf:type foaf:thing ;
+	ex:title "Spark The Fire" .
+
+<http://example.com/359> rdf:type foaf:thing ;
+	ex:title "Run Run Run" .
+
+<http://example.com/360> rdf:type foaf:thing ;
+	ex:title "Let Me Be Your Lover" .
+
+<http://example.com/361> rdf:type foaf:thing ;
+	ex:title "Dangerous" .
+
+<http://example.com/362> rdf:type foaf:thing ;
+	ex:title "L.A.LOVE (la la)" .
+
+<http://example.com/363> rdf:type foaf:thing ;
+	ex:title "The Hills" .
+
+<http://example.com/364> rdf:type foaf:thing ;
+	ex:title "Love Yourself" .
+
+<http://example.com/365> rdf:type foaf:thing ;
+	ex:title "Cake By The Ocean" .
+
+<http://example.com/366> rdf:type foaf:thing ;
+	ex:title "Don't Let Me Down" .
+
+<http://example.com/367> rdf:type foaf:thing ;
+	ex:title "In the Name of Love" .
+
+<http://example.com/368> rdf:type foaf:thing ;
+	ex:title "Into You" .
+
+<http://example.com/369> rdf:type foaf:thing ;
+	ex:title "This Is What You Came For" .
+
+<http://example.com/370> rdf:type foaf:thing ;
+	ex:title "Million Reasons" .
+
+<http://example.com/371> rdf:type foaf:thing ;
+	ex:title "Needed Me" .
+
+<http://example.com/372> rdf:type foaf:thing ;
+	ex:title "7 Years" .
+
+<http://example.com/373> rdf:type foaf:thing ;
+	ex:title "CAN'T STOP THE FEELING! (Original Song from DreamWorks Animation's \"TROLLS\")" .
+
+<http://example.com/374> rdf:type foaf:thing ;
+	ex:title "Work from Home (feat. Ty Dolla $ign)" .
+
+<http://example.com/375> rdf:type foaf:thing ;
+	ex:title "Scars To Your Beautiful" .
+
+<http://example.com/376> rdf:type foaf:thing ;
+	ex:title "Like I'm Gonna Lose You (feat. John Legend)" .
+
+<http://example.com/377> rdf:type foaf:thing ;
+	ex:title "Work" .
+
+<http://example.com/378> rdf:type foaf:thing ;
+	ex:title "Stitches" .
+
+<http://example.com/379> rdf:type foaf:thing ;
+	ex:title "Me, Myself & I" .
+
+<http://example.com/380> rdf:type foaf:thing ;
+	ex:title "I Took A Pill In Ibiza - Seeb Remix" .
+
+<http://example.com/381> rdf:type foaf:thing ;
+	ex:title "Dangerous Woman" .
+
+<http://example.com/382> rdf:type foaf:thing ;
+	ex:title "Starving" .
+
+<http://example.com/383> rdf:type foaf:thing ;
+	ex:title "Shout Out to My Ex" .
+
+<http://example.com/384> rdf:type foaf:thing ;
+	ex:title "Electric Love" .
+
+<http://example.com/385> rdf:type foaf:thing ;
+	ex:title "Confident" .
+
+<http://example.com/386> rdf:type foaf:thing ;
+	ex:title "Too Good" .
+
+<http://example.com/387> rdf:type foaf:thing ;
+	ex:title "Roses" .
+
+<http://example.com/388> rdf:type foaf:thing ;
+	ex:title "Cold Water (feat. Justin Bieber & MÃ˜)" .
+
+<http://example.com/389> rdf:type foaf:thing ;
+	ex:title "Me Too" .
+
+<http://example.com/390> rdf:type foaf:thing ;
+	ex:title "Light It Up (feat. Nyla & Fuse ODG) [Remix]" .
+
+<http://example.com/391> rdf:type foaf:thing ;
+	ex:title "Ain't Your Mama" .
+
+<http://example.com/392> rdf:type foaf:thing ;
+	ex:title "Close" .
+
+<http://example.com/393> rdf:type foaf:thing ;
+	ex:title "Toothbrush" .
+
+<http://example.com/394> rdf:type foaf:thing ;
+	ex:title "All We Know" .
+
+<http://example.com/395> rdf:type foaf:thing ;
+	ex:title "Final Song" .
+
+<http://example.com/396> rdf:type foaf:thing ;
+	ex:title "Company" .
+
+<http://example.com/397> rdf:type foaf:thing ;
+	ex:title "Hands To Myself" .
+
+<http://example.com/398> rdf:type foaf:thing ;
+	ex:title "All I Ask" .
+
+<http://example.com/399> rdf:type foaf:thing ;
+	ex:title "Just Like Fire (From the Original Motion Picture \"Alice Through The Looking Glass\")" .
+
+<http://example.com/400> rdf:type foaf:thing ;
+	ex:title "NO" .
+
+<http://example.com/401> rdf:type foaf:thing ;
+	ex:title "Kill Em With Kindness" .
+
+<http://example.com/402> rdf:type foaf:thing ;
+	ex:title "Cool Girl" .
+
+<http://example.com/403> rdf:type foaf:thing ;
+	ex:title "Runnin' (Lose It All)" .
+
+<http://example.com/404> rdf:type foaf:thing ;
+	ex:title "Here" .
+
+<http://example.com/405> rdf:type foaf:thing ;
+	ex:title "Perfect Illusion" .
+
+<http://example.com/406> rdf:type foaf:thing ;
+	ex:title "PILLOWTALK" .
+
+<http://example.com/407> rdf:type foaf:thing ;
+	ex:title "Out Of The Woods" .
+
+<http://example.com/408> rdf:type foaf:thing ;
+	ex:title "Rise" .
+
+<http://example.com/409> rdf:type foaf:thing ;
+	ex:title "Wherever I Go" .
+
+<http://example.com/410> rdf:type foaf:thing ;
+	ex:title "Body Say" .
+
+<http://example.com/411> rdf:type foaf:thing ;
+	ex:title "Don't Be A Fool" .
+
+<http://example.com/412> rdf:type foaf:thing ;
+	ex:title "LIKE I WOULD" .
+
+<http://example.com/413> rdf:type foaf:thing ;
+	ex:title "Cheap Thrills" .
+
+<http://example.com/414> rdf:type foaf:thing ;
+	ex:title "I Got You" .
+
+<http://example.com/415> rdf:type foaf:thing ;
+	ex:title "Run Away With Me" .
+
+<http://example.com/416> rdf:type foaf:thing ;
+	ex:title "Cruel (feat. ZAYN)" .
+
+<http://example.com/417> rdf:type foaf:thing ;
+	ex:title "Send My Love (To Your New Lover)" .
+
+<http://example.com/418> rdf:type foaf:thing ;
+	ex:title "WTF (Where They From)" .
+
+<http://example.com/419> rdf:type foaf:thing ;
+	ex:title "Desire" .
+
+<http://example.com/420> rdf:type foaf:thing ;
+	ex:title "When We Were Young" .
+
+<http://example.com/421> rdf:type foaf:thing ;
+	ex:title "I Know What You Did Last Summer" .
+
+<http://example.com/422> rdf:type foaf:thing ;
+	ex:title "Wish That You Were Here - From Â“Miss PeregrineÂ’s Home for Peculiar ChildrenÂ” Original Motion Picture" .
+
+<http://example.com/423> rdf:type foaf:thing ;
+	ex:title "Hurts" .
+
+<http://example.com/424> rdf:type foaf:thing ;
+	ex:title "Change" .
+
+<http://example.com/425> rdf:type foaf:thing ;
+	ex:title "Make Me... (feat. G-Eazy)" .
+
+<http://example.com/426> rdf:type foaf:thing ;
+	ex:title "Keeping Your Head Up" .
+
+<http://example.com/427> rdf:type foaf:thing ;
+	ex:title "True Colors" .
+
+<http://example.com/428> rdf:type foaf:thing ;
+	ex:title "Make Me Like You" .
+
+<http://example.com/429> rdf:type foaf:thing ;
+	ex:title "Champagne Problems" .
+
+<http://example.com/430> rdf:type foaf:thing ;
+	ex:title "Blown" .
+
+<http://example.com/431> rdf:type foaf:thing ;
+	ex:title "Start" .
+
+<http://example.com/432> rdf:type foaf:thing ;
+	ex:title "Pep Rally" .
+
+<http://example.com/433> rdf:type foaf:thing ;
+	ex:title "Higher" .
+
+<http://example.com/434> rdf:type foaf:thing ;
+	ex:title "Invitation" .
+
+<http://example.com/435> rdf:type foaf:thing ;
+	ex:title "One Call Away (feat. Tyga) - Remix" .
+
+<http://example.com/436> rdf:type foaf:thing ;
+	ex:title "Beautiful Birds (feat. Birdy)" .
+
+<http://example.com/437> rdf:type foaf:thing ;
+	ex:title "Little Lies" .
+
+<http://example.com/438> rdf:type foaf:thing ;
+	ex:title "Do You Wanna Come Over?" .
+
+<http://example.com/439> rdf:type foaf:thing ;
+	ex:title "BURNITUP!" .
+
+<http://example.com/440> rdf:type foaf:thing ;
+	ex:title "Picky - Remix" .
+
+<http://example.com/441> rdf:type foaf:thing ;
+	ex:title "Behind Your Back" .
+
+<http://example.com/442> rdf:type foaf:thing ;
+	ex:title "Million Years Ago" .
+
+<http://example.com/443> rdf:type foaf:thing ;
+	ex:title "Shape of You" .
+
+<http://example.com/444> rdf:type foaf:thing ;
+	ex:title "Closer" .
+
+<http://example.com/445> rdf:type foaf:thing ;
+	ex:title "Starboy" .
+
+<http://example.com/446> rdf:type foaf:thing ;
+	ex:title "Treat You Better" .
+
+<http://example.com/447> rdf:type foaf:thing ;
+	ex:title "That's What I Like" .
+
+<http://example.com/448> rdf:type foaf:thing ;
+	ex:title "Let Me Love You" .
+
+<http://example.com/449> rdf:type foaf:thing ;
+	ex:title "I Feel It Coming" .
+
+<http://example.com/450> rdf:type foaf:thing ;
+	ex:title "Mercy" .
+
+<http://example.com/451> rdf:type foaf:thing ;
+	ex:title "Side To Side" .
+
+<http://example.com/452> rdf:type foaf:thing ;
+	ex:title "Stay" .
+
+<http://example.com/453> rdf:type foaf:thing ;
+	ex:title "It Ain't Me (with Selena Gomez)" .
+
+<http://example.com/454> rdf:type foaf:thing ;
+	ex:title "Malibu" .
+
+<http://example.com/455> rdf:type foaf:thing ;
+	ex:title "Something Just Like This" .
+
+<http://example.com/456> rdf:type foaf:thing ;
+	ex:title "Rockabye (feat. Sean Paul & Anne-Marie)" .
+
+<http://example.com/457> rdf:type foaf:thing ;
+	ex:title "I DonÂ’t Wanna Live Forever (Fifty Shades Darker)" .
+
+<http://example.com/458> rdf:type foaf:thing ;
+	ex:title "My Way" .
+
+<http://example.com/459> rdf:type foaf:thing ;
+	ex:title "I'm the One (feat. Justin Bieber, Quavo, Chance the Rapper & Lil Wayne)" .
+
+<http://example.com/460> rdf:type foaf:thing ;
+	ex:title "Praying" .
+
+<http://example.com/461> rdf:type foaf:thing ;
+	ex:title "Despacito - Remix" .
+
+<http://example.com/462> rdf:type foaf:thing ;
+	ex:title "The Greatest" .
+
+<http://example.com/463> rdf:type foaf:thing ;
+	ex:title "There for You" .
+
+<http://example.com/464> rdf:type foaf:thing ;
+	ex:title "Paris" .
+
+<http://example.com/465> rdf:type foaf:thing ;
+	ex:title "Crying in the Club" .
+
+<http://example.com/466> rdf:type foaf:thing ;
+	ex:title "Mama" .
+
+<http://example.com/467> rdf:type foaf:thing ;
+	ex:title "Slide (feat. Frank Ocean & Migos)" .
+
+<http://example.com/468> rdf:type foaf:thing ;
+	ex:title "Swish Swish" .
+
+<http://example.com/469> rdf:type foaf:thing ;
+	ex:title "Chained To The Rhythm" .
+
+<http://example.com/470> rdf:type foaf:thing ;
+	ex:title "Cold (feat. Future)" .
+
+<http://example.com/471> rdf:type foaf:thing ;
+	ex:title "Love" .
+
+<http://example.com/472> rdf:type foaf:thing ;
+	ex:title "ReggaetÃ³n Lento (Remix)" .
+
+<http://example.com/473> rdf:type foaf:thing ;
+	ex:title "All I Ask" .
+
+<http://example.com/474> rdf:type foaf:thing ;
+	ex:title "First Time" .
+
+<http://example.com/475> rdf:type foaf:thing ;
+	ex:title "The Cure" .
+
+<http://example.com/476> rdf:type foaf:thing ;
+	ex:title "How Far I'll Go - From \"Moana\"" .
+
+<http://example.com/477> rdf:type foaf:thing ;
+	ex:title "Bodak Yellow" .
+
+<http://example.com/478> rdf:type foaf:thing ;
+	ex:title "Rich Love (with Seeb)" .
+
+<http://example.com/479> rdf:type foaf:thing ;
+	ex:title "Tired" .
+
+<http://example.com/480> rdf:type foaf:thing ;
+	ex:title "Came Here for Love" .
+
+<http://example.com/481> rdf:type foaf:thing ;
+	ex:title "24K Magic" .
+
+<http://example.com/482> rdf:type foaf:thing ;
+	ex:title "Strip That Down (feat. Quavo)" .
+
+<http://example.com/483> rdf:type foaf:thing ;
+	ex:title "Cut To The Feeling" .
+
+<http://example.com/484> rdf:type foaf:thing ;
+	ex:title "OK - Spotify Version" .
+
+<http://example.com/485> rdf:type foaf:thing ;
+	ex:title "Bon appÃ©tit" .
+
+<http://example.com/486> rdf:type foaf:thing ;
+	ex:title "Summer Bummer (feat. A$AP Rocky & Playboi Carti)" .
+
+<http://example.com/487> rdf:type foaf:thing ;
+	ex:title "Get Low (with Liam Payne)" .
+
+<http://example.com/488> rdf:type foaf:thing ;
+	ex:title "Kissing Strangers" .
+
+<http://example.com/489> rdf:type foaf:thing ;
+	ex:title "Slow Hands" .
+
+<http://example.com/490> rdf:type foaf:thing ;
+	ex:title "Younger Now" .
+
+<http://example.com/491> rdf:type foaf:thing ;
+	ex:title "Body Moves" .
+
+<http://example.com/492> rdf:type foaf:thing ;
+	ex:title "Reality (feat. Janieck Devy) - Radio Edit" .
+
+<http://example.com/493> rdf:type foaf:thing ;
+	ex:title "Angel" .
+
+<http://example.com/494> rdf:type foaf:thing ;
+	ex:title "Touch (feat. Kid Ink)" .
+
+<http://example.com/495> rdf:type foaf:thing ;
+	ex:title "We Don't Talk Anymore - DROELOE Remix" .
+
+<http://example.com/496> rdf:type foaf:thing ;
+	ex:title "Love Incredible (feat. Camila Cabello)" .
+
+<http://example.com/497> rdf:type foaf:thing ;
+	ex:title "No Vacancy (with SebastiÃ¡n Yatra)" .
+
+<http://example.com/498> rdf:type foaf:thing ;
+	ex:title "Rich Boy" .
+
+<http://example.com/499> rdf:type foaf:thing ;
+	ex:title "Lust for Life (with The Weeknd)" .
+
+<http://example.com/500> rdf:type foaf:thing ;
+	ex:title "Greenlight (feat. Flo Rida & LunchMoney Lewis)" .
+
+<http://example.com/501> rdf:type foaf:thing ;
+	ex:title "Influence" .
+
+<http://example.com/502> rdf:type foaf:thing ;
+	ex:title "Remember I Told You" .
+
+<http://example.com/503> rdf:type foaf:thing ;
+	ex:title "Messin' Around" .
+
+<http://example.com/504> rdf:type foaf:thing ;
+	ex:title "Water Under the Bridge" .
+
+<http://example.com/505> rdf:type foaf:thing ;
+	ex:title "Free Me" .
+
+<http://example.com/506> rdf:type foaf:thing ;
+	ex:title "Kissing Strangers - Remix" .
+
+<http://example.com/507> rdf:type foaf:thing ;
+	ex:title "A L I E N S" .
+
+<http://example.com/508> rdf:type foaf:thing ;
+	ex:title "One Kiss (with Dua Lipa)" .
+
+<http://example.com/509> rdf:type foaf:thing ;
+	ex:title "Havana (feat. Young Thug)" .
+
+<http://example.com/510> rdf:type foaf:thing ;
+	ex:title "I Like It" .
+
+<http://example.com/511> rdf:type foaf:thing ;
+	ex:title "New Rules" .
+
+<http://example.com/512> rdf:type foaf:thing ;
+	ex:title "There's Nothing Holdin' Me Back" .
+
+<http://example.com/513> rdf:type foaf:thing ;
+	ex:title "no tears left to cry" .
+
+<http://example.com/514> rdf:type foaf:thing ;
+	ex:title "IDGAF" .
+
+<http://example.com/515> rdf:type foaf:thing ;
+	ex:title "In My Blood" .
+
+<http://example.com/516> rdf:type foaf:thing ;
+	ex:title "Wolves" .
+
+<http://example.com/517> rdf:type foaf:thing ;
+	ex:title "Dusk Till Dawn - Radio Edit" .
+
+<http://example.com/518> rdf:type foaf:thing ;
+	ex:title "Attention" .
+
+<http://example.com/519> rdf:type foaf:thing ;
+	ex:title "Electricity (with Dua Lipa)" .
+
+<http://example.com/520> rdf:type foaf:thing ;
+	ex:title "Love On The Brain" .
+
+<http://example.com/521> rdf:type foaf:thing ;
+	ex:title "Let Me Go (with Alesso, Florida Georgia Line & watt)" .
+
+<http://example.com/522> rdf:type foaf:thing ;
+	ex:title "Silence" .
+
+<http://example.com/523> rdf:type foaf:thing ;
+	ex:title "Sorry Not Sorry" .
+
+<http://example.com/524> rdf:type foaf:thing ;
+	ex:title "Shallow - Radio Edit" .
+
+<http://example.com/525> rdf:type foaf:thing ;
+	ex:title "These Days" .
+
+<http://example.com/526> rdf:type foaf:thing ;
+	ex:title "What Lovers Do (feat. SZA)" .
+
+<http://example.com/527> rdf:type foaf:thing ;
+	ex:title "Finesse - Remix\t feat. Cardi B" .
+
+<http://example.com/528> rdf:type foaf:thing ;
+	ex:title "Perfect Duet (Ed Sheeran & BeyoncÃ©)" .
+
+<http://example.com/529> rdf:type foaf:thing ;
+	ex:title "Bad At Love" .
+
+<http://example.com/530> rdf:type foaf:thing ;
+	ex:title "Him & I (with Halsey)" .
+
+<http://example.com/531> rdf:type foaf:thing ;
+	ex:title "Friends (with BloodPopÂ®)" .
+
+<http://example.com/532> rdf:type foaf:thing ;
+	ex:title "Wild Thoughts (feat. Rihanna & Bryson Tiller)" .
+
+<http://example.com/533> rdf:type foaf:thing ;
+	ex:title "My My My!" .
+
+<http://example.com/534> rdf:type foaf:thing ;
+	ex:title "Capital Letters" .
+
+<http://example.com/535> rdf:type foaf:thing ;
+	ex:title "Sick Boy" .
+
+<http://example.com/536> rdf:type foaf:thing ;
+	ex:title "Tequila" .
+
+<http://example.com/537> rdf:type foaf:thing ;
+	ex:title "Look What You Made Me Do" .
+
+<http://example.com/538> rdf:type foaf:thing ;
+	ex:title "Youth (feat. Khalid)" .
+
+<http://example.com/539> rdf:type foaf:thing ;
+	ex:title "Bad Liar" .
+
+<http://example.com/540> rdf:type foaf:thing ;
+	ex:title "Anywhere" .
+
+<http://example.com/541> rdf:type foaf:thing ;
+	ex:title "Say Something" .
+
+<http://example.com/542> rdf:type foaf:thing ;
+	ex:title "Chun-Li" .
+
+<http://example.com/543> rdf:type foaf:thing ;
+	ex:title "Sign of the Times" .
+
+<http://example.com/544> rdf:type foaf:thing ;
+	ex:title "Familiar" .
+
+<http://example.com/545> rdf:type foaf:thing ;
+	ex:title "Let Me" .
+
+<http://example.com/546> rdf:type foaf:thing ;
+	ex:title "Supernova" .
+
+<http://example.com/547> rdf:type foaf:thing ;
+	ex:title "Nervous" .
+
+<http://example.com/548> rdf:type foaf:thing ;
+	ex:title "First Time" .
+
+<http://example.com/549> rdf:type foaf:thing ;
+	ex:title "End Game" .
+
+<http://example.com/550> rdf:type foaf:thing ;
+	ex:title "Mi Gente (feat. BeyoncÃ©)" .
+
+<http://example.com/551> rdf:type foaf:thing ;
+	ex:title "Lemon" .
+
+<http://example.com/552> rdf:type foaf:thing ;
+	ex:title "For You (With Rita Ora)" .
+
+<http://example.com/553> rdf:type foaf:thing ;
+	ex:title "Want To" .
+
+<http://example.com/554> rdf:type foaf:thing ;
+	ex:title "What I Need (feat. Kehlani)" .
+
+<http://example.com/555> rdf:type foaf:thing ;
+	ex:title "Wait" .
+
+<http://example.com/556> rdf:type foaf:thing ;
+	ex:title "What About Us" .
+
+<http://example.com/557> rdf:type foaf:thing ;
+	ex:title "Kissing Strangers" .
+
+<http://example.com/558> rdf:type foaf:thing ;
+	ex:title "2U (feat. Justin Bieber)" .
+
+<http://example.com/559> rdf:type foaf:thing ;
+	ex:title "Walk On Water (feat. BeyoncÃ©)" .
+
+<http://example.com/560> rdf:type foaf:thing ;
+	ex:title "This Town" .
+
+<http://example.com/561> rdf:type foaf:thing ;
+	ex:title "Girls (feat. Cardi B, Bebe Rexha & Charli XCX)" .
+
+<http://example.com/562> rdf:type foaf:thing ;
+	ex:title "MOVE TO MIAMI" .
+
+<http://example.com/563> rdf:type foaf:thing ;
+	ex:title "Miss You (with Major Lazer & Tory Lanez)" .
+
+<http://example.com/564> rdf:type foaf:thing ;
+	ex:title "Filthy" .
+
+<http://example.com/565> rdf:type foaf:thing ;
+	ex:title "Never Be the Same - Radio Edit" .
+
+<http://example.com/566> rdf:type foaf:thing ;
+	ex:title "Ferrari" .
+
+<http://example.com/567> rdf:type foaf:thing ;
+	ex:title "Supplies" .
+
+<http://example.com/568> rdf:type foaf:thing ;
+	ex:title "Boom Boom" .
+
+<http://example.com/569> rdf:type foaf:thing ;
+	ex:title "...Ready For It? - BloodPopÂ® Remix" .
+
+<http://example.com/570> rdf:type foaf:thing ;
+	ex:title "Drip (feat. Migos)" .
+
+<http://example.com/571> rdf:type foaf:thing ;
+	ex:title "Tell Me You Love Me - NOTD Remix" .
+
+<http://example.com/572> rdf:type foaf:thing ;
+	ex:title "Memories" .
+
+<http://example.com/573> rdf:type foaf:thing ;
+	ex:title "Lose You To Love Me" .
+
+<http://example.com/574> rdf:type foaf:thing ;
+	ex:title "Someone You Loved" .
+
+<http://example.com/575> rdf:type foaf:thing ;
+	ex:title "SeÃ±orita" .
+
+<http://example.com/576> rdf:type foaf:thing ;
+	ex:title "How Do You Sleep?" .
+
+<http://example.com/577> rdf:type foaf:thing ;
+	ex:title "South of the Border (feat. Camila Cabello & Cardi B)" .
+
+<http://example.com/578> rdf:type foaf:thing ;
+	ex:title "Trampoline (with ZAYN)" .
+
+<http://example.com/579> rdf:type foaf:thing ;
+	ex:title "Happier" .
+
+<http://example.com/580> rdf:type foaf:thing ;
+	ex:title "Truth Hurts" .
+
+<http://example.com/581> rdf:type foaf:thing ;
+	ex:title "Good as Hell (feat. Ariana Grande) - Remix" .
+
+<http://example.com/582> rdf:type foaf:thing ;
+	ex:title "Higher Love" .
+
+<http://example.com/583> rdf:type foaf:thing ;
+	ex:title "Only Human" .
+
+<http://example.com/584> rdf:type foaf:thing ;
+	ex:title "Beautiful People (feat. Khalid)" .
+
+<http://example.com/585> rdf:type foaf:thing ;
+	ex:title "Sucker" .
+
+<http://example.com/586> rdf:type foaf:thing ;
+	ex:title "Don't Call Me Up" .
+
+<http://example.com/587> rdf:type foaf:thing ;
+	ex:title "I Don't Care (with Justin Bieber)" .
+
+<http://example.com/588> rdf:type foaf:thing ;
+	ex:title "Talk (feat. Disclosure)" .
+
+<http://example.com/589> rdf:type foaf:thing ;
+	ex:title "Giant (with Rag'n'Bone Man)" .
+
+<http://example.com/590> rdf:type foaf:thing ;
+	ex:title "Takeaway" .
+
+<http://example.com/591> rdf:type foaf:thing ;
+	ex:title "All Around The World (La La La)" .
+
+<http://example.com/592> rdf:type foaf:thing ;
+	ex:title "Girls Like You (feat. Cardi B)" .
+
+<http://example.com/593> rdf:type foaf:thing ;
+	ex:title "Call You Mine" .
+
+<http://example.com/594> rdf:type foaf:thing ;
+	ex:title "No Guidance (feat. Drake)" .
+
+<http://example.com/595> rdf:type foaf:thing ;
+	ex:title "Antisocial (with Travis Scott)" .
+
+<http://example.com/596> rdf:type foaf:thing ;
+	ex:title "Taki Taki (feat. Selena Gomez, Ozuna & Cardi B)" .
+
+<http://example.com/597> rdf:type foaf:thing ;
+	ex:title "Con Calma - Remix" .
+
+<http://example.com/598> rdf:type foaf:thing ;
+	ex:title "Find U Again (feat. Camila Cabello)" .
+
+<http://example.com/599> rdf:type foaf:thing ;
+	ex:title "Cross Me (feat. Chance the Rapper & PnB Rock)" .
+
+<http://example.com/600> rdf:type foaf:thing ;
+	ex:title "No Brainer (feat. Justin Bieber, Chance the Rapper & Quavo)" .
+
+<http://example.com/601> rdf:type foaf:thing ;
+	ex:title "Nothing Breaks Like a Heart (feat. Miley Cyrus)" .
+
+<http://example.com/602> rdf:type foaf:thing ;
+	ex:title "Kills You Slowly" .
+

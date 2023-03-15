@@ -1,0 +1,31 @@
+@prefix ex: <http://example.com/> .
+@prefix db: <http://dbpedia.org/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix sch: <https://schema.org/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix pav: <http://purl.org/pav/> .
+
+ex:artist1 rdf:type sch:artist; 
+	   sch:identifier "ID"^^xsd:integer;
+	   sch:name "REAL_NAME";
+	   sch:alternateName "ART_NAME";
+	   sch:roleName "ROLE";
+	   sch:birthDate "YEAR_OF_BIRTH"^^xsd:date;
+	   sch:Country "COUNTRY";
+	   sch:City "CITY";
+	   sch:postalCode "ZIP_CODE";
+	   sch:email "EMAIL" .
+
+ex:album1 rdf:type mo:album;
+	 pav:createdBy ex:artist1;
+	 sch:identifier "ID"^^xsd:integer;
+	 sch:title "ALBUM_TITLE";
+	 mo:genre "GENRE";
+	 sch:datePublished "YEAR_OF_PUB"^^xsd:integer;
+	 sch:numTracks "NUM_OF_TRACKS";
+	 db:Sales "NUM_OF_SALES";
+	 db:Rolling_Stone "ROLLING_STONE_CRITIC";
+	 db:MTV "MTV_CRITIC";
+	 db:Music_Maniac "MUSIC_MANIAC_CRITIC";

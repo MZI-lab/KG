@@ -1,0 +1,26 @@
+# a test list to try the insert function
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ma: <http://www.w3.org/ns/ma-ont#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix sd: <http://www.w3.org/ns/sparql-service-description#> .
+@prefix schema: <https://schema.org/> .
+@prefix ex: <http://example.org/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix grel: <http://users.ugent.be/~bjdmeest/function/grel.ttl#> .
+
+ex:Train rdf:type schema:Person ;
+	rdfs:label "Train"@en .
+
+ex:Eminem rdf:type schema:Person ;
+	rdfs:label "Eminem"@en .
+
+ex:Kesha rdf:type schema:Person ;
+	rdfs:label "Kesha"@en .
+
+ex:Lady%20Gaga rdf:type schema:Person ;
+	rdfs:label "Lady Gaga"@en .
+
+ex:Bruno%20Mars rdf:type schema:Person ;
+	rdfs:label "Bruno Mars"@en .
