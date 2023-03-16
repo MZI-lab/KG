@@ -10,41 +10,39 @@
 mag:PaperShape
     a sh:NodeShape ;
     sh:targetClass mag:paper ;
-    sh:property [        
-    sh:path ;
+    sh:property [     
+    sh:path  ns1:appearsInConferenceSeries ;
     sh:minCount 1 ;
-    sh:maxCount 1 ;
 ] ;
-
 ns1:appearsInConferenceSeries ;
     sh:nodeKind sh:IRI ;    
     sh:minCount 1 ;
-    sh:maxCount 1 ;
-] ;
+],
     sh:property [  
     sh:path ns1:appearsInConferenceSeries ;
-] .
+] ;
 
 ns2:cities ;
     sh:nodeKind sh:IRI ;    
     sh:minCount 1 ;
-    sh:maxCount 1 ;
-] ;
     sh:property [  
+
     sh:path a:IrI ; 
     sh:property [  
     sh:path a:author; 
-] .
+    sh:minCount 1 ;
+] ;
+
 
 ns4:creator ; 
     sh:nodeKind sh:IRI ; 
     sh:datatype ns1:affiliation ;   
-] ;
+] ,
     sh:property [  
     sh:path ns4:creator ; 
     sh:nodeKind sh:IRI ;
     sh:minCount 1 ;
-] ;
+] ,
     sh:property [  
     sh:path :appearsInConferenceSeries ;
     sh:datatype ns4:conference ; 
