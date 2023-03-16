@@ -1,0 +1,24 @@
+prefixes:
+  ns1: <https://makg.org/property/>
+  ns2: <http://purl.org/spar/cito/>
+  ns3: <http://www.w3.org/ns/org#>
+  ns4: <http://purl.org/dc/terms/>
+  ns5: <http://purl.org/spar/fabio/>
+  ns6: <http://lsdis.cs.uga.edu/projects/semdis/opus#>
+
+shapes:
+  Paper:
+    type: ns5:ResearchPaper
+    propertyConstraints:
+      ns1:appearsInConferenceSeries:
+        valueShape:
+          type: ns5:ConferenceSeries
+  Conference:
+    type: ns5:Conference
+
+propertyGroups:
+  ns4:creator:
+    properties:
+      - ns4:creator
+
+start: [Paper, Conference]
