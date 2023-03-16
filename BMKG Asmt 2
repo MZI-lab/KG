@@ -1,24 +1,52 @@
-prefixes:
-  ns1: <https://makg.org/property/>
-  ns2: <http://purl.org/spar/cito/>
-  ns3: <http://www.w3.org/ns/org#>
-  ns4: <http://purl.org/dc/terms/>
-  ns5: <http://purl.org/spar/fabio/>
-  ns6: <http://lsdis.cs.uga.edu/projects/semdis/opus#>
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix ns1: <https://makg.org/property/> .
+@prefix ns2: <http://purl.org/spar/cito/> .
+@prefix ns3: <http://www.w3.org/ns/org#> .
+@prefix ns4: <http://purl.org/dc/terms/> .
+@prefix ns5: <http://purl.org/spar/fabio/> .
+@prefix ns6: <http://lsdis.cs.uga.edu/projects/semdis/opus#> .
+@prefix mag: <http://MAGexample.org/type/> .
 
-shapes:
-  Paper:
-    type: ns5:ResearchPaper
-    propertyConstraints:
-      ns1:appearsInConferenceSeries:
-        valueShape:
-          type: ns5:ConferenceSeries
-  Conference:
-    type: ns5:Conference
+mag:PaperShape
+    a sh:NodeShape ;
+    sh:targetClass mag:paper ;
+    sh:property [        
+    sh:path ;
+    sh:minCount 1 ;
+    sh:maxCount 1 ;
+] ;
 
-propertyGroups:
-  ns4:creator:
-    properties:
-      - ns4:creator
+ns1:appearsInConferenceSeries ;
+    sh:nodeKind sh:IRI ;    
+    sh:minCount 1 ;
+    sh:maxCount 1 ;
+] ;
+    sh:property [  
+    sh:path ns1:appearsInConferenceSeries ;
+] .
 
-start: [Paper, Conference]
+ns2:cities ;
+    sh:nodeKind sh:IRI ;    
+    sh:minCount 1 ;
+    sh:maxCount 1 ;
+] ;
+    sh:property [  
+    sh:path a:IrI ; 
+    sh:property [  
+    sh:path a:author; 
+] .
+
+ns4:creator ; 
+    sh:nodeKind sh:IRI ; 
+    sh:datatype ns1:affiliation ;   
+] ;
+    sh:property [  
+    sh:path ns4:creator ; 
+    sh:nodeKind sh:IRI ;
+    sh:minCount 1 ;
+] ;
+    sh:property [  
+    sh:path :appearsInConferenceSeries ;
+    sh:datatype ns4:conference ; 
+    sh:minCount 1 ;
+] .
