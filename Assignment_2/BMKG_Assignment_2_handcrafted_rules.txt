@@ -1,0 +1,80 @@
+Task 1
+
+- Rule 1: missing hasCoauthor property based relations
+    - Explain: If 2 authors are both creators of the same paper, then they have a coauthor relation.
+    - coauthor(authorA, authorB) ⇐ creator(?somepaper, ?authorA) ∧ creator(?somepaper, ?authorB)
+    - Confidence Score: 100%, as it is a certain rule
+    - Query:
+        INSERT { ?authorA <http://lsdis.cs.uga.edu/projects/semdis/opus#coauthor> ?authorB }
+        WHERE {
+        ?somepaper <http://purl.org/dc/terms/creator> ?authorA .
+        ?somepaper <http://purl.org/dc/terms/creator> ?authorB .
+        filter not exists {?authorA <http://lsdis.cs.uga.edu/projects/semdis/opus#coauthor> ?authorB }.
+        }
+
+
+- Rule 2: missing memberOf property based relations
+    - Explain: If one author is member of an affiliation, then his coauthors may also be in the same affiliation 
+    - memberOf(?authorB, ?someAffiliation) ⇐ memberOf(?authorA, ?someAffiliation) ∧ coauthor(?authorA, ?authorB)
+    - Confidence Score: 50%
+    - Query:
+        INSERT { ?authorB <http://www.w3.org/ns/org#memberOf> ?someAffiliation .
+        ?authorB <http://example.org/confidence> ?someAffiliation .
+        ?authorB <http://example.org/confidence> "0.5"^^xsd:double .} 
+        WHERE {
+        ?authorA <http://www.w3.org/ns/org#memberOf> ?someAffiliation .
+        ?authorA <http://lsdis.cs.uga.edu/projects/semdis/opus#coauthor> ?authorB .
+        filter not exists {?authorB <http://www.w3.org/ns/org#memberOf> ?someAffiliation . } .
+        }
+
+
+- Rule 3: Missing hasDiscipline property based relations
+    - Explain: if two papers appear in the same conference, then they may have the same domain.
+    - appearsInConferenceSeries(?paperA, ?someConference) ∧ appearsInConferenceSeries(?paperB, ?someConference)
+    - Confidence Score: 20%
+    - Query: 
+        INSERT { ?paperB <http://purl.org/spar/fabio/hasDiscipline> ?someDomain .
+        ?authorB <http://example.org/confidence> ?someDomain .
+        ?authorB <http://example.org/confidence> "0.2"^^xsd:double .}
+        WHERE {
+        ?paperA <http://purl.org/spar/fabio/hasDiscipline> ?someDomain .
+        ?paperA <https://makg.org/property/appearsInConferenceSeries> ?someConference .
+        ?paperB <https://makg.org/property/appearsInConferenceSeries> ?someConference .
+        filter not exists {?paperB <http://purl.org/spar/fabio/hasDiscipline> ?someDomain . }.
+        }
+
+
+- Rule 4: Missing appearsInConferenceSeries property based relations
+    - Explain: If one paper cites another one, their authors are both the member of the same affiliation, then they may appear in the same conference series.
+    - appearsInConferenceSeries(?paperB, ?someConference) ⇐ cites(?paperA, ?paperB) ∧ creator(?paperA, ?authorA) ∧ creator(?paperB, ?authorB) ∧ memberOf(?authorA, someAffiliation) ∧ memberOf(?authorB, someAffiliation) ∧ appearsInConferenceSeries(?paperA, ?someConference)
+    - Confidence Score: 70%
+    - Query:
+        INSERT { ?paperB <https://makg.org/property/appearsInConferenceSeries> ?someConference .
+        ?paperB <http://example.org/confidence> ?someConference .
+        ?paperB <http://example.org/confidence> "0.7"^^xsd:double .}
+        WHERE {
+        ?paperA <http://purl.org/spar/cito/cites> ?paperB .
+        ?paperA <http://purl.org/dc/terms/creator> ?authorA .
+        ?paperB <http://purl.org/dc/terms/creator> ?authorB .
+        ?authorA <http://www.w3.org/ns/org#memberOf> ?someAffiliation .
+        ?authorB <http://www.w3.org/ns/org#memberOf> ?someAffiliation .
+        ?paperA <https://makg.org/property/appearsInConferenceSeries> ?someConference .
+        filter not exists {?paperB <https://makg.org/property/appearsInConferenceSeries> ?someConference . }.
+        }
+
+
+- Rule 5: missing cites property based relations
+    - Explain: If two papers have the same domain, and appear in the same conference, then one paper may cite the other paper.
+    - cites(?paperA, ?paperB) ⇐ appearsInConferenceSeries(?paperA, ?someConference) ∧ appearsInConferenceSeries(?paperB, ?someConference) ∧ hasDiscipline(?paperA, ?someDomain) ∧ hasDiscipline(?paperB, ?someDomain)
+    - Confidence Score: 2%
+    - Query: 
+        INSERT { ?paperA <http://purl.org/spar/cito/cites> ?paperB .
+        ?paperA <http://example.org/confidence> ?paperB .
+        ?paperA <http://example.org/confidence> "0.02"^^xsd:double .}
+        WHERE {
+        ?paperA <https://makg.org/property/appearsInConferenceSeries> ?someConference .
+        ?paperB <https://makg.org/property/appearsInConferenceSeries> ?someConference .
+        ?paperA <http://purl.org/spar/fabio/hasDiscipline> ?someDomain .
+        ?paperB <http://purl.org/spar/fabio/hasDiscipline> ?someDomain .
+        filter not exists {?paperA <http://purl.org/spar/cito/cites> ?paperB .}.
+        }
