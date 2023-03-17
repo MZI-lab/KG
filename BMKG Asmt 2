@@ -12,6 +12,7 @@
   sh:nodeKind sh:IRI ;
   sh:property [
     sh:path ns4:creator ;
+    sh:minCount 1 ;
     sh:node :Author ;
   ] ;
   sh:property [
