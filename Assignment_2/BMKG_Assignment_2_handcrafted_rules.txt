@@ -4,7 +4,7 @@ Task 1
     - Explain: If 2 authors are both creators of the same paper, then they have a coauthor relation.
     - coauthor(authorA, authorB) ⇐ creator(?somepaper, ?authorA) ∧ creator(?somepaper, ?authorB)
     - Confidence Score: 100%, as it is a certain rule
-    - Query:
+    - Insert Query:
         INSERT { ?authorA <http://lsdis.cs.uga.edu/projects/semdis/opus#coauthor> ?authorB }
         WHERE {
         ?somepaper <http://purl.org/dc/terms/creator> ?authorA .
@@ -16,14 +16,30 @@ Task 1
 - Rule 2: missing memberOf property based relations
     - Explain: If one author is member of an affiliation, then his coauthors may also be in the same affiliation 
     - memberOf(?authorB, ?someAffiliation) ⇐ memberOf(?authorA, ?someAffiliation) ∧ coauthor(?authorA, ?authorB)
-    - Confidence Score: 50%
-    - Query:
-        INSERT { ?authorB <http://www.w3.org/ns/org#memberOf> ?someAffiliation .
-        ?authorB <http://example.org/confidence> ?someAffiliation .
-        ?authorB <http://example.org/confidence> "0.5"^^xsd:double .} 
+    - Query for counting support:
+        SELECT (count(*) as ?cnt) {
+        SELECT DISTINCT ?authorB ?someAffiliation
+        WHERE {
+        ?authorB <http://www.w3.org/ns/org#memberOf> ?someAffiliation .
+        ?authorA <http://lsdis.cs.uga.edu/projects/semdis/opus#coauthor> ?authorB .
+        ?authorA <http://www.w3.org/ns/org#memberOf> ?someAffiliation .
+        }
+        } 
+    - query for counting body:
+        SELECT (count(*) as ?cnt) {
+        SELECT DISTINCT ?authorB ?someAffiliation
         WHERE {
         ?authorA <http://www.w3.org/ns/org#memberOf> ?someAffiliation .
         ?authorA <http://lsdis.cs.uga.edu/projects/semdis/opus#coauthor> ?authorB .
+        ?authorB <http://www.w3.org/ns/org#memberOf> ?someAffiliation_ . # use underscore here
+        } }
+    - Confidence Score = 4236/10384 = 40.79%
+    - Insert query:
+        INSERT { ?authorB <http://www.w3.org/ns/org#memberOf> ?someAffiliation .} 
+        WHERE {
+        ?authorA <http://www.w3.org/ns/org#memberOf> ?someAffiliation .
+        ?authorA <http://lsdis.cs.uga.edu/projects/semdis/opus#coauthor> ?authorB .
+        ?authorB <http://www.w3.org/ns/org#memberOf> ?someAffiliation_ .
         filter not exists {?authorB <http://www.w3.org/ns/org#memberOf> ?someAffiliation . } .
         }
 
@@ -31,15 +47,33 @@ Task 1
 - Rule 3: Missing hasDiscipline property based relations
     - Explain: if two papers appear in the same conference, then they may have the same domain.
     - appearsInConferenceSeries(?paperA, ?someConference) ∧ appearsInConferenceSeries(?paperB, ?someConference)
-    - Confidence Score: 20%
-    - Query: 
-        INSERT { ?paperB <http://purl.org/spar/fabio/hasDiscipline> ?someDomain .
-        ?authorB <http://example.org/confidence> ?someDomain .
-        ?authorB <http://example.org/confidence> "0.2"^^xsd:double .}
+    - Query for counting support
+        SELECT (count(*) as ?cnt) {
+        SELECT DISTINCT ?paperB ?someDomain
+        WHERE {
+        ?paperB <http://purl.org/spar/fabio/hasDiscipline> ?someDomain .
+        ?paperA <http://purl.org/spar/fabio/hasDiscipline> ?someDomain .
+        ?paperA <https://makg.org/property/appearsInConferenceSeries> ?someConference .
+        ?paperB <https://makg.org/property/appearsInConferenceSeries> ?someConference .
+        }
+        }
+    - Query for counting body
+        SELECT (count(*) as ?cnt) {
+        SELECT DISTINCT ?paperB ?someDomain
         WHERE {
         ?paperA <http://purl.org/spar/fabio/hasDiscipline> ?someDomain .
         ?paperA <https://makg.org/property/appearsInConferenceSeries> ?someConference .
         ?paperB <https://makg.org/property/appearsInConferenceSeries> ?someConference .
+        ?paperB <http://purl.org/spar/fabio/hasDiscipline> ?someDomain_ . # with underscore
+        } }
+    - Confidence Score = 15125/1337710 = 1.13%
+    - Insert Query: 
+        INSERT { ?paperB <http://purl.org/spar/fabio/hasDiscipline> ?someDomain .}
+        WHERE {
+        ?paperA <http://purl.org/spar/fabio/hasDiscipline> ?someDomain .
+        ?paperA <https://makg.org/property/appearsInConferenceSeries> ?someConference .
+        ?paperB <https://makg.org/property/appearsInConferenceSeries> ?someConference .
+        ?paperB <http://purl.org/spar/fabio/hasDiscipline> ?someDomain_ . 
         filter not exists {?paperB <http://purl.org/spar/fabio/hasDiscipline> ?someDomain . }.
         }
 
@@ -47,11 +81,9 @@ Task 1
 - Rule 4: Missing appearsInConferenceSeries property based relations
     - Explain: If one paper cites another one, their authors are both the member of the same affiliation, then they may appear in the same conference series.
     - appearsInConferenceSeries(?paperB, ?someConference) ⇐ cites(?paperA, ?paperB) ∧ creator(?paperA, ?authorA) ∧ creator(?paperB, ?authorB) ∧ memberOf(?authorA, someAffiliation) ∧ memberOf(?authorB, someAffiliation) ∧ appearsInConferenceSeries(?paperA, ?someConference)
-    - Confidence Score: 70%
-    - Query:
-        INSERT { ?paperB <https://makg.org/property/appearsInConferenceSeries> ?someConference .
-        ?paperB <http://example.org/confidence> ?someConference .
-        ?paperB <http://example.org/confidence> "0.7"^^xsd:double .}
+    - Query for counting support
+        SELECT (count(*) as ?cnt) {
+        SELECT DISTINCT ?paperB ?someConference
         WHERE {
         ?paperA <http://purl.org/spar/cito/cites> ?paperB .
         ?paperA <http://purl.org/dc/terms/creator> ?authorA .
@@ -59,6 +91,33 @@ Task 1
         ?authorA <http://www.w3.org/ns/org#memberOf> ?someAffiliation .
         ?authorB <http://www.w3.org/ns/org#memberOf> ?someAffiliation .
         ?paperA <https://makg.org/property/appearsInConferenceSeries> ?someConference .
+        ?paperB <https://makg.org/property/appearsInConferenceSeries> ?someConference .
+        }
+        }
+    - Query for counting body
+        SELECT (count(*) as ?cnt) {
+        SELECT DISTINCT ?paperB ?someConference
+        WHERE {
+        ?paperA <http://purl.org/spar/cito/cites> ?paperB .
+        ?paperA <http://purl.org/dc/terms/creator> ?authorA .
+        ?paperB <http://purl.org/dc/terms/creator> ?authorB .
+        ?authorA <http://www.w3.org/ns/org#memberOf> ?someAffiliation .
+        ?authorB <http://www.w3.org/ns/org#memberOf> ?someAffiliation .
+        ?paperA <https://makg.org/property/appearsInConferenceSeries> ?someConference .
+        ?paperB <https://makg.org/property/appearsInConferenceSeries> ?someConference_ . # use underscore
+        }
+        }   
+    - Confidence Score = 390/926 = 42.12%
+    - Insert Query:
+        INSERT { ?paperB <https://makg.org/property/appearsInConferenceSeries> ?someConference .}
+        WHERE {
+        ?paperA <http://purl.org/spar/cito/cites> ?paperB .
+        ?paperA <http://purl.org/dc/terms/creator> ?authorA .
+        ?paperB <http://purl.org/dc/terms/creator> ?authorB .
+        ?authorA <http://www.w3.org/ns/org#memberOf> ?someAffiliation .
+        ?authorB <http://www.w3.org/ns/org#memberOf> ?someAffiliation .
+        ?paperA <https://makg.org/property/appearsInConferenceSeries> ?someConference .
+        ?paperB <https://makg.org/property/appearsInConferenceSeries> ?someConference_ . 
         filter not exists {?paperB <https://makg.org/property/appearsInConferenceSeries> ?someConference . }.
         }
 
@@ -66,15 +125,36 @@ Task 1
 - Rule 5: missing cites property based relations
     - Explain: If two papers have the same domain, and appear in the same conference, then one paper may cite the other paper.
     - cites(?paperA, ?paperB) ⇐ appearsInConferenceSeries(?paperA, ?someConference) ∧ appearsInConferenceSeries(?paperB, ?someConference) ∧ hasDiscipline(?paperA, ?someDomain) ∧ hasDiscipline(?paperB, ?someDomain)
-    - Confidence Score: 2%
-    - Query: 
-        INSERT { ?paperA <http://purl.org/spar/cito/cites> ?paperB .
-        ?paperA <http://example.org/confidence> ?paperB .
-        ?paperA <http://example.org/confidence> "0.02"^^xsd:double .}
+    - Query for counting support
+        SELECT (count(*) as ?cnt) {
+        SELECT DISTINCT ?paperA ?paperB
+        WHERE {
+        ?paperA <http://purl.org/spar/cito/cites> ?paperB .
+        ?paperA <https://makg.org/property/appearsInConferenceSeries> ?someConference .
+        ?paperB <https://makg.org/property/appearsInConferenceSeries> ?someConference .
+        ?paperA <http://purl.org/spar/fabio/hasDiscipline> ?someDomain .
+        ?paperB <http://purl.org/spar/fabio/hasDiscipline> ?someDomain .
+        }
+        }
+    - Query for counting body
+        SELECT (count(*) as ?cnt) {
+        SELECT DISTINCT ?paperA ?paperB
         WHERE {
         ?paperA <https://makg.org/property/appearsInConferenceSeries> ?someConference .
         ?paperB <https://makg.org/property/appearsInConferenceSeries> ?someConference .
         ?paperA <http://purl.org/spar/fabio/hasDiscipline> ?someDomain .
         ?paperB <http://purl.org/spar/fabio/hasDiscipline> ?someDomain .
+        ?paperA <http://purl.org/spar/cito/cites> ?paperB_ .
+        }
+        } 
+    - Confidence Score = 1102/110744 = 1%
+    - Query: 
+        INSERT { ?paperA <http://purl.org/spar/cito/cites> ?paperB .}
+        WHERE {
+        ?paperA <https://makg.org/property/appearsInConferenceSeries> ?someConference .
+        ?paperB <https://makg.org/property/appearsInConferenceSeries> ?someConference .
+        ?paperA <http://purl.org/spar/fabio/hasDiscipline> ?someDomain .
+        ?paperB <http://purl.org/spar/fabio/hasDiscipline> ?someDomain .
+        ?paperA <http://purl.org/spar/cito/cites> ?paperB_ .
         filter not exists {?paperA <http://purl.org/spar/cito/cites> ?paperB .}.
         }
