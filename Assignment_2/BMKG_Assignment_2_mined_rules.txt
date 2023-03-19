@@ -1,30 +1,71 @@
-
-
 ------------------------------------------------------------------------------------------------------------------------------
 Automatically mined rules
 ------------------------------------------------------------------------------------------------------------------------------
 
-Rule 1: 
+Rule 1: missing "a" property based relations
+    - Explain: If one paper cites another, and the other paper has as specific type, then the first paper is also of that type
+    - a(paperA, typeB) ⇐ cites(paperA, paperH) ^ a(paperH, typeB)
+    - Confidence Score: 100% (high confidence)
+    - Insert Query:
+	INSERT {
+    	  ?paperA a ?typeB .
+	} WHERE {
+    	  ?paperA <http://purl.org/spar/cito/cites> ?paperH .
+    	  ?paperH a ?typeB .
+    	  FILTER NOT EXISTS{?paperA a ?typeB} .
+	}
 
 
--- INSERT SPARQL FORMULATION OF YOUR RULE HERE --
+Rule 2: missing hasCoauthor property based relations
+    - Explain: If one author has a coauthor, this coauthor also has the first author as a coauthor
+    - hasCoauthor(authorA, authorB) ⇐ hasCoauthor(authorB, authorA)
+    - Confidence Score: 98.9% (high confidence)
+    - Insert Query:
+	INSERT {
+    	  ?authorA <http://lsdis.cs.uga.edu/projects/semdis/opus#coauthor> ?authorB .
+	} WHERE {
+    	  ?authorB <http://lsdis.cs.uga.edu/projects/semdis/opus#coauthor> ?authorA .
+    	  FILTER NOT EXISTS{?authorA <http://lsdis.cs.uga.edu/projects/semdis/opus#coauthor> ?authorB} .
+	}
 
 
-Confidence score: 
+Rule 3: missing appearsInConferenceSeries
+    - Explain: If one paper cites another, and the other paper appears in a conference series, then the first paper also appears in that conference series
+    - appearsInConfereSeries(paperA, seriesB) ⇐ cites(paperA, paperH) ^ appearsInConfereSeries(paperH, seriesB)
+    - Confidence Score: 32.7% (medium confidence) 
+    - Insert Query:
+	INSERT {
+    	  ?paperA <https://makg.org/property/appearsInConferenceSeries> ?seriesB .
+	} WHERE {
+    	  ?paperA <http://purl.org/spar/cito/cites> ?paperH .
+    	  ?paperH <https://makg.org/property/appearsInConferenceSeries> ?seriesB .
+    	  FILTER NOT EXISTS{?paperA <https://makg.org/property/appearsInConferenceSeries> ?seriesB} .
+	}
 
-Rule 2: 
+
+Rule 4: missing memberOf property based relations
+    - Explain: If an author is member of an affiliation and has a coauthor, the coauthor is also part of the affiliation
+    - memberOf(authorA, affiliationB) ⇐ hasCoauthor(authorG, authorA) ^ memberOf(authorG, affiliationB)
+    - Confidence Score: 30.6% (medium confidence)
+    - Insert Query:
+	INSERT {
+    	  ?authorA <http://www.w3.org/ns/org#memberOf> ?affiliationB .
+	} WHERE {
+    	  ?authorG <http://lsdis.cs.uga.edu/projects/semdis/opus#coauthor> ?authorA .
+    	  ?authorG <http://www.w3.org/ns/org#memberOf> ?affiliationB .
+    	  FILTER NOT EXISTS{?authorA <http://www.w3.org/ns/org#memberOf> ?affiliationB} .
+	}
 
 
--- INSERT SPARQL FORMULATION OF YOUR RULE HERE --
-
-
-Confidence score: 
-
-Rule 3:
-
--- INSERT SPARQL FORMULATION OF YOUR RULE HERE --
-
-Confidence score:
-
------------------------------------------------------------------------------------------------------------------------------
-
+Rule 5: missing hasCreator property based relations
+    - Explain: If an author creates a paper and has a coauthor, this coauthor is also creator of that paper
+    - hasCreator(paperA, authorH) ⇐ hasCoauthor(authorH, authorB) ^ hasCreator(paperA, authorB)
+    - Confidence Score: 21.8% (low confidence)
+    - Insert Query:
+	INSERT {
+    	  ?paperA <http://purl.org/dc/terms/creator> ?authorB .
+	} WHERE {
+    	  ?authorH <http://lsdis.cs.uga.edu/projects/semdis/opus#coauthor> ?authorB .
+    	  ?paperA <http://purl.org/dc/terms/creator> ?authorH .
+    	  FILTER NOT EXISTS{?paperA <http://purl.org/dc/terms/creator> ?authorB} .
+	}

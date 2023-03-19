@@ -1,0 +1,57 @@
+@prefix ns1: <https://makg.org/property/> .
+@prefix ns2: <http://purl.org/spar/cito/> .
+@prefix ns3: <http://www.w3.org/ns/org#> .
+@prefix ns4: <http://purl.org/dc/terms/> .
+@prefix ns5: <http://purl.org/spar/fabio/> .
+@prefix ns6: <http://lsdis.cs.uga.edu/projects/semdis/opus#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+
+:Paper a sh:NodeShape ;
+  sh:targetClass <http://MAGexample.org/type/paper> ;
+  sh:severity sh:Warning ;
+  sh:nodeKind sh:IRI ;
+  sh:property [
+    sh:path ns4:creator ;
+    sh:minCount 1 ;
+    sh:node :Author ;
+  ] ;
+  sh:property [
+    sh:path ns1:appearsInConferenceSeries ;
+    sh:node :Conference ;
+  ] ;
+  sh:property [
+    sh:path ns2:cites ;
+    sh:node :Paper ;
+  ] ;
+  sh:property [
+    sh:path ns5:hasDiscipline ;
+    sh:node :Domain ;
+  ] .
+
+:Author a sh:NodeShape ;
+  sh:targetClass <http://MAGexample.org/type/author> ;
+  sh:severity sh:Warning ;
+  sh:nodeKind sh:IRI ;
+  sh:property [
+    sh:path ns3:memberOf ;
+    sh:node :Affiliation ;
+  ] ;
+  sh:property [
+    sh:path ns6:coauthor ;
+    sh:node :Author ;
+  ] .
+
+:Domain a sh:NodeShape ;
+  sh:targetClass <http://MAGexample.org/type/domain> ;
+  sh:severity sh:Warning ;
+  sh:nodeKind sh:IRI .
+
+:Affiliation a sh:NodeShape ;
+  sh:targetClass <http://MAGexample.org/type/affiliation> ;
+  sh:severity sh:Warning ;
+  sh:nodeKind sh:IRI .
+
+:Conference a sh:NodeShape ;
+  sh:targetClass <http://MAGexample.org/type/conference> ;
+  sh:severity sh:Warning ;
+  sh:nodeKind sh:IRI .
