@@ -25,6 +25,7 @@
   ] ;
   sh:property [
     sh:path ns5:hasDiscipline ;
+    sh:minCount 1 ;
     sh:node :Domain ;
   ] .
 
